@@ -359,6 +359,7 @@ struct VoxelGrid {
         for(int x = 0;x <max_x;++x){
             for(int y = 0;y<max_y;++y ){
                 for(int z = 0;z <max_z;++z){
+
                     json vertices = json::array();
                     Point3 pt_corner = voxels[z + y*max_z + x*max_z*max_y].corner;
                     double pt_x = pt_corner.x();
@@ -369,7 +370,8 @@ struct VoxelGrid {
                     vertices.push_back(pt_z);
                     j["vertices"].push_back(vertices);
                     int voxel_label = voxels[z + y*max_z + x*max_z*max_y].label;
-                    if(voxel_label != exterior_label){
+                    if(std::find(labels.begin(),labels.end(),voxel_label) == labels.end()) continue;
+                    if(voxel_label != exterior_label && voxel_label != unlabelled){
                         std::string obj_id = cityobject_id+"_part_"+std::to_string(voxel_label);
                         json geometry;
                         geometry["type"] = "Solid";
@@ -466,8 +468,8 @@ struct VoxelGrid {
         if (y+1<this->max_y) neighbours.push_back({x,y+1,z});
         if (z-1>=0) neighbours.push_back({x,y,z-1});
         if (z+1<this->max_z) neighbours.push_back({x,y,z+1});
-        if (x-1>=0 && y-1>=0) neighbours.push_back({x-1,y-1,z});
-        if (x-1>=0 && y+1<this->max_y) neighbours.push_back({x-1,y+1,z});
+        //if (x-1>=0 && y-1>=0) neighbours.push_back({x-1,y-1,z});
+        //if (x-1>=0 && y+1<this->max_y) neighbours.push_back({x-1,y+1,z});
         return neighbours;
 
   };

@@ -14,6 +14,7 @@
 #include "definitions.h"
 #include "geomtools.h"
 #include "parse_obj.h"
+
 #include <CGAL/Surface_mesh.h>
 #include <CGAL/optimal_bounding_box.h>
 #include <CGAL/Polygon_mesh_processing/triangulate_faces.h>
@@ -39,7 +40,8 @@ void                enrich_and_save(std::string filename, json& j);
 
 using namespace std;
 
-std::vector<int> label_voxels(VoxelGrid& voxelgrid,const int& label_initial = 0,const int& wall_face_label=1){
+std::vector<int> label_voxels(VoxelGrid& voxelgrid,const int& label_initial = 0,
+const int& wall_face_label=1,const bool& check_width = true,const int& minimum_width = 2){
     // we start from the first voxel, which must be the original point of voxel grid and is on the exterior of the voxelised building
     std::vector<int> initial_voxel_index = {0,0,0};
     std::vector<int> exterior_voxels;
@@ -51,8 +53,13 @@ std::vector<int> label_voxels(VoxelGrid& voxelgrid,const int& label_initial = 0,
     int total_voxels = voxelgrid.voxels.size();
     
     int current_label = label_initial;
-    if (current_label == wall_face_label) {labells.push_back(current_label);current_label+=1;}
-
+    if (current_label == wall_face_label) {
+        labells.push_back(current_label);
+        current_label+=1;
+        }
+  
+    std::vector<int> current_label_width = {999999,999999,999999,0,0,0};
+    std::map<int,std::vector<int>> label_width;
     
     while(queue.empty() == false){
         // pop the first voxel in the queue
@@ -62,12 +69,26 @@ std::vector<int> label_voxels(VoxelGrid& voxelgrid,const int& label_initial = 0,
         int x = current_voxel_coordinate[0];
         int y = current_voxel_coordinate[1];
         int z = current_voxel_coordinate[2];
+        // check x,y,z is true
+        
         Voxel current_voxel = voxelgrid(x,y,z);
         if(current_voxel.label == unlabelled){
 
             // if the current voxel is unlabelled, we label it with the label_initial
             current_voxel.label = current_label;
             voxelgrid(x,y,z) = current_voxel;
+            // modify the width of the current label
+            if(check_width){
+
+            if (x < current_label_width[0]) {current_label_width[0] = x;}
+            if (y < current_label_width[1]) {current_label_width[1] = y;}
+            if (z < current_label_width[2]) {current_label_width[2] = z;}
+            if (x > current_label_width[3]) {current_label_width[3] = x;}
+            if (y > current_label_width[4]) {current_label_width[4] = y;}
+            if (z > current_label_width[5]) {current_label_width[5] = z;}
+            label_width[current_label] = current_label_width;
+
+        }
             // we check the neighbours of the current voxel
             std::vector<std::vector<int>> neighbours = voxelgrid.get_neighbours(x,y,z);
             for(auto& neighbour: neighbours){
@@ -81,17 +102,37 @@ std::vector<int> label_voxels(VoxelGrid& voxelgrid,const int& label_initial = 0,
                 }
                 
         }
-
         // since the voxel grid size is bigger than building, so we can make sure the 0,0,0 voxel is on the exterior of the building
         // if there are still unlabelled voxels but the queue is empty, it means that we have labelled an empty continueous space
         }
     int count_voxels = 0;
     if(queue.empty() and (count_voxels < total_voxels)){
             //std::cout<<"the"<<current_label<<"label"<<std::endl;
+            // remeber, even this label is not recorded by labells, the voxel is still labelled
+            if(check_width){
+                int width_x = current_label_width[3] - current_label_width[0];
+                int width_y = current_label_width[4] - current_label_width[1];
+                int width_z = current_label_width[5] - current_label_width[2];
+                if(width_x > minimum_width and width_y > minimum_width and width_z > minimum_width){
+                    labells.push_back(current_label);
+                    current_label += 1;
+                    if (current_label == wall_face_label) {labells.push_back(current_label);current_label+=1;}
+                    current_label_width ={99999,99999,99999,0,0,0};
+                }
+                else{
+                    std::cout<<"the"<<current_label<<"label is too small"<<std::endl;
+                    current_label_width ={99999,99999,99999,0,0,0};
+                    current_label+=1;
+                    if (current_label == wall_face_label) {current_label+=1;}
+
+                }
+            }
+            else{
+                labells.push_back(current_label);
+                current_label += 1;
+                if (current_label == wall_face_label) {labells.push_back(current_label);current_label+=1;}
+                }
             
-            labells.push_back(current_label);
-            current_label += 1;
-            if (current_label == wall_face_label) {labells.push_back(current_label);current_label+=1;}
             for(int x = 0; x < voxelgrid.max_x; x++){
                 for(int y = 0; y < voxelgrid.max_y; y++){
                     for(int z = 0; z < voxelgrid.max_z; z++){
@@ -101,27 +142,17 @@ std::vector<int> label_voxels(VoxelGrid& voxelgrid,const int& label_initial = 0,
                             std::vector<int> voxel_index = {x,y,z};
                             
                             queue.push(voxel_index);
-                            //std::cout<<current_label<<" "<<x<<" "<<y<<" "<<z<<std::endl;
-                            //std::cout<<queue.size()<<" after squeue size"<<std::endl;
                             
-                            //std::cout<<"we have found an unlabelled voxel"<<std::endl;
                             
                             // jump out of the three loops
                             x = voxelgrid.max_x + 1;
                             y = voxelgrid.max_y + 1;
                             z = voxelgrid.max_z + 1;
-                           
-                            
                             };
                             };
                             };
-                            };
-                            //std::cout<<"current label is "<<current_label<<"   "<<queue.size()<<"queue size"<<std::endl; 
-                            
-                            };
-    
-
-    //if(queue.empty()) {std::cout<<"the last label is "<<current_label<<std::endl;};
+                            };    
+        };
     }; 
     
 return labells;
@@ -186,6 +217,54 @@ void output_exterior_surface_to_obj(const std::string &output_filename, const st
         vertex_index+=8;}
         out.close();
         }
+void extract_envelope_voxel(VoxelGrid& voxels,const int& wall_index,const int& exterior_index, bool labell_wall = true){
+    int voxel_length = int(voxels.voxels.size());
+    bool* output_labell =  new bool[voxel_length];
+    for(int x = 0; x < voxels.max_x; x++){
+        for(int y = 0; y < voxels.max_y; y++){
+            for(int z = 0; z < voxels.max_z; z++){
+                Voxel voxel = voxels(x,y,z);
+                std::vector<std::vector<int>> neighbours = voxels.get_neighbours(x,y,z);
+                if (labell_wall and voxel.label == wall_index){
+                    for(auto& neighbor: neighbours){
+                        int x_neighbour = neighbor[0];
+                        int y_neighbour = neighbor[1];
+                        int z_neighbour = neighbor[2];
+                        Voxel neighbour_voxel = voxels(x_neighbour,y_neighbour,z_neighbour);
+                        if(neighbour_voxel.label == exterior_index){
+                            output_labell[z + y*voxels.max_z + x*voxels.max_z*voxels.max_y] = true;
+                            break;
+                        }
+                        else{
+                            output_labell[z + y*voxels.max_z + x*voxels.max_z*voxels.max_y] = false;
+                        }
+                    }
+                }
+                else{
+                    for(auto& neighbor: neighbours){
+                        int x_neighbour = neighbor[0];
+                        int y_neighbour = neighbor[1];
+                        int z_neighbour = neighbor[2];
+                        Voxel neighbour_voxel = voxels(x_neighbour,y_neighbour,z_neighbour);
+                        if(neighbour_voxel.label == voxel.label){
+                            output_labell[z + y*voxels.max_z + x*voxels.max_z*voxels.max_y] = false;
+                        }
+                        else{
+                            output_labell[z + y*voxels.max_z + x*voxels.max_z*voxels.max_y] = true;
+                            break;
+                        } 
+                    }
+                }
+            }
+        }
+    }
+    for(int i = 0; i < voxel_length; i++){
+        bool judge = output_labell[i];
+        if(!judge){
+            voxels.voxels[i].label = unlabelled;
+        }
+    }
+}
 
                                      
 int main(int argc, const char * argv[]) {
@@ -228,8 +307,9 @@ int main(int argc, const char * argv[]) {
     std::vector<int> labells;
     int exterior_label = 0;
     labells = label_voxels(voxels,exterior_label,wall_face_label);
+    // extract the exterior surface
+    extract_envelope_voxel(voxels,wall_face_label,exterior_label);
     
-
    
     std::vector<std::vector<int>> exterior_surface_index;
     exterior_surface_index = extract_exterior_surface_voxel_index(0,voxels);

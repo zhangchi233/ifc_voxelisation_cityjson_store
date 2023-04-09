@@ -4,7 +4,7 @@
 # compile CXX with g++
 CXX_DEFINES = -DCGAL_EIGEN3_ENABLED -DCGAL_USE_GMPXX=1
 
-CXX_INCLUDES = -I/Users/asdfasd/Downloads/hw03_test/build -I/Users/asdfasd/Downloads/hw03_test/include -isystem /usr/local/include -isystem /usr/local/include/eigen3
+CXX_INCLUDES = -I/Users/asdfasd/Downloads/hw03/build -I/Users/asdfasd/Downloads/hw03/include -isystem /usr/local/include -isystem /usr/local/include/eigen3
 
 CXX_FLAGSx86_64 = -O2 -O3 -DNDEBUG -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0 -std=gnu++14
 

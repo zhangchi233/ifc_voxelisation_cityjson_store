@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.25.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/asdfasd/Downloads/hw03_test
+CMAKE_SOURCE_DIR = /Users/asdfasd/Downloads/hw03
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/asdfasd/Downloads/hw03_test/build
+CMAKE_BINARY_DIR = /Users/asdfasd/Downloads/hw03/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/hw03.dir/depend.make
@@ -70,67 +70,82 @@ include CMakeFiles/hw03.dir/progress.make
 include CMakeFiles/hw03.dir/flags.make
 
 CMakeFiles/hw03.dir/src/definitions.cpp.o: CMakeFiles/hw03.dir/flags.make
-CMakeFiles/hw03.dir/src/definitions.cpp.o: /Users/asdfasd/Downloads/hw03_test/src/definitions.cpp
+CMakeFiles/hw03.dir/src/definitions.cpp.o: /Users/asdfasd/Downloads/hw03/src/definitions.cpp
 CMakeFiles/hw03.dir/src/definitions.cpp.o: CMakeFiles/hw03.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/asdfasd/Downloads/hw03_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hw03.dir/src/definitions.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw03.dir/src/definitions.cpp.o -MF CMakeFiles/hw03.dir/src/definitions.cpp.o.d -o CMakeFiles/hw03.dir/src/definitions.cpp.o -c /Users/asdfasd/Downloads/hw03_test/src/definitions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/asdfasd/Downloads/hw03/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hw03.dir/src/definitions.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw03.dir/src/definitions.cpp.o -MF CMakeFiles/hw03.dir/src/definitions.cpp.o.d -o CMakeFiles/hw03.dir/src/definitions.cpp.o -c /Users/asdfasd/Downloads/hw03/src/definitions.cpp
 
 CMakeFiles/hw03.dir/src/definitions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw03.dir/src/definitions.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/asdfasd/Downloads/hw03_test/src/definitions.cpp > CMakeFiles/hw03.dir/src/definitions.cpp.i
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/asdfasd/Downloads/hw03/src/definitions.cpp > CMakeFiles/hw03.dir/src/definitions.cpp.i
 
 CMakeFiles/hw03.dir/src/definitions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw03.dir/src/definitions.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/asdfasd/Downloads/hw03_test/src/definitions.cpp -o CMakeFiles/hw03.dir/src/definitions.cpp.s
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/asdfasd/Downloads/hw03/src/definitions.cpp -o CMakeFiles/hw03.dir/src/definitions.cpp.s
 
 CMakeFiles/hw03.dir/src/geomtools.cpp.o: CMakeFiles/hw03.dir/flags.make
-CMakeFiles/hw03.dir/src/geomtools.cpp.o: /Users/asdfasd/Downloads/hw03_test/src/geomtools.cpp
+CMakeFiles/hw03.dir/src/geomtools.cpp.o: /Users/asdfasd/Downloads/hw03/src/geomtools.cpp
 CMakeFiles/hw03.dir/src/geomtools.cpp.o: CMakeFiles/hw03.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/asdfasd/Downloads/hw03_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hw03.dir/src/geomtools.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw03.dir/src/geomtools.cpp.o -MF CMakeFiles/hw03.dir/src/geomtools.cpp.o.d -o CMakeFiles/hw03.dir/src/geomtools.cpp.o -c /Users/asdfasd/Downloads/hw03_test/src/geomtools.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/asdfasd/Downloads/hw03/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hw03.dir/src/geomtools.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw03.dir/src/geomtools.cpp.o -MF CMakeFiles/hw03.dir/src/geomtools.cpp.o.d -o CMakeFiles/hw03.dir/src/geomtools.cpp.o -c /Users/asdfasd/Downloads/hw03/src/geomtools.cpp
 
 CMakeFiles/hw03.dir/src/geomtools.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw03.dir/src/geomtools.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/asdfasd/Downloads/hw03_test/src/geomtools.cpp > CMakeFiles/hw03.dir/src/geomtools.cpp.i
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/asdfasd/Downloads/hw03/src/geomtools.cpp > CMakeFiles/hw03.dir/src/geomtools.cpp.i
 
 CMakeFiles/hw03.dir/src/geomtools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw03.dir/src/geomtools.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/asdfasd/Downloads/hw03_test/src/geomtools.cpp -o CMakeFiles/hw03.dir/src/geomtools.cpp.s
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/asdfasd/Downloads/hw03/src/geomtools.cpp -o CMakeFiles/hw03.dir/src/geomtools.cpp.s
 
 CMakeFiles/hw03.dir/src/main.cpp.o: CMakeFiles/hw03.dir/flags.make
-CMakeFiles/hw03.dir/src/main.cpp.o: /Users/asdfasd/Downloads/hw03_test/src/main.cpp
+CMakeFiles/hw03.dir/src/main.cpp.o: /Users/asdfasd/Downloads/hw03/src/main.cpp
 CMakeFiles/hw03.dir/src/main.cpp.o: CMakeFiles/hw03.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/asdfasd/Downloads/hw03_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hw03.dir/src/main.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw03.dir/src/main.cpp.o -MF CMakeFiles/hw03.dir/src/main.cpp.o.d -o CMakeFiles/hw03.dir/src/main.cpp.o -c /Users/asdfasd/Downloads/hw03_test/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/asdfasd/Downloads/hw03/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hw03.dir/src/main.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw03.dir/src/main.cpp.o -MF CMakeFiles/hw03.dir/src/main.cpp.o.d -o CMakeFiles/hw03.dir/src/main.cpp.o -c /Users/asdfasd/Downloads/hw03/src/main.cpp
 
 CMakeFiles/hw03.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw03.dir/src/main.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/asdfasd/Downloads/hw03_test/src/main.cpp > CMakeFiles/hw03.dir/src/main.cpp.i
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/asdfasd/Downloads/hw03/src/main.cpp > CMakeFiles/hw03.dir/src/main.cpp.i
 
 CMakeFiles/hw03.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw03.dir/src/main.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/asdfasd/Downloads/hw03_test/src/main.cpp -o CMakeFiles/hw03.dir/src/main.cpp.s
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/asdfasd/Downloads/hw03/src/main.cpp -o CMakeFiles/hw03.dir/src/main.cpp.s
 
 CMakeFiles/hw03.dir/src/parse_obj.cpp.o: CMakeFiles/hw03.dir/flags.make
-CMakeFiles/hw03.dir/src/parse_obj.cpp.o: /Users/asdfasd/Downloads/hw03_test/src/parse_obj.cpp
+CMakeFiles/hw03.dir/src/parse_obj.cpp.o: /Users/asdfasd/Downloads/hw03/src/parse_obj.cpp
 CMakeFiles/hw03.dir/src/parse_obj.cpp.o: CMakeFiles/hw03.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/asdfasd/Downloads/hw03_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hw03.dir/src/parse_obj.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw03.dir/src/parse_obj.cpp.o -MF CMakeFiles/hw03.dir/src/parse_obj.cpp.o.d -o CMakeFiles/hw03.dir/src/parse_obj.cpp.o -c /Users/asdfasd/Downloads/hw03_test/src/parse_obj.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/asdfasd/Downloads/hw03/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hw03.dir/src/parse_obj.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw03.dir/src/parse_obj.cpp.o -MF CMakeFiles/hw03.dir/src/parse_obj.cpp.o.d -o CMakeFiles/hw03.dir/src/parse_obj.cpp.o -c /Users/asdfasd/Downloads/hw03/src/parse_obj.cpp
 
 CMakeFiles/hw03.dir/src/parse_obj.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw03.dir/src/parse_obj.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/asdfasd/Downloads/hw03_test/src/parse_obj.cpp > CMakeFiles/hw03.dir/src/parse_obj.cpp.i
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/asdfasd/Downloads/hw03/src/parse_obj.cpp > CMakeFiles/hw03.dir/src/parse_obj.cpp.i
 
 CMakeFiles/hw03.dir/src/parse_obj.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw03.dir/src/parse_obj.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/asdfasd/Downloads/hw03_test/src/parse_obj.cpp -o CMakeFiles/hw03.dir/src/parse_obj.cpp.s
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/asdfasd/Downloads/hw03/src/parse_obj.cpp -o CMakeFiles/hw03.dir/src/parse_obj.cpp.s
+
+CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: CMakeFiles/hw03.dir/flags.make
+CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src/voxelProcessing.cpp
+CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: CMakeFiles/hw03.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/asdfasd/Downloads/hw03/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o -MF CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o.d -o CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o -c /Users/asdfasd/Downloads/hw03/src/voxelProcessing.cpp
+
+CMakeFiles/hw03.dir/src/voxelProcessing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw03.dir/src/voxelProcessing.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/asdfasd/Downloads/hw03/src/voxelProcessing.cpp > CMakeFiles/hw03.dir/src/voxelProcessing.cpp.i
+
+CMakeFiles/hw03.dir/src/voxelProcessing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw03.dir/src/voxelProcessing.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/asdfasd/Downloads/hw03/src/voxelProcessing.cpp -o CMakeFiles/hw03.dir/src/voxelProcessing.cpp.s
 
 # Object files for target hw03
 hw03_OBJECTS = \
 "CMakeFiles/hw03.dir/src/definitions.cpp.o" \
 "CMakeFiles/hw03.dir/src/geomtools.cpp.o" \
 "CMakeFiles/hw03.dir/src/main.cpp.o" \
-"CMakeFiles/hw03.dir/src/parse_obj.cpp.o"
+"CMakeFiles/hw03.dir/src/parse_obj.cpp.o" \
+"CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o"
 
 # External object files for target hw03
 hw03_EXTERNAL_OBJECTS =
@@ -139,12 +154,13 @@ hw03: CMakeFiles/hw03.dir/src/definitions.cpp.o
 hw03: CMakeFiles/hw03.dir/src/geomtools.cpp.o
 hw03: CMakeFiles/hw03.dir/src/main.cpp.o
 hw03: CMakeFiles/hw03.dir/src/parse_obj.cpp.o
+hw03: CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o
 hw03: CMakeFiles/hw03.dir/build.make
 hw03: /usr/local/lib/libgmpxx.dylib
 hw03: /usr/local/lib/libmpfr.dylib
 hw03: /usr/local/lib/libgmp.dylib
 hw03: CMakeFiles/hw03.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/asdfasd/Downloads/hw03_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable hw03"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/asdfasd/Downloads/hw03/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable hw03"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hw03.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -156,6 +172,6 @@ CMakeFiles/hw03.dir/clean:
 .PHONY : CMakeFiles/hw03.dir/clean
 
 CMakeFiles/hw03.dir/depend:
-	cd /Users/asdfasd/Downloads/hw03_test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/asdfasd/Downloads/hw03_test /Users/asdfasd/Downloads/hw03_test /Users/asdfasd/Downloads/hw03_test/build /Users/asdfasd/Downloads/hw03_test/build /Users/asdfasd/Downloads/hw03_test/build/CMakeFiles/hw03.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/asdfasd/Downloads/hw03/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/asdfasd/Downloads/hw03 /Users/asdfasd/Downloads/hw03 /Users/asdfasd/Downloads/hw03/build /Users/asdfasd/Downloads/hw03/build /Users/asdfasd/Downloads/hw03/build/CMakeFiles/hw03.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hw03.dir/depend
 

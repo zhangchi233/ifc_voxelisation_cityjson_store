@@ -1,5 +1,5 @@
 CMakeFiles/hw03.dir/src/main.cpp.o: \
-  /Users/asdfasd/Downloads/hw03_test/src/main.cpp \
+  /Users/asdfasd/Downloads/hw03/src/main.cpp \
   /usr/local/include/CGAL/Triangulation_3.h \
   /usr/local/include/CGAL/license/Triangulation_3.h \
   /usr/local/include/CGAL/config.h /usr/local/include/boost/config.hpp \
@@ -2067,7 +2067,7 @@ CMakeFiles/hw03.dir/src/main.cpp.o: \
   /usr/local/include/CGAL/Triangulation_structural_filtering_traits.h \
   /usr/local/include/CGAL/determinant.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/random \
-  /Users/asdfasd/Downloads/hw03_test/src/definitions.h \
+  /Users/asdfasd/Downloads/hw03/src/definitions.h \
   /usr/local/include/CGAL/Exact_predicates_inexact_constructions_kernel.h \
   /usr/local/include/CGAL/Simple_cartesian.h \
   /usr/local/include/CGAL/Cartesian/Cartesian_base.h \
@@ -2848,12 +2848,12 @@ CMakeFiles/hw03.dir/src/main.cpp.o: \
   /usr/local/include/CGAL/linear_least_squares_fitting_spheres_3.h \
   /usr/local/include/CGAL/Triangulation_vertex_base_with_id_2.h \
   /usr/local/include/CGAL/Triangulation_face_base_with_info_2.h \
-  /Users/asdfasd/Downloads/hw03_test/include/json.hpp \
+  /Users/asdfasd/Downloads/hw03/include/json.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/forward_list \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/valarray \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/clocale \
-  /Users/asdfasd/Downloads/hw03_test/src/geomtools.h \
-  /Users/asdfasd/Downloads/hw03_test/src/parse_obj.h \
+  /Users/asdfasd/Downloads/hw03/src/geomtools.h \
+  /Users/asdfasd/Downloads/hw03/src/parse_obj.h \
   /usr/local/include/CGAL/Surface_mesh.h \
   /usr/local/include/CGAL/license/Surface_mesh.h \
   /usr/local/include/CGAL/Surface_mesh/Surface_mesh_fwd.h \

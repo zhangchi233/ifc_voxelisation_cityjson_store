@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.25.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/asdfasd/Downloads/hw03_test
+CMAKE_SOURCE_DIR = /Users/asdfasd/Downloads/hw03
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/asdfasd/Downloads/hw03_test/build
+CMAKE_BINARY_DIR = /Users/asdfasd/Downloads/hw03/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asdfasd/Downloads/hw03_test/build/CMakeFiles /Users/asdfasd/Downloads/hw03_test/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asdfasd/Downloads/hw03/build/CMakeFiles /Users/asdfasd/Downloads/hw03/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asdfasd/Downloads/hw03_test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asdfasd/Downloads/hw03/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -225,6 +225,30 @@ src/parse_obj.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw03.dir/build.make CMakeFiles/hw03.dir/src/parse_obj.cpp.s
 .PHONY : src/parse_obj.cpp.s
 
+src/voxelProcessing.o: src/voxelProcessing.cpp.o
+.PHONY : src/voxelProcessing.o
+
+# target to build an object file
+src/voxelProcessing.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw03.dir/build.make CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o
+.PHONY : src/voxelProcessing.cpp.o
+
+src/voxelProcessing.i: src/voxelProcessing.cpp.i
+.PHONY : src/voxelProcessing.i
+
+# target to preprocess a source file
+src/voxelProcessing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw03.dir/build.make CMakeFiles/hw03.dir/src/voxelProcessing.cpp.i
+.PHONY : src/voxelProcessing.cpp.i
+
+src/voxelProcessing.s: src/voxelProcessing.cpp.s
+.PHONY : src/voxelProcessing.s
+
+# target to generate assembly for a file
+src/voxelProcessing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw03.dir/build.make CMakeFiles/hw03.dir/src/voxelProcessing.cpp.s
+.PHONY : src/voxelProcessing.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -246,6 +270,9 @@ help:
 	@echo "... src/parse_obj.o"
 	@echo "... src/parse_obj.i"
 	@echo "... src/parse_obj.s"
+	@echo "... src/voxelProcessing.o"
+	@echo "... src/voxelProcessing.i"
+	@echo "... src/voxelProcessing.s"
 .PHONY : help
 
 
