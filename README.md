@@ -39,8 +39,9 @@ u can see the size of different rooms, (those small size files)
 each room inside the building:
 <img width="768" alt="image" src="https://user-images.githubusercontent.com/60132725/230770287-59bc3c07-7b2a-4a01-8688-f15b573f4be9.png">
 i also output the obj version, including wall, room so that it is convienent to check
-# parameters and setting:
-## <img width="735" alt="image" src="https://user-images.githubusercontent.com/60132725/230770335-b02f3136-5c62-400d-b3a2-8294492b199d.png">
+
+## parameters and setting:
+    <img width="735" alt="image" src="https://user-images.githubusercontent.com/60132725/230770335-b02f3136-5c62-400d-b3a2-8294492b199d.png">
 output_label: which labelled part u want to output
 unit: resolution of voxel
 intermediate: whether output intermediate obj files
