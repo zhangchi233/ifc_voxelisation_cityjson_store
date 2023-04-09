@@ -34,7 +34,7 @@ u can see the size of different rooms, (those small size files)
 <img width="1357" alt="image" src="https://user-images.githubusercontent.com/60132725/229858421-28ea5cfe-72a9-409a-a2a7-294d9bfd04fb.png">
 ## possible job u can boost: label the wall according to the object id and merge it seperately(but consider the shell number is 214) it will make task much more worse, maybe filtered and don't read those faces that is not walls is better(except windows, doors, wall,floor, we don't read any other object like chair and table)
 
-# new update progress and how to run: fix the small size room issues, and the wall which is not exterior surface will not be labelled, and current out put oupt the room evnvelope and exterior surface in building_test.cityjson, where each room and exterior surface is building part with label
+# newly updated progress and how to run: fix the small size room issues, and the wall which is not exterior surface will not be labelled, and current out put oupt the room evnvelope and exterior surface in building_test.cityjson, where each room and exterior surface is building part with label
 <img width="1132" alt="image" src="https://user-images.githubusercontent.com/60132725/230770232-acfebe9b-21ec-4119-896e-a91f7399ddbf.png">
 each room inside the building:
 <img width="768" alt="image" src="https://user-images.githubusercontent.com/60132725/230770287-59bc3c07-7b2a-4a01-8688-f15b573f4be9.png">
