@@ -2848,30 +2848,49 @@ CMakeFiles/hw03.dir/src/main.cpp.o: \
   /usr/local/include/CGAL/linear_least_squares_fitting_spheres_3.h \
   /usr/local/include/CGAL/Triangulation_vertex_base_with_id_2.h \
   /usr/local/include/CGAL/Triangulation_face_base_with_info_2.h \
-  /Users/asdfasd/Downloads/hw03/include/json.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/forward_list \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/valarray \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/clocale \
-  /Users/asdfasd/Downloads/hw03/src/geomtools.h \
-  /Users/asdfasd/Downloads/hw03/src/parse_obj.h \
-  /usr/local/include/CGAL/Surface_mesh.h \
-  /usr/local/include/CGAL/license/Surface_mesh.h \
-  /usr/local/include/CGAL/Surface_mesh/Surface_mesh_fwd.h \
-  /usr/local/include/CGAL/Surface_mesh/Surface_mesh.h \
-  /usr/local/include/CGAL/Surface_mesh/IO.h \
-  /usr/local/include/CGAL/Surface_mesh/IO/3MF.h \
-  /usr/local/include/CGAL/IO/3MF.h \
-  /usr/local/include/CGAL/IO/3MF/read_3mf.h \
-  /usr/local/include/CGAL/IO/3MF/write_3mf.h \
-  /usr/local/include/CGAL/IO/helpers.h \
-  /usr/local/include/CGAL/Container_helper.h \
-  /usr/local/include/CGAL/boost/graph/iterator.h \
+  /usr/local/include/CGAL/Polyhedron_3.h \
+  /usr/local/include/CGAL/license/Polyhedron.h \
+  /usr/local/include/CGAL/Polyhedron_3_fwd.h \
+  /usr/local/include/CGAL/HalfedgeDS_iterator.h \
+  /usr/local/include/CGAL/N_step_adaptor_derived.h \
+  /usr/local/include/CGAL/Polyhedron_items_3.h \
+  /usr/local/include/CGAL/HalfedgeDS_vertex_base.h \
+  /usr/local/include/CGAL/HalfedgeDS_halfedge_base.h \
+  /usr/local/include/CGAL/HalfedgeDS_face_base.h \
+  /usr/local/include/CGAL/HalfedgeDS_default.h \
+  /usr/local/include/CGAL/HalfedgeDS_items_2.h \
+  /usr/local/include/CGAL/HalfedgeDS_list.h \
+  /usr/local/include/CGAL/In_place_list.h \
+  /usr/local/include/CGAL/HalfedgeDS_items_decorator.h \
+  /usr/local/include/CGAL/boost/graph/graph_traits_HalfedgeDS_default.h \
+  /usr/local/include/CGAL/boost/graph/graph_traits_HalfedgeDS.h \
+  /usr/local/include/CGAL/Named_function_parameters.h \
+  /usr/local/include/CGAL/STL_Extension/internal/parameters_interface.h \
   /usr/local/include/boost/graph/graph_traits.hpp \
   /usr/local/include/boost/pending/property.hpp \
   /usr/local/include/boost/pending/detail/property.hpp \
+  /usr/local/include/boost/graph/properties.hpp \
+  /usr/local/include/boost/graph/property_maps/constant_property_map.hpp \
+  /usr/local/include/boost/graph/property_maps/null_property_map.hpp \
+  /usr/local/include/CGAL/boost/graph/iterator.h \
   /usr/local/include/CGAL/boost/graph/internal/helpers.h \
-  /usr/local/include/CGAL/Surface_mesh/IO/OFF.h \
-  /usr/local/include/CGAL/boost/graph/IO/OFF.h \
+  /usr/local/include/CGAL/boost/graph/halfedge_graph_traits.h \
+  /usr/local/include/CGAL/boost/graph/properties.h \
+  /usr/local/include/CGAL/Dynamic_property_map.h \
+  /usr/local/include/CGAL/HalfedgeDS_decorator.h \
+  /usr/local/include/CGAL/HalfedgeDS_const_decorator.h \
+  /usr/local/include/CGAL/IO/Verbose_ostream.h \
+  /usr/local/include/CGAL/Modifier_base.h \
+  /usr/local/include/CGAL/Polyhedron_traits_3.h \
+  /usr/local/include/CGAL/boost/graph/graph_traits_Polyhedron_3.h \
+  /usr/local/include/CGAL/boost/graph/backward_compatibility_functions.h \
+  /usr/local/include/CGAL/boost/graph/properties_Polyhedron_3.h \
+  /usr/local/include/CGAL/boost/graph/internal/Has_member_id.h \
+  /usr/local/include/CGAL/boost/graph/properties_Polyhedron_3_time_stamp.h \
+  /usr/local/include/CGAL/boost/graph/properties_Polyhedron_3_features.h \
+  /usr/local/include/CGAL/IO/Polyhedron_iostream.h \
+  /usr/local/include/CGAL/IO/Polyhedron_OFF_iostream.h \
+  /usr/local/include/CGAL/IO/print_OFF.h \
   /usr/local/include/CGAL/IO/OFF.h \
   /usr/local/include/CGAL/IO/OFF/Scanner_OFF.h \
   /usr/local/include/CGAL/IO/OFF/File_scanner_OFF.h \
@@ -2882,68 +2901,339 @@ CMakeFiles/hw03.dir/src/main.cpp.o: \
   /usr/local/include/CGAL/IO/OFF/File_header_OFF_impl.h \
   /usr/local/include/CGAL/IO/OFF/File_writer_OFF.h \
   /usr/local/include/CGAL/IO/OFF/generic_copy_OFF.h \
+  /usr/local/include/CGAL/IO/helpers.h \
+  /usr/local/include/CGAL/Container_helper.h \
   /usr/local/include/CGAL/IO/Generic_writer.h \
-  /usr/local/include/CGAL/Named_function_parameters.h \
-  /usr/local/include/CGAL/STL_Extension/internal/parameters_interface.h \
   /usr/local/include/CGAL/boost/graph/named_params_helper.h \
   /usr/local/include/CGAL/boost/graph/internal/initialized_index_maps_helpers.h \
-  /usr/local/include/CGAL/boost/graph/properties.h \
-  /usr/local/include/CGAL/Dynamic_property_map.h \
-  /usr/local/include/boost/graph/properties.hpp \
-  /usr/local/include/boost/graph/property_maps/constant_property_map.hpp \
-  /usr/local/include/boost/graph/property_maps/null_property_map.hpp \
-  /usr/local/include/CGAL/boost/graph/IO/Generic_facegraph_builder.h \
-  /usr/local/include/CGAL/boost/graph/Euler_operations.h \
-  /usr/local/include/CGAL/boost/graph/helpers.h \
-  /usr/local/include/CGAL/boost/graph/internal/Has_member_clear.h \
-  /usr/local/include/CGAL/IO/Verbose_ostream.h \
-  /usr/local/include/CGAL/boost/graph/generators.h \
-  /usr/local/include/CGAL/Random.h /usr/local/include/CGAL/Random_impl.h \
   /usr/local/include/CGAL/boost/graph/IO/Generic_facegraph_printer.h \
   /usr/local/include/boost/container/flat_map.hpp \
   /usr/local/include/boost/container/detail/container_or_allocator_rebind.hpp \
   /usr/local/include/boost/container/detail/container_rebind.hpp \
-  /usr/local/include/CGAL/Surface_mesh/IO/PLY.h \
-  /usr/local/include/CGAL/IO/PLY.h \
-  /usr/local/include/CGAL/IO/PLY/PLY_reader.h \
-  /usr/local/include/CGAL/IO/PLY/PLY_writer.h \
-  /usr/local/include/CGAL/boost/graph/io.h \
-  /usr/local/include/CGAL/boost/graph/IO/3MF.h \
-  /usr/local/include/CGAL/boost/graph/IO/GOCAD.h \
-  /usr/local/include/CGAL/IO/GOCAD.h \
-  /usr/local/include/CGAL/boost/graph/IO/INP.h \
-  /usr/local/include/CGAL/boost/graph/IO/OBJ.h \
-  /usr/local/include/CGAL/IO/OBJ.h \
-  /usr/local/include/CGAL/IO/OBJ/File_writer_wavefront.h \
-  /usr/local/include/CGAL/boost/graph/IO/PLY.h \
-  /usr/local/include/CGAL/boost/graph/IO/STL.h \
-  /usr/local/include/CGAL/IO/STL.h \
-  /usr/local/include/CGAL/IO/STL/STL_reader.h \
-  /usr/local/include/CGAL/boost/graph/IO/VTK.h \
-  /usr/local/include/CGAL/IO/VTK.h \
-  /usr/local/include/CGAL/IO/VTK/VTK_reader.h \
-  /usr/local/include/CGAL/IO/VTK/VTK_writer.h \
-  /usr/local/include/CGAL/boost/graph/IO/WRL.h \
+  /usr/local/include/CGAL/IO/scan_OFF.h \
+  /usr/local/include/CGAL/IO/Polyhedron_scan_OFF.h \
+  /usr/local/include/CGAL/Polyhedron_incremental_builder_3.h \
+  /usr/local/include/CGAL/Random_access_adaptor.h \
+  /usr/local/include/CGAL/boost/graph/IO/OFF.h \
+  /usr/local/include/CGAL/boost/graph/IO/Generic_facegraph_builder.h \
+  /usr/local/include/CGAL/boost/graph/Euler_operations.h \
+  /usr/local/include/CGAL/boost/graph/helpers.h \
+  /usr/local/include/CGAL/boost/graph/internal/Has_member_clear.h \
+  /usr/local/include/CGAL/boost/graph/generators.h \
+  /usr/local/include/CGAL/Random.h /usr/local/include/CGAL/Random_impl.h \
+  /usr/local/include/CGAL/Has_conversion.h \
+  /usr/local/include/CGAL/IO/Polyhedron_VRML_1_ostream.h \
+  /usr/local/include/CGAL/IO/Polyhedron_inventor_ostream.h \
+  /usr/local/include/CGAL/IO/OI.h \
+  /usr/local/include/CGAL/IO/OI/File_writer_inventor.h \
+  /usr/local/include/CGAL/IO/OI/Inventor_ostream.h \
+  /usr/local/include/CGAL/IO/Polyhedron_VRML_2_ostream.h \
   /usr/local/include/CGAL/IO/VRML.h \
   /usr/local/include/CGAL/IO/VRML/File_writer_VRML_2.h \
   /usr/local/include/CGAL/IO/VRML/VRML_2_ostream.h \
   /usr/local/include/CGAL/IO/VRML/VRML_1_ostream.h \
-  /usr/local/include/CGAL/IO/OI.h \
-  /usr/local/include/CGAL/IO/OI/File_writer_inventor.h \
-  /usr/local/include/CGAL/IO/OI/Inventor_ostream.h \
-  /usr/local/include/CGAL/boost/graph/IO/polygon_mesh_io.h \
-  /usr/local/include/CGAL/Surface_mesh/Properties.h \
-  /usr/local/include/CGAL/boost/graph/copy_face_graph.h \
-  /usr/local/include/boost/iterator/function_output_iterator.hpp \
-  /usr/local/include/CGAL/boost/graph/graph_traits_Surface_mesh.h \
-  /usr/local/include/CGAL/boost/graph/properties_Surface_mesh.h \
-  /usr/local/include/CGAL/boost/graph/properties_Surface_mesh_time_stamp.h \
-  /usr/local/include/CGAL/boost/graph/properties_Surface_mesh_features.h \
-  /usr/local/include/CGAL/optimal_bounding_box.h \
-  /usr/local/include/CGAL/license/Optimal_bounding_box.h \
-  /usr/local/include/CGAL/Optimal_bounding_box/Oriented_bounding_box_traits_3.h \
-  /usr/local/include/CGAL/Eigen_matrix.h \
-  /usr/local/include/CGAL/Eigen_sparse_matrix.h \
+  /usr/local/include/CGAL/poisson_surface_reconstruction.h \
+  /usr/local/include/CGAL/license/Poisson_surface_reconstruction_3.h \
+  /usr/local/include/CGAL/Surface_mesh_default_triangulation_3.h \
+  /usr/local/include/CGAL/license/Surface_mesher.h \
+  /usr/local/include/CGAL/Robust_circumcenter_traits_3.h \
+  /usr/local/include/CGAL/Robust_construction.h \
+  /usr/local/include/CGAL/Exact_predicates_exact_constructions_kernel.h \
+  /usr/local/include/CGAL/Lazy_kernel.h \
+  /usr/local/include/CGAL/Static_filtered_predicate.h \
+  /usr/local/include/CGAL/Epic_converter.h \
+  /usr/local/include/CGAL/Filtered_kernel/Cartesian_coordinate_iterator_2.h \
+  /usr/local/include/CGAL/Filtered_kernel/Cartesian_coordinate_iterator_3.h \
+  /usr/local/include/CGAL/Delaunay_triangulation_3.h \
+  /usr/local/include/CGAL/Delaunay_triangulation_cell_base_3.h \
+  /usr/local/include/CGAL/Location_policy.h \
+  /usr/local/include/CGAL/Complexity_tags.h \
+  /usr/local/include/CGAL/Triangulation_3/internal/Delaunay_triangulation_hierarchy_3.h \
+  /usr/local/include/CGAL/Triangulation_hierarchy_3.h \
+  /usr/local/include/CGAL/STL_Extension/internal/Has_nested_type_Bare_point.h \
+  /usr/local/include/CGAL/Triangulation_hierarchy_vertex_base_3.h \
+  /usr/local/include/CGAL/Surface_mesh_vertex_base_3.h \
+  /usr/local/include/CGAL/Complex_2_in_triangulation_vertex_base_3.h \
+  /usr/local/include/CGAL/Surface_mesh_cell_base_3.h \
+  /usr/local/include/CGAL/Complex_2_in_triangulation_cell_base_3.h \
+  /usr/local/include/CGAL/Delaunay_triangulation_cell_base_with_circumcenter_3.h \
+  /usr/local/include/CGAL/make_surface_mesh.h \
+  /usr/local/include/CGAL/Surface_mesher_generator.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher.h \
+  /usr/local/include/CGAL/Mesher_level.h \
+  /usr/local/include/CGAL/Mesher_level_visitors.h \
+  /usr/local/include/CGAL/Mesher_level_default_implementations.h \
+  /usr/local/include/CGAL/Meshes/Triangulation_mesher_level_traits_3.h \
+  /usr/local/include/CGAL/Double_map.h \
+  /usr/local/include/CGAL/boost/bimap.hpp \
+  /usr/local/include/boost/bimap.hpp \
+  /usr/local/include/boost/bimap/bimap.hpp \
+  /usr/local/include/boost/bimap/detail/user_interface_config.hpp \
+  /usr/local/include/boost/serialization/nvp.hpp \
+  /usr/local/include/boost/serialization/level.hpp \
+  /usr/local/include/boost/serialization/level_enum.hpp \
+  /usr/local/include/boost/serialization/tracking.hpp \
+  /usr/local/include/boost/mpl/greater.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/greater.hpp \
+  /usr/local/include/boost/serialization/tracking_enum.hpp \
+  /usr/local/include/boost/serialization/type_info_implementation.hpp \
+  /usr/local/include/boost/serialization/traits.hpp \
+  /usr/local/include/boost/serialization/split_free.hpp \
+  /usr/local/include/boost/serialization/serialization.hpp \
+  /usr/local/include/boost/serialization/strong_typedef.hpp \
+  /usr/local/include/boost/serialization/access.hpp \
+  /usr/local/include/boost/serialization/wrapper.hpp \
+  /usr/local/include/boost/serialization/base_object.hpp \
+  /usr/local/include/boost/serialization/force_include.hpp \
+  /usr/local/include/boost/serialization/void_cast_fwd.hpp \
+  /usr/local/include/boost/bimap/detail/bimap_core.hpp \
+  /usr/local/include/boost/multi_index_container.hpp \
+  /usr/local/include/boost/mpl/contains.hpp \
+  /usr/local/include/boost/mpl/contains_fwd.hpp \
+  /usr/local/include/boost/mpl/aux_/contains_impl.hpp \
+  /usr/local/include/boost/mpl/find.hpp \
+  /usr/local/include/boost/multi_index_container_fwd.hpp \
+  /usr/local/include/boost/multi_index/identity.hpp \
+  /usr/local/include/boost/multi_index/identity_fwd.hpp \
+  /usr/local/include/boost/multi_index/indexed_by.hpp \
+  /usr/local/include/boost/preprocessor/control/expr_if.hpp \
+  /usr/local/include/boost/multi_index/ordered_index_fwd.hpp \
+  /usr/local/include/boost/multi_index/detail/ord_index_args.hpp \
+  /usr/local/include/boost/multi_index/tag.hpp \
+  /usr/local/include/boost/multi_index/detail/no_duplicate_tags.hpp \
+  /usr/local/include/boost/mpl/set/set0.hpp \
+  /usr/local/include/boost/mpl/set/aux_/at_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/has_key_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/tag.hpp \
+  /usr/local/include/boost/mpl/aux_/overload_names.hpp \
+  /usr/local/include/boost/mpl/aux_/ptr_to_ref.hpp \
+  /usr/local/include/boost/mpl/aux_/config/operators.hpp \
+  /usr/local/include/boost/mpl/set/aux_/clear_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/set0.hpp \
+  /usr/local/include/boost/mpl/set/aux_/size_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/empty_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/insert_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/item.hpp \
+  /usr/local/include/boost/mpl/base.hpp \
+  /usr/local/include/boost/mpl/set/aux_/insert_range_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/erase_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/erase_key_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/key_type_impl.hpp \
+  /usr/local/include/boost/mpl/key_type_fwd.hpp \
+  /usr/local/include/boost/mpl/set/aux_/value_type_impl.hpp \
+  /usr/local/include/boost/mpl/value_type_fwd.hpp \
+  /usr/local/include/boost/mpl/set/aux_/begin_end_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/iterator.hpp \
+  /usr/local/include/boost/preprocessor/facilities/intercept.hpp \
+  /usr/local/include/boost/preprocessor/facilities/limits/intercept_256.hpp \
+  /usr/local/include/boost/multi_index/detail/ord_index_impl_fwd.hpp \
+  /usr/local/include/boost/multi_index/detail/access_specifier.hpp \
+  /usr/local/include/boost/multi_index/detail/adl_swap.hpp \
+  /usr/local/include/boost/multi_index/detail/allocator_traits.hpp \
+  /usr/local/include/boost/multi_index/detail/base_type.hpp \
+  /usr/local/include/boost/multi_index/detail/index_base.hpp \
+  /usr/local/include/boost/multi_index/detail/copy_map.hpp \
+  /usr/local/include/boost/multi_index/detail/auto_space.hpp \
+  /usr/local/include/boost/multi_index/detail/raw_ptr.hpp \
+  /usr/local/include/boost/multi_index/detail/do_not_copy_elements_tag.hpp \
+  /usr/local/include/boost/multi_index/detail/index_access_sequence.hpp \
+  /usr/local/include/boost/multi_index/detail/node_handle.hpp \
+  /usr/local/include/boost/multi_index/detail/define_if_constexpr_macro.hpp \
+  /usr/local/include/boost/multi_index/detail/ignore_wstrict_aliasing.hpp \
+  /usr/local/include/boost/multi_index/detail/restore_wstrict_aliasing.hpp \
+  /usr/local/include/boost/multi_index/detail/undef_if_constexpr_macro.hpp \
+  /usr/local/include/boost/multi_index/detail/node_type.hpp \
+  /usr/local/include/boost/mpl/reverse_iter_fold.hpp \
+  /usr/local/include/boost/mpl/aux_/reverse_iter_fold_impl.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/reverse_iter_fold_impl.hpp \
+  /usr/local/include/boost/multi_index/detail/header_holder.hpp \
+  /usr/local/include/boost/multi_index/detail/index_node_base.hpp \
+  /usr/local/include/boost/archive/archive_exception.hpp \
+  /usr/local/include/boost/archive/detail/decl.hpp \
+  /usr/local/include/boost/archive/detail/abi_prefix.hpp \
+  /usr/local/include/boost/config/abi_prefix.hpp \
+  /usr/local/include/boost/archive/detail/abi_suffix.hpp \
+  /usr/local/include/boost/config/abi_suffix.hpp \
+  /usr/local/include/boost/multi_index/detail/is_index_list.hpp \
+  /usr/local/include/boost/multi_index/detail/vartempl_support.hpp \
+  /usr/local/include/boost/multi_index/detail/index_loader.hpp \
+  /usr/local/include/boost/multi_index/detail/index_saver.hpp \
+  /usr/local/include/boost/multi_index/detail/index_matcher.hpp \
+  /usr/local/include/boost/multi_index/detail/converter.hpp \
+  /usr/local/include/boost/multi_index/detail/has_tag.hpp \
+  /usr/local/include/boost/multi_index/detail/invalidate_iterators.hpp \
+  /usr/local/include/boost/multi_index/detail/safe_mode.hpp \
+  /usr/local/include/boost/multi_index/detail/scope_guard.hpp \
+  /usr/local/include/boost/multi_index/detail/archive_constructed.hpp \
+  /usr/local/include/boost/multi_index/detail/serialization_version.hpp \
+  /usr/local/include/boost/serialization/split_member.hpp \
+  /usr/local/include/boost/serialization/version.hpp \
+  /usr/local/include/boost/mpl/comparison.hpp \
+  /usr/local/include/boost/mpl/not_equal_to.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/not_equal_to.hpp \
+  /usr/local/include/boost/mpl/less_equal.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/less_equal.hpp \
+  /usr/local/include/boost/mpl/greater_equal.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/greater_equal.hpp \
+  /usr/local/include/boost/serialization/collection_size_type.hpp \
+  /usr/local/include/boost/serialization/is_bitwise_serializable.hpp \
+  /usr/local/include/boost/multi_index/member.hpp \
+  /usr/local/include/boost/bimap/relation/mutant_relation.hpp \
+  /usr/local/include/boost/functional/hash/hash.hpp \
+  /usr/local/include/boost/bimap/tags/tagged.hpp \
+  /usr/local/include/boost/bimap/tags/support/default_tagged.hpp \
+  /usr/local/include/boost/bimap/tags/support/tag_of.hpp \
+  /usr/local/include/boost/bimap/detail/debug/static_error.hpp \
+  /usr/local/include/boost/bimap/tags/support/value_type_of.hpp \
+  /usr/local/include/boost/bimap/relation/member_at.hpp \
+  /usr/local/include/boost/bimap/relation/detail/mutant.hpp \
+  /usr/local/include/boost/bimap/relation/structured_pair.hpp \
+  /usr/local/include/boost/bimap/relation/pair_layout.hpp \
+  /usr/local/include/boost/bimap/relation/symmetrical_base.hpp \
+  /usr/local/include/boost/bimap/relation/support/get.hpp \
+  /usr/local/include/boost/bimap/relation/support/value_type_of.hpp \
+  /usr/local/include/boost/bimap/relation/detail/metadata_access_builder.hpp \
+  /usr/local/include/boost/bimap/relation/support/is_tag_of_member_at.hpp \
+  /usr/local/include/boost/bimap/relation/support/member_with_tag.hpp \
+  /usr/local/include/boost/bimap/relation/detail/access_builder.hpp \
+  /usr/local/include/boost/bimap/relation/support/data_extractor.hpp \
+  /usr/local/include/boost/bimap/detail/manage_bimap_key.hpp \
+  /usr/local/include/boost/bimap/detail/is_set_type_of.hpp \
+  /usr/local/include/boost/bimap/detail/concept_tags.hpp \
+  /usr/local/include/boost/bimap/set_of.hpp \
+  /usr/local/include/boost/bimap/detail/generate_index_binder.hpp \
+  /usr/local/include/boost/bimap/detail/generate_view_binder.hpp \
+  /usr/local/include/boost/bimap/detail/generate_relation_binder.hpp \
+  /usr/local/include/boost/multi_index/ordered_index.hpp \
+  /usr/local/include/boost/multi_index/detail/ord_index_impl.hpp \
+  /usr/local/include/boost/multi_index/detail/bidir_node_iterator.hpp \
+  /usr/local/include/boost/multi_index/detail/modify_key_adaptor.hpp \
+  /usr/local/include/boost/multi_index/detail/ord_index_node.hpp \
+  /usr/local/include/boost/multi_index/detail/uintptr_type.hpp \
+  /usr/local/include/boost/multi_index/detail/ord_index_ops.hpp \
+  /usr/local/include/boost/multi_index/detail/promotes_arg.hpp \
+  /usr/local/include/boost/multi_index/detail/is_transparent.hpp \
+  /usr/local/include/boost/multi_index/detail/unbounded.hpp \
+  /usr/local/include/boost/multi_index/detail/value_compare.hpp \
+  /usr/local/include/boost/bind/bind.hpp \
+  /usr/local/include/boost/bind/mem_fn.hpp \
+  /usr/local/include/boost/get_pointer.hpp \
+  /usr/local/include/boost/config/no_tr1/memory.hpp \
+  /usr/local/include/boost/bind/mem_fn_template.hpp \
+  /usr/local/include/boost/bind/mem_fn_cc.hpp \
+  /usr/local/include/boost/is_placeholder.hpp \
+  /usr/local/include/boost/bind/arg.hpp \
+  /usr/local/include/boost/bind/detail/result_traits.hpp \
+  /usr/local/include/boost/bind/std_placeholders.hpp \
+  /usr/local/include/boost/visit_each.hpp \
+  /usr/local/include/boost/core/is_same.hpp \
+  /usr/local/include/boost/bind/storage.hpp \
+  /usr/local/include/boost/bind/bind_cc.hpp \
+  /usr/local/include/boost/bind/bind_mf_cc.hpp \
+  /usr/local/include/boost/bind/bind_mf2_cc.hpp \
+  /usr/local/include/boost/bind/placeholders.hpp \
+  /usr/local/include/boost/multi_index/detail/duplicates_iterator.hpp \
+  /usr/local/include/boost/bimap/views/map_view.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/map_adaptor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/ordered_associative_container_adaptor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/associative_container_adaptor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/detail/identity_converters.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/container_adaptor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/detail/functor_bag.hpp \
+  /usr/local/include/boost/mpl/inherit_linearly.hpp \
+  /usr/local/include/boost/mpl/copy.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/detail/comparison_adaptor.hpp \
+  /usr/local/include/boost/bimap/detail/map_view_base.hpp \
+  /usr/local/include/boost/bimap/relation/support/get_pair_functor.hpp \
+  /usr/local/include/boost/bimap/relation/support/pair_by.hpp \
+  /usr/local/include/boost/bimap/relation/support/pair_type_by.hpp \
+  /usr/local/include/boost/bimap/relation/detail/to_mutable_relation_functor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/support/iterator_facade_converters.hpp \
+  /usr/local/include/boost/bimap/relation/support/opposite_tag.hpp \
+  /usr/local/include/boost/bimap/support/key_type_by.hpp \
+  /usr/local/include/boost/bimap/support/data_type_by.hpp \
+  /usr/local/include/boost/bimap/support/value_type_by.hpp \
+  /usr/local/include/boost/bimap/detail/modifier_adaptor.hpp \
+  /usr/local/include/boost/bimap/detail/map_view_iterator.hpp \
+  /usr/local/include/boost/bimap/relation/detail/static_access_builder.hpp \
+  /usr/local/include/boost/bimap/views/set_view.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/set_adaptor.hpp \
+  /usr/local/include/boost/bimap/detail/set_view_base.hpp \
+  /usr/local/include/boost/bimap/detail/set_view_iterator.hpp \
+  /usr/local/include/boost/bimap/detail/manage_additional_parameters.hpp \
+  /usr/local/include/boost/bimap/unconstrained_set_of.hpp \
+  /usr/local/include/boost/bimap/views/unconstrained_map_view.hpp \
+  /usr/local/include/boost/bimap/views/unconstrained_set_view.hpp \
+  /usr/local/include/boost/bimap/support/map_type_by.hpp \
+  /usr/local/include/boost/bimap/support/map_by.hpp \
+  /usr/local/include/boost/bimap/support/iterator_type_by.hpp \
+  /usr/local/include/boost/bimap/multiset_of.hpp \
+  /usr/local/include/boost/bimap/views/multimap_view.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/multimap_adaptor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/detail/non_unique_container_helper.hpp \
+  /usr/local/include/boost/bimap/detail/non_unique_views_helper.hpp \
+  /usr/local/include/boost/bimap/views/multiset_view.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/multiset_adaptor.hpp \
+  /usr/local/include/CGAL/Timer.h /usr/local/include/CGAL/Timer_impl.h \
+  /usr/local/include/boost/format.hpp \
+  /usr/local/include/boost/format/detail/compat_workarounds.hpp \
+  /usr/local/include/boost/format/detail/config_macros.hpp \
+  /usr/local/include/boost/format/detail/workarounds_gcc-2_95.hpp \
+  /usr/local/include/boost/format/detail/workarounds_stlport.hpp \
+  /usr/local/include/boost/format/format_fwd.hpp \
+  /usr/local/include/boost/format/internals_fwd.hpp \
+  /usr/local/include/boost/format/internals.hpp \
+  /usr/local/include/boost/format/alt_sstream.hpp \
+  /usr/local/include/boost/shared_ptr.hpp \
+  /usr/local/include/boost/format/alt_sstream_impl.hpp \
+  /usr/local/include/boost/format/format_class.hpp \
+  /usr/local/include/boost/format/exceptions.hpp \
+  /usr/local/include/boost/format/format_implementation.hpp \
+  /usr/local/include/boost/format/group.hpp \
+  /usr/local/include/boost/format/feed_args.hpp \
+  /usr/local/include/boost/format/detail/msvc_disambiguater.hpp \
+  /usr/local/include/boost/format/parsing.hpp \
+  /usr/local/include/boost/format/free_funcs.hpp \
+  /usr/local/include/boost/format/detail/unset_macros.hpp \
+  /usr/local/include/CGAL/Surface_mesher/Verbose_flag.h \
+  /usr/local/include/CGAL/Surface_mesher/Types_generators.h \
+  /usr/local/include/CGAL/Surface_mesher/Profile_counter.h \
+  /usr/local/include/CGAL/Surface_mesher/Profile_timer.h \
+  /usr/local/include/CGAL/Profile_timer.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher_manifold.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher_regular_edges.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher_edges_level.h \
+  /usr/local/include/CGAL/Mesh_2/Output_stream.h \
+  /usr/local/include/CGAL/Meshes/Simple_map_container.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher_visitor.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher_edges_level_visitor.h \
+  /usr/local/include/CGAL/Surface_mesh_traits_generator_3.h \
+  /usr/local/include/CGAL/Surface_mesher/Sphere_oracle_3.h \
+  /usr/local/include/CGAL/Surface_mesher/Null_oracle_visitor.h \
+  /usr/local/include/CGAL/point_generators_3.h \
+  /usr/local/include/CGAL/generators.h \
+  /usr/local/include/CGAL/point_generators_2.h \
+  /usr/local/include/CGAL/Generator/internal/Generic_random_point_generator.h \
+  /usr/local/include/CGAL/boost/graph/property_maps.h \
+  /usr/local/include/CGAL/Surface_mesh_complex_2_in_triangulation_3.h \
+  /usr/local/include/CGAL/Complex_2_in_triangulation_3.h \
+  /usr/local/include/CGAL/Union_find.h \
+  /usr/local/include/CGAL/Surface_mesh_default_criteria_3.h \
+  /usr/local/include/CGAL/Surface_mesher/Standard_criteria.h \
+  /usr/local/include/CGAL/Implicit_surface_3.h \
+  /usr/local/include/CGAL/Surface_mesher/Implicit_surface_oracle_3.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/queue \
+  /usr/local/include/CGAL/IO/facets_in_complex_2_to_triangle_mesh.h \
+  /usr/local/include/CGAL/Poisson_reconstruction_function.h \
+  /usr/local/include/CGAL/IO/trace.h \
+  /usr/local/include/CGAL/Reconstruction_triangulation_3.h \
+  /usr/local/include/CGAL/Point_with_normal_3.h \
+  /usr/local/include/CGAL/license/Point_set_processing_3.h \
+  /usr/local/include/CGAL/Lightweight_vector_3.h \
+  /usr/local/include/CGAL/surface_reconstruction_points_assertions.h \
+  /usr/local/include/CGAL/Triangulation_cell_base_with_info_3.h \
+  /usr/local/include/CGAL/bounding_box.h \
+  /usr/local/include/CGAL/Eigen_solver_traits.h \
   /usr/local/include/eigen3/Eigen/Sparse \
   /usr/local/include/eigen3/Eigen/SparseCore \
   /usr/local/include/eigen3/Eigen/src/SparseCore/SparseUtil.h \
@@ -3017,7 +3307,91 @@ CMakeFiles/hw03.dir/src/main.cpp.o: \
   /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h \
   /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h \
   /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
+  /usr/local/include/CGAL/Eigen_matrix.h \
+  /usr/local/include/CGAL/Eigen_sparse_matrix.h \
   /usr/local/include/CGAL/Eigen_vector.h \
+  /usr/local/include/CGAL/poisson_refine_triangulation.h \
+  /usr/local/include/CGAL/Mesh_3/Poisson_refine_cells_3.h \
+  /usr/local/include/CGAL/Meshes/Double_map_container.h \
+  /usr/local/include/CGAL/Poisson_mesh_cell_criteria_3.h \
+  /usr/local/include/CGAL/Robust_weighted_circumcenter_filtered_traits_3.h \
+  /usr/local/include/CGAL/compute_average_spacing.h \
+  /usr/local/include/CGAL/Search_traits_3.h \
+  /usr/local/include/CGAL/license/Spatial_searching.h \
+  /usr/local/include/CGAL/Point_set_processing_3/internal/Neighbor_query.h \
+  /usr/local/include/CGAL/Search_traits_2.h \
+  /usr/local/include/CGAL/Fuzzy_sphere.h \
+  /usr/local/include/CGAL/Kd_tree_rectangle.h \
+  /usr/local/include/CGAL/Search_traits_adapter.h \
+  /usr/local/include/CGAL/Euclidean_distance.h \
+  /usr/local/include/CGAL/Spatial_searching/internal/Get_dimension_tag.h \
+  /usr/local/include/CGAL/Orthogonal_k_neighbor_search.h \
+  /usr/local/include/CGAL/Spatial_searching/internal/K_neighbor_search.h \
+  /usr/local/include/CGAL/Kd_tree_node.h \
+  /usr/local/include/CGAL/Splitters.h \
+  /usr/local/include/CGAL/Point_container.h \
+  /usr/local/include/CGAL/Plane_separator.h \
+  /usr/local/include/CGAL/Spatial_searching/internal/Search_helpers.h \
+  /usr/local/include/CGAL/Kd_tree.h \
+  /usr/local/include/boost/container/deque.hpp \
+  /usr/local/include/CGAL/mutex.h \
+  /usr/local/include/CGAL/Spatial_searching/internal/bounded_priority_queue.h \
+  /usr/local/include/CGAL/point_set_processing_assertions.h \
+  /usr/local/include/boost/iterator/function_output_iterator.hpp \
+  /usr/local/include/CGAL/Point_set_processing_3/internal/Callback_wrapper.h \
+  /usr/local/include/CGAL/for_each.h \
+  /usr/local/include/boost/iterator/indirect_iterator.hpp \
+  /usr/local/include/boost/pointee.hpp \
+  /usr/local/include/boost/detail/is_incrementable.hpp \
+  /usr/local/include/boost/type_traits/detail/bool_trait_undef.hpp \
+  /usr/local/include/boost/indirect_reference.hpp \
+  /Users/asdfasd/Downloads/hw03/include/json.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/forward_list \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/valarray \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/clocale \
+  /Users/asdfasd/Downloads/hw03/src/geomtools.h \
+  /Users/asdfasd/Downloads/hw03/src/parse_obj.h \
+  /usr/local/include/CGAL/Surface_mesh.h \
+  /usr/local/include/CGAL/license/Surface_mesh.h \
+  /usr/local/include/CGAL/Surface_mesh/Surface_mesh_fwd.h \
+  /usr/local/include/CGAL/Surface_mesh/Surface_mesh.h \
+  /usr/local/include/CGAL/Surface_mesh/IO.h \
+  /usr/local/include/CGAL/Surface_mesh/IO/3MF.h \
+  /usr/local/include/CGAL/IO/3MF.h \
+  /usr/local/include/CGAL/IO/3MF/read_3mf.h \
+  /usr/local/include/CGAL/IO/3MF/write_3mf.h \
+  /usr/local/include/CGAL/Surface_mesh/IO/OFF.h \
+  /usr/local/include/CGAL/Surface_mesh/IO/PLY.h \
+  /usr/local/include/CGAL/IO/PLY.h \
+  /usr/local/include/CGAL/IO/PLY/PLY_reader.h \
+  /usr/local/include/CGAL/IO/PLY/PLY_writer.h \
+  /usr/local/include/CGAL/boost/graph/io.h \
+  /usr/local/include/CGAL/boost/graph/IO/3MF.h \
+  /usr/local/include/CGAL/boost/graph/IO/GOCAD.h \
+  /usr/local/include/CGAL/IO/GOCAD.h \
+  /usr/local/include/CGAL/boost/graph/IO/INP.h \
+  /usr/local/include/CGAL/boost/graph/IO/OBJ.h \
+  /usr/local/include/CGAL/IO/OBJ.h \
+  /usr/local/include/CGAL/IO/OBJ/File_writer_wavefront.h \
+  /usr/local/include/CGAL/boost/graph/IO/PLY.h \
+  /usr/local/include/CGAL/boost/graph/IO/STL.h \
+  /usr/local/include/CGAL/IO/STL.h \
+  /usr/local/include/CGAL/IO/STL/STL_reader.h \
+  /usr/local/include/CGAL/boost/graph/IO/VTK.h \
+  /usr/local/include/CGAL/IO/VTK.h \
+  /usr/local/include/CGAL/IO/VTK/VTK_reader.h \
+  /usr/local/include/CGAL/IO/VTK/VTK_writer.h \
+  /usr/local/include/CGAL/boost/graph/IO/WRL.h \
+  /usr/local/include/CGAL/boost/graph/IO/polygon_mesh_io.h \
+  /usr/local/include/CGAL/Surface_mesh/Properties.h \
+  /usr/local/include/CGAL/boost/graph/copy_face_graph.h \
+  /usr/local/include/CGAL/boost/graph/graph_traits_Surface_mesh.h \
+  /usr/local/include/CGAL/boost/graph/properties_Surface_mesh.h \
+  /usr/local/include/CGAL/boost/graph/properties_Surface_mesh_time_stamp.h \
+  /usr/local/include/CGAL/boost/graph/properties_Surface_mesh_features.h \
+  /usr/local/include/CGAL/optimal_bounding_box.h \
+  /usr/local/include/CGAL/license/Optimal_bounding_box.h \
+  /usr/local/include/CGAL/Optimal_bounding_box/Oriented_bounding_box_traits_3.h \
   /usr/local/include/CGAL/Optimal_bounding_box/oriented_bounding_box.h \
   /usr/local/include/CGAL/Optimal_bounding_box/internal/evolution.h \
   /usr/local/include/CGAL/Optimal_bounding_box/internal/fitness_function.h \
@@ -3048,7 +3422,6 @@ CMakeFiles/hw03.dir/src/main.cpp.o: \
   /usr/local/include/CGAL/ch_bykat.h \
   /usr/local/include/CGAL/Convex_hull_2/ch_bykat_impl.h \
   /usr/local/include/CGAL/Convex_hull_traits_3.h \
-  /usr/local/include/CGAL/Polyhedron_3_fwd.h \
   /usr/local/include/CGAL/Projection_traits_xy_3.h \
   /usr/local/include/CGAL/Kernel_23/internal/Projection_traits_3.h \
   /usr/local/include/CGAL/Projection_traits_xz_3.h \
@@ -3060,32 +3433,18 @@ CMakeFiles/hw03.dir/src/main.cpp.o: \
   /usr/local/include/CGAL/boost/graph/internal/graph_traits_2D_TDS_helper.h \
   /usr/local/include/boost/iterator_adaptors.hpp \
   /usr/local/include/CGAL/boost/graph/properties_Triangulation_data_structure_2.h \
-  /usr/local/include/CGAL/boost/graph/internal/Has_member_id.h \
   /usr/local/include/CGAL/convexity_check_3.h \
-  /usr/local/include/CGAL/boost/graph/property_maps.h \
   /usr/local/include/CGAL/Polygon_mesh_processing/triangulate_faces.h \
   /usr/local/include/CGAL/license/Polygon_mesh_processing/meshing_hole_filling.h \
   /usr/local/include/CGAL/Triangulation_vertex_base_with_info_2.h \
   /usr/local/include/CGAL/Projection_traits_3.h \
   /usr/local/include/CGAL/Kernel_23/internal/Filtered_projection_traits_3.h \
   /usr/local/include/CGAL/Kernel_23/internal/Projection_traits_base_3.h \
-  /usr/local/include/CGAL/Profile_timer.h \
-  /usr/local/include/CGAL/Timer.h /usr/local/include/CGAL/Timer_impl.h \
   /usr/local/include/CGAL/Filtered_predicate_with_state.h \
   /usr/local/include/CGAL/Polygon_mesh_processing/triangulate_hole.h \
-  /usr/local/include/CGAL/bounding_box.h \
   /usr/local/include/CGAL/Polygon_mesh_processing/internal/Hole_filling/Triangulate_hole_polygon_mesh.h \
   /usr/local/include/CGAL/Polygon_mesh_processing/internal/Hole_filling/Triangulate_hole_polyline.h \
-  /usr/local/include/CGAL/Delaunay_triangulation_3.h \
-  /usr/local/include/CGAL/Delaunay_triangulation_cell_base_3.h \
-  /usr/local/include/CGAL/Location_policy.h \
-  /usr/local/include/CGAL/Complexity_tags.h \
-  /usr/local/include/CGAL/Triangulation_3/internal/Delaunay_triangulation_hierarchy_3.h \
-  /usr/local/include/CGAL/Triangulation_hierarchy_3.h \
-  /usr/local/include/CGAL/STL_Extension/internal/Has_nested_type_Bare_point.h \
-  /usr/local/include/CGAL/Triangulation_hierarchy_vertex_base_3.h \
   /usr/local/include/CGAL/Triangulation_vertex_base_with_info_3.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/queue \
   /usr/local/include/CGAL/Polygon_mesh_processing/refine.h \
   /usr/local/include/CGAL/Polygon_mesh_processing/internal/named_params_helper.h \
   /usr/local/include/CGAL/license/Polygon_mesh_processing/core.h \
@@ -3094,7 +3453,6 @@ CMakeFiles/hw03.dir/src/main.cpp.o: \
   /usr/local/include/CGAL/Polygon_mesh_processing/internal/fair_impl.h \
   /usr/local/include/CGAL/Weights/cotangent_weights.h \
   /usr/local/include/CGAL/Weights/internal/utils.h \
-  /usr/local/include/CGAL/Eigen_solver_traits.h \
   /usr/local/include/CGAL/Polygon_mesh_processing/compute_normal.h \
   /usr/local/include/CGAL/license/Polygon_mesh_processing/Compute_normal.h \
   /usr/local/include/CGAL/Polygon_mesh_processing/measure.h \
@@ -3105,7 +3463,6 @@ CMakeFiles/hw03.dir/src/main.cpp.o: \
   /usr/local/include/boost/dynamic_bitset_fwd.hpp \
   /usr/local/include/boost/dynamic_bitset/detail/dynamic_bitset.hpp \
   /usr/local/include/boost/dynamic_bitset/detail/lowest_bit.hpp \
-  /usr/local/include/boost/functional/hash/hash.hpp \
   /usr/local/include/CGAL/Polygon_mesh_processing/IO/polygon_mesh_io.h \
   /usr/local/include/CGAL/license/Polygon_mesh_processing.h \
   /usr/local/include/CGAL/Polygon_mesh_processing/orient_polygon_soup.h \

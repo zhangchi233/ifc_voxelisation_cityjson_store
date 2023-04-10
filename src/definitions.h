@@ -11,6 +11,9 @@
 #include <CGAL/linear_least_squares_fitting_3.h>
 #include <CGAL/Triangulation_vertex_base_with_id_2.h>
 #include <CGAL/Triangulation_face_base_with_info_2.h>
+#include <CGAL/Polyhedron_3.h>
+#include <CGAL/poisson_surface_reconstruction.h>
+
 #include "json.hpp" //-- it is in the /include/ folder
 using json = nlohmann::json;
 struct Face {
@@ -53,6 +56,11 @@ typedef CGAL::Constrained_triangulation_face_base_2<K, Fbb>       Fb;
 typedef CGAL::Triangulation_data_structure_2<Vb,Fb>               TDS;
 typedef CGAL::Exact_intersections_tag                             Itag;
 typedef CGAL::Constrained_Delaunay_triangulation_2<K, TDS, Itag>  CT;
+typedef std::pair<Point3, Vector3> Pwn;
+typedef CGAL::Polyhedron_3<K> Polyhedron;
+using Facet_handle = Polyhedron::Facet_handle;
+using Halfedge_handle = Polyhedron::Halfedge_handle;
+using Facet_indices = std::vector<std::size_t>;
 Point3 operator+(const Point3& p1, const Point3& p2);
 Point3 operator/(const Point3& p1, const double& scale);
 //Point3 operator-(const Point3& p1, const Point3& p2);

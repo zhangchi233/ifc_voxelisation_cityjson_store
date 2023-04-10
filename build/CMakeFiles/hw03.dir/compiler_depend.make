@@ -2837,6 +2837,549 @@ CMakeFiles/hw03.dir/src/definitions.cpp.o: /Users/asdfasd/Downloads/hw03/src/def
   /usr/local/include/CGAL/linear_least_squares_fitting_spheres_3.h \
   /usr/local/include/CGAL/Triangulation_vertex_base_with_id_2.h \
   /usr/local/include/CGAL/Triangulation_face_base_with_info_2.h \
+  /usr/local/include/CGAL/Polyhedron_3.h \
+  /usr/local/include/CGAL/license/Polyhedron.h \
+  /usr/local/include/CGAL/Polyhedron_3_fwd.h \
+  /usr/local/include/CGAL/HalfedgeDS_iterator.h \
+  /usr/local/include/CGAL/Iterator_project.h \
+  /usr/local/include/CGAL/N_step_adaptor_derived.h \
+  /usr/local/include/CGAL/Polyhedron_items_3.h \
+  /usr/local/include/CGAL/HalfedgeDS_vertex_base.h \
+  /usr/local/include/CGAL/HalfedgeDS_halfedge_base.h \
+  /usr/local/include/CGAL/HalfedgeDS_face_base.h \
+  /usr/local/include/CGAL/HalfedgeDS_default.h \
+  /usr/local/include/CGAL/HalfedgeDS_items_2.h \
+  /usr/local/include/CGAL/HalfedgeDS_list.h \
+  /usr/local/include/CGAL/In_place_list.h \
+  /usr/local/include/CGAL/HalfedgeDS_items_decorator.h \
+  /usr/local/include/CGAL/boost/graph/graph_traits_HalfedgeDS_default.h \
+  /usr/local/include/CGAL/boost/graph/graph_traits_HalfedgeDS.h \
+  /usr/local/include/CGAL/Named_function_parameters.h \
+  /usr/local/include/CGAL/STL_Extension/internal/parameters_interface.h \
+  /usr/local/include/boost/graph/graph_traits.hpp \
+  /usr/local/include/boost/pending/property.hpp \
+  /usr/local/include/boost/pending/detail/property.hpp \
+  /usr/local/include/boost/graph/properties.hpp \
+  /usr/local/include/boost/graph/property_maps/constant_property_map.hpp \
+  /usr/local/include/boost/graph/property_maps/null_property_map.hpp \
+  /usr/local/include/CGAL/boost/graph/iterator.h \
+  /usr/local/include/CGAL/boost/graph/internal/helpers.h \
+  /usr/local/include/CGAL/boost/graph/halfedge_graph_traits.h \
+  /usr/local/include/CGAL/boost/graph/properties.h \
+  /usr/local/include/CGAL/Dynamic_property_map.h \
+  /usr/local/include/CGAL/HalfedgeDS_decorator.h \
+  /usr/local/include/CGAL/HalfedgeDS_const_decorator.h \
+  /usr/local/include/CGAL/IO/Verbose_ostream.h \
+  /usr/local/include/CGAL/Modifier_base.h \
+  /usr/local/include/CGAL/Polyhedron_traits_3.h \
+  /usr/local/include/CGAL/boost/graph/graph_traits_Polyhedron_3.h \
+  /usr/local/include/CGAL/boost/graph/backward_compatibility_functions.h \
+  /usr/local/include/CGAL/boost/graph/properties_Polyhedron_3.h \
+  /usr/local/include/CGAL/boost/graph/internal/Has_member_id.h \
+  /usr/local/include/CGAL/boost/graph/properties_Polyhedron_3_time_stamp.h \
+  /usr/local/include/CGAL/boost/graph/properties_Polyhedron_3_features.h \
+  /usr/local/include/CGAL/IO/Polyhedron_iostream.h \
+  /usr/local/include/CGAL/IO/Polyhedron_OFF_iostream.h \
+  /usr/local/include/CGAL/IO/print_OFF.h \
+  /usr/local/include/CGAL/IO/OFF.h \
+  /usr/local/include/CGAL/IO/OFF/Scanner_OFF.h \
+  /usr/local/include/CGAL/IO/OFF/File_scanner_OFF.h \
+  /usr/local/include/CGAL/IO/binary_file_io.h \
+  /usr/local/include/CGAL/IO/OFF/File_header_OFF.h \
+  /usr/local/include/CGAL/IO/OFF/File_header_extended_OFF.h \
+  /usr/local/include/CGAL/IO/OFF/File_header_extended_OFF_impl.h \
+  /usr/local/include/CGAL/IO/OFF/File_header_OFF_impl.h \
+  /usr/local/include/CGAL/IO/OFF/File_writer_OFF.h \
+  /usr/local/include/CGAL/IO/OFF/generic_copy_OFF.h \
+  /usr/local/include/CGAL/IO/helpers.h \
+  /usr/local/include/CGAL/Container_helper.h \
+  /usr/local/include/CGAL/IO/Generic_writer.h \
+  /usr/local/include/CGAL/boost/graph/named_params_helper.h \
+  /usr/local/include/CGAL/boost/graph/internal/initialized_index_maps_helpers.h \
+  /usr/local/include/CGAL/boost/graph/IO/Generic_facegraph_printer.h \
+  /usr/local/include/boost/container/flat_map.hpp \
+  /usr/local/include/boost/container/detail/container_or_allocator_rebind.hpp \
+  /usr/local/include/boost/container/detail/container_rebind.hpp \
+  /usr/local/include/CGAL/IO/scan_OFF.h \
+  /usr/local/include/CGAL/IO/Polyhedron_scan_OFF.h \
+  /usr/local/include/CGAL/Polyhedron_incremental_builder_3.h \
+  /usr/local/include/CGAL/Random_access_adaptor.h \
+  /usr/local/include/CGAL/boost/graph/IO/OFF.h \
+  /usr/local/include/CGAL/boost/graph/IO/Generic_facegraph_builder.h \
+  /usr/local/include/CGAL/boost/graph/Euler_operations.h \
+  /usr/local/include/CGAL/boost/graph/helpers.h \
+  /usr/local/include/CGAL/boost/graph/internal/Has_member_clear.h \
+  /usr/local/include/CGAL/boost/graph/generators.h \
+  /usr/local/include/CGAL/Random.h \
+  /usr/local/include/CGAL/Random_impl.h \
+  /usr/local/include/boost/container/small_vector.hpp \
+  /usr/local/include/CGAL/Has_conversion.h \
+  /usr/local/include/CGAL/IO/Polyhedron_VRML_1_ostream.h \
+  /usr/local/include/CGAL/IO/Polyhedron_inventor_ostream.h \
+  /usr/local/include/CGAL/IO/OI.h \
+  /usr/local/include/CGAL/IO/OI/File_writer_inventor.h \
+  /usr/local/include/CGAL/IO/OI/Inventor_ostream.h \
+  /usr/local/include/CGAL/IO/Polyhedron_VRML_2_ostream.h \
+  /usr/local/include/CGAL/IO/VRML.h \
+  /usr/local/include/CGAL/IO/VRML/File_writer_VRML_2.h \
+  /usr/local/include/CGAL/IO/VRML/VRML_2_ostream.h \
+  /usr/local/include/CGAL/IO/VRML/VRML_1_ostream.h \
+  /usr/local/include/CGAL/poisson_surface_reconstruction.h \
+  /usr/local/include/CGAL/license/Poisson_surface_reconstruction_3.h \
+  /usr/local/include/CGAL/Surface_mesh_default_triangulation_3.h \
+  /usr/local/include/CGAL/license/Surface_mesher.h \
+  /usr/local/include/CGAL/Robust_circumcenter_traits_3.h \
+  /usr/local/include/CGAL/Robust_construction.h \
+  /usr/local/include/CGAL/Exact_predicates_exact_constructions_kernel.h \
+  /usr/local/include/CGAL/Lazy_kernel.h \
+  /usr/local/include/CGAL/Static_filtered_predicate.h \
+  /usr/local/include/CGAL/Epic_converter.h \
+  /usr/local/include/CGAL/Filtered_kernel/Cartesian_coordinate_iterator_2.h \
+  /usr/local/include/CGAL/Filtered_kernel/Cartesian_coordinate_iterator_3.h \
+  /usr/local/include/CGAL/Delaunay_triangulation_3.h \
+  /usr/local/include/CGAL/license/Triangulation_3.h \
+  /usr/local/include/CGAL/Delaunay_triangulation_cell_base_3.h \
+  /usr/local/include/CGAL/Triangulation_cell_base_3.h \
+  /usr/local/include/CGAL/Triangulation_ds_cell_base_3.h \
+  /usr/local/include/CGAL/license/TDS_3.h \
+  /usr/local/include/CGAL/TDS_3/internal/Dummy_tds_3.h \
+  /usr/local/include/CGAL/Triangulation_3.h \
+  /usr/local/include/CGAL/Triangulation_utils_3.h \
+  /usr/local/include/CGAL/Triangulation_data_structure_3.h \
+  /usr/local/include/boost/unordered_set.hpp \
+  /usr/local/include/boost/unordered/unordered_set.hpp \
+  /usr/local/include/boost/move/move.hpp \
+  /usr/local/include/boost/move/algorithm.hpp \
+  /usr/local/include/boost/unordered/detail/set.hpp \
+  /usr/local/include/boost/unordered/detail/implementation.hpp \
+  /usr/local/include/boost/core/allocator_traits.hpp \
+  /usr/local/include/boost/core/allocator_access.hpp \
+  /usr/local/include/boost/core/pointer_traits.hpp \
+  /usr/local/include/boost/swap.hpp \
+  /usr/local/include/boost/unordered/detail/fca.hpp \
+  /usr/local/include/boost/unordered/detail/prime_fmod.hpp \
+  /usr/local/include/boost/preprocessor/seq/for_each.hpp \
+  /usr/local/include/boost/core/empty_value.hpp \
+  /usr/local/include/boost/unordered/detail/type_traits.hpp \
+  /usr/local/include/boost/unordered/detail/fwd.hpp \
+  /usr/local/include/boost/unordered/unordered_set_fwd.hpp \
+  /usr/local/include/CGAL/STL_Extension/internal/Has_member_visited.h \
+  /usr/local/include/CGAL/Concurrent_compact_container.h \
+  /usr/local/include/CGAL/Small_unordered_map.h \
+  /usr/local/include/CGAL/Triangulation_ds_vertex_base_3.h \
+  /usr/local/include/CGAL/Triangulation_simplex_3.h \
+  /usr/local/include/CGAL/TDS_3/internal/Triangulation_ds_iterators_3.h \
+  /usr/local/include/CGAL/TDS_3/internal/Triangulation_ds_circulators_3.h \
+  /usr/local/include/CGAL/Triangulation_vertex_base_3.h \
+  /usr/local/include/CGAL/Spatial_sort_traits_adapter_3.h \
+  /usr/local/include/CGAL/Triangulation_segment_traverser_3.h \
+  /usr/local/include/CGAL/Triangulation_3/internal/Triangulation_segment_traverser_3_impl.h \
+  /usr/local/include/CGAL/Spatial_lock_grid_3.h \
+  /usr/local/include/boost/property_map/function_property_map.hpp \
+  /usr/local/include/boost/unordered_map.hpp \
+  /usr/local/include/boost/unordered/unordered_map.hpp \
+  /usr/local/include/boost/unordered/detail/map.hpp \
+  /usr/local/include/boost/unordered/unordered_map_fwd.hpp \
+  /usr/local/include/CGAL/Location_policy.h \
+  /usr/local/include/CGAL/Complexity_tags.h \
+  /usr/local/include/CGAL/Triangulation_3/internal/Delaunay_triangulation_hierarchy_3.h \
+  /usr/local/include/CGAL/Triangulation_hierarchy_3.h \
+  /usr/local/include/CGAL/STL_Extension/internal/Has_nested_type_Bare_point.h \
+  /usr/local/include/CGAL/Triangulation_hierarchy_vertex_base_3.h \
+  /usr/local/include/CGAL/Surface_mesh_vertex_base_3.h \
+  /usr/local/include/CGAL/Complex_2_in_triangulation_vertex_base_3.h \
+  /usr/local/include/CGAL/Surface_mesh_cell_base_3.h \
+  /usr/local/include/CGAL/Complex_2_in_triangulation_cell_base_3.h \
+  /usr/local/include/CGAL/Delaunay_triangulation_cell_base_with_circumcenter_3.h \
+  /usr/local/include/CGAL/make_surface_mesh.h \
+  /usr/local/include/CGAL/Surface_mesher_generator.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher.h \
+  /usr/local/include/CGAL/Mesher_level.h \
+  /usr/local/include/CGAL/Mesher_level_visitors.h \
+  /usr/local/include/CGAL/Mesher_level_default_implementations.h \
+  /usr/local/include/CGAL/Meshes/Triangulation_mesher_level_traits_3.h \
+  /usr/local/include/CGAL/Double_map.h \
+  /usr/local/include/CGAL/boost/bimap.hpp \
+  /usr/local/include/boost/bimap.hpp \
+  /usr/local/include/boost/bimap/bimap.hpp \
+  /usr/local/include/boost/bimap/detail/user_interface_config.hpp \
+  /usr/local/include/boost/serialization/nvp.hpp \
+  /usr/local/include/boost/serialization/level.hpp \
+  /usr/local/include/boost/serialization/level_enum.hpp \
+  /usr/local/include/boost/serialization/tracking.hpp \
+  /usr/local/include/boost/mpl/greater.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/greater.hpp \
+  /usr/local/include/boost/serialization/tracking_enum.hpp \
+  /usr/local/include/boost/serialization/type_info_implementation.hpp \
+  /usr/local/include/boost/serialization/traits.hpp \
+  /usr/local/include/boost/serialization/split_free.hpp \
+  /usr/local/include/boost/serialization/serialization.hpp \
+  /usr/local/include/boost/serialization/strong_typedef.hpp \
+  /usr/local/include/boost/serialization/access.hpp \
+  /usr/local/include/boost/serialization/wrapper.hpp \
+  /usr/local/include/boost/serialization/base_object.hpp \
+  /usr/local/include/boost/serialization/force_include.hpp \
+  /usr/local/include/boost/serialization/void_cast_fwd.hpp \
+  /usr/local/include/boost/bimap/detail/bimap_core.hpp \
+  /usr/local/include/boost/multi_index_container.hpp \
+  /usr/local/include/boost/mpl/contains.hpp \
+  /usr/local/include/boost/mpl/contains_fwd.hpp \
+  /usr/local/include/boost/mpl/aux_/contains_impl.hpp \
+  /usr/local/include/boost/mpl/find.hpp \
+  /usr/local/include/boost/multi_index_container_fwd.hpp \
+  /usr/local/include/boost/multi_index/identity.hpp \
+  /usr/local/include/boost/multi_index/identity_fwd.hpp \
+  /usr/local/include/boost/multi_index/indexed_by.hpp \
+  /usr/local/include/boost/preprocessor/control/expr_if.hpp \
+  /usr/local/include/boost/multi_index/ordered_index_fwd.hpp \
+  /usr/local/include/boost/multi_index/detail/ord_index_args.hpp \
+  /usr/local/include/boost/multi_index/tag.hpp \
+  /usr/local/include/boost/multi_index/detail/no_duplicate_tags.hpp \
+  /usr/local/include/boost/mpl/set/set0.hpp \
+  /usr/local/include/boost/mpl/set/aux_/at_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/has_key_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/tag.hpp \
+  /usr/local/include/boost/mpl/aux_/overload_names.hpp \
+  /usr/local/include/boost/mpl/aux_/ptr_to_ref.hpp \
+  /usr/local/include/boost/mpl/aux_/config/operators.hpp \
+  /usr/local/include/boost/mpl/set/aux_/clear_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/set0.hpp \
+  /usr/local/include/boost/mpl/set/aux_/size_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/empty_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/insert_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/item.hpp \
+  /usr/local/include/boost/mpl/base.hpp \
+  /usr/local/include/boost/mpl/set/aux_/insert_range_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/erase_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/erase_key_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/key_type_impl.hpp \
+  /usr/local/include/boost/mpl/key_type_fwd.hpp \
+  /usr/local/include/boost/mpl/set/aux_/value_type_impl.hpp \
+  /usr/local/include/boost/mpl/value_type_fwd.hpp \
+  /usr/local/include/boost/mpl/set/aux_/begin_end_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/iterator.hpp \
+  /usr/local/include/boost/preprocessor/facilities/intercept.hpp \
+  /usr/local/include/boost/preprocessor/facilities/limits/intercept_256.hpp \
+  /usr/local/include/boost/multi_index/detail/ord_index_impl_fwd.hpp \
+  /usr/local/include/boost/multi_index/detail/access_specifier.hpp \
+  /usr/local/include/boost/multi_index/detail/adl_swap.hpp \
+  /usr/local/include/boost/multi_index/detail/allocator_traits.hpp \
+  /usr/local/include/boost/multi_index/detail/base_type.hpp \
+  /usr/local/include/boost/multi_index/detail/index_base.hpp \
+  /usr/local/include/boost/multi_index/detail/copy_map.hpp \
+  /usr/local/include/boost/multi_index/detail/auto_space.hpp \
+  /usr/local/include/boost/multi_index/detail/raw_ptr.hpp \
+  /usr/local/include/boost/multi_index/detail/do_not_copy_elements_tag.hpp \
+  /usr/local/include/boost/multi_index/detail/index_access_sequence.hpp \
+  /usr/local/include/boost/multi_index/detail/node_handle.hpp \
+  /usr/local/include/boost/multi_index/detail/define_if_constexpr_macro.hpp \
+  /usr/local/include/boost/multi_index/detail/ignore_wstrict_aliasing.hpp \
+  /usr/local/include/boost/multi_index/detail/restore_wstrict_aliasing.hpp \
+  /usr/local/include/boost/multi_index/detail/undef_if_constexpr_macro.hpp \
+  /usr/local/include/boost/multi_index/detail/node_type.hpp \
+  /usr/local/include/boost/mpl/reverse_iter_fold.hpp \
+  /usr/local/include/boost/mpl/aux_/reverse_iter_fold_impl.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/reverse_iter_fold_impl.hpp \
+  /usr/local/include/boost/multi_index/detail/header_holder.hpp \
+  /usr/local/include/boost/multi_index/detail/index_node_base.hpp \
+  /usr/local/include/boost/archive/archive_exception.hpp \
+  /usr/local/include/boost/archive/detail/decl.hpp \
+  /usr/local/include/boost/archive/detail/abi_prefix.hpp \
+  /usr/local/include/boost/config/abi_prefix.hpp \
+  /usr/local/include/boost/archive/detail/abi_suffix.hpp \
+  /usr/local/include/boost/config/abi_suffix.hpp \
+  /usr/local/include/boost/multi_index/detail/is_index_list.hpp \
+  /usr/local/include/boost/multi_index/detail/vartempl_support.hpp \
+  /usr/local/include/boost/multi_index/detail/index_loader.hpp \
+  /usr/local/include/boost/multi_index/detail/index_saver.hpp \
+  /usr/local/include/boost/multi_index/detail/index_matcher.hpp \
+  /usr/local/include/boost/multi_index/detail/converter.hpp \
+  /usr/local/include/boost/multi_index/detail/has_tag.hpp \
+  /usr/local/include/boost/multi_index/detail/invalidate_iterators.hpp \
+  /usr/local/include/boost/multi_index/detail/safe_mode.hpp \
+  /usr/local/include/boost/multi_index/detail/scope_guard.hpp \
+  /usr/local/include/boost/multi_index/detail/archive_constructed.hpp \
+  /usr/local/include/boost/multi_index/detail/serialization_version.hpp \
+  /usr/local/include/boost/serialization/split_member.hpp \
+  /usr/local/include/boost/serialization/version.hpp \
+  /usr/local/include/boost/mpl/comparison.hpp \
+  /usr/local/include/boost/mpl/not_equal_to.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/not_equal_to.hpp \
+  /usr/local/include/boost/mpl/less_equal.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/less_equal.hpp \
+  /usr/local/include/boost/mpl/greater_equal.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/greater_equal.hpp \
+  /usr/local/include/boost/serialization/collection_size_type.hpp \
+  /usr/local/include/boost/serialization/is_bitwise_serializable.hpp \
+  /usr/local/include/boost/multi_index/member.hpp \
+  /usr/local/include/boost/bimap/relation/mutant_relation.hpp \
+  /usr/local/include/boost/functional/hash/hash.hpp \
+  /usr/local/include/boost/bimap/tags/tagged.hpp \
+  /usr/local/include/boost/bimap/tags/support/default_tagged.hpp \
+  /usr/local/include/boost/bimap/tags/support/tag_of.hpp \
+  /usr/local/include/boost/bimap/detail/debug/static_error.hpp \
+  /usr/local/include/boost/bimap/tags/support/value_type_of.hpp \
+  /usr/local/include/boost/bimap/relation/member_at.hpp \
+  /usr/local/include/boost/bimap/relation/detail/mutant.hpp \
+  /usr/local/include/boost/bimap/relation/structured_pair.hpp \
+  /usr/local/include/boost/bimap/relation/pair_layout.hpp \
+  /usr/local/include/boost/bimap/relation/symmetrical_base.hpp \
+  /usr/local/include/boost/bimap/relation/support/get.hpp \
+  /usr/local/include/boost/bimap/relation/support/value_type_of.hpp \
+  /usr/local/include/boost/bimap/relation/detail/metadata_access_builder.hpp \
+  /usr/local/include/boost/bimap/relation/support/is_tag_of_member_at.hpp \
+  /usr/local/include/boost/bimap/relation/support/member_with_tag.hpp \
+  /usr/local/include/boost/bimap/relation/detail/access_builder.hpp \
+  /usr/local/include/boost/bimap/relation/support/data_extractor.hpp \
+  /usr/local/include/boost/bimap/detail/manage_bimap_key.hpp \
+  /usr/local/include/boost/bimap/detail/is_set_type_of.hpp \
+  /usr/local/include/boost/bimap/detail/concept_tags.hpp \
+  /usr/local/include/boost/bimap/set_of.hpp \
+  /usr/local/include/boost/bimap/detail/generate_index_binder.hpp \
+  /usr/local/include/boost/bimap/detail/generate_view_binder.hpp \
+  /usr/local/include/boost/bimap/detail/generate_relation_binder.hpp \
+  /usr/local/include/boost/multi_index/ordered_index.hpp \
+  /usr/local/include/boost/multi_index/detail/ord_index_impl.hpp \
+  /usr/local/include/boost/multi_index/detail/bidir_node_iterator.hpp \
+  /usr/local/include/boost/multi_index/detail/modify_key_adaptor.hpp \
+  /usr/local/include/boost/multi_index/detail/ord_index_node.hpp \
+  /usr/local/include/boost/multi_index/detail/uintptr_type.hpp \
+  /usr/local/include/boost/multi_index/detail/ord_index_ops.hpp \
+  /usr/local/include/boost/multi_index/detail/promotes_arg.hpp \
+  /usr/local/include/boost/multi_index/detail/is_transparent.hpp \
+  /usr/local/include/boost/multi_index/detail/unbounded.hpp \
+  /usr/local/include/boost/multi_index/detail/value_compare.hpp \
+  /usr/local/include/boost/bind/bind.hpp \
+  /usr/local/include/boost/bind/mem_fn.hpp \
+  /usr/local/include/boost/get_pointer.hpp \
+  /usr/local/include/boost/config/no_tr1/memory.hpp \
+  /usr/local/include/boost/bind/mem_fn_template.hpp \
+  /usr/local/include/boost/bind/mem_fn_cc.hpp \
+  /usr/local/include/boost/is_placeholder.hpp \
+  /usr/local/include/boost/bind/arg.hpp \
+  /usr/local/include/boost/bind/detail/result_traits.hpp \
+  /usr/local/include/boost/bind/std_placeholders.hpp \
+  /usr/local/include/boost/visit_each.hpp \
+  /usr/local/include/boost/core/is_same.hpp \
+  /usr/local/include/boost/bind/storage.hpp \
+  /usr/local/include/boost/bind/bind_cc.hpp \
+  /usr/local/include/boost/bind/bind_mf_cc.hpp \
+  /usr/local/include/boost/bind/bind_mf2_cc.hpp \
+  /usr/local/include/boost/bind/placeholders.hpp \
+  /usr/local/include/boost/multi_index/detail/duplicates_iterator.hpp \
+  /usr/local/include/boost/bimap/views/map_view.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/map_adaptor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/ordered_associative_container_adaptor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/associative_container_adaptor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/detail/identity_converters.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/container_adaptor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/detail/functor_bag.hpp \
+  /usr/local/include/boost/mpl/inherit_linearly.hpp \
+  /usr/local/include/boost/mpl/copy.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/detail/comparison_adaptor.hpp \
+  /usr/local/include/boost/bimap/detail/map_view_base.hpp \
+  /usr/local/include/boost/bimap/relation/support/get_pair_functor.hpp \
+  /usr/local/include/boost/bimap/relation/support/pair_by.hpp \
+  /usr/local/include/boost/bimap/relation/support/pair_type_by.hpp \
+  /usr/local/include/boost/bimap/relation/detail/to_mutable_relation_functor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/support/iterator_facade_converters.hpp \
+  /usr/local/include/boost/bimap/relation/support/opposite_tag.hpp \
+  /usr/local/include/boost/bimap/support/key_type_by.hpp \
+  /usr/local/include/boost/bimap/support/data_type_by.hpp \
+  /usr/local/include/boost/bimap/support/value_type_by.hpp \
+  /usr/local/include/boost/bimap/detail/modifier_adaptor.hpp \
+  /usr/local/include/boost/bimap/detail/map_view_iterator.hpp \
+  /usr/local/include/boost/bimap/relation/detail/static_access_builder.hpp \
+  /usr/local/include/boost/bimap/views/set_view.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/set_adaptor.hpp \
+  /usr/local/include/boost/bimap/detail/set_view_base.hpp \
+  /usr/local/include/boost/bimap/detail/set_view_iterator.hpp \
+  /usr/local/include/boost/bimap/detail/manage_additional_parameters.hpp \
+  /usr/local/include/boost/bimap/unconstrained_set_of.hpp \
+  /usr/local/include/boost/bimap/views/unconstrained_map_view.hpp \
+  /usr/local/include/boost/bimap/views/unconstrained_set_view.hpp \
+  /usr/local/include/boost/bimap/support/map_type_by.hpp \
+  /usr/local/include/boost/bimap/support/map_by.hpp \
+  /usr/local/include/boost/bimap/support/iterator_type_by.hpp \
+  /usr/local/include/boost/bimap/multiset_of.hpp \
+  /usr/local/include/boost/bimap/views/multimap_view.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/multimap_adaptor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/detail/non_unique_container_helper.hpp \
+  /usr/local/include/boost/bimap/detail/non_unique_views_helper.hpp \
+  /usr/local/include/boost/bimap/views/multiset_view.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/multiset_adaptor.hpp \
+  /usr/local/include/CGAL/Timer.h \
+  /usr/local/include/CGAL/Timer_impl.h \
+  /usr/local/include/boost/format.hpp \
+  /usr/local/include/boost/format/detail/compat_workarounds.hpp \
+  /usr/local/include/boost/format/detail/config_macros.hpp \
+  /usr/local/include/boost/format/detail/workarounds_gcc-2_95.hpp \
+  /usr/local/include/boost/format/detail/workarounds_stlport.hpp \
+  /usr/local/include/boost/format/format_fwd.hpp \
+  /usr/local/include/boost/format/internals_fwd.hpp \
+  /usr/local/include/boost/format/internals.hpp \
+  /usr/local/include/boost/format/alt_sstream.hpp \
+  /usr/local/include/boost/shared_ptr.hpp \
+  /usr/local/include/boost/format/alt_sstream_impl.hpp \
+  /usr/local/include/boost/format/format_class.hpp \
+  /usr/local/include/boost/format/exceptions.hpp \
+  /usr/local/include/boost/format/format_implementation.hpp \
+  /usr/local/include/boost/format/group.hpp \
+  /usr/local/include/boost/format/feed_args.hpp \
+  /usr/local/include/boost/format/detail/msvc_disambiguater.hpp \
+  /usr/local/include/boost/format/parsing.hpp \
+  /usr/local/include/boost/format/free_funcs.hpp \
+  /usr/local/include/boost/format/detail/unset_macros.hpp \
+  /usr/local/include/CGAL/Surface_mesher/Verbose_flag.h \
+  /usr/local/include/CGAL/Surface_mesher/Types_generators.h \
+  /usr/local/include/CGAL/Surface_mesher/Profile_counter.h \
+  /usr/local/include/CGAL/Surface_mesher/Profile_timer.h \
+  /usr/local/include/CGAL/Profile_timer.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher_manifold.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher_regular_edges.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher_edges_level.h \
+  /usr/local/include/CGAL/Mesh_2/Output_stream.h \
+  /usr/local/include/CGAL/Meshes/Simple_map_container.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher_visitor.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher_edges_level_visitor.h \
+  /usr/local/include/CGAL/Surface_mesh_traits_generator_3.h \
+  /usr/local/include/CGAL/Surface_mesher/Sphere_oracle_3.h \
+  /usr/local/include/CGAL/Surface_mesher/Null_oracle_visitor.h \
+  /usr/local/include/CGAL/point_generators_3.h \
+  /usr/local/include/CGAL/generators.h \
+  /usr/local/include/CGAL/point_generators_2.h \
+  /usr/local/include/CGAL/Generator/internal/Generic_random_point_generator.h \
+  /usr/local/include/CGAL/boost/graph/property_maps.h \
+  /usr/local/include/CGAL/Surface_mesh_complex_2_in_triangulation_3.h \
+  /usr/local/include/CGAL/Complex_2_in_triangulation_3.h \
+  /usr/local/include/CGAL/Union_find.h \
+  /usr/local/include/CGAL/Surface_mesh_default_criteria_3.h \
+  /usr/local/include/CGAL/Surface_mesher/Standard_criteria.h \
+  /usr/local/include/CGAL/Implicit_surface_3.h \
+  /usr/local/include/CGAL/Surface_mesher/Implicit_surface_oracle_3.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/queue \
+  /usr/local/include/CGAL/IO/facets_in_complex_2_to_triangle_mesh.h \
+  /usr/local/include/CGAL/Poisson_reconstruction_function.h \
+  /usr/local/include/CGAL/IO/trace.h \
+  /usr/local/include/CGAL/Reconstruction_triangulation_3.h \
+  /usr/local/include/CGAL/Point_with_normal_3.h \
+  /usr/local/include/CGAL/license/Point_set_processing_3.h \
+  /usr/local/include/CGAL/Lightweight_vector_3.h \
+  /usr/local/include/CGAL/surface_reconstruction_points_assertions.h \
+  /usr/local/include/CGAL/Triangulation_cell_base_with_info_3.h \
+  /usr/local/include/CGAL/bounding_box.h \
+  /usr/local/include/CGAL/Eigen_solver_traits.h \
+  /usr/local/include/eigen3/Eigen/Sparse \
+  /usr/local/include/eigen3/Eigen/SparseCore \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseUtil.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/BlockMethods.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseAssign.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/AmbiVector.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseMap.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/MappedSparseMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseVector.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseRef.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseBlock.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseDot.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseRedux.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseView.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseProduct.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/TriangularSolver.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h \
+  /usr/local/include/eigen3/Eigen/OrderingMethods \
+  /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h \
+  /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h \
+  /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h \
+  /usr/local/include/eigen3/Eigen/SparseCholesky \
+  /usr/local/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h \
+  /usr/local/include/eigen3/Eigen/SparseLU \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_gemm_kernel.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_Structs.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLUImpl.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_Memory.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_relax_snode.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_pivotL.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_dfs.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_kernel_bmod.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_bmod.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_column_dfs.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_column_bmod.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_pruneL.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_Utils.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU.h \
+  /usr/local/include/eigen3/Eigen/SparseQR \
+  /usr/local/include/eigen3/Eigen/src/SparseQR/SparseQR.h \
+  /usr/local/include/eigen3/Eigen/IterativeLinearSolvers \
+  /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h \
+  /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h \
+  /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h \
+  /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h \
+  /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h \
+  /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h \
+  /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h \
+  /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
+  /usr/local/include/CGAL/Eigen_matrix.h \
+  /usr/local/include/CGAL/Eigen_sparse_matrix.h \
+  /usr/local/include/CGAL/Eigen_vector.h \
+  /usr/local/include/CGAL/poisson_refine_triangulation.h \
+  /usr/local/include/CGAL/Mesh_3/Poisson_refine_cells_3.h \
+  /usr/local/include/CGAL/Meshes/Double_map_container.h \
+  /usr/local/include/CGAL/Poisson_mesh_cell_criteria_3.h \
+  /usr/local/include/CGAL/Robust_weighted_circumcenter_filtered_traits_3.h \
+  /usr/local/include/CGAL/compute_average_spacing.h \
+  /usr/local/include/CGAL/Search_traits_3.h \
+  /usr/local/include/CGAL/license/Spatial_searching.h \
+  /usr/local/include/CGAL/Point_set_processing_3/internal/Neighbor_query.h \
+  /usr/local/include/CGAL/Search_traits_2.h \
+  /usr/local/include/CGAL/Fuzzy_sphere.h \
+  /usr/local/include/CGAL/Kd_tree_rectangle.h \
+  /usr/local/include/CGAL/Search_traits_adapter.h \
+  /usr/local/include/CGAL/Euclidean_distance.h \
+  /usr/local/include/CGAL/Spatial_searching/internal/Get_dimension_tag.h \
+  /usr/local/include/CGAL/Orthogonal_k_neighbor_search.h \
+  /usr/local/include/CGAL/Spatial_searching/internal/K_neighbor_search.h \
+  /usr/local/include/CGAL/Kd_tree_node.h \
+  /usr/local/include/CGAL/Splitters.h \
+  /usr/local/include/CGAL/Point_container.h \
+  /usr/local/include/CGAL/Plane_separator.h \
+  /usr/local/include/CGAL/Spatial_searching/internal/Search_helpers.h \
+  /usr/local/include/CGAL/Kd_tree.h \
+  /usr/local/include/boost/container/deque.hpp \
+  /usr/local/include/CGAL/mutex.h \
+  /usr/local/include/CGAL/Spatial_searching/internal/bounded_priority_queue.h \
+  /usr/local/include/CGAL/point_set_processing_assertions.h \
+  /usr/local/include/boost/iterator/function_output_iterator.hpp \
+  /usr/local/include/CGAL/Point_set_processing_3/internal/Callback_wrapper.h \
+  /usr/local/include/CGAL/for_each.h \
+  /usr/local/include/boost/iterator/indirect_iterator.hpp \
+  /usr/local/include/boost/pointee.hpp \
+  /usr/local/include/boost/detail/is_incrementable.hpp \
+  /usr/local/include/boost/type_traits/detail/bool_trait_undef.hpp \
+  /usr/local/include/boost/indirect_reference.hpp \
   /Users/asdfasd/Downloads/hw03/include/json.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/forward_list \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/valarray \
@@ -5679,13 +6222,555 @@ CMakeFiles/hw03.dir/src/geomtools.cpp.o: /Users/asdfasd/Downloads/hw03/src/geomt
   /usr/local/include/CGAL/linear_least_squares_fitting_spheres_3.h \
   /usr/local/include/CGAL/Triangulation_vertex_base_with_id_2.h \
   /usr/local/include/CGAL/Triangulation_face_base_with_info_2.h \
+  /usr/local/include/CGAL/Polyhedron_3.h \
+  /usr/local/include/CGAL/license/Polyhedron.h \
+  /usr/local/include/CGAL/Polyhedron_3_fwd.h \
+  /usr/local/include/CGAL/HalfedgeDS_iterator.h \
+  /usr/local/include/CGAL/Iterator_project.h \
+  /usr/local/include/CGAL/N_step_adaptor_derived.h \
+  /usr/local/include/CGAL/Polyhedron_items_3.h \
+  /usr/local/include/CGAL/HalfedgeDS_vertex_base.h \
+  /usr/local/include/CGAL/HalfedgeDS_halfedge_base.h \
+  /usr/local/include/CGAL/HalfedgeDS_face_base.h \
+  /usr/local/include/CGAL/HalfedgeDS_default.h \
+  /usr/local/include/CGAL/HalfedgeDS_items_2.h \
+  /usr/local/include/CGAL/HalfedgeDS_list.h \
+  /usr/local/include/CGAL/In_place_list.h \
+  /usr/local/include/CGAL/HalfedgeDS_items_decorator.h \
+  /usr/local/include/CGAL/boost/graph/graph_traits_HalfedgeDS_default.h \
+  /usr/local/include/CGAL/boost/graph/graph_traits_HalfedgeDS.h \
+  /usr/local/include/CGAL/Named_function_parameters.h \
+  /usr/local/include/CGAL/STL_Extension/internal/parameters_interface.h \
+  /usr/local/include/boost/graph/graph_traits.hpp \
+  /usr/local/include/boost/pending/property.hpp \
+  /usr/local/include/boost/pending/detail/property.hpp \
+  /usr/local/include/boost/graph/properties.hpp \
+  /usr/local/include/boost/graph/property_maps/constant_property_map.hpp \
+  /usr/local/include/boost/graph/property_maps/null_property_map.hpp \
+  /usr/local/include/CGAL/boost/graph/iterator.h \
+  /usr/local/include/CGAL/boost/graph/internal/helpers.h \
+  /usr/local/include/CGAL/boost/graph/halfedge_graph_traits.h \
+  /usr/local/include/CGAL/boost/graph/properties.h \
+  /usr/local/include/CGAL/Dynamic_property_map.h \
+  /usr/local/include/CGAL/HalfedgeDS_decorator.h \
+  /usr/local/include/CGAL/HalfedgeDS_const_decorator.h \
+  /usr/local/include/CGAL/IO/Verbose_ostream.h \
+  /usr/local/include/CGAL/Modifier_base.h \
+  /usr/local/include/CGAL/Polyhedron_traits_3.h \
+  /usr/local/include/CGAL/boost/graph/graph_traits_Polyhedron_3.h \
+  /usr/local/include/CGAL/boost/graph/backward_compatibility_functions.h \
+  /usr/local/include/CGAL/boost/graph/properties_Polyhedron_3.h \
+  /usr/local/include/CGAL/boost/graph/internal/Has_member_id.h \
+  /usr/local/include/CGAL/boost/graph/properties_Polyhedron_3_time_stamp.h \
+  /usr/local/include/CGAL/boost/graph/properties_Polyhedron_3_features.h \
+  /usr/local/include/CGAL/IO/Polyhedron_iostream.h \
+  /usr/local/include/CGAL/IO/Polyhedron_OFF_iostream.h \
+  /usr/local/include/CGAL/IO/print_OFF.h \
+  /usr/local/include/CGAL/IO/OFF.h \
+  /usr/local/include/CGAL/IO/OFF/Scanner_OFF.h \
+  /usr/local/include/CGAL/IO/OFF/File_scanner_OFF.h \
+  /usr/local/include/CGAL/IO/binary_file_io.h \
+  /usr/local/include/CGAL/IO/OFF/File_header_OFF.h \
+  /usr/local/include/CGAL/IO/OFF/File_header_extended_OFF.h \
+  /usr/local/include/CGAL/IO/OFF/File_header_extended_OFF_impl.h \
+  /usr/local/include/CGAL/IO/OFF/File_header_OFF_impl.h \
+  /usr/local/include/CGAL/IO/OFF/File_writer_OFF.h \
+  /usr/local/include/CGAL/IO/OFF/generic_copy_OFF.h \
+  /usr/local/include/CGAL/IO/helpers.h \
+  /usr/local/include/CGAL/Container_helper.h \
+  /usr/local/include/CGAL/IO/Generic_writer.h \
+  /usr/local/include/CGAL/boost/graph/named_params_helper.h \
+  /usr/local/include/CGAL/boost/graph/internal/initialized_index_maps_helpers.h \
+  /usr/local/include/CGAL/boost/graph/IO/Generic_facegraph_printer.h \
+  /usr/local/include/boost/container/flat_map.hpp \
+  /usr/local/include/boost/container/detail/container_or_allocator_rebind.hpp \
+  /usr/local/include/boost/container/detail/container_rebind.hpp \
+  /usr/local/include/CGAL/IO/scan_OFF.h \
+  /usr/local/include/CGAL/IO/Polyhedron_scan_OFF.h \
+  /usr/local/include/CGAL/Polyhedron_incremental_builder_3.h \
+  /usr/local/include/CGAL/Random_access_adaptor.h \
+  /usr/local/include/CGAL/boost/graph/IO/OFF.h \
+  /usr/local/include/CGAL/boost/graph/IO/Generic_facegraph_builder.h \
+  /usr/local/include/CGAL/boost/graph/Euler_operations.h \
+  /usr/local/include/CGAL/boost/graph/helpers.h \
+  /usr/local/include/CGAL/boost/graph/internal/Has_member_clear.h \
+  /usr/local/include/CGAL/boost/graph/generators.h \
+  /usr/local/include/CGAL/Random.h \
+  /usr/local/include/CGAL/Random_impl.h \
+  /usr/local/include/boost/container/small_vector.hpp \
+  /usr/local/include/CGAL/Has_conversion.h \
+  /usr/local/include/CGAL/IO/Polyhedron_VRML_1_ostream.h \
+  /usr/local/include/CGAL/IO/Polyhedron_inventor_ostream.h \
+  /usr/local/include/CGAL/IO/OI.h \
+  /usr/local/include/CGAL/IO/OI/File_writer_inventor.h \
+  /usr/local/include/CGAL/IO/OI/Inventor_ostream.h \
+  /usr/local/include/CGAL/IO/Polyhedron_VRML_2_ostream.h \
+  /usr/local/include/CGAL/IO/VRML.h \
+  /usr/local/include/CGAL/IO/VRML/File_writer_VRML_2.h \
+  /usr/local/include/CGAL/IO/VRML/VRML_2_ostream.h \
+  /usr/local/include/CGAL/IO/VRML/VRML_1_ostream.h \
+  /usr/local/include/CGAL/poisson_surface_reconstruction.h \
+  /usr/local/include/CGAL/license/Poisson_surface_reconstruction_3.h \
+  /usr/local/include/CGAL/Surface_mesh_default_triangulation_3.h \
+  /usr/local/include/CGAL/license/Surface_mesher.h \
+  /usr/local/include/CGAL/Robust_circumcenter_traits_3.h \
+  /usr/local/include/CGAL/Robust_construction.h \
+  /usr/local/include/CGAL/Exact_predicates_exact_constructions_kernel.h \
+  /usr/local/include/CGAL/Lazy_kernel.h \
+  /usr/local/include/CGAL/Static_filtered_predicate.h \
+  /usr/local/include/CGAL/Epic_converter.h \
+  /usr/local/include/CGAL/Filtered_kernel/Cartesian_coordinate_iterator_2.h \
+  /usr/local/include/CGAL/Filtered_kernel/Cartesian_coordinate_iterator_3.h \
+  /usr/local/include/CGAL/Delaunay_triangulation_3.h \
+  /usr/local/include/CGAL/license/Triangulation_3.h \
+  /usr/local/include/CGAL/Delaunay_triangulation_cell_base_3.h \
+  /usr/local/include/CGAL/Triangulation_cell_base_3.h \
+  /usr/local/include/CGAL/Triangulation_ds_cell_base_3.h \
+  /usr/local/include/CGAL/license/TDS_3.h \
+  /usr/local/include/CGAL/TDS_3/internal/Dummy_tds_3.h \
+  /usr/local/include/CGAL/Triangulation_3.h \
+  /usr/local/include/CGAL/Triangulation_utils_3.h \
+  /usr/local/include/CGAL/Triangulation_data_structure_3.h \
+  /usr/local/include/boost/unordered_set.hpp \
+  /usr/local/include/boost/unordered/unordered_set.hpp \
+  /usr/local/include/boost/move/move.hpp \
+  /usr/local/include/boost/move/algorithm.hpp \
+  /usr/local/include/boost/unordered/detail/set.hpp \
+  /usr/local/include/boost/unordered/detail/implementation.hpp \
+  /usr/local/include/boost/core/allocator_traits.hpp \
+  /usr/local/include/boost/core/allocator_access.hpp \
+  /usr/local/include/boost/core/pointer_traits.hpp \
+  /usr/local/include/boost/swap.hpp \
+  /usr/local/include/boost/unordered/detail/fca.hpp \
+  /usr/local/include/boost/unordered/detail/prime_fmod.hpp \
+  /usr/local/include/boost/preprocessor/seq/for_each.hpp \
+  /usr/local/include/boost/core/empty_value.hpp \
+  /usr/local/include/boost/unordered/detail/type_traits.hpp \
+  /usr/local/include/boost/unordered/detail/fwd.hpp \
+  /usr/local/include/boost/unordered/unordered_set_fwd.hpp \
+  /usr/local/include/CGAL/STL_Extension/internal/Has_member_visited.h \
+  /usr/local/include/CGAL/Concurrent_compact_container.h \
+  /usr/local/include/CGAL/Small_unordered_map.h \
+  /usr/local/include/CGAL/Triangulation_ds_vertex_base_3.h \
+  /usr/local/include/CGAL/Triangulation_simplex_3.h \
+  /usr/local/include/CGAL/TDS_3/internal/Triangulation_ds_iterators_3.h \
+  /usr/local/include/CGAL/TDS_3/internal/Triangulation_ds_circulators_3.h \
+  /usr/local/include/CGAL/Triangulation_vertex_base_3.h \
+  /usr/local/include/CGAL/Spatial_sort_traits_adapter_3.h \
+  /usr/local/include/CGAL/Triangulation_segment_traverser_3.h \
+  /usr/local/include/CGAL/Triangulation_3/internal/Triangulation_segment_traverser_3_impl.h \
+  /usr/local/include/CGAL/Spatial_lock_grid_3.h \
+  /usr/local/include/boost/property_map/function_property_map.hpp \
+  /usr/local/include/boost/unordered_map.hpp \
+  /usr/local/include/boost/unordered/unordered_map.hpp \
+  /usr/local/include/boost/unordered/detail/map.hpp \
+  /usr/local/include/boost/unordered/unordered_map_fwd.hpp \
+  /usr/local/include/CGAL/Location_policy.h \
+  /usr/local/include/CGAL/Complexity_tags.h \
+  /usr/local/include/CGAL/Triangulation_3/internal/Delaunay_triangulation_hierarchy_3.h \
+  /usr/local/include/CGAL/Triangulation_hierarchy_3.h \
+  /usr/local/include/CGAL/STL_Extension/internal/Has_nested_type_Bare_point.h \
+  /usr/local/include/CGAL/Triangulation_hierarchy_vertex_base_3.h \
+  /usr/local/include/CGAL/Surface_mesh_vertex_base_3.h \
+  /usr/local/include/CGAL/Complex_2_in_triangulation_vertex_base_3.h \
+  /usr/local/include/CGAL/Surface_mesh_cell_base_3.h \
+  /usr/local/include/CGAL/Complex_2_in_triangulation_cell_base_3.h \
+  /usr/local/include/CGAL/Delaunay_triangulation_cell_base_with_circumcenter_3.h \
+  /usr/local/include/CGAL/make_surface_mesh.h \
+  /usr/local/include/CGAL/Surface_mesher_generator.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher.h \
+  /usr/local/include/CGAL/Mesher_level.h \
+  /usr/local/include/CGAL/Mesher_level_visitors.h \
+  /usr/local/include/CGAL/Mesher_level_default_implementations.h \
+  /usr/local/include/CGAL/Meshes/Triangulation_mesher_level_traits_3.h \
+  /usr/local/include/CGAL/Double_map.h \
+  /usr/local/include/CGAL/boost/bimap.hpp \
+  /usr/local/include/boost/bimap.hpp \
+  /usr/local/include/boost/bimap/bimap.hpp \
+  /usr/local/include/boost/bimap/detail/user_interface_config.hpp \
+  /usr/local/include/boost/serialization/nvp.hpp \
+  /usr/local/include/boost/serialization/level.hpp \
+  /usr/local/include/boost/serialization/level_enum.hpp \
+  /usr/local/include/boost/serialization/tracking.hpp \
+  /usr/local/include/boost/mpl/greater.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/greater.hpp \
+  /usr/local/include/boost/serialization/tracking_enum.hpp \
+  /usr/local/include/boost/serialization/type_info_implementation.hpp \
+  /usr/local/include/boost/serialization/traits.hpp \
+  /usr/local/include/boost/serialization/split_free.hpp \
+  /usr/local/include/boost/serialization/serialization.hpp \
+  /usr/local/include/boost/serialization/strong_typedef.hpp \
+  /usr/local/include/boost/serialization/access.hpp \
+  /usr/local/include/boost/serialization/wrapper.hpp \
+  /usr/local/include/boost/serialization/base_object.hpp \
+  /usr/local/include/boost/serialization/force_include.hpp \
+  /usr/local/include/boost/serialization/void_cast_fwd.hpp \
+  /usr/local/include/boost/bimap/detail/bimap_core.hpp \
+  /usr/local/include/boost/multi_index_container.hpp \
+  /usr/local/include/boost/mpl/contains.hpp \
+  /usr/local/include/boost/mpl/contains_fwd.hpp \
+  /usr/local/include/boost/mpl/aux_/contains_impl.hpp \
+  /usr/local/include/boost/mpl/find.hpp \
+  /usr/local/include/boost/multi_index_container_fwd.hpp \
+  /usr/local/include/boost/multi_index/identity.hpp \
+  /usr/local/include/boost/multi_index/identity_fwd.hpp \
+  /usr/local/include/boost/multi_index/indexed_by.hpp \
+  /usr/local/include/boost/preprocessor/control/expr_if.hpp \
+  /usr/local/include/boost/multi_index/ordered_index_fwd.hpp \
+  /usr/local/include/boost/multi_index/detail/ord_index_args.hpp \
+  /usr/local/include/boost/multi_index/tag.hpp \
+  /usr/local/include/boost/multi_index/detail/no_duplicate_tags.hpp \
+  /usr/local/include/boost/mpl/set/set0.hpp \
+  /usr/local/include/boost/mpl/set/aux_/at_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/has_key_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/tag.hpp \
+  /usr/local/include/boost/mpl/aux_/overload_names.hpp \
+  /usr/local/include/boost/mpl/aux_/ptr_to_ref.hpp \
+  /usr/local/include/boost/mpl/aux_/config/operators.hpp \
+  /usr/local/include/boost/mpl/set/aux_/clear_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/set0.hpp \
+  /usr/local/include/boost/mpl/set/aux_/size_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/empty_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/insert_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/item.hpp \
+  /usr/local/include/boost/mpl/base.hpp \
+  /usr/local/include/boost/mpl/set/aux_/insert_range_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/erase_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/erase_key_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/key_type_impl.hpp \
+  /usr/local/include/boost/mpl/key_type_fwd.hpp \
+  /usr/local/include/boost/mpl/set/aux_/value_type_impl.hpp \
+  /usr/local/include/boost/mpl/value_type_fwd.hpp \
+  /usr/local/include/boost/mpl/set/aux_/begin_end_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/iterator.hpp \
+  /usr/local/include/boost/preprocessor/facilities/intercept.hpp \
+  /usr/local/include/boost/preprocessor/facilities/limits/intercept_256.hpp \
+  /usr/local/include/boost/multi_index/detail/ord_index_impl_fwd.hpp \
+  /usr/local/include/boost/multi_index/detail/access_specifier.hpp \
+  /usr/local/include/boost/multi_index/detail/adl_swap.hpp \
+  /usr/local/include/boost/multi_index/detail/allocator_traits.hpp \
+  /usr/local/include/boost/multi_index/detail/base_type.hpp \
+  /usr/local/include/boost/multi_index/detail/index_base.hpp \
+  /usr/local/include/boost/multi_index/detail/copy_map.hpp \
+  /usr/local/include/boost/multi_index/detail/auto_space.hpp \
+  /usr/local/include/boost/multi_index/detail/raw_ptr.hpp \
+  /usr/local/include/boost/multi_index/detail/do_not_copy_elements_tag.hpp \
+  /usr/local/include/boost/multi_index/detail/index_access_sequence.hpp \
+  /usr/local/include/boost/multi_index/detail/node_handle.hpp \
+  /usr/local/include/boost/multi_index/detail/define_if_constexpr_macro.hpp \
+  /usr/local/include/boost/multi_index/detail/ignore_wstrict_aliasing.hpp \
+  /usr/local/include/boost/multi_index/detail/restore_wstrict_aliasing.hpp \
+  /usr/local/include/boost/multi_index/detail/undef_if_constexpr_macro.hpp \
+  /usr/local/include/boost/multi_index/detail/node_type.hpp \
+  /usr/local/include/boost/mpl/reverse_iter_fold.hpp \
+  /usr/local/include/boost/mpl/aux_/reverse_iter_fold_impl.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/reverse_iter_fold_impl.hpp \
+  /usr/local/include/boost/multi_index/detail/header_holder.hpp \
+  /usr/local/include/boost/multi_index/detail/index_node_base.hpp \
+  /usr/local/include/boost/archive/archive_exception.hpp \
+  /usr/local/include/boost/archive/detail/decl.hpp \
+  /usr/local/include/boost/archive/detail/abi_prefix.hpp \
+  /usr/local/include/boost/config/abi_prefix.hpp \
+  /usr/local/include/boost/archive/detail/abi_suffix.hpp \
+  /usr/local/include/boost/config/abi_suffix.hpp \
+  /usr/local/include/boost/multi_index/detail/is_index_list.hpp \
+  /usr/local/include/boost/multi_index/detail/vartempl_support.hpp \
+  /usr/local/include/boost/multi_index/detail/index_loader.hpp \
+  /usr/local/include/boost/multi_index/detail/index_saver.hpp \
+  /usr/local/include/boost/multi_index/detail/index_matcher.hpp \
+  /usr/local/include/boost/multi_index/detail/converter.hpp \
+  /usr/local/include/boost/multi_index/detail/has_tag.hpp \
+  /usr/local/include/boost/multi_index/detail/invalidate_iterators.hpp \
+  /usr/local/include/boost/multi_index/detail/safe_mode.hpp \
+  /usr/local/include/boost/multi_index/detail/scope_guard.hpp \
+  /usr/local/include/boost/multi_index/detail/archive_constructed.hpp \
+  /usr/local/include/boost/multi_index/detail/serialization_version.hpp \
+  /usr/local/include/boost/serialization/split_member.hpp \
+  /usr/local/include/boost/serialization/version.hpp \
+  /usr/local/include/boost/mpl/comparison.hpp \
+  /usr/local/include/boost/mpl/not_equal_to.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/not_equal_to.hpp \
+  /usr/local/include/boost/mpl/less_equal.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/less_equal.hpp \
+  /usr/local/include/boost/mpl/greater_equal.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/greater_equal.hpp \
+  /usr/local/include/boost/serialization/collection_size_type.hpp \
+  /usr/local/include/boost/serialization/is_bitwise_serializable.hpp \
+  /usr/local/include/boost/multi_index/member.hpp \
+  /usr/local/include/boost/bimap/relation/mutant_relation.hpp \
+  /usr/local/include/boost/functional/hash/hash.hpp \
+  /usr/local/include/boost/bimap/tags/tagged.hpp \
+  /usr/local/include/boost/bimap/tags/support/default_tagged.hpp \
+  /usr/local/include/boost/bimap/tags/support/tag_of.hpp \
+  /usr/local/include/boost/bimap/detail/debug/static_error.hpp \
+  /usr/local/include/boost/bimap/tags/support/value_type_of.hpp \
+  /usr/local/include/boost/bimap/relation/member_at.hpp \
+  /usr/local/include/boost/bimap/relation/detail/mutant.hpp \
+  /usr/local/include/boost/bimap/relation/structured_pair.hpp \
+  /usr/local/include/boost/bimap/relation/pair_layout.hpp \
+  /usr/local/include/boost/bimap/relation/symmetrical_base.hpp \
+  /usr/local/include/boost/bimap/relation/support/get.hpp \
+  /usr/local/include/boost/bimap/relation/support/value_type_of.hpp \
+  /usr/local/include/boost/bimap/relation/detail/metadata_access_builder.hpp \
+  /usr/local/include/boost/bimap/relation/support/is_tag_of_member_at.hpp \
+  /usr/local/include/boost/bimap/relation/support/member_with_tag.hpp \
+  /usr/local/include/boost/bimap/relation/detail/access_builder.hpp \
+  /usr/local/include/boost/bimap/relation/support/data_extractor.hpp \
+  /usr/local/include/boost/bimap/detail/manage_bimap_key.hpp \
+  /usr/local/include/boost/bimap/detail/is_set_type_of.hpp \
+  /usr/local/include/boost/bimap/detail/concept_tags.hpp \
+  /usr/local/include/boost/bimap/set_of.hpp \
+  /usr/local/include/boost/bimap/detail/generate_index_binder.hpp \
+  /usr/local/include/boost/bimap/detail/generate_view_binder.hpp \
+  /usr/local/include/boost/bimap/detail/generate_relation_binder.hpp \
+  /usr/local/include/boost/multi_index/ordered_index.hpp \
+  /usr/local/include/boost/multi_index/detail/ord_index_impl.hpp \
+  /usr/local/include/boost/multi_index/detail/bidir_node_iterator.hpp \
+  /usr/local/include/boost/multi_index/detail/modify_key_adaptor.hpp \
+  /usr/local/include/boost/multi_index/detail/ord_index_node.hpp \
+  /usr/local/include/boost/multi_index/detail/uintptr_type.hpp \
+  /usr/local/include/boost/multi_index/detail/ord_index_ops.hpp \
+  /usr/local/include/boost/multi_index/detail/promotes_arg.hpp \
+  /usr/local/include/boost/multi_index/detail/is_transparent.hpp \
+  /usr/local/include/boost/multi_index/detail/unbounded.hpp \
+  /usr/local/include/boost/multi_index/detail/value_compare.hpp \
+  /usr/local/include/boost/bind/bind.hpp \
+  /usr/local/include/boost/bind/mem_fn.hpp \
+  /usr/local/include/boost/get_pointer.hpp \
+  /usr/local/include/boost/config/no_tr1/memory.hpp \
+  /usr/local/include/boost/bind/mem_fn_template.hpp \
+  /usr/local/include/boost/bind/mem_fn_cc.hpp \
+  /usr/local/include/boost/is_placeholder.hpp \
+  /usr/local/include/boost/bind/arg.hpp \
+  /usr/local/include/boost/bind/detail/result_traits.hpp \
+  /usr/local/include/boost/bind/std_placeholders.hpp \
+  /usr/local/include/boost/visit_each.hpp \
+  /usr/local/include/boost/core/is_same.hpp \
+  /usr/local/include/boost/bind/storage.hpp \
+  /usr/local/include/boost/bind/bind_cc.hpp \
+  /usr/local/include/boost/bind/bind_mf_cc.hpp \
+  /usr/local/include/boost/bind/bind_mf2_cc.hpp \
+  /usr/local/include/boost/bind/placeholders.hpp \
+  /usr/local/include/boost/multi_index/detail/duplicates_iterator.hpp \
+  /usr/local/include/boost/bimap/views/map_view.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/map_adaptor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/ordered_associative_container_adaptor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/associative_container_adaptor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/detail/identity_converters.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/container_adaptor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/detail/functor_bag.hpp \
+  /usr/local/include/boost/mpl/inherit_linearly.hpp \
+  /usr/local/include/boost/mpl/copy.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/detail/comparison_adaptor.hpp \
+  /usr/local/include/boost/bimap/detail/map_view_base.hpp \
+  /usr/local/include/boost/bimap/relation/support/get_pair_functor.hpp \
+  /usr/local/include/boost/bimap/relation/support/pair_by.hpp \
+  /usr/local/include/boost/bimap/relation/support/pair_type_by.hpp \
+  /usr/local/include/boost/bimap/relation/detail/to_mutable_relation_functor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/support/iterator_facade_converters.hpp \
+  /usr/local/include/boost/bimap/relation/support/opposite_tag.hpp \
+  /usr/local/include/boost/bimap/support/key_type_by.hpp \
+  /usr/local/include/boost/bimap/support/data_type_by.hpp \
+  /usr/local/include/boost/bimap/support/value_type_by.hpp \
+  /usr/local/include/boost/bimap/detail/modifier_adaptor.hpp \
+  /usr/local/include/boost/bimap/detail/map_view_iterator.hpp \
+  /usr/local/include/boost/bimap/relation/detail/static_access_builder.hpp \
+  /usr/local/include/boost/bimap/views/set_view.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/set_adaptor.hpp \
+  /usr/local/include/boost/bimap/detail/set_view_base.hpp \
+  /usr/local/include/boost/bimap/detail/set_view_iterator.hpp \
+  /usr/local/include/boost/bimap/detail/manage_additional_parameters.hpp \
+  /usr/local/include/boost/bimap/unconstrained_set_of.hpp \
+  /usr/local/include/boost/bimap/views/unconstrained_map_view.hpp \
+  /usr/local/include/boost/bimap/views/unconstrained_set_view.hpp \
+  /usr/local/include/boost/bimap/support/map_type_by.hpp \
+  /usr/local/include/boost/bimap/support/map_by.hpp \
+  /usr/local/include/boost/bimap/support/iterator_type_by.hpp \
+  /usr/local/include/boost/bimap/multiset_of.hpp \
+  /usr/local/include/boost/bimap/views/multimap_view.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/multimap_adaptor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/detail/non_unique_container_helper.hpp \
+  /usr/local/include/boost/bimap/detail/non_unique_views_helper.hpp \
+  /usr/local/include/boost/bimap/views/multiset_view.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/multiset_adaptor.hpp \
+  /usr/local/include/CGAL/Timer.h \
+  /usr/local/include/CGAL/Timer_impl.h \
+  /usr/local/include/boost/format.hpp \
+  /usr/local/include/boost/format/detail/compat_workarounds.hpp \
+  /usr/local/include/boost/format/detail/config_macros.hpp \
+  /usr/local/include/boost/format/detail/workarounds_gcc-2_95.hpp \
+  /usr/local/include/boost/format/detail/workarounds_stlport.hpp \
+  /usr/local/include/boost/format/format_fwd.hpp \
+  /usr/local/include/boost/format/internals_fwd.hpp \
+  /usr/local/include/boost/format/internals.hpp \
+  /usr/local/include/boost/format/alt_sstream.hpp \
+  /usr/local/include/boost/shared_ptr.hpp \
+  /usr/local/include/boost/format/alt_sstream_impl.hpp \
+  /usr/local/include/boost/format/format_class.hpp \
+  /usr/local/include/boost/format/exceptions.hpp \
+  /usr/local/include/boost/format/format_implementation.hpp \
+  /usr/local/include/boost/format/group.hpp \
+  /usr/local/include/boost/format/feed_args.hpp \
+  /usr/local/include/boost/format/detail/msvc_disambiguater.hpp \
+  /usr/local/include/boost/format/parsing.hpp \
+  /usr/local/include/boost/format/free_funcs.hpp \
+  /usr/local/include/boost/format/detail/unset_macros.hpp \
+  /usr/local/include/CGAL/Surface_mesher/Verbose_flag.h \
+  /usr/local/include/CGAL/Surface_mesher/Types_generators.h \
+  /usr/local/include/CGAL/Surface_mesher/Profile_counter.h \
+  /usr/local/include/CGAL/Surface_mesher/Profile_timer.h \
+  /usr/local/include/CGAL/Profile_timer.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher_manifold.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher_regular_edges.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher_edges_level.h \
+  /usr/local/include/CGAL/Mesh_2/Output_stream.h \
+  /usr/local/include/CGAL/Meshes/Simple_map_container.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher_visitor.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher_edges_level_visitor.h \
+  /usr/local/include/CGAL/Surface_mesh_traits_generator_3.h \
+  /usr/local/include/CGAL/Surface_mesher/Sphere_oracle_3.h \
+  /usr/local/include/CGAL/Surface_mesher/Null_oracle_visitor.h \
+  /usr/local/include/CGAL/point_generators_3.h \
+  /usr/local/include/CGAL/generators.h \
+  /usr/local/include/CGAL/point_generators_2.h \
+  /usr/local/include/CGAL/Generator/internal/Generic_random_point_generator.h \
+  /usr/local/include/CGAL/boost/graph/property_maps.h \
+  /usr/local/include/CGAL/Surface_mesh_complex_2_in_triangulation_3.h \
+  /usr/local/include/CGAL/Complex_2_in_triangulation_3.h \
+  /usr/local/include/CGAL/Union_find.h \
+  /usr/local/include/CGAL/Surface_mesh_default_criteria_3.h \
+  /usr/local/include/CGAL/Surface_mesher/Standard_criteria.h \
+  /usr/local/include/CGAL/Implicit_surface_3.h \
+  /usr/local/include/CGAL/Surface_mesher/Implicit_surface_oracle_3.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/queue \
+  /usr/local/include/CGAL/IO/facets_in_complex_2_to_triangle_mesh.h \
+  /usr/local/include/CGAL/Poisson_reconstruction_function.h \
+  /usr/local/include/CGAL/IO/trace.h \
+  /usr/local/include/CGAL/Reconstruction_triangulation_3.h \
+  /usr/local/include/CGAL/Point_with_normal_3.h \
+  /usr/local/include/CGAL/license/Point_set_processing_3.h \
+  /usr/local/include/CGAL/Lightweight_vector_3.h \
+  /usr/local/include/CGAL/surface_reconstruction_points_assertions.h \
+  /usr/local/include/CGAL/Triangulation_cell_base_with_info_3.h \
+  /usr/local/include/CGAL/bounding_box.h \
+  /usr/local/include/CGAL/Eigen_solver_traits.h \
+  /usr/local/include/eigen3/Eigen/Sparse \
+  /usr/local/include/eigen3/Eigen/SparseCore \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseUtil.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h \
+  /usr/local/include/eigen3/Eigen/src/plugins/BlockMethods.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseAssign.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/AmbiVector.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseMap.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/MappedSparseMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseVector.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseRef.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseBlock.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseDot.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseRedux.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseView.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseProduct.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/TriangularSolver.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h \
+  /usr/local/include/eigen3/Eigen/OrderingMethods \
+  /usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h \
+  /usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h \
+  /usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h \
+  /usr/local/include/eigen3/Eigen/SparseCholesky \
+  /usr/local/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h \
+  /usr/local/include/eigen3/Eigen/SparseLU \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_gemm_kernel.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_Structs.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLUImpl.h \
+  /usr/local/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_Memory.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_relax_snode.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_pivotL.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_dfs.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_kernel_bmod.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_bmod.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_column_dfs.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_column_bmod.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_pruneL.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_Utils.h \
+  /usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU.h \
+  /usr/local/include/eigen3/Eigen/SparseQR \
+  /usr/local/include/eigen3/Eigen/src/SparseQR/SparseQR.h \
+  /usr/local/include/eigen3/Eigen/IterativeLinearSolvers \
+  /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h \
+  /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h \
+  /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h \
+  /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h \
+  /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h \
+  /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h \
+  /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h \
+  /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
+  /usr/local/include/CGAL/Eigen_matrix.h \
+  /usr/local/include/CGAL/Eigen_sparse_matrix.h \
+  /usr/local/include/CGAL/Eigen_vector.h \
+  /usr/local/include/CGAL/poisson_refine_triangulation.h \
+  /usr/local/include/CGAL/Mesh_3/Poisson_refine_cells_3.h \
+  /usr/local/include/CGAL/Meshes/Double_map_container.h \
+  /usr/local/include/CGAL/Poisson_mesh_cell_criteria_3.h \
+  /usr/local/include/CGAL/Robust_weighted_circumcenter_filtered_traits_3.h \
+  /usr/local/include/CGAL/compute_average_spacing.h \
+  /usr/local/include/CGAL/Search_traits_3.h \
+  /usr/local/include/CGAL/license/Spatial_searching.h \
+  /usr/local/include/CGAL/Point_set_processing_3/internal/Neighbor_query.h \
+  /usr/local/include/CGAL/Search_traits_2.h \
+  /usr/local/include/CGAL/Fuzzy_sphere.h \
+  /usr/local/include/CGAL/Kd_tree_rectangle.h \
+  /usr/local/include/CGAL/Search_traits_adapter.h \
+  /usr/local/include/CGAL/Euclidean_distance.h \
+  /usr/local/include/CGAL/Spatial_searching/internal/Get_dimension_tag.h \
+  /usr/local/include/CGAL/Orthogonal_k_neighbor_search.h \
+  /usr/local/include/CGAL/Spatial_searching/internal/K_neighbor_search.h \
+  /usr/local/include/CGAL/Kd_tree_node.h \
+  /usr/local/include/CGAL/Splitters.h \
+  /usr/local/include/CGAL/Point_container.h \
+  /usr/local/include/CGAL/Plane_separator.h \
+  /usr/local/include/CGAL/Spatial_searching/internal/Search_helpers.h \
+  /usr/local/include/CGAL/Kd_tree.h \
+  /usr/local/include/boost/container/deque.hpp \
+  /usr/local/include/CGAL/mutex.h \
+  /usr/local/include/CGAL/Spatial_searching/internal/bounded_priority_queue.h \
+  /usr/local/include/CGAL/point_set_processing_assertions.h \
+  /usr/local/include/boost/iterator/function_output_iterator.hpp \
+  /usr/local/include/CGAL/Point_set_processing_3/internal/Callback_wrapper.h \
+  /usr/local/include/CGAL/for_each.h \
+  /usr/local/include/boost/iterator/indirect_iterator.hpp \
+  /usr/local/include/boost/pointee.hpp \
+  /usr/local/include/boost/detail/is_incrementable.hpp \
+  /usr/local/include/boost/type_traits/detail/bool_trait_undef.hpp \
+  /usr/local/include/boost/indirect_reference.hpp \
   /Users/asdfasd/Downloads/hw03/include/json.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/forward_list \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/valarray \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/clocale
 
 CMakeFiles/hw03.dir/src/main.cpp.o: /Users/asdfasd/Downloads/hw03/src/main.cpp \
-  /Users/asdfasd/downloads/hw03/src/main.cpp \
   /usr/local/include/CGAL/Triangulation_3.h \
   /usr/local/include/CGAL/license/Triangulation_3.h \
   /usr/local/include/CGAL/config.h \
@@ -7775,7 +8860,7 @@ CMakeFiles/hw03.dir/src/main.cpp.o: /Users/asdfasd/Downloads/hw03/src/main.cpp \
   /usr/local/include/CGAL/Triangulation_structural_filtering_traits.h \
   /usr/local/include/CGAL/determinant.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/random \
-  /Users/asdfasd/downloads/hw03/src/definitions.h \
+  /Users/asdfasd/Downloads/hw03/src/definitions.h \
   /usr/local/include/CGAL/Exact_predicates_inexact_constructions_kernel.h \
   /usr/local/include/CGAL/Simple_cartesian.h \
   /usr/local/include/CGAL/Cartesian/Cartesian_base.h \
@@ -8566,30 +9651,49 @@ CMakeFiles/hw03.dir/src/main.cpp.o: /Users/asdfasd/Downloads/hw03/src/main.cpp \
   /usr/local/include/CGAL/linear_least_squares_fitting_spheres_3.h \
   /usr/local/include/CGAL/Triangulation_vertex_base_with_id_2.h \
   /usr/local/include/CGAL/Triangulation_face_base_with_info_2.h \
-  /Users/asdfasd/downloads/hw03/include/json.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/forward_list \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/valarray \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/clocale \
-  /Users/asdfasd/downloads/hw03/src/geomtools.h \
-  /Users/asdfasd/downloads/hw03/src/parse_obj.h \
-  /usr/local/include/CGAL/Surface_mesh.h \
-  /usr/local/include/CGAL/license/Surface_mesh.h \
-  /usr/local/include/CGAL/Surface_mesh/Surface_mesh_fwd.h \
-  /usr/local/include/CGAL/Surface_mesh/Surface_mesh.h \
-  /usr/local/include/CGAL/Surface_mesh/IO.h \
-  /usr/local/include/CGAL/Surface_mesh/IO/3MF.h \
-  /usr/local/include/CGAL/IO/3MF.h \
-  /usr/local/include/CGAL/IO/3MF/read_3mf.h \
-  /usr/local/include/CGAL/IO/3MF/write_3mf.h \
-  /usr/local/include/CGAL/IO/helpers.h \
-  /usr/local/include/CGAL/Container_helper.h \
-  /usr/local/include/CGAL/boost/graph/iterator.h \
+  /usr/local/include/CGAL/Polyhedron_3.h \
+  /usr/local/include/CGAL/license/Polyhedron.h \
+  /usr/local/include/CGAL/Polyhedron_3_fwd.h \
+  /usr/local/include/CGAL/HalfedgeDS_iterator.h \
+  /usr/local/include/CGAL/N_step_adaptor_derived.h \
+  /usr/local/include/CGAL/Polyhedron_items_3.h \
+  /usr/local/include/CGAL/HalfedgeDS_vertex_base.h \
+  /usr/local/include/CGAL/HalfedgeDS_halfedge_base.h \
+  /usr/local/include/CGAL/HalfedgeDS_face_base.h \
+  /usr/local/include/CGAL/HalfedgeDS_default.h \
+  /usr/local/include/CGAL/HalfedgeDS_items_2.h \
+  /usr/local/include/CGAL/HalfedgeDS_list.h \
+  /usr/local/include/CGAL/In_place_list.h \
+  /usr/local/include/CGAL/HalfedgeDS_items_decorator.h \
+  /usr/local/include/CGAL/boost/graph/graph_traits_HalfedgeDS_default.h \
+  /usr/local/include/CGAL/boost/graph/graph_traits_HalfedgeDS.h \
+  /usr/local/include/CGAL/Named_function_parameters.h \
+  /usr/local/include/CGAL/STL_Extension/internal/parameters_interface.h \
   /usr/local/include/boost/graph/graph_traits.hpp \
   /usr/local/include/boost/pending/property.hpp \
   /usr/local/include/boost/pending/detail/property.hpp \
+  /usr/local/include/boost/graph/properties.hpp \
+  /usr/local/include/boost/graph/property_maps/constant_property_map.hpp \
+  /usr/local/include/boost/graph/property_maps/null_property_map.hpp \
+  /usr/local/include/CGAL/boost/graph/iterator.h \
   /usr/local/include/CGAL/boost/graph/internal/helpers.h \
-  /usr/local/include/CGAL/Surface_mesh/IO/OFF.h \
-  /usr/local/include/CGAL/boost/graph/IO/OFF.h \
+  /usr/local/include/CGAL/boost/graph/halfedge_graph_traits.h \
+  /usr/local/include/CGAL/boost/graph/properties.h \
+  /usr/local/include/CGAL/Dynamic_property_map.h \
+  /usr/local/include/CGAL/HalfedgeDS_decorator.h \
+  /usr/local/include/CGAL/HalfedgeDS_const_decorator.h \
+  /usr/local/include/CGAL/IO/Verbose_ostream.h \
+  /usr/local/include/CGAL/Modifier_base.h \
+  /usr/local/include/CGAL/Polyhedron_traits_3.h \
+  /usr/local/include/CGAL/boost/graph/graph_traits_Polyhedron_3.h \
+  /usr/local/include/CGAL/boost/graph/backward_compatibility_functions.h \
+  /usr/local/include/CGAL/boost/graph/properties_Polyhedron_3.h \
+  /usr/local/include/CGAL/boost/graph/internal/Has_member_id.h \
+  /usr/local/include/CGAL/boost/graph/properties_Polyhedron_3_time_stamp.h \
+  /usr/local/include/CGAL/boost/graph/properties_Polyhedron_3_features.h \
+  /usr/local/include/CGAL/IO/Polyhedron_iostream.h \
+  /usr/local/include/CGAL/IO/Polyhedron_OFF_iostream.h \
+  /usr/local/include/CGAL/IO/print_OFF.h \
   /usr/local/include/CGAL/IO/OFF.h \
   /usr/local/include/CGAL/IO/OFF/Scanner_OFF.h \
   /usr/local/include/CGAL/IO/OFF/File_scanner_OFF.h \
@@ -8600,69 +9704,341 @@ CMakeFiles/hw03.dir/src/main.cpp.o: /Users/asdfasd/Downloads/hw03/src/main.cpp \
   /usr/local/include/CGAL/IO/OFF/File_header_OFF_impl.h \
   /usr/local/include/CGAL/IO/OFF/File_writer_OFF.h \
   /usr/local/include/CGAL/IO/OFF/generic_copy_OFF.h \
+  /usr/local/include/CGAL/IO/helpers.h \
+  /usr/local/include/CGAL/Container_helper.h \
   /usr/local/include/CGAL/IO/Generic_writer.h \
-  /usr/local/include/CGAL/Named_function_parameters.h \
-  /usr/local/include/CGAL/STL_Extension/internal/parameters_interface.h \
   /usr/local/include/CGAL/boost/graph/named_params_helper.h \
   /usr/local/include/CGAL/boost/graph/internal/initialized_index_maps_helpers.h \
-  /usr/local/include/CGAL/boost/graph/properties.h \
-  /usr/local/include/CGAL/Dynamic_property_map.h \
-  /usr/local/include/boost/graph/properties.hpp \
-  /usr/local/include/boost/graph/property_maps/constant_property_map.hpp \
-  /usr/local/include/boost/graph/property_maps/null_property_map.hpp \
-  /usr/local/include/CGAL/boost/graph/IO/Generic_facegraph_builder.h \
-  /usr/local/include/CGAL/boost/graph/Euler_operations.h \
-  /usr/local/include/CGAL/boost/graph/helpers.h \
-  /usr/local/include/CGAL/boost/graph/internal/Has_member_clear.h \
-  /usr/local/include/CGAL/IO/Verbose_ostream.h \
-  /usr/local/include/CGAL/boost/graph/generators.h \
-  /usr/local/include/CGAL/Random.h \
-  /usr/local/include/CGAL/Random_impl.h \
   /usr/local/include/CGAL/boost/graph/IO/Generic_facegraph_printer.h \
   /usr/local/include/boost/container/flat_map.hpp \
   /usr/local/include/boost/container/detail/container_or_allocator_rebind.hpp \
   /usr/local/include/boost/container/detail/container_rebind.hpp \
-  /usr/local/include/CGAL/Surface_mesh/IO/PLY.h \
-  /usr/local/include/CGAL/IO/PLY.h \
-  /usr/local/include/CGAL/IO/PLY/PLY_reader.h \
-  /usr/local/include/CGAL/IO/PLY/PLY_writer.h \
-  /usr/local/include/CGAL/boost/graph/io.h \
-  /usr/local/include/CGAL/boost/graph/IO/3MF.h \
-  /usr/local/include/CGAL/boost/graph/IO/GOCAD.h \
-  /usr/local/include/CGAL/IO/GOCAD.h \
-  /usr/local/include/CGAL/boost/graph/IO/INP.h \
-  /usr/local/include/CGAL/boost/graph/IO/OBJ.h \
-  /usr/local/include/CGAL/IO/OBJ.h \
-  /usr/local/include/CGAL/IO/OBJ/File_writer_wavefront.h \
-  /usr/local/include/CGAL/boost/graph/IO/PLY.h \
-  /usr/local/include/CGAL/boost/graph/IO/STL.h \
-  /usr/local/include/CGAL/IO/STL.h \
-  /usr/local/include/CGAL/IO/STL/STL_reader.h \
-  /usr/local/include/CGAL/boost/graph/IO/VTK.h \
-  /usr/local/include/CGAL/IO/VTK.h \
-  /usr/local/include/CGAL/IO/VTK/VTK_reader.h \
-  /usr/local/include/CGAL/IO/VTK/VTK_writer.h \
-  /usr/local/include/CGAL/boost/graph/IO/WRL.h \
+  /usr/local/include/CGAL/IO/scan_OFF.h \
+  /usr/local/include/CGAL/IO/Polyhedron_scan_OFF.h \
+  /usr/local/include/CGAL/Polyhedron_incremental_builder_3.h \
+  /usr/local/include/CGAL/Random_access_adaptor.h \
+  /usr/local/include/CGAL/boost/graph/IO/OFF.h \
+  /usr/local/include/CGAL/boost/graph/IO/Generic_facegraph_builder.h \
+  /usr/local/include/CGAL/boost/graph/Euler_operations.h \
+  /usr/local/include/CGAL/boost/graph/helpers.h \
+  /usr/local/include/CGAL/boost/graph/internal/Has_member_clear.h \
+  /usr/local/include/CGAL/boost/graph/generators.h \
+  /usr/local/include/CGAL/Random.h \
+  /usr/local/include/CGAL/Random_impl.h \
+  /usr/local/include/CGAL/Has_conversion.h \
+  /usr/local/include/CGAL/IO/Polyhedron_VRML_1_ostream.h \
+  /usr/local/include/CGAL/IO/Polyhedron_inventor_ostream.h \
+  /usr/local/include/CGAL/IO/OI.h \
+  /usr/local/include/CGAL/IO/OI/File_writer_inventor.h \
+  /usr/local/include/CGAL/IO/OI/Inventor_ostream.h \
+  /usr/local/include/CGAL/IO/Polyhedron_VRML_2_ostream.h \
   /usr/local/include/CGAL/IO/VRML.h \
   /usr/local/include/CGAL/IO/VRML/File_writer_VRML_2.h \
   /usr/local/include/CGAL/IO/VRML/VRML_2_ostream.h \
   /usr/local/include/CGAL/IO/VRML/VRML_1_ostream.h \
-  /usr/local/include/CGAL/IO/OI.h \
-  /usr/local/include/CGAL/IO/OI/File_writer_inventor.h \
-  /usr/local/include/CGAL/IO/OI/Inventor_ostream.h \
-  /usr/local/include/CGAL/boost/graph/IO/polygon_mesh_io.h \
-  /usr/local/include/CGAL/Surface_mesh/Properties.h \
-  /usr/local/include/CGAL/boost/graph/copy_face_graph.h \
-  /usr/local/include/boost/iterator/function_output_iterator.hpp \
-  /usr/local/include/CGAL/boost/graph/graph_traits_Surface_mesh.h \
-  /usr/local/include/CGAL/boost/graph/properties_Surface_mesh.h \
-  /usr/local/include/CGAL/boost/graph/properties_Surface_mesh_time_stamp.h \
-  /usr/local/include/CGAL/boost/graph/properties_Surface_mesh_features.h \
-  /usr/local/include/CGAL/optimal_bounding_box.h \
-  /usr/local/include/CGAL/license/Optimal_bounding_box.h \
-  /usr/local/include/CGAL/Optimal_bounding_box/Oriented_bounding_box_traits_3.h \
-  /usr/local/include/CGAL/Eigen_matrix.h \
-  /usr/local/include/CGAL/Eigen_sparse_matrix.h \
+  /usr/local/include/CGAL/poisson_surface_reconstruction.h \
+  /usr/local/include/CGAL/license/Poisson_surface_reconstruction_3.h \
+  /usr/local/include/CGAL/Surface_mesh_default_triangulation_3.h \
+  /usr/local/include/CGAL/license/Surface_mesher.h \
+  /usr/local/include/CGAL/Robust_circumcenter_traits_3.h \
+  /usr/local/include/CGAL/Robust_construction.h \
+  /usr/local/include/CGAL/Exact_predicates_exact_constructions_kernel.h \
+  /usr/local/include/CGAL/Lazy_kernel.h \
+  /usr/local/include/CGAL/Static_filtered_predicate.h \
+  /usr/local/include/CGAL/Epic_converter.h \
+  /usr/local/include/CGAL/Filtered_kernel/Cartesian_coordinate_iterator_2.h \
+  /usr/local/include/CGAL/Filtered_kernel/Cartesian_coordinate_iterator_3.h \
+  /usr/local/include/CGAL/Delaunay_triangulation_3.h \
+  /usr/local/include/CGAL/Delaunay_triangulation_cell_base_3.h \
+  /usr/local/include/CGAL/Location_policy.h \
+  /usr/local/include/CGAL/Complexity_tags.h \
+  /usr/local/include/CGAL/Triangulation_3/internal/Delaunay_triangulation_hierarchy_3.h \
+  /usr/local/include/CGAL/Triangulation_hierarchy_3.h \
+  /usr/local/include/CGAL/STL_Extension/internal/Has_nested_type_Bare_point.h \
+  /usr/local/include/CGAL/Triangulation_hierarchy_vertex_base_3.h \
+  /usr/local/include/CGAL/Surface_mesh_vertex_base_3.h \
+  /usr/local/include/CGAL/Complex_2_in_triangulation_vertex_base_3.h \
+  /usr/local/include/CGAL/Surface_mesh_cell_base_3.h \
+  /usr/local/include/CGAL/Complex_2_in_triangulation_cell_base_3.h \
+  /usr/local/include/CGAL/Delaunay_triangulation_cell_base_with_circumcenter_3.h \
+  /usr/local/include/CGAL/make_surface_mesh.h \
+  /usr/local/include/CGAL/Surface_mesher_generator.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher.h \
+  /usr/local/include/CGAL/Mesher_level.h \
+  /usr/local/include/CGAL/Mesher_level_visitors.h \
+  /usr/local/include/CGAL/Mesher_level_default_implementations.h \
+  /usr/local/include/CGAL/Meshes/Triangulation_mesher_level_traits_3.h \
+  /usr/local/include/CGAL/Double_map.h \
+  /usr/local/include/CGAL/boost/bimap.hpp \
+  /usr/local/include/boost/bimap.hpp \
+  /usr/local/include/boost/bimap/bimap.hpp \
+  /usr/local/include/boost/bimap/detail/user_interface_config.hpp \
+  /usr/local/include/boost/serialization/nvp.hpp \
+  /usr/local/include/boost/serialization/level.hpp \
+  /usr/local/include/boost/serialization/level_enum.hpp \
+  /usr/local/include/boost/serialization/tracking.hpp \
+  /usr/local/include/boost/mpl/greater.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/greater.hpp \
+  /usr/local/include/boost/serialization/tracking_enum.hpp \
+  /usr/local/include/boost/serialization/type_info_implementation.hpp \
+  /usr/local/include/boost/serialization/traits.hpp \
+  /usr/local/include/boost/serialization/split_free.hpp \
+  /usr/local/include/boost/serialization/serialization.hpp \
+  /usr/local/include/boost/serialization/strong_typedef.hpp \
+  /usr/local/include/boost/serialization/access.hpp \
+  /usr/local/include/boost/serialization/wrapper.hpp \
+  /usr/local/include/boost/serialization/base_object.hpp \
+  /usr/local/include/boost/serialization/force_include.hpp \
+  /usr/local/include/boost/serialization/void_cast_fwd.hpp \
+  /usr/local/include/boost/bimap/detail/bimap_core.hpp \
+  /usr/local/include/boost/multi_index_container.hpp \
+  /usr/local/include/boost/mpl/contains.hpp \
+  /usr/local/include/boost/mpl/contains_fwd.hpp \
+  /usr/local/include/boost/mpl/aux_/contains_impl.hpp \
+  /usr/local/include/boost/mpl/find.hpp \
+  /usr/local/include/boost/multi_index_container_fwd.hpp \
+  /usr/local/include/boost/multi_index/identity.hpp \
+  /usr/local/include/boost/multi_index/identity_fwd.hpp \
+  /usr/local/include/boost/multi_index/indexed_by.hpp \
+  /usr/local/include/boost/preprocessor/control/expr_if.hpp \
+  /usr/local/include/boost/multi_index/ordered_index_fwd.hpp \
+  /usr/local/include/boost/multi_index/detail/ord_index_args.hpp \
+  /usr/local/include/boost/multi_index/tag.hpp \
+  /usr/local/include/boost/multi_index/detail/no_duplicate_tags.hpp \
+  /usr/local/include/boost/mpl/set/set0.hpp \
+  /usr/local/include/boost/mpl/set/aux_/at_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/has_key_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/tag.hpp \
+  /usr/local/include/boost/mpl/aux_/overload_names.hpp \
+  /usr/local/include/boost/mpl/aux_/ptr_to_ref.hpp \
+  /usr/local/include/boost/mpl/aux_/config/operators.hpp \
+  /usr/local/include/boost/mpl/set/aux_/clear_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/set0.hpp \
+  /usr/local/include/boost/mpl/set/aux_/size_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/empty_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/insert_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/item.hpp \
+  /usr/local/include/boost/mpl/base.hpp \
+  /usr/local/include/boost/mpl/set/aux_/insert_range_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/erase_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/erase_key_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/key_type_impl.hpp \
+  /usr/local/include/boost/mpl/key_type_fwd.hpp \
+  /usr/local/include/boost/mpl/set/aux_/value_type_impl.hpp \
+  /usr/local/include/boost/mpl/value_type_fwd.hpp \
+  /usr/local/include/boost/mpl/set/aux_/begin_end_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/iterator.hpp \
+  /usr/local/include/boost/preprocessor/facilities/intercept.hpp \
+  /usr/local/include/boost/preprocessor/facilities/limits/intercept_256.hpp \
+  /usr/local/include/boost/multi_index/detail/ord_index_impl_fwd.hpp \
+  /usr/local/include/boost/multi_index/detail/access_specifier.hpp \
+  /usr/local/include/boost/multi_index/detail/adl_swap.hpp \
+  /usr/local/include/boost/multi_index/detail/allocator_traits.hpp \
+  /usr/local/include/boost/multi_index/detail/base_type.hpp \
+  /usr/local/include/boost/multi_index/detail/index_base.hpp \
+  /usr/local/include/boost/multi_index/detail/copy_map.hpp \
+  /usr/local/include/boost/multi_index/detail/auto_space.hpp \
+  /usr/local/include/boost/multi_index/detail/raw_ptr.hpp \
+  /usr/local/include/boost/multi_index/detail/do_not_copy_elements_tag.hpp \
+  /usr/local/include/boost/multi_index/detail/index_access_sequence.hpp \
+  /usr/local/include/boost/multi_index/detail/node_handle.hpp \
+  /usr/local/include/boost/multi_index/detail/define_if_constexpr_macro.hpp \
+  /usr/local/include/boost/multi_index/detail/ignore_wstrict_aliasing.hpp \
+  /usr/local/include/boost/multi_index/detail/restore_wstrict_aliasing.hpp \
+  /usr/local/include/boost/multi_index/detail/undef_if_constexpr_macro.hpp \
+  /usr/local/include/boost/multi_index/detail/node_type.hpp \
+  /usr/local/include/boost/mpl/reverse_iter_fold.hpp \
+  /usr/local/include/boost/mpl/aux_/reverse_iter_fold_impl.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/reverse_iter_fold_impl.hpp \
+  /usr/local/include/boost/multi_index/detail/header_holder.hpp \
+  /usr/local/include/boost/multi_index/detail/index_node_base.hpp \
+  /usr/local/include/boost/archive/archive_exception.hpp \
+  /usr/local/include/boost/archive/detail/decl.hpp \
+  /usr/local/include/boost/archive/detail/abi_prefix.hpp \
+  /usr/local/include/boost/config/abi_prefix.hpp \
+  /usr/local/include/boost/archive/detail/abi_suffix.hpp \
+  /usr/local/include/boost/config/abi_suffix.hpp \
+  /usr/local/include/boost/multi_index/detail/is_index_list.hpp \
+  /usr/local/include/boost/multi_index/detail/vartempl_support.hpp \
+  /usr/local/include/boost/multi_index/detail/index_loader.hpp \
+  /usr/local/include/boost/multi_index/detail/index_saver.hpp \
+  /usr/local/include/boost/multi_index/detail/index_matcher.hpp \
+  /usr/local/include/boost/multi_index/detail/converter.hpp \
+  /usr/local/include/boost/multi_index/detail/has_tag.hpp \
+  /usr/local/include/boost/multi_index/detail/invalidate_iterators.hpp \
+  /usr/local/include/boost/multi_index/detail/safe_mode.hpp \
+  /usr/local/include/boost/multi_index/detail/scope_guard.hpp \
+  /usr/local/include/boost/multi_index/detail/archive_constructed.hpp \
+  /usr/local/include/boost/multi_index/detail/serialization_version.hpp \
+  /usr/local/include/boost/serialization/split_member.hpp \
+  /usr/local/include/boost/serialization/version.hpp \
+  /usr/local/include/boost/mpl/comparison.hpp \
+  /usr/local/include/boost/mpl/not_equal_to.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/not_equal_to.hpp \
+  /usr/local/include/boost/mpl/less_equal.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/less_equal.hpp \
+  /usr/local/include/boost/mpl/greater_equal.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/greater_equal.hpp \
+  /usr/local/include/boost/serialization/collection_size_type.hpp \
+  /usr/local/include/boost/serialization/is_bitwise_serializable.hpp \
+  /usr/local/include/boost/multi_index/member.hpp \
+  /usr/local/include/boost/bimap/relation/mutant_relation.hpp \
+  /usr/local/include/boost/functional/hash/hash.hpp \
+  /usr/local/include/boost/bimap/tags/tagged.hpp \
+  /usr/local/include/boost/bimap/tags/support/default_tagged.hpp \
+  /usr/local/include/boost/bimap/tags/support/tag_of.hpp \
+  /usr/local/include/boost/bimap/detail/debug/static_error.hpp \
+  /usr/local/include/boost/bimap/tags/support/value_type_of.hpp \
+  /usr/local/include/boost/bimap/relation/member_at.hpp \
+  /usr/local/include/boost/bimap/relation/detail/mutant.hpp \
+  /usr/local/include/boost/bimap/relation/structured_pair.hpp \
+  /usr/local/include/boost/bimap/relation/pair_layout.hpp \
+  /usr/local/include/boost/bimap/relation/symmetrical_base.hpp \
+  /usr/local/include/boost/bimap/relation/support/get.hpp \
+  /usr/local/include/boost/bimap/relation/support/value_type_of.hpp \
+  /usr/local/include/boost/bimap/relation/detail/metadata_access_builder.hpp \
+  /usr/local/include/boost/bimap/relation/support/is_tag_of_member_at.hpp \
+  /usr/local/include/boost/bimap/relation/support/member_with_tag.hpp \
+  /usr/local/include/boost/bimap/relation/detail/access_builder.hpp \
+  /usr/local/include/boost/bimap/relation/support/data_extractor.hpp \
+  /usr/local/include/boost/bimap/detail/manage_bimap_key.hpp \
+  /usr/local/include/boost/bimap/detail/is_set_type_of.hpp \
+  /usr/local/include/boost/bimap/detail/concept_tags.hpp \
+  /usr/local/include/boost/bimap/set_of.hpp \
+  /usr/local/include/boost/bimap/detail/generate_index_binder.hpp \
+  /usr/local/include/boost/bimap/detail/generate_view_binder.hpp \
+  /usr/local/include/boost/bimap/detail/generate_relation_binder.hpp \
+  /usr/local/include/boost/multi_index/ordered_index.hpp \
+  /usr/local/include/boost/multi_index/detail/ord_index_impl.hpp \
+  /usr/local/include/boost/multi_index/detail/bidir_node_iterator.hpp \
+  /usr/local/include/boost/multi_index/detail/modify_key_adaptor.hpp \
+  /usr/local/include/boost/multi_index/detail/ord_index_node.hpp \
+  /usr/local/include/boost/multi_index/detail/uintptr_type.hpp \
+  /usr/local/include/boost/multi_index/detail/ord_index_ops.hpp \
+  /usr/local/include/boost/multi_index/detail/promotes_arg.hpp \
+  /usr/local/include/boost/multi_index/detail/is_transparent.hpp \
+  /usr/local/include/boost/multi_index/detail/unbounded.hpp \
+  /usr/local/include/boost/multi_index/detail/value_compare.hpp \
+  /usr/local/include/boost/bind/bind.hpp \
+  /usr/local/include/boost/bind/mem_fn.hpp \
+  /usr/local/include/boost/get_pointer.hpp \
+  /usr/local/include/boost/config/no_tr1/memory.hpp \
+  /usr/local/include/boost/bind/mem_fn_template.hpp \
+  /usr/local/include/boost/bind/mem_fn_cc.hpp \
+  /usr/local/include/boost/is_placeholder.hpp \
+  /usr/local/include/boost/bind/arg.hpp \
+  /usr/local/include/boost/bind/detail/result_traits.hpp \
+  /usr/local/include/boost/bind/std_placeholders.hpp \
+  /usr/local/include/boost/visit_each.hpp \
+  /usr/local/include/boost/core/is_same.hpp \
+  /usr/local/include/boost/bind/storage.hpp \
+  /usr/local/include/boost/bind/bind_cc.hpp \
+  /usr/local/include/boost/bind/bind_mf_cc.hpp \
+  /usr/local/include/boost/bind/bind_mf2_cc.hpp \
+  /usr/local/include/boost/bind/placeholders.hpp \
+  /usr/local/include/boost/multi_index/detail/duplicates_iterator.hpp \
+  /usr/local/include/boost/bimap/views/map_view.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/map_adaptor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/ordered_associative_container_adaptor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/associative_container_adaptor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/detail/identity_converters.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/container_adaptor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/detail/functor_bag.hpp \
+  /usr/local/include/boost/mpl/inherit_linearly.hpp \
+  /usr/local/include/boost/mpl/copy.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/detail/comparison_adaptor.hpp \
+  /usr/local/include/boost/bimap/detail/map_view_base.hpp \
+  /usr/local/include/boost/bimap/relation/support/get_pair_functor.hpp \
+  /usr/local/include/boost/bimap/relation/support/pair_by.hpp \
+  /usr/local/include/boost/bimap/relation/support/pair_type_by.hpp \
+  /usr/local/include/boost/bimap/relation/detail/to_mutable_relation_functor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/support/iterator_facade_converters.hpp \
+  /usr/local/include/boost/bimap/relation/support/opposite_tag.hpp \
+  /usr/local/include/boost/bimap/support/key_type_by.hpp \
+  /usr/local/include/boost/bimap/support/data_type_by.hpp \
+  /usr/local/include/boost/bimap/support/value_type_by.hpp \
+  /usr/local/include/boost/bimap/detail/modifier_adaptor.hpp \
+  /usr/local/include/boost/bimap/detail/map_view_iterator.hpp \
+  /usr/local/include/boost/bimap/relation/detail/static_access_builder.hpp \
+  /usr/local/include/boost/bimap/views/set_view.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/set_adaptor.hpp \
+  /usr/local/include/boost/bimap/detail/set_view_base.hpp \
+  /usr/local/include/boost/bimap/detail/set_view_iterator.hpp \
+  /usr/local/include/boost/bimap/detail/manage_additional_parameters.hpp \
+  /usr/local/include/boost/bimap/unconstrained_set_of.hpp \
+  /usr/local/include/boost/bimap/views/unconstrained_map_view.hpp \
+  /usr/local/include/boost/bimap/views/unconstrained_set_view.hpp \
+  /usr/local/include/boost/bimap/support/map_type_by.hpp \
+  /usr/local/include/boost/bimap/support/map_by.hpp \
+  /usr/local/include/boost/bimap/support/iterator_type_by.hpp \
+  /usr/local/include/boost/bimap/multiset_of.hpp \
+  /usr/local/include/boost/bimap/views/multimap_view.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/multimap_adaptor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/detail/non_unique_container_helper.hpp \
+  /usr/local/include/boost/bimap/detail/non_unique_views_helper.hpp \
+  /usr/local/include/boost/bimap/views/multiset_view.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/multiset_adaptor.hpp \
+  /usr/local/include/CGAL/Timer.h \
+  /usr/local/include/CGAL/Timer_impl.h \
+  /usr/local/include/boost/format.hpp \
+  /usr/local/include/boost/format/detail/compat_workarounds.hpp \
+  /usr/local/include/boost/format/detail/config_macros.hpp \
+  /usr/local/include/boost/format/detail/workarounds_gcc-2_95.hpp \
+  /usr/local/include/boost/format/detail/workarounds_stlport.hpp \
+  /usr/local/include/boost/format/format_fwd.hpp \
+  /usr/local/include/boost/format/internals_fwd.hpp \
+  /usr/local/include/boost/format/internals.hpp \
+  /usr/local/include/boost/format/alt_sstream.hpp \
+  /usr/local/include/boost/shared_ptr.hpp \
+  /usr/local/include/boost/format/alt_sstream_impl.hpp \
+  /usr/local/include/boost/format/format_class.hpp \
+  /usr/local/include/boost/format/exceptions.hpp \
+  /usr/local/include/boost/format/format_implementation.hpp \
+  /usr/local/include/boost/format/group.hpp \
+  /usr/local/include/boost/format/feed_args.hpp \
+  /usr/local/include/boost/format/detail/msvc_disambiguater.hpp \
+  /usr/local/include/boost/format/parsing.hpp \
+  /usr/local/include/boost/format/free_funcs.hpp \
+  /usr/local/include/boost/format/detail/unset_macros.hpp \
+  /usr/local/include/CGAL/Surface_mesher/Verbose_flag.h \
+  /usr/local/include/CGAL/Surface_mesher/Types_generators.h \
+  /usr/local/include/CGAL/Surface_mesher/Profile_counter.h \
+  /usr/local/include/CGAL/Surface_mesher/Profile_timer.h \
+  /usr/local/include/CGAL/Profile_timer.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher_manifold.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher_regular_edges.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher_edges_level.h \
+  /usr/local/include/CGAL/Mesh_2/Output_stream.h \
+  /usr/local/include/CGAL/Meshes/Simple_map_container.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher_visitor.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher_edges_level_visitor.h \
+  /usr/local/include/CGAL/Surface_mesh_traits_generator_3.h \
+  /usr/local/include/CGAL/Surface_mesher/Sphere_oracle_3.h \
+  /usr/local/include/CGAL/Surface_mesher/Null_oracle_visitor.h \
+  /usr/local/include/CGAL/point_generators_3.h \
+  /usr/local/include/CGAL/generators.h \
+  /usr/local/include/CGAL/point_generators_2.h \
+  /usr/local/include/CGAL/Generator/internal/Generic_random_point_generator.h \
+  /usr/local/include/CGAL/boost/graph/property_maps.h \
+  /usr/local/include/CGAL/Surface_mesh_complex_2_in_triangulation_3.h \
+  /usr/local/include/CGAL/Complex_2_in_triangulation_3.h \
+  /usr/local/include/CGAL/Union_find.h \
+  /usr/local/include/CGAL/Surface_mesh_default_criteria_3.h \
+  /usr/local/include/CGAL/Surface_mesher/Standard_criteria.h \
+  /usr/local/include/CGAL/Implicit_surface_3.h \
+  /usr/local/include/CGAL/Surface_mesher/Implicit_surface_oracle_3.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/queue \
+  /usr/local/include/CGAL/IO/facets_in_complex_2_to_triangle_mesh.h \
+  /usr/local/include/CGAL/Poisson_reconstruction_function.h \
+  /usr/local/include/CGAL/IO/trace.h \
+  /usr/local/include/CGAL/Reconstruction_triangulation_3.h \
+  /usr/local/include/CGAL/Point_with_normal_3.h \
+  /usr/local/include/CGAL/license/Point_set_processing_3.h \
+  /usr/local/include/CGAL/Lightweight_vector_3.h \
+  /usr/local/include/CGAL/surface_reconstruction_points_assertions.h \
+  /usr/local/include/CGAL/Triangulation_cell_base_with_info_3.h \
+  /usr/local/include/CGAL/bounding_box.h \
+  /usr/local/include/CGAL/Eigen_solver_traits.h \
   /usr/local/include/eigen3/Eigen/Sparse \
   /usr/local/include/eigen3/Eigen/SparseCore \
   /usr/local/include/eigen3/Eigen/src/SparseCore/SparseUtil.h \
@@ -8736,7 +10112,91 @@ CMakeFiles/hw03.dir/src/main.cpp.o: /Users/asdfasd/Downloads/hw03/src/main.cpp \
   /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h \
   /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h \
   /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
+  /usr/local/include/CGAL/Eigen_matrix.h \
+  /usr/local/include/CGAL/Eigen_sparse_matrix.h \
   /usr/local/include/CGAL/Eigen_vector.h \
+  /usr/local/include/CGAL/poisson_refine_triangulation.h \
+  /usr/local/include/CGAL/Mesh_3/Poisson_refine_cells_3.h \
+  /usr/local/include/CGAL/Meshes/Double_map_container.h \
+  /usr/local/include/CGAL/Poisson_mesh_cell_criteria_3.h \
+  /usr/local/include/CGAL/Robust_weighted_circumcenter_filtered_traits_3.h \
+  /usr/local/include/CGAL/compute_average_spacing.h \
+  /usr/local/include/CGAL/Search_traits_3.h \
+  /usr/local/include/CGAL/license/Spatial_searching.h \
+  /usr/local/include/CGAL/Point_set_processing_3/internal/Neighbor_query.h \
+  /usr/local/include/CGAL/Search_traits_2.h \
+  /usr/local/include/CGAL/Fuzzy_sphere.h \
+  /usr/local/include/CGAL/Kd_tree_rectangle.h \
+  /usr/local/include/CGAL/Search_traits_adapter.h \
+  /usr/local/include/CGAL/Euclidean_distance.h \
+  /usr/local/include/CGAL/Spatial_searching/internal/Get_dimension_tag.h \
+  /usr/local/include/CGAL/Orthogonal_k_neighbor_search.h \
+  /usr/local/include/CGAL/Spatial_searching/internal/K_neighbor_search.h \
+  /usr/local/include/CGAL/Kd_tree_node.h \
+  /usr/local/include/CGAL/Splitters.h \
+  /usr/local/include/CGAL/Point_container.h \
+  /usr/local/include/CGAL/Plane_separator.h \
+  /usr/local/include/CGAL/Spatial_searching/internal/Search_helpers.h \
+  /usr/local/include/CGAL/Kd_tree.h \
+  /usr/local/include/boost/container/deque.hpp \
+  /usr/local/include/CGAL/mutex.h \
+  /usr/local/include/CGAL/Spatial_searching/internal/bounded_priority_queue.h \
+  /usr/local/include/CGAL/point_set_processing_assertions.h \
+  /usr/local/include/boost/iterator/function_output_iterator.hpp \
+  /usr/local/include/CGAL/Point_set_processing_3/internal/Callback_wrapper.h \
+  /usr/local/include/CGAL/for_each.h \
+  /usr/local/include/boost/iterator/indirect_iterator.hpp \
+  /usr/local/include/boost/pointee.hpp \
+  /usr/local/include/boost/detail/is_incrementable.hpp \
+  /usr/local/include/boost/type_traits/detail/bool_trait_undef.hpp \
+  /usr/local/include/boost/indirect_reference.hpp \
+  /Users/asdfasd/Downloads/hw03/include/json.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/forward_list \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/valarray \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/clocale \
+  /Users/asdfasd/Downloads/hw03/src/geomtools.h \
+  /Users/asdfasd/Downloads/hw03/src/parse_obj.h \
+  /usr/local/include/CGAL/Surface_mesh.h \
+  /usr/local/include/CGAL/license/Surface_mesh.h \
+  /usr/local/include/CGAL/Surface_mesh/Surface_mesh_fwd.h \
+  /usr/local/include/CGAL/Surface_mesh/Surface_mesh.h \
+  /usr/local/include/CGAL/Surface_mesh/IO.h \
+  /usr/local/include/CGAL/Surface_mesh/IO/3MF.h \
+  /usr/local/include/CGAL/IO/3MF.h \
+  /usr/local/include/CGAL/IO/3MF/read_3mf.h \
+  /usr/local/include/CGAL/IO/3MF/write_3mf.h \
+  /usr/local/include/CGAL/Surface_mesh/IO/OFF.h \
+  /usr/local/include/CGAL/Surface_mesh/IO/PLY.h \
+  /usr/local/include/CGAL/IO/PLY.h \
+  /usr/local/include/CGAL/IO/PLY/PLY_reader.h \
+  /usr/local/include/CGAL/IO/PLY/PLY_writer.h \
+  /usr/local/include/CGAL/boost/graph/io.h \
+  /usr/local/include/CGAL/boost/graph/IO/3MF.h \
+  /usr/local/include/CGAL/boost/graph/IO/GOCAD.h \
+  /usr/local/include/CGAL/IO/GOCAD.h \
+  /usr/local/include/CGAL/boost/graph/IO/INP.h \
+  /usr/local/include/CGAL/boost/graph/IO/OBJ.h \
+  /usr/local/include/CGAL/IO/OBJ.h \
+  /usr/local/include/CGAL/IO/OBJ/File_writer_wavefront.h \
+  /usr/local/include/CGAL/boost/graph/IO/PLY.h \
+  /usr/local/include/CGAL/boost/graph/IO/STL.h \
+  /usr/local/include/CGAL/IO/STL.h \
+  /usr/local/include/CGAL/IO/STL/STL_reader.h \
+  /usr/local/include/CGAL/boost/graph/IO/VTK.h \
+  /usr/local/include/CGAL/IO/VTK.h \
+  /usr/local/include/CGAL/IO/VTK/VTK_reader.h \
+  /usr/local/include/CGAL/IO/VTK/VTK_writer.h \
+  /usr/local/include/CGAL/boost/graph/IO/WRL.h \
+  /usr/local/include/CGAL/boost/graph/IO/polygon_mesh_io.h \
+  /usr/local/include/CGAL/Surface_mesh/Properties.h \
+  /usr/local/include/CGAL/boost/graph/copy_face_graph.h \
+  /usr/local/include/CGAL/boost/graph/graph_traits_Surface_mesh.h \
+  /usr/local/include/CGAL/boost/graph/properties_Surface_mesh.h \
+  /usr/local/include/CGAL/boost/graph/properties_Surface_mesh_time_stamp.h \
+  /usr/local/include/CGAL/boost/graph/properties_Surface_mesh_features.h \
+  /usr/local/include/CGAL/optimal_bounding_box.h \
+  /usr/local/include/CGAL/license/Optimal_bounding_box.h \
+  /usr/local/include/CGAL/Optimal_bounding_box/Oriented_bounding_box_traits_3.h \
   /usr/local/include/CGAL/Optimal_bounding_box/oriented_bounding_box.h \
   /usr/local/include/CGAL/Optimal_bounding_box/internal/evolution.h \
   /usr/local/include/CGAL/Optimal_bounding_box/internal/fitness_function.h \
@@ -8767,7 +10227,6 @@ CMakeFiles/hw03.dir/src/main.cpp.o: /Users/asdfasd/Downloads/hw03/src/main.cpp \
   /usr/local/include/CGAL/ch_bykat.h \
   /usr/local/include/CGAL/Convex_hull_2/ch_bykat_impl.h \
   /usr/local/include/CGAL/Convex_hull_traits_3.h \
-  /usr/local/include/CGAL/Polyhedron_3_fwd.h \
   /usr/local/include/CGAL/Projection_traits_xy_3.h \
   /usr/local/include/CGAL/Kernel_23/internal/Projection_traits_3.h \
   /usr/local/include/CGAL/Projection_traits_xz_3.h \
@@ -8779,33 +10238,18 @@ CMakeFiles/hw03.dir/src/main.cpp.o: /Users/asdfasd/Downloads/hw03/src/main.cpp \
   /usr/local/include/CGAL/boost/graph/internal/graph_traits_2D_TDS_helper.h \
   /usr/local/include/boost/iterator_adaptors.hpp \
   /usr/local/include/CGAL/boost/graph/properties_Triangulation_data_structure_2.h \
-  /usr/local/include/CGAL/boost/graph/internal/Has_member_id.h \
   /usr/local/include/CGAL/convexity_check_3.h \
-  /usr/local/include/CGAL/boost/graph/property_maps.h \
   /usr/local/include/CGAL/Polygon_mesh_processing/triangulate_faces.h \
   /usr/local/include/CGAL/license/Polygon_mesh_processing/meshing_hole_filling.h \
   /usr/local/include/CGAL/Triangulation_vertex_base_with_info_2.h \
   /usr/local/include/CGAL/Projection_traits_3.h \
   /usr/local/include/CGAL/Kernel_23/internal/Filtered_projection_traits_3.h \
   /usr/local/include/CGAL/Kernel_23/internal/Projection_traits_base_3.h \
-  /usr/local/include/CGAL/Profile_timer.h \
-  /usr/local/include/CGAL/Timer.h \
-  /usr/local/include/CGAL/Timer_impl.h \
   /usr/local/include/CGAL/Filtered_predicate_with_state.h \
   /usr/local/include/CGAL/Polygon_mesh_processing/triangulate_hole.h \
-  /usr/local/include/CGAL/bounding_box.h \
   /usr/local/include/CGAL/Polygon_mesh_processing/internal/Hole_filling/Triangulate_hole_polygon_mesh.h \
   /usr/local/include/CGAL/Polygon_mesh_processing/internal/Hole_filling/Triangulate_hole_polyline.h \
-  /usr/local/include/CGAL/Delaunay_triangulation_3.h \
-  /usr/local/include/CGAL/Delaunay_triangulation_cell_base_3.h \
-  /usr/local/include/CGAL/Location_policy.h \
-  /usr/local/include/CGAL/Complexity_tags.h \
-  /usr/local/include/CGAL/Triangulation_3/internal/Delaunay_triangulation_hierarchy_3.h \
-  /usr/local/include/CGAL/Triangulation_hierarchy_3.h \
-  /usr/local/include/CGAL/STL_Extension/internal/Has_nested_type_Bare_point.h \
-  /usr/local/include/CGAL/Triangulation_hierarchy_vertex_base_3.h \
   /usr/local/include/CGAL/Triangulation_vertex_base_with_info_3.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/queue \
   /usr/local/include/CGAL/Polygon_mesh_processing/refine.h \
   /usr/local/include/CGAL/Polygon_mesh_processing/internal/named_params_helper.h \
   /usr/local/include/CGAL/license/Polygon_mesh_processing/core.h \
@@ -8814,7 +10258,6 @@ CMakeFiles/hw03.dir/src/main.cpp.o: /Users/asdfasd/Downloads/hw03/src/main.cpp \
   /usr/local/include/CGAL/Polygon_mesh_processing/internal/fair_impl.h \
   /usr/local/include/CGAL/Weights/cotangent_weights.h \
   /usr/local/include/CGAL/Weights/internal/utils.h \
-  /usr/local/include/CGAL/Eigen_solver_traits.h \
   /usr/local/include/CGAL/Polygon_mesh_processing/compute_normal.h \
   /usr/local/include/CGAL/license/Polygon_mesh_processing/Compute_normal.h \
   /usr/local/include/CGAL/Polygon_mesh_processing/measure.h \
@@ -8825,7 +10268,6 @@ CMakeFiles/hw03.dir/src/main.cpp.o: /Users/asdfasd/Downloads/hw03/src/main.cpp \
   /usr/local/include/boost/dynamic_bitset_fwd.hpp \
   /usr/local/include/boost/dynamic_bitset/detail/dynamic_bitset.hpp \
   /usr/local/include/boost/dynamic_bitset/detail/lowest_bit.hpp \
-  /usr/local/include/boost/functional/hash/hash.hpp \
   /usr/local/include/CGAL/Polygon_mesh_processing/IO/polygon_mesh_io.h \
   /usr/local/include/CGAL/license/Polygon_mesh_processing.h \
   /usr/local/include/CGAL/Polygon_mesh_processing/orient_polygon_soup.h \
@@ -11680,29 +13122,50 @@ CMakeFiles/hw03.dir/src/parse_obj.cpp.o: /Users/asdfasd/Downloads/hw03/src/parse
   /usr/local/include/CGAL/linear_least_squares_fitting_spheres_3.h \
   /usr/local/include/CGAL/Triangulation_vertex_base_with_id_2.h \
   /usr/local/include/CGAL/Triangulation_face_base_with_info_2.h \
-  /Users/asdfasd/Downloads/hw03/include/json.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/forward_list \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/valarray \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/clocale \
-  /Users/asdfasd/Downloads/hw03/src/geomtools.h \
-  /usr/local/include/CGAL/Surface_mesh.h \
-  /usr/local/include/CGAL/license/Surface_mesh.h \
-  /usr/local/include/CGAL/Surface_mesh/Surface_mesh_fwd.h \
-  /usr/local/include/CGAL/Surface_mesh/Surface_mesh.h \
-  /usr/local/include/CGAL/Surface_mesh/IO.h \
-  /usr/local/include/CGAL/Surface_mesh/IO/3MF.h \
-  /usr/local/include/CGAL/IO/3MF.h \
-  /usr/local/include/CGAL/IO/3MF/read_3mf.h \
-  /usr/local/include/CGAL/IO/3MF/write_3mf.h \
-  /usr/local/include/CGAL/IO/helpers.h \
-  /usr/local/include/CGAL/Container_helper.h \
-  /usr/local/include/CGAL/boost/graph/iterator.h \
+  /usr/local/include/CGAL/Polyhedron_3.h \
+  /usr/local/include/CGAL/license/Polyhedron.h \
+  /usr/local/include/CGAL/Polyhedron_3_fwd.h \
+  /usr/local/include/CGAL/HalfedgeDS_iterator.h \
+  /usr/local/include/CGAL/Iterator_project.h \
+  /usr/local/include/CGAL/N_step_adaptor_derived.h \
+  /usr/local/include/CGAL/Polyhedron_items_3.h \
+  /usr/local/include/CGAL/HalfedgeDS_vertex_base.h \
+  /usr/local/include/CGAL/HalfedgeDS_halfedge_base.h \
+  /usr/local/include/CGAL/HalfedgeDS_face_base.h \
+  /usr/local/include/CGAL/HalfedgeDS_default.h \
+  /usr/local/include/CGAL/HalfedgeDS_items_2.h \
+  /usr/local/include/CGAL/HalfedgeDS_list.h \
+  /usr/local/include/CGAL/In_place_list.h \
+  /usr/local/include/CGAL/HalfedgeDS_items_decorator.h \
+  /usr/local/include/CGAL/boost/graph/graph_traits_HalfedgeDS_default.h \
+  /usr/local/include/CGAL/boost/graph/graph_traits_HalfedgeDS.h \
+  /usr/local/include/CGAL/Named_function_parameters.h \
+  /usr/local/include/CGAL/STL_Extension/internal/parameters_interface.h \
   /usr/local/include/boost/graph/graph_traits.hpp \
   /usr/local/include/boost/pending/property.hpp \
   /usr/local/include/boost/pending/detail/property.hpp \
+  /usr/local/include/boost/graph/properties.hpp \
+  /usr/local/include/boost/graph/property_maps/constant_property_map.hpp \
+  /usr/local/include/boost/graph/property_maps/null_property_map.hpp \
+  /usr/local/include/CGAL/boost/graph/iterator.h \
   /usr/local/include/CGAL/boost/graph/internal/helpers.h \
-  /usr/local/include/CGAL/Surface_mesh/IO/OFF.h \
-  /usr/local/include/CGAL/boost/graph/IO/OFF.h \
+  /usr/local/include/CGAL/boost/graph/halfedge_graph_traits.h \
+  /usr/local/include/CGAL/boost/graph/properties.h \
+  /usr/local/include/CGAL/Dynamic_property_map.h \
+  /usr/local/include/CGAL/HalfedgeDS_decorator.h \
+  /usr/local/include/CGAL/HalfedgeDS_const_decorator.h \
+  /usr/local/include/CGAL/IO/Verbose_ostream.h \
+  /usr/local/include/CGAL/Modifier_base.h \
+  /usr/local/include/CGAL/Polyhedron_traits_3.h \
+  /usr/local/include/CGAL/boost/graph/graph_traits_Polyhedron_3.h \
+  /usr/local/include/CGAL/boost/graph/backward_compatibility_functions.h \
+  /usr/local/include/CGAL/boost/graph/properties_Polyhedron_3.h \
+  /usr/local/include/CGAL/boost/graph/internal/Has_member_id.h \
+  /usr/local/include/CGAL/boost/graph/properties_Polyhedron_3_time_stamp.h \
+  /usr/local/include/CGAL/boost/graph/properties_Polyhedron_3_features.h \
+  /usr/local/include/CGAL/IO/Polyhedron_iostream.h \
+  /usr/local/include/CGAL/IO/Polyhedron_OFF_iostream.h \
+  /usr/local/include/CGAL/IO/print_OFF.h \
   /usr/local/include/CGAL/IO/OFF.h \
   /usr/local/include/CGAL/IO/OFF/Scanner_OFF.h \
   /usr/local/include/CGAL/IO/OFF/File_scanner_OFF.h \
@@ -11713,70 +13176,384 @@ CMakeFiles/hw03.dir/src/parse_obj.cpp.o: /Users/asdfasd/Downloads/hw03/src/parse
   /usr/local/include/CGAL/IO/OFF/File_header_OFF_impl.h \
   /usr/local/include/CGAL/IO/OFF/File_writer_OFF.h \
   /usr/local/include/CGAL/IO/OFF/generic_copy_OFF.h \
+  /usr/local/include/CGAL/IO/helpers.h \
+  /usr/local/include/CGAL/Container_helper.h \
   /usr/local/include/CGAL/IO/Generic_writer.h \
-  /usr/local/include/CGAL/Named_function_parameters.h \
-  /usr/local/include/CGAL/STL_Extension/internal/parameters_interface.h \
   /usr/local/include/CGAL/boost/graph/named_params_helper.h \
   /usr/local/include/CGAL/boost/graph/internal/initialized_index_maps_helpers.h \
-  /usr/local/include/CGAL/boost/graph/properties.h \
-  /usr/local/include/CGAL/Dynamic_property_map.h \
-  /usr/local/include/boost/graph/properties.hpp \
-  /usr/local/include/boost/graph/property_maps/constant_property_map.hpp \
-  /usr/local/include/boost/graph/property_maps/null_property_map.hpp \
-  /usr/local/include/CGAL/boost/graph/IO/Generic_facegraph_builder.h \
-  /usr/local/include/CGAL/boost/graph/Euler_operations.h \
-  /usr/local/include/CGAL/boost/graph/helpers.h \
-  /usr/local/include/CGAL/boost/graph/internal/Has_member_clear.h \
-  /usr/local/include/CGAL/IO/Verbose_ostream.h \
-  /usr/local/include/CGAL/boost/graph/generators.h \
-  /usr/local/include/CGAL/Random.h \
-  /usr/local/include/CGAL/Random_impl.h \
-  /usr/local/include/boost/container/small_vector.hpp \
   /usr/local/include/CGAL/boost/graph/IO/Generic_facegraph_printer.h \
   /usr/local/include/boost/container/flat_map.hpp \
   /usr/local/include/boost/container/detail/container_or_allocator_rebind.hpp \
   /usr/local/include/boost/container/detail/container_rebind.hpp \
-  /usr/local/include/CGAL/Surface_mesh/IO/PLY.h \
-  /usr/local/include/CGAL/IO/PLY.h \
-  /usr/local/include/CGAL/IO/PLY/PLY_reader.h \
-  /usr/local/include/CGAL/IO/PLY/PLY_writer.h \
-  /usr/local/include/CGAL/boost/graph/io.h \
-  /usr/local/include/CGAL/boost/graph/IO/3MF.h \
-  /usr/local/include/CGAL/boost/graph/IO/GOCAD.h \
-  /usr/local/include/CGAL/IO/GOCAD.h \
-  /usr/local/include/CGAL/boost/graph/IO/INP.h \
-  /usr/local/include/CGAL/boost/graph/IO/OBJ.h \
-  /usr/local/include/CGAL/IO/OBJ.h \
-  /usr/local/include/CGAL/IO/OBJ/File_writer_wavefront.h \
-  /usr/local/include/CGAL/boost/graph/IO/PLY.h \
-  /usr/local/include/CGAL/boost/graph/IO/STL.h \
-  /usr/local/include/CGAL/IO/STL.h \
-  /usr/local/include/CGAL/IO/STL/STL_reader.h \
-  /usr/local/include/CGAL/boost/graph/IO/VTK.h \
-  /usr/local/include/CGAL/IO/VTK.h \
-  /usr/local/include/CGAL/IO/VTK/VTK_reader.h \
-  /usr/local/include/CGAL/IO/VTK/VTK_writer.h \
-  /usr/local/include/CGAL/boost/graph/IO/WRL.h \
+  /usr/local/include/CGAL/IO/scan_OFF.h \
+  /usr/local/include/CGAL/IO/Polyhedron_scan_OFF.h \
+  /usr/local/include/CGAL/Polyhedron_incremental_builder_3.h \
+  /usr/local/include/CGAL/Random_access_adaptor.h \
+  /usr/local/include/CGAL/boost/graph/IO/OFF.h \
+  /usr/local/include/CGAL/boost/graph/IO/Generic_facegraph_builder.h \
+  /usr/local/include/CGAL/boost/graph/Euler_operations.h \
+  /usr/local/include/CGAL/boost/graph/helpers.h \
+  /usr/local/include/CGAL/boost/graph/internal/Has_member_clear.h \
+  /usr/local/include/CGAL/boost/graph/generators.h \
+  /usr/local/include/CGAL/Random.h \
+  /usr/local/include/CGAL/Random_impl.h \
+  /usr/local/include/boost/container/small_vector.hpp \
+  /usr/local/include/CGAL/Has_conversion.h \
+  /usr/local/include/CGAL/IO/Polyhedron_VRML_1_ostream.h \
+  /usr/local/include/CGAL/IO/Polyhedron_inventor_ostream.h \
+  /usr/local/include/CGAL/IO/OI.h \
+  /usr/local/include/CGAL/IO/OI/File_writer_inventor.h \
+  /usr/local/include/CGAL/IO/OI/Inventor_ostream.h \
+  /usr/local/include/CGAL/IO/Polyhedron_VRML_2_ostream.h \
   /usr/local/include/CGAL/IO/VRML.h \
   /usr/local/include/CGAL/IO/VRML/File_writer_VRML_2.h \
   /usr/local/include/CGAL/IO/VRML/VRML_2_ostream.h \
   /usr/local/include/CGAL/IO/VRML/VRML_1_ostream.h \
-  /usr/local/include/CGAL/IO/OI.h \
-  /usr/local/include/CGAL/IO/OI/File_writer_inventor.h \
-  /usr/local/include/CGAL/IO/OI/Inventor_ostream.h \
-  /usr/local/include/CGAL/boost/graph/IO/polygon_mesh_io.h \
-  /usr/local/include/CGAL/Surface_mesh/Properties.h \
-  /usr/local/include/CGAL/boost/graph/copy_face_graph.h \
-  /usr/local/include/boost/iterator/function_output_iterator.hpp \
-  /usr/local/include/CGAL/boost/graph/graph_traits_Surface_mesh.h \
-  /usr/local/include/CGAL/boost/graph/properties_Surface_mesh.h \
-  /usr/local/include/CGAL/boost/graph/properties_Surface_mesh_time_stamp.h \
-  /usr/local/include/CGAL/boost/graph/properties_Surface_mesh_features.h \
-  /usr/local/include/CGAL/optimal_bounding_box.h \
-  /usr/local/include/CGAL/license/Optimal_bounding_box.h \
-  /usr/local/include/CGAL/Optimal_bounding_box/Oriented_bounding_box_traits_3.h \
-  /usr/local/include/CGAL/Eigen_matrix.h \
-  /usr/local/include/CGAL/Eigen_sparse_matrix.h \
+  /usr/local/include/CGAL/poisson_surface_reconstruction.h \
+  /usr/local/include/CGAL/license/Poisson_surface_reconstruction_3.h \
+  /usr/local/include/CGAL/Surface_mesh_default_triangulation_3.h \
+  /usr/local/include/CGAL/license/Surface_mesher.h \
+  /usr/local/include/CGAL/Robust_circumcenter_traits_3.h \
+  /usr/local/include/CGAL/Robust_construction.h \
+  /usr/local/include/CGAL/Exact_predicates_exact_constructions_kernel.h \
+  /usr/local/include/CGAL/Lazy_kernel.h \
+  /usr/local/include/CGAL/Static_filtered_predicate.h \
+  /usr/local/include/CGAL/Epic_converter.h \
+  /usr/local/include/CGAL/Filtered_kernel/Cartesian_coordinate_iterator_2.h \
+  /usr/local/include/CGAL/Filtered_kernel/Cartesian_coordinate_iterator_3.h \
+  /usr/local/include/CGAL/Delaunay_triangulation_3.h \
+  /usr/local/include/CGAL/license/Triangulation_3.h \
+  /usr/local/include/CGAL/Delaunay_triangulation_cell_base_3.h \
+  /usr/local/include/CGAL/Triangulation_cell_base_3.h \
+  /usr/local/include/CGAL/Triangulation_ds_cell_base_3.h \
+  /usr/local/include/CGAL/license/TDS_3.h \
+  /usr/local/include/CGAL/TDS_3/internal/Dummy_tds_3.h \
+  /usr/local/include/CGAL/Triangulation_3.h \
+  /usr/local/include/CGAL/Triangulation_utils_3.h \
+  /usr/local/include/CGAL/Triangulation_data_structure_3.h \
+  /usr/local/include/boost/unordered_set.hpp \
+  /usr/local/include/boost/unordered/unordered_set.hpp \
+  /usr/local/include/boost/move/move.hpp \
+  /usr/local/include/boost/move/algorithm.hpp \
+  /usr/local/include/boost/unordered/detail/set.hpp \
+  /usr/local/include/boost/unordered/detail/implementation.hpp \
+  /usr/local/include/boost/core/allocator_traits.hpp \
+  /usr/local/include/boost/core/allocator_access.hpp \
+  /usr/local/include/boost/core/pointer_traits.hpp \
+  /usr/local/include/boost/swap.hpp \
+  /usr/local/include/boost/unordered/detail/fca.hpp \
+  /usr/local/include/boost/unordered/detail/prime_fmod.hpp \
+  /usr/local/include/boost/preprocessor/seq/for_each.hpp \
+  /usr/local/include/boost/core/empty_value.hpp \
+  /usr/local/include/boost/unordered/detail/type_traits.hpp \
+  /usr/local/include/boost/unordered/detail/fwd.hpp \
+  /usr/local/include/boost/unordered/unordered_set_fwd.hpp \
+  /usr/local/include/CGAL/STL_Extension/internal/Has_member_visited.h \
+  /usr/local/include/CGAL/Concurrent_compact_container.h \
+  /usr/local/include/CGAL/Small_unordered_map.h \
+  /usr/local/include/CGAL/Triangulation_ds_vertex_base_3.h \
+  /usr/local/include/CGAL/Triangulation_simplex_3.h \
+  /usr/local/include/CGAL/TDS_3/internal/Triangulation_ds_iterators_3.h \
+  /usr/local/include/CGAL/TDS_3/internal/Triangulation_ds_circulators_3.h \
+  /usr/local/include/CGAL/Triangulation_vertex_base_3.h \
+  /usr/local/include/CGAL/Spatial_sort_traits_adapter_3.h \
+  /usr/local/include/CGAL/Triangulation_segment_traverser_3.h \
+  /usr/local/include/CGAL/Triangulation_3/internal/Triangulation_segment_traverser_3_impl.h \
+  /usr/local/include/CGAL/Spatial_lock_grid_3.h \
+  /usr/local/include/boost/property_map/function_property_map.hpp \
+  /usr/local/include/boost/unordered_map.hpp \
+  /usr/local/include/boost/unordered/unordered_map.hpp \
+  /usr/local/include/boost/unordered/detail/map.hpp \
+  /usr/local/include/boost/unordered/unordered_map_fwd.hpp \
+  /usr/local/include/CGAL/Location_policy.h \
+  /usr/local/include/CGAL/Complexity_tags.h \
+  /usr/local/include/CGAL/Triangulation_3/internal/Delaunay_triangulation_hierarchy_3.h \
+  /usr/local/include/CGAL/Triangulation_hierarchy_3.h \
+  /usr/local/include/CGAL/STL_Extension/internal/Has_nested_type_Bare_point.h \
+  /usr/local/include/CGAL/Triangulation_hierarchy_vertex_base_3.h \
+  /usr/local/include/CGAL/Surface_mesh_vertex_base_3.h \
+  /usr/local/include/CGAL/Complex_2_in_triangulation_vertex_base_3.h \
+  /usr/local/include/CGAL/Surface_mesh_cell_base_3.h \
+  /usr/local/include/CGAL/Complex_2_in_triangulation_cell_base_3.h \
+  /usr/local/include/CGAL/Delaunay_triangulation_cell_base_with_circumcenter_3.h \
+  /usr/local/include/CGAL/make_surface_mesh.h \
+  /usr/local/include/CGAL/Surface_mesher_generator.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher.h \
+  /usr/local/include/CGAL/Mesher_level.h \
+  /usr/local/include/CGAL/Mesher_level_visitors.h \
+  /usr/local/include/CGAL/Mesher_level_default_implementations.h \
+  /usr/local/include/CGAL/Meshes/Triangulation_mesher_level_traits_3.h \
+  /usr/local/include/CGAL/Double_map.h \
+  /usr/local/include/CGAL/boost/bimap.hpp \
+  /usr/local/include/boost/bimap.hpp \
+  /usr/local/include/boost/bimap/bimap.hpp \
+  /usr/local/include/boost/bimap/detail/user_interface_config.hpp \
+  /usr/local/include/boost/serialization/nvp.hpp \
+  /usr/local/include/boost/serialization/level.hpp \
+  /usr/local/include/boost/serialization/level_enum.hpp \
+  /usr/local/include/boost/serialization/tracking.hpp \
+  /usr/local/include/boost/mpl/greater.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/greater.hpp \
+  /usr/local/include/boost/serialization/tracking_enum.hpp \
+  /usr/local/include/boost/serialization/type_info_implementation.hpp \
+  /usr/local/include/boost/serialization/traits.hpp \
+  /usr/local/include/boost/serialization/split_free.hpp \
+  /usr/local/include/boost/serialization/serialization.hpp \
+  /usr/local/include/boost/serialization/strong_typedef.hpp \
+  /usr/local/include/boost/serialization/access.hpp \
+  /usr/local/include/boost/serialization/wrapper.hpp \
+  /usr/local/include/boost/serialization/base_object.hpp \
+  /usr/local/include/boost/serialization/force_include.hpp \
+  /usr/local/include/boost/serialization/void_cast_fwd.hpp \
+  /usr/local/include/boost/bimap/detail/bimap_core.hpp \
+  /usr/local/include/boost/multi_index_container.hpp \
+  /usr/local/include/boost/mpl/contains.hpp \
+  /usr/local/include/boost/mpl/contains_fwd.hpp \
+  /usr/local/include/boost/mpl/aux_/contains_impl.hpp \
+  /usr/local/include/boost/mpl/find.hpp \
+  /usr/local/include/boost/multi_index_container_fwd.hpp \
+  /usr/local/include/boost/multi_index/identity.hpp \
+  /usr/local/include/boost/multi_index/identity_fwd.hpp \
+  /usr/local/include/boost/multi_index/indexed_by.hpp \
+  /usr/local/include/boost/preprocessor/control/expr_if.hpp \
+  /usr/local/include/boost/multi_index/ordered_index_fwd.hpp \
+  /usr/local/include/boost/multi_index/detail/ord_index_args.hpp \
+  /usr/local/include/boost/multi_index/tag.hpp \
+  /usr/local/include/boost/multi_index/detail/no_duplicate_tags.hpp \
+  /usr/local/include/boost/mpl/set/set0.hpp \
+  /usr/local/include/boost/mpl/set/aux_/at_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/has_key_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/tag.hpp \
+  /usr/local/include/boost/mpl/aux_/overload_names.hpp \
+  /usr/local/include/boost/mpl/aux_/ptr_to_ref.hpp \
+  /usr/local/include/boost/mpl/aux_/config/operators.hpp \
+  /usr/local/include/boost/mpl/set/aux_/clear_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/set0.hpp \
+  /usr/local/include/boost/mpl/set/aux_/size_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/empty_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/insert_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/item.hpp \
+  /usr/local/include/boost/mpl/base.hpp \
+  /usr/local/include/boost/mpl/set/aux_/insert_range_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/erase_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/erase_key_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/key_type_impl.hpp \
+  /usr/local/include/boost/mpl/key_type_fwd.hpp \
+  /usr/local/include/boost/mpl/set/aux_/value_type_impl.hpp \
+  /usr/local/include/boost/mpl/value_type_fwd.hpp \
+  /usr/local/include/boost/mpl/set/aux_/begin_end_impl.hpp \
+  /usr/local/include/boost/mpl/set/aux_/iterator.hpp \
+  /usr/local/include/boost/preprocessor/facilities/intercept.hpp \
+  /usr/local/include/boost/preprocessor/facilities/limits/intercept_256.hpp \
+  /usr/local/include/boost/multi_index/detail/ord_index_impl_fwd.hpp \
+  /usr/local/include/boost/multi_index/detail/access_specifier.hpp \
+  /usr/local/include/boost/multi_index/detail/adl_swap.hpp \
+  /usr/local/include/boost/multi_index/detail/allocator_traits.hpp \
+  /usr/local/include/boost/multi_index/detail/base_type.hpp \
+  /usr/local/include/boost/multi_index/detail/index_base.hpp \
+  /usr/local/include/boost/multi_index/detail/copy_map.hpp \
+  /usr/local/include/boost/multi_index/detail/auto_space.hpp \
+  /usr/local/include/boost/multi_index/detail/raw_ptr.hpp \
+  /usr/local/include/boost/multi_index/detail/do_not_copy_elements_tag.hpp \
+  /usr/local/include/boost/multi_index/detail/index_access_sequence.hpp \
+  /usr/local/include/boost/multi_index/detail/node_handle.hpp \
+  /usr/local/include/boost/multi_index/detail/define_if_constexpr_macro.hpp \
+  /usr/local/include/boost/multi_index/detail/ignore_wstrict_aliasing.hpp \
+  /usr/local/include/boost/multi_index/detail/restore_wstrict_aliasing.hpp \
+  /usr/local/include/boost/multi_index/detail/undef_if_constexpr_macro.hpp \
+  /usr/local/include/boost/multi_index/detail/node_type.hpp \
+  /usr/local/include/boost/mpl/reverse_iter_fold.hpp \
+  /usr/local/include/boost/mpl/aux_/reverse_iter_fold_impl.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/reverse_iter_fold_impl.hpp \
+  /usr/local/include/boost/multi_index/detail/header_holder.hpp \
+  /usr/local/include/boost/multi_index/detail/index_node_base.hpp \
+  /usr/local/include/boost/archive/archive_exception.hpp \
+  /usr/local/include/boost/archive/detail/decl.hpp \
+  /usr/local/include/boost/archive/detail/abi_prefix.hpp \
+  /usr/local/include/boost/config/abi_prefix.hpp \
+  /usr/local/include/boost/archive/detail/abi_suffix.hpp \
+  /usr/local/include/boost/config/abi_suffix.hpp \
+  /usr/local/include/boost/multi_index/detail/is_index_list.hpp \
+  /usr/local/include/boost/multi_index/detail/vartempl_support.hpp \
+  /usr/local/include/boost/multi_index/detail/index_loader.hpp \
+  /usr/local/include/boost/multi_index/detail/index_saver.hpp \
+  /usr/local/include/boost/multi_index/detail/index_matcher.hpp \
+  /usr/local/include/boost/multi_index/detail/converter.hpp \
+  /usr/local/include/boost/multi_index/detail/has_tag.hpp \
+  /usr/local/include/boost/multi_index/detail/invalidate_iterators.hpp \
+  /usr/local/include/boost/multi_index/detail/safe_mode.hpp \
+  /usr/local/include/boost/multi_index/detail/scope_guard.hpp \
+  /usr/local/include/boost/multi_index/detail/archive_constructed.hpp \
+  /usr/local/include/boost/multi_index/detail/serialization_version.hpp \
+  /usr/local/include/boost/serialization/split_member.hpp \
+  /usr/local/include/boost/serialization/version.hpp \
+  /usr/local/include/boost/mpl/comparison.hpp \
+  /usr/local/include/boost/mpl/not_equal_to.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/not_equal_to.hpp \
+  /usr/local/include/boost/mpl/less_equal.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/less_equal.hpp \
+  /usr/local/include/boost/mpl/greater_equal.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/greater_equal.hpp \
+  /usr/local/include/boost/serialization/collection_size_type.hpp \
+  /usr/local/include/boost/serialization/is_bitwise_serializable.hpp \
+  /usr/local/include/boost/multi_index/member.hpp \
+  /usr/local/include/boost/bimap/relation/mutant_relation.hpp \
+  /usr/local/include/boost/functional/hash/hash.hpp \
+  /usr/local/include/boost/bimap/tags/tagged.hpp \
+  /usr/local/include/boost/bimap/tags/support/default_tagged.hpp \
+  /usr/local/include/boost/bimap/tags/support/tag_of.hpp \
+  /usr/local/include/boost/bimap/detail/debug/static_error.hpp \
+  /usr/local/include/boost/bimap/tags/support/value_type_of.hpp \
+  /usr/local/include/boost/bimap/relation/member_at.hpp \
+  /usr/local/include/boost/bimap/relation/detail/mutant.hpp \
+  /usr/local/include/boost/bimap/relation/structured_pair.hpp \
+  /usr/local/include/boost/bimap/relation/pair_layout.hpp \
+  /usr/local/include/boost/bimap/relation/symmetrical_base.hpp \
+  /usr/local/include/boost/bimap/relation/support/get.hpp \
+  /usr/local/include/boost/bimap/relation/support/value_type_of.hpp \
+  /usr/local/include/boost/bimap/relation/detail/metadata_access_builder.hpp \
+  /usr/local/include/boost/bimap/relation/support/is_tag_of_member_at.hpp \
+  /usr/local/include/boost/bimap/relation/support/member_with_tag.hpp \
+  /usr/local/include/boost/bimap/relation/detail/access_builder.hpp \
+  /usr/local/include/boost/bimap/relation/support/data_extractor.hpp \
+  /usr/local/include/boost/bimap/detail/manage_bimap_key.hpp \
+  /usr/local/include/boost/bimap/detail/is_set_type_of.hpp \
+  /usr/local/include/boost/bimap/detail/concept_tags.hpp \
+  /usr/local/include/boost/bimap/set_of.hpp \
+  /usr/local/include/boost/bimap/detail/generate_index_binder.hpp \
+  /usr/local/include/boost/bimap/detail/generate_view_binder.hpp \
+  /usr/local/include/boost/bimap/detail/generate_relation_binder.hpp \
+  /usr/local/include/boost/multi_index/ordered_index.hpp \
+  /usr/local/include/boost/multi_index/detail/ord_index_impl.hpp \
+  /usr/local/include/boost/multi_index/detail/bidir_node_iterator.hpp \
+  /usr/local/include/boost/multi_index/detail/modify_key_adaptor.hpp \
+  /usr/local/include/boost/multi_index/detail/ord_index_node.hpp \
+  /usr/local/include/boost/multi_index/detail/uintptr_type.hpp \
+  /usr/local/include/boost/multi_index/detail/ord_index_ops.hpp \
+  /usr/local/include/boost/multi_index/detail/promotes_arg.hpp \
+  /usr/local/include/boost/multi_index/detail/is_transparent.hpp \
+  /usr/local/include/boost/multi_index/detail/unbounded.hpp \
+  /usr/local/include/boost/multi_index/detail/value_compare.hpp \
+  /usr/local/include/boost/bind/bind.hpp \
+  /usr/local/include/boost/bind/mem_fn.hpp \
+  /usr/local/include/boost/get_pointer.hpp \
+  /usr/local/include/boost/config/no_tr1/memory.hpp \
+  /usr/local/include/boost/bind/mem_fn_template.hpp \
+  /usr/local/include/boost/bind/mem_fn_cc.hpp \
+  /usr/local/include/boost/is_placeholder.hpp \
+  /usr/local/include/boost/bind/arg.hpp \
+  /usr/local/include/boost/bind/detail/result_traits.hpp \
+  /usr/local/include/boost/bind/std_placeholders.hpp \
+  /usr/local/include/boost/visit_each.hpp \
+  /usr/local/include/boost/core/is_same.hpp \
+  /usr/local/include/boost/bind/storage.hpp \
+  /usr/local/include/boost/bind/bind_cc.hpp \
+  /usr/local/include/boost/bind/bind_mf_cc.hpp \
+  /usr/local/include/boost/bind/bind_mf2_cc.hpp \
+  /usr/local/include/boost/bind/placeholders.hpp \
+  /usr/local/include/boost/multi_index/detail/duplicates_iterator.hpp \
+  /usr/local/include/boost/bimap/views/map_view.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/map_adaptor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/ordered_associative_container_adaptor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/associative_container_adaptor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/detail/identity_converters.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/container_adaptor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/detail/functor_bag.hpp \
+  /usr/local/include/boost/mpl/inherit_linearly.hpp \
+  /usr/local/include/boost/mpl/copy.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/detail/comparison_adaptor.hpp \
+  /usr/local/include/boost/bimap/detail/map_view_base.hpp \
+  /usr/local/include/boost/bimap/relation/support/get_pair_functor.hpp \
+  /usr/local/include/boost/bimap/relation/support/pair_by.hpp \
+  /usr/local/include/boost/bimap/relation/support/pair_type_by.hpp \
+  /usr/local/include/boost/bimap/relation/detail/to_mutable_relation_functor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/support/iterator_facade_converters.hpp \
+  /usr/local/include/boost/bimap/relation/support/opposite_tag.hpp \
+  /usr/local/include/boost/bimap/support/key_type_by.hpp \
+  /usr/local/include/boost/bimap/support/data_type_by.hpp \
+  /usr/local/include/boost/bimap/support/value_type_by.hpp \
+  /usr/local/include/boost/bimap/detail/modifier_adaptor.hpp \
+  /usr/local/include/boost/bimap/detail/map_view_iterator.hpp \
+  /usr/local/include/boost/bimap/relation/detail/static_access_builder.hpp \
+  /usr/local/include/boost/bimap/views/set_view.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/set_adaptor.hpp \
+  /usr/local/include/boost/bimap/detail/set_view_base.hpp \
+  /usr/local/include/boost/bimap/detail/set_view_iterator.hpp \
+  /usr/local/include/boost/bimap/detail/manage_additional_parameters.hpp \
+  /usr/local/include/boost/bimap/unconstrained_set_of.hpp \
+  /usr/local/include/boost/bimap/views/unconstrained_map_view.hpp \
+  /usr/local/include/boost/bimap/views/unconstrained_set_view.hpp \
+  /usr/local/include/boost/bimap/support/map_type_by.hpp \
+  /usr/local/include/boost/bimap/support/map_by.hpp \
+  /usr/local/include/boost/bimap/support/iterator_type_by.hpp \
+  /usr/local/include/boost/bimap/multiset_of.hpp \
+  /usr/local/include/boost/bimap/views/multimap_view.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/multimap_adaptor.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/detail/non_unique_container_helper.hpp \
+  /usr/local/include/boost/bimap/detail/non_unique_views_helper.hpp \
+  /usr/local/include/boost/bimap/views/multiset_view.hpp \
+  /usr/local/include/boost/bimap/container_adaptor/multiset_adaptor.hpp \
+  /usr/local/include/CGAL/Timer.h \
+  /usr/local/include/CGAL/Timer_impl.h \
+  /usr/local/include/boost/format.hpp \
+  /usr/local/include/boost/format/detail/compat_workarounds.hpp \
+  /usr/local/include/boost/format/detail/config_macros.hpp \
+  /usr/local/include/boost/format/detail/workarounds_gcc-2_95.hpp \
+  /usr/local/include/boost/format/detail/workarounds_stlport.hpp \
+  /usr/local/include/boost/format/format_fwd.hpp \
+  /usr/local/include/boost/format/internals_fwd.hpp \
+  /usr/local/include/boost/format/internals.hpp \
+  /usr/local/include/boost/format/alt_sstream.hpp \
+  /usr/local/include/boost/shared_ptr.hpp \
+  /usr/local/include/boost/format/alt_sstream_impl.hpp \
+  /usr/local/include/boost/format/format_class.hpp \
+  /usr/local/include/boost/format/exceptions.hpp \
+  /usr/local/include/boost/format/format_implementation.hpp \
+  /usr/local/include/boost/format/group.hpp \
+  /usr/local/include/boost/format/feed_args.hpp \
+  /usr/local/include/boost/format/detail/msvc_disambiguater.hpp \
+  /usr/local/include/boost/format/parsing.hpp \
+  /usr/local/include/boost/format/free_funcs.hpp \
+  /usr/local/include/boost/format/detail/unset_macros.hpp \
+  /usr/local/include/CGAL/Surface_mesher/Verbose_flag.h \
+  /usr/local/include/CGAL/Surface_mesher/Types_generators.h \
+  /usr/local/include/CGAL/Surface_mesher/Profile_counter.h \
+  /usr/local/include/CGAL/Surface_mesher/Profile_timer.h \
+  /usr/local/include/CGAL/Profile_timer.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher_manifold.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher_regular_edges.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher_edges_level.h \
+  /usr/local/include/CGAL/Mesh_2/Output_stream.h \
+  /usr/local/include/CGAL/Meshes/Simple_map_container.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher_visitor.h \
+  /usr/local/include/CGAL/Surface_mesher/Surface_mesher_edges_level_visitor.h \
+  /usr/local/include/CGAL/Surface_mesh_traits_generator_3.h \
+  /usr/local/include/CGAL/Surface_mesher/Sphere_oracle_3.h \
+  /usr/local/include/CGAL/Surface_mesher/Null_oracle_visitor.h \
+  /usr/local/include/CGAL/point_generators_3.h \
+  /usr/local/include/CGAL/generators.h \
+  /usr/local/include/CGAL/point_generators_2.h \
+  /usr/local/include/CGAL/Generator/internal/Generic_random_point_generator.h \
+  /usr/local/include/CGAL/boost/graph/property_maps.h \
+  /usr/local/include/CGAL/Surface_mesh_complex_2_in_triangulation_3.h \
+  /usr/local/include/CGAL/Complex_2_in_triangulation_3.h \
+  /usr/local/include/CGAL/Union_find.h \
+  /usr/local/include/CGAL/Surface_mesh_default_criteria_3.h \
+  /usr/local/include/CGAL/Surface_mesher/Standard_criteria.h \
+  /usr/local/include/CGAL/Implicit_surface_3.h \
+  /usr/local/include/CGAL/Surface_mesher/Implicit_surface_oracle_3.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/queue \
+  /usr/local/include/CGAL/IO/facets_in_complex_2_to_triangle_mesh.h \
+  /usr/local/include/CGAL/Poisson_reconstruction_function.h \
+  /usr/local/include/CGAL/IO/trace.h \
+  /usr/local/include/CGAL/Reconstruction_triangulation_3.h \
+  /usr/local/include/CGAL/Point_with_normal_3.h \
+  /usr/local/include/CGAL/license/Point_set_processing_3.h \
+  /usr/local/include/CGAL/Lightweight_vector_3.h \
+  /usr/local/include/CGAL/surface_reconstruction_points_assertions.h \
+  /usr/local/include/CGAL/Triangulation_cell_base_with_info_3.h \
+  /usr/local/include/CGAL/bounding_box.h \
+  /usr/local/include/CGAL/Eigen_solver_traits.h \
   /usr/local/include/eigen3/Eigen/Sparse \
   /usr/local/include/eigen3/Eigen/SparseCore \
   /usr/local/include/eigen3/Eigen/src/SparseCore/SparseUtil.h \
@@ -11850,7 +13627,90 @@ CMakeFiles/hw03.dir/src/parse_obj.cpp.o: /Users/asdfasd/Downloads/hw03/src/parse
   /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h \
   /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h \
   /usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
+  /usr/local/include/CGAL/Eigen_matrix.h \
+  /usr/local/include/CGAL/Eigen_sparse_matrix.h \
   /usr/local/include/CGAL/Eigen_vector.h \
+  /usr/local/include/CGAL/poisson_refine_triangulation.h \
+  /usr/local/include/CGAL/Mesh_3/Poisson_refine_cells_3.h \
+  /usr/local/include/CGAL/Meshes/Double_map_container.h \
+  /usr/local/include/CGAL/Poisson_mesh_cell_criteria_3.h \
+  /usr/local/include/CGAL/Robust_weighted_circumcenter_filtered_traits_3.h \
+  /usr/local/include/CGAL/compute_average_spacing.h \
+  /usr/local/include/CGAL/Search_traits_3.h \
+  /usr/local/include/CGAL/license/Spatial_searching.h \
+  /usr/local/include/CGAL/Point_set_processing_3/internal/Neighbor_query.h \
+  /usr/local/include/CGAL/Search_traits_2.h \
+  /usr/local/include/CGAL/Fuzzy_sphere.h \
+  /usr/local/include/CGAL/Kd_tree_rectangle.h \
+  /usr/local/include/CGAL/Search_traits_adapter.h \
+  /usr/local/include/CGAL/Euclidean_distance.h \
+  /usr/local/include/CGAL/Spatial_searching/internal/Get_dimension_tag.h \
+  /usr/local/include/CGAL/Orthogonal_k_neighbor_search.h \
+  /usr/local/include/CGAL/Spatial_searching/internal/K_neighbor_search.h \
+  /usr/local/include/CGAL/Kd_tree_node.h \
+  /usr/local/include/CGAL/Splitters.h \
+  /usr/local/include/CGAL/Point_container.h \
+  /usr/local/include/CGAL/Plane_separator.h \
+  /usr/local/include/CGAL/Spatial_searching/internal/Search_helpers.h \
+  /usr/local/include/CGAL/Kd_tree.h \
+  /usr/local/include/boost/container/deque.hpp \
+  /usr/local/include/CGAL/mutex.h \
+  /usr/local/include/CGAL/Spatial_searching/internal/bounded_priority_queue.h \
+  /usr/local/include/CGAL/point_set_processing_assertions.h \
+  /usr/local/include/boost/iterator/function_output_iterator.hpp \
+  /usr/local/include/CGAL/Point_set_processing_3/internal/Callback_wrapper.h \
+  /usr/local/include/CGAL/for_each.h \
+  /usr/local/include/boost/iterator/indirect_iterator.hpp \
+  /usr/local/include/boost/pointee.hpp \
+  /usr/local/include/boost/detail/is_incrementable.hpp \
+  /usr/local/include/boost/type_traits/detail/bool_trait_undef.hpp \
+  /usr/local/include/boost/indirect_reference.hpp \
+  /Users/asdfasd/Downloads/hw03/include/json.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/forward_list \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/valarray \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/clocale \
+  /Users/asdfasd/Downloads/hw03/src/geomtools.h \
+  /usr/local/include/CGAL/Surface_mesh.h \
+  /usr/local/include/CGAL/license/Surface_mesh.h \
+  /usr/local/include/CGAL/Surface_mesh/Surface_mesh_fwd.h \
+  /usr/local/include/CGAL/Surface_mesh/Surface_mesh.h \
+  /usr/local/include/CGAL/Surface_mesh/IO.h \
+  /usr/local/include/CGAL/Surface_mesh/IO/3MF.h \
+  /usr/local/include/CGAL/IO/3MF.h \
+  /usr/local/include/CGAL/IO/3MF/read_3mf.h \
+  /usr/local/include/CGAL/IO/3MF/write_3mf.h \
+  /usr/local/include/CGAL/Surface_mesh/IO/OFF.h \
+  /usr/local/include/CGAL/Surface_mesh/IO/PLY.h \
+  /usr/local/include/CGAL/IO/PLY.h \
+  /usr/local/include/CGAL/IO/PLY/PLY_reader.h \
+  /usr/local/include/CGAL/IO/PLY/PLY_writer.h \
+  /usr/local/include/CGAL/boost/graph/io.h \
+  /usr/local/include/CGAL/boost/graph/IO/3MF.h \
+  /usr/local/include/CGAL/boost/graph/IO/GOCAD.h \
+  /usr/local/include/CGAL/IO/GOCAD.h \
+  /usr/local/include/CGAL/boost/graph/IO/INP.h \
+  /usr/local/include/CGAL/boost/graph/IO/OBJ.h \
+  /usr/local/include/CGAL/IO/OBJ.h \
+  /usr/local/include/CGAL/IO/OBJ/File_writer_wavefront.h \
+  /usr/local/include/CGAL/boost/graph/IO/PLY.h \
+  /usr/local/include/CGAL/boost/graph/IO/STL.h \
+  /usr/local/include/CGAL/IO/STL.h \
+  /usr/local/include/CGAL/IO/STL/STL_reader.h \
+  /usr/local/include/CGAL/boost/graph/IO/VTK.h \
+  /usr/local/include/CGAL/IO/VTK.h \
+  /usr/local/include/CGAL/IO/VTK/VTK_reader.h \
+  /usr/local/include/CGAL/IO/VTK/VTK_writer.h \
+  /usr/local/include/CGAL/boost/graph/IO/WRL.h \
+  /usr/local/include/CGAL/boost/graph/IO/polygon_mesh_io.h \
+  /usr/local/include/CGAL/Surface_mesh/Properties.h \
+  /usr/local/include/CGAL/boost/graph/copy_face_graph.h \
+  /usr/local/include/CGAL/boost/graph/graph_traits_Surface_mesh.h \
+  /usr/local/include/CGAL/boost/graph/properties_Surface_mesh.h \
+  /usr/local/include/CGAL/boost/graph/properties_Surface_mesh_time_stamp.h \
+  /usr/local/include/CGAL/boost/graph/properties_Surface_mesh_features.h \
+  /usr/local/include/CGAL/optimal_bounding_box.h \
+  /usr/local/include/CGAL/license/Optimal_bounding_box.h \
+  /usr/local/include/CGAL/Optimal_bounding_box/Oriented_bounding_box_traits_3.h \
   /usr/local/include/CGAL/Optimal_bounding_box/oriented_bounding_box.h \
   /usr/local/include/CGAL/Optimal_bounding_box/internal/evolution.h \
   /usr/local/include/CGAL/Optimal_bounding_box/internal/fitness_function.h \
@@ -11881,7 +13741,6 @@ CMakeFiles/hw03.dir/src/parse_obj.cpp.o: /Users/asdfasd/Downloads/hw03/src/parse
   /usr/local/include/CGAL/ch_bykat.h \
   /usr/local/include/CGAL/Convex_hull_2/ch_bykat_impl.h \
   /usr/local/include/CGAL/Convex_hull_traits_3.h \
-  /usr/local/include/CGAL/Polyhedron_3_fwd.h \
   /usr/local/include/CGAL/Projection_traits_xy_3.h \
   /usr/local/include/CGAL/Kernel_23/internal/Projection_traits_3.h \
   /usr/local/include/CGAL/Projection_traits_xz_3.h \
@@ -11893,76 +13752,18 @@ CMakeFiles/hw03.dir/src/parse_obj.cpp.o: /Users/asdfasd/Downloads/hw03/src/parse
   /usr/local/include/CGAL/boost/graph/internal/graph_traits_2D_TDS_helper.h \
   /usr/local/include/boost/iterator_adaptors.hpp \
   /usr/local/include/CGAL/boost/graph/properties_Triangulation_data_structure_2.h \
-  /usr/local/include/CGAL/boost/graph/internal/Has_member_id.h \
   /usr/local/include/CGAL/convexity_check_3.h \
-  /usr/local/include/CGAL/boost/graph/property_maps.h \
   /usr/local/include/CGAL/Polygon_mesh_processing/triangulate_faces.h \
   /usr/local/include/CGAL/license/Polygon_mesh_processing/meshing_hole_filling.h \
   /usr/local/include/CGAL/Triangulation_vertex_base_with_info_2.h \
   /usr/local/include/CGAL/Projection_traits_3.h \
   /usr/local/include/CGAL/Kernel_23/internal/Filtered_projection_traits_3.h \
   /usr/local/include/CGAL/Kernel_23/internal/Projection_traits_base_3.h \
-  /usr/local/include/CGAL/Profile_timer.h \
-  /usr/local/include/CGAL/Timer.h \
-  /usr/local/include/CGAL/Timer_impl.h \
   /usr/local/include/CGAL/Filtered_predicate_with_state.h \
   /usr/local/include/CGAL/Polygon_mesh_processing/triangulate_hole.h \
-  /usr/local/include/CGAL/bounding_box.h \
   /usr/local/include/CGAL/Polygon_mesh_processing/internal/Hole_filling/Triangulate_hole_polygon_mesh.h \
   /usr/local/include/CGAL/Polygon_mesh_processing/internal/Hole_filling/Triangulate_hole_polyline.h \
-  /usr/local/include/CGAL/Delaunay_triangulation_3.h \
-  /usr/local/include/CGAL/license/Triangulation_3.h \
-  /usr/local/include/CGAL/Delaunay_triangulation_cell_base_3.h \
-  /usr/local/include/CGAL/Triangulation_cell_base_3.h \
-  /usr/local/include/CGAL/Triangulation_ds_cell_base_3.h \
-  /usr/local/include/CGAL/license/TDS_3.h \
-  /usr/local/include/CGAL/TDS_3/internal/Dummy_tds_3.h \
-  /usr/local/include/CGAL/Triangulation_3.h \
-  /usr/local/include/CGAL/Triangulation_utils_3.h \
-  /usr/local/include/CGAL/Triangulation_data_structure_3.h \
-  /usr/local/include/boost/unordered_set.hpp \
-  /usr/local/include/boost/unordered/unordered_set.hpp \
-  /usr/local/include/boost/move/move.hpp \
-  /usr/local/include/boost/move/algorithm.hpp \
-  /usr/local/include/boost/unordered/detail/set.hpp \
-  /usr/local/include/boost/unordered/detail/implementation.hpp \
-  /usr/local/include/boost/core/allocator_traits.hpp \
-  /usr/local/include/boost/core/allocator_access.hpp \
-  /usr/local/include/boost/core/pointer_traits.hpp \
-  /usr/local/include/boost/swap.hpp \
-  /usr/local/include/boost/unordered/detail/fca.hpp \
-  /usr/local/include/boost/unordered/detail/prime_fmod.hpp \
-  /usr/local/include/boost/preprocessor/seq/for_each.hpp \
-  /usr/local/include/boost/core/empty_value.hpp \
-  /usr/local/include/boost/unordered/detail/type_traits.hpp \
-  /usr/local/include/boost/unordered/detail/fwd.hpp \
-  /usr/local/include/boost/unordered/unordered_set_fwd.hpp \
-  /usr/local/include/CGAL/STL_Extension/internal/Has_member_visited.h \
-  /usr/local/include/CGAL/Concurrent_compact_container.h \
-  /usr/local/include/CGAL/Small_unordered_map.h \
-  /usr/local/include/CGAL/Triangulation_ds_vertex_base_3.h \
-  /usr/local/include/CGAL/Triangulation_simplex_3.h \
-  /usr/local/include/CGAL/TDS_3/internal/Triangulation_ds_iterators_3.h \
-  /usr/local/include/CGAL/TDS_3/internal/Triangulation_ds_circulators_3.h \
-  /usr/local/include/CGAL/Triangulation_vertex_base_3.h \
-  /usr/local/include/CGAL/Spatial_sort_traits_adapter_3.h \
-  /usr/local/include/CGAL/Triangulation_segment_traverser_3.h \
-  /usr/local/include/CGAL/Triangulation_3/internal/Triangulation_segment_traverser_3_impl.h \
-  /usr/local/include/CGAL/Iterator_project.h \
-  /usr/local/include/CGAL/Spatial_lock_grid_3.h \
-  /usr/local/include/boost/property_map/function_property_map.hpp \
-  /usr/local/include/boost/unordered_map.hpp \
-  /usr/local/include/boost/unordered/unordered_map.hpp \
-  /usr/local/include/boost/unordered/detail/map.hpp \
-  /usr/local/include/boost/unordered/unordered_map_fwd.hpp \
-  /usr/local/include/CGAL/Location_policy.h \
-  /usr/local/include/CGAL/Complexity_tags.h \
-  /usr/local/include/CGAL/Triangulation_3/internal/Delaunay_triangulation_hierarchy_3.h \
-  /usr/local/include/CGAL/Triangulation_hierarchy_3.h \
-  /usr/local/include/CGAL/STL_Extension/internal/Has_nested_type_Bare_point.h \
-  /usr/local/include/CGAL/Triangulation_hierarchy_vertex_base_3.h \
   /usr/local/include/CGAL/Triangulation_vertex_base_with_info_3.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/queue \
   /usr/local/include/CGAL/Polygon_mesh_processing/refine.h \
   /usr/local/include/CGAL/Polygon_mesh_processing/internal/named_params_helper.h \
   /usr/local/include/CGAL/license/Polygon_mesh_processing/core.h \
@@ -11971,7 +13772,6 @@ CMakeFiles/hw03.dir/src/parse_obj.cpp.o: /Users/asdfasd/Downloads/hw03/src/parse
   /usr/local/include/CGAL/Polygon_mesh_processing/internal/fair_impl.h \
   /usr/local/include/CGAL/Weights/cotangent_weights.h \
   /usr/local/include/CGAL/Weights/internal/utils.h \
-  /usr/local/include/CGAL/Eigen_solver_traits.h \
   /usr/local/include/CGAL/Polygon_mesh_processing/compute_normal.h \
   /usr/local/include/CGAL/license/Polygon_mesh_processing/Compute_normal.h \
   /usr/local/include/CGAL/Polygon_mesh_processing/measure.h \
@@ -11982,7 +13782,6 @@ CMakeFiles/hw03.dir/src/parse_obj.cpp.o: /Users/asdfasd/Downloads/hw03/src/parse
   /usr/local/include/boost/dynamic_bitset_fwd.hpp \
   /usr/local/include/boost/dynamic_bitset/detail/dynamic_bitset.hpp \
   /usr/local/include/boost/dynamic_bitset/detail/lowest_bit.hpp \
-  /usr/local/include/boost/functional/hash/hash.hpp \
   /usr/local/include/CGAL/Polygon_mesh_processing/IO/polygon_mesh_io.h \
   /usr/local/include/CGAL/license/Polygon_mesh_processing.h \
   /usr/local/include/CGAL/Polygon_mesh_processing/orient_polygon_soup.h \
@@ -12005,25 +13804,37 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Users/asdfasd/Downloads/hw03/src/voxelProcessing.cpp:
 
-/Users/asdfasd/Downloads/hw03/src/parse_obj.h:
+/Users/asdfasd/Downloads/hw03/src/parse_obj.cpp:
 
-/usr/local/include/boost/range/sub_range.hpp:
+/usr/local/include/boost/range/iterator_range.hpp:
+
+/usr/local/include/boost/range/pointer.hpp:
+
+/usr/local/include/boost/range/category.hpp:
 
 /usr/local/include/boost/range/metafunctions.hpp:
 
-/usr/local/include/CGAL/Polygon_mesh_processing/repair_polygon_soup.h:
+/usr/local/include/boost/range/reference.hpp:
+
+/usr/local/include/CGAL/license/Polygon_mesh_processing/repair.h:
+
+/usr/local/include/CGAL/license/Polygon_mesh_processing/orientation.h:
+
+/usr/local/include/CGAL/license/Polygon_mesh_processing.h:
 
 /usr/local/include/CGAL/Polygon_mesh_processing/IO/polygon_mesh_io.h:
+
+/usr/local/include/boost/dynamic_bitset/detail/lowest_bit.hpp:
 
 /usr/local/include/boost/dynamic_bitset_fwd.hpp:
 
 /usr/local/include/boost/dynamic_bitset/config.hpp:
 
-/usr/local/include/boost/dynamic_bitset/dynamic_bitset.hpp:
-
 /usr/local/include/CGAL/license/Polygon_mesh_processing/measure.h:
 
-/usr/local/include/CGAL/Eigen_solver_traits.h:
+/usr/local/include/CGAL/Polygon_mesh_processing/measure.h:
+
+/usr/local/include/CGAL/Polygon_mesh_processing/compute_normal.h:
 
 /usr/local/include/CGAL/Weights/internal/utils.h:
 
@@ -12035,17 +13846,33 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/license/Polygon_mesh_processing/core.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/queue:
+/usr/local/include/CGAL/Polygon_mesh_processing/internal/named_params_helper.h:
 
-/usr/local/include/CGAL/Triangulation_hierarchy_vertex_base_3.h:
+/usr/local/include/CGAL/Polygon_mesh_processing/refine.h:
 
-/usr/local/include/CGAL/STL_Extension/internal/Has_nested_type_Bare_point.h:
+/usr/local/include/CGAL/Polygon_mesh_processing/internal/Hole_filling/Triangulate_hole_polygon_mesh.h:
 
 /usr/local/include/CGAL/Polygon_mesh_processing/triangulate_hole.h:
 
+/usr/local/include/CGAL/Filtered_predicate_with_state.h:
+
+/usr/local/include/CGAL/Kernel_23/internal/Filtered_projection_traits_3.h:
+
+/usr/local/include/CGAL/Projection_traits_3.h:
+
+/usr/local/include/CGAL/license/Polygon_mesh_processing/meshing_hole_filling.h:
+
 /usr/local/include/CGAL/convexity_check_3.h:
 
-/usr/local/include/CGAL/boost/graph/internal/Has_member_id.h:
+/usr/local/include/CGAL/boost/graph/properties_Triangulation_data_structure_2.h:
+
+/usr/local/include/boost/iterator_adaptors.hpp:
+
+/usr/local/include/CGAL/boost/graph/internal/graph_traits_2D_TDS_helper.h:
+
+/usr/local/include/CGAL/boost/graph/graph_traits_Triangulation_data_structure_2.h:
+
+/usr/local/include/CGAL/Convex_hull_vertex_base_2.h:
 
 /usr/local/include/CGAL/Convex_hull_face_base_2.h:
 
@@ -12053,121 +13880,45 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Kernel_23/internal/Projection_traits_3.h:
 
+/usr/local/include/CGAL/Projection_traits_xy_3.h:
+
+/usr/local/include/CGAL/Convex_hull_2/ch_bykat_impl.h:
+
 /usr/local/include/CGAL/ch_bykat.h:
 
-/usr/local/include/CGAL/license/Convex_hull_3.h:
+/usr/local/include/CGAL/distance_predicates_2.h:
 
-/usr/local/include/CGAL/convex_hull_3.h:
+/usr/local/include/CGAL/Optimal_bounding_box/internal/population.h:
 
-/usr/local/include/boost/dynamic_bitset/detail/lowest_bit.hpp:
+/usr/local/include/CGAL/min_quadrilateral_2.h:
 
-/usr/local/include/CGAL/license/Bounding_volumes.h:
+/usr/local/include/CGAL/IO/Tee_for_output_iterator.h:
 
-/usr/local/include/CGAL/ch_graham_andrew.h:
-
-/usr/local/include/CGAL/Convex_hull_2/convexity_check_2_impl.h:
+/usr/local/include/CGAL/ch_selected_extreme_points_2.h:
 
 /usr/local/include/CGAL/convexity_check_2.h:
 
-/usr/local/include/CGAL/Projection_traits_xz_3.h:
+/usr/local/include/CGAL/Convex_hull_2/ch_akl_toussaint_impl.h:
+
+/usr/local/include/CGAL/Optimal_bounding_box/internal/optimize_2.h:
 
 /usr/local/include/CGAL/Optimal_bounding_box/internal/nelder_mead_functions.h:
 
-/usr/local/include/CGAL/Optimal_bounding_box/internal/helper.h:
+/usr/local/include/CGAL/Optimal_bounding_box/internal/fitness_function.h:
 
-/usr/local/include/CGAL/Optimal_bounding_box/internal/evolution.h:
-
-/usr/local/include/CGAL/Optimal_bounding_box/oriented_bounding_box.h:
-
-/usr/local/include/CGAL/Eigen_vector.h:
-
-/usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h:
-
-/usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h:
-
-/usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h:
-
-/usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseQR/SparseQR.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_pivotL.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_Structs.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_gemm_kernel.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky.h:
-
-/usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h:
-
-/usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseCore/TriangularSolver.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparseView.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparseBlock.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparseRef.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseCore/MappedSparseMatrix.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparseMap.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseCore/AmbiVector.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_column_bmod.h:
-
-/usr/local/include/eigen3/Eigen/SparseCore:
-
-/usr/local/include/CGAL/Optimal_bounding_box/Oriented_bounding_box_traits_3.h:
-
-/usr/local/include/CGAL/optimal_bounding_box.h:
+/usr/local/include/CGAL/boost/graph/properties_Surface_mesh_features.h:
 
 /usr/local/include/CGAL/boost/graph/properties_Surface_mesh_time_stamp.h:
 
 /usr/local/include/CGAL/boost/graph/properties_Surface_mesh.h:
 
-/usr/local/include/boost/iterator/function_output_iterator.hpp:
+/usr/local/include/CGAL/Surface_mesh/Properties.h:
 
 /usr/local/include/CGAL/boost/graph/IO/polygon_mesh_io.h:
 
-/usr/local/include/CGAL/IO/OI/File_writer_inventor.h:
-
-/usr/local/include/CGAL/IO/OI.h:
-
-/usr/local/include/CGAL/IO/VRML/VRML_1_ostream.h:
-
-/usr/local/include/CGAL/IO/VRML/VRML_2_ostream.h:
-
 /usr/local/include/CGAL/boost/graph/IO/WRL.h:
 
-/usr/local/include/CGAL/IO/VTK/VTK_reader.h:
-
-/usr/local/include/CGAL/IO/VTK.h:
-
-/usr/local/include/CGAL/IO/STL/STL_reader.h:
+/usr/local/include/CGAL/IO/VTK/VTK_writer.h:
 
 /usr/local/include/CGAL/IO/STL.h:
 
@@ -12175,73 +13926,557 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/IO/OBJ/File_writer_wavefront.h:
 
+/usr/local/include/CGAL/IO/OBJ.h:
+
 /usr/local/include/CGAL/boost/graph/IO/OBJ.h:
 
-/usr/local/include/CGAL/boost/graph/IO/GOCAD.h:
+/usr/local/include/CGAL/boost/graph/IO/INP.h:
+
+/usr/local/include/CGAL/IO/GOCAD.h:
 
 /usr/local/include/CGAL/boost/graph/IO/3MF.h:
 
-/usr/local/include/CGAL/boost/graph/io.h:
+/usr/local/include/CGAL/IO/PLY/PLY_writer.h:
 
-/usr/local/include/CGAL/Surface_mesh/IO/PLY.h:
+/usr/local/include/CGAL/IO/PLY/PLY_reader.h:
 
-/usr/local/include/boost/container/detail/container_or_allocator_rebind.hpp:
-
-/usr/local/include/CGAL/IO/Verbose_ostream.h:
-
-/usr/local/include/CGAL/boost/graph/Euler_operations.h:
-
-/usr/local/include/eigen3/Eigen/SparseCholesky:
-
-/usr/local/include/CGAL/boost/graph/IO/Generic_facegraph_builder.h:
-
-/usr/local/include/boost/graph/property_maps/null_property_map.hpp:
-
-/usr/local/include/boost/graph/property_maps/constant_property_map.hpp:
-
-/usr/local/include/boost/graph/properties.hpp:
-
-/usr/local/include/CGAL/boost/graph/properties.h:
-
-/usr/local/include/CGAL/boost/graph/internal/initialized_index_maps_helpers.h:
-
-/usr/local/include/CGAL/STL_Extension/internal/parameters_interface.h:
-
-/usr/local/include/CGAL/Named_function_parameters.h:
-
-/usr/local/include/CGAL/IO/OFF/File_header_OFF_impl.h:
-
-/usr/local/include/CGAL/IO/OFF/File_header_OFF.h:
-
-/usr/local/include/CGAL/IO/OFF/File_scanner_OFF.h:
-
-/usr/local/include/CGAL/IO/OFF/Scanner_OFF.h:
-
-/usr/local/include/CGAL/IO/OFF.h:
+/usr/local/include/CGAL/IO/PLY.h:
 
 /usr/local/include/CGAL/Surface_mesh/IO/OFF.h:
 
-/usr/local/include/boost/pending/detail/property.hpp:
+/usr/local/include/CGAL/IO/3MF/write_3mf.h:
 
-/usr/local/include/CGAL/boost/graph/iterator.h:
+/usr/local/include/boost/range.hpp:
 
-/usr/local/include/CGAL/Container_helper.h:
+/usr/local/include/CGAL/IO/3MF.h:
 
 /usr/local/include/CGAL/Surface_mesh/IO.h:
 
-/Users/asdfasd/downloads/hw03/src/geomtools.h:
+/usr/local/include/CGAL/Surface_mesh/Surface_mesh_fwd.h:
 
-/Users/asdfasd/downloads/hw03/include/json.hpp:
+/usr/local/include/CGAL/license/Surface_mesh.h:
 
-/usr/local/include/boost/container/small_vector.hpp:
+/usr/local/include/CGAL/Surface_mesh.h:
+
+/Users/asdfasd/Downloads/hw03/src/parse_obj.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/clocale:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/forward_list:
+
+/Users/asdfasd/Downloads/hw03/include/json.hpp:
+
+/usr/local/include/CGAL/for_each.h:
+
+/usr/local/include/CGAL/Point_set_processing_3/internal/Callback_wrapper.h:
+
+/usr/local/include/CGAL/point_set_processing_assertions.h:
+
+/usr/local/include/boost/type_traits/detail/bool_trait_undef.hpp:
+
+/usr/local/include/CGAL/Spatial_searching/internal/bounded_priority_queue.h:
+
+/usr/local/include/CGAL/mutex.h:
+
+/usr/local/include/CGAL/Spatial_searching/internal/Search_helpers.h:
+
+/usr/local/include/CGAL/Plane_separator.h:
+
+/usr/local/include/CGAL/Splitters.h:
+
+/usr/local/include/CGAL/Kd_tree_node.h:
+
+/usr/local/include/CGAL/Orthogonal_k_neighbor_search.h:
+
+/usr/local/include/CGAL/Spatial_searching/internal/Get_dimension_tag.h:
+
+/usr/local/include/CGAL/Euclidean_distance.h:
+
+/usr/local/include/CGAL/Search_traits_adapter.h:
+
+/usr/local/include/CGAL/Polygon_mesh_processing/triangulate_faces.h:
+
+/usr/local/include/CGAL/Kd_tree_rectangle.h:
+
+/usr/local/include/CGAL/Fuzzy_sphere.h:
+
+/usr/local/include/CGAL/license/Spatial_searching.h:
+
+/usr/local/include/CGAL/Search_traits_3.h:
+
+/usr/local/include/CGAL/compute_average_spacing.h:
+
+/usr/local/include/CGAL/Robust_weighted_circumcenter_filtered_traits_3.h:
+
+/usr/local/include/CGAL/Meshes/Double_map_container.h:
+
+/usr/local/include/CGAL/Mesh_3/Poisson_refine_cells_3.h:
+
+/usr/local/include/CGAL/poisson_refine_triangulation.h:
+
+/usr/local/include/CGAL/Eigen_matrix.h:
+
+/usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h:
+
+/usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h:
+
+/usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h:
+
+/usr/local/include/eigen3/Eigen/IterativeLinearSolvers:
+
+/usr/local/include/eigen3/Eigen/SparseQR:
+
+/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_Utils.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_column_bmod.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_column_dfs.h:
+
+/usr/local/include/CGAL/Triangulation_vertex_base_with_info_3.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_kernel_bmod.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_dfs.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_pivotL.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_relax_snode.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLUImpl.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky.h:
+
+/usr/local/include/eigen3/Eigen/SparseCholesky:
+
+/usr/local/include/eigen3/Eigen/src/OrderingMethods/Ordering.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCore/TriangularSolver.h:
+
+/usr/local/include/CGAL/optimal_bounding_box.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparseRedux.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparseDot.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparseBlock.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparseRef.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCore/AmbiVector.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparseAssign.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparseUtil.h:
+
+/usr/local/include/eigen3/Eigen/Sparse:
+
+/usr/local/include/CGAL/Eigen_solver_traits.h:
+
+/usr/local/include/CGAL/bounding_box.h:
+
+/usr/local/include/CGAL/license/Point_set_processing_3.h:
+
+/usr/local/include/CGAL/IO/trace.h:
+
+/usr/local/include/CGAL/Poisson_reconstruction_function.h:
+
+/usr/local/include/CGAL/IO/facets_in_complex_2_to_triangle_mesh.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/queue:
+
+/usr/local/include/CGAL/Surface_mesher/Implicit_surface_oracle_3.h:
+
+/usr/local/include/CGAL/Implicit_surface_3.h:
+
+/usr/local/include/CGAL/Surface_mesh_default_criteria_3.h:
+
+/usr/local/include/CGAL/Union_find.h:
+
+/usr/local/include/CGAL/Complex_2_in_triangulation_3.h:
+
+/usr/local/include/CGAL/boost/graph/property_maps.h:
+
+/usr/local/include/CGAL/Generator/internal/Generic_random_point_generator.h:
+
+/usr/local/include/CGAL/point_generators_2.h:
+
+/usr/local/include/CGAL/point_generators_3.h:
+
+/usr/local/include/CGAL/Surface_mesher/Null_oracle_visitor.h:
+
+/usr/local/include/CGAL/Surface_mesh_traits_generator_3.h:
+
+/usr/local/include/CGAL/Surface_mesher/Surface_mesher_visitor.h:
+
+/usr/local/include/CGAL/Surface_mesher/Surface_mesher_manifold.h:
+
+/usr/local/include/CGAL/Profile_timer.h:
+
+/usr/local/include/CGAL/Surface_mesher/Profile_timer.h:
+
+/usr/local/include/CGAL/Surface_mesher/Verbose_flag.h:
+
+/usr/local/include/boost/format/free_funcs.hpp:
+
+/usr/local/include/boost/format/detail/msvc_disambiguater.hpp:
+
+/usr/local/include/boost/format/feed_args.hpp:
+
+/usr/local/include/boost/format/exceptions.hpp:
+
+/usr/local/include/boost/format/format_class.hpp:
+
+/usr/local/include/boost/format/alt_sstream_impl.hpp:
+
+/usr/local/include/boost/shared_ptr.hpp:
+
+/usr/local/include/boost/format/internals.hpp:
+
+/usr/local/include/boost/format/format_fwd.hpp:
+
+/usr/local/include/boost/format/detail/workarounds_gcc-2_95.hpp:
+
+/usr/local/include/boost/format/detail/config_macros.hpp:
+
+/usr/local/include/boost/format/detail/compat_workarounds.hpp:
+
+/usr/local/include/boost/format.hpp:
+
+/usr/local/include/boost/bimap/container_adaptor/multiset_adaptor.hpp:
+
+/usr/local/include/boost/bimap/detail/non_unique_views_helper.hpp:
+
+/usr/local/include/boost/bimap/support/iterator_type_by.hpp:
+
+/usr/local/include/boost/mpl/vector/aux_/push_back.hpp:
+
+/usr/local/include/boost/bimap/unconstrained_set_of.hpp:
+
+/usr/local/include/boost/fusion/iterator/deref.hpp:
+
+/usr/local/include/boost/bimap/detail/manage_additional_parameters.hpp:
+
+/usr/local/include/boost/bimap/detail/set_view_iterator.hpp:
+
+/usr/local/include/boost/bimap/relation/support/opposite_tag.hpp:
+
+/usr/local/include/boost/bimap/relation/detail/to_mutable_relation_functor.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h:
+
+/usr/local/include/boost/bimap/relation/support/pair_type_by.hpp:
+
+/usr/local/include/boost/mpl/aux_/template_arity.hpp:
+
+/usr/local/include/boost/bimap/relation/support/get_pair_functor.hpp:
+
+/usr/local/include/CGAL/Sqrt_extension/Scalar_factor_traits.h:
+
+/usr/local/include/boost/bimap/detail/map_view_base.hpp:
+
+/usr/local/include/boost/mpl/copy.hpp:
+
+/usr/local/include/boost/bimap/container_adaptor/container_adaptor.hpp:
+
+/usr/local/include/CGAL/Surface_mesh/IO/3MF.h:
+
+/usr/local/include/boost/bimap/container_adaptor/detail/identity_converters.hpp:
+
+/usr/local/include/boost/bimap/container_adaptor/ordered_associative_container_adaptor.hpp:
+
+/usr/local/include/boost/bimap/container_adaptor/map_adaptor.hpp:
+
+/usr/local/include/boost/bimap/views/map_view.hpp:
+
+/usr/local/include/CGAL/Intersections_3/Iso_cuboid_3_Iso_cuboid_3.h:
+
+/usr/local/include/boost/bind/placeholders.hpp:
+
+/usr/local/include/boost/assert/source_location.hpp:
+
+/usr/local/include/boost/bind/bind_mf_cc.hpp:
+
+/usr/local/include/boost/bind/storage.hpp:
+
+/usr/local/include/boost/visit_each.hpp:
+
+/usr/local/include/boost/config/no_tr1/memory.hpp:
+
+/usr/local/include/boost/get_pointer.hpp:
+
+/usr/local/include/boost/multi_index/detail/is_transparent.hpp:
+
+/usr/local/include/boost/mpl/aux_/adl_barrier.hpp:
+
+/usr/local/include/boost/multi_index/detail/ord_index_ops.hpp:
+
+/usr/local/include/CGAL/boost_mp.h:
+
+/usr/local/include/boost/multi_index/detail/uintptr_type.hpp:
+
+/usr/local/include/boost/mp11/detail/mp_rename.hpp:
+
+/usr/local/include/boost/multi_index/detail/ord_index_node.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avx512cdintrin.h:
+
+/usr/local/include/boost/multi_index/detail/modify_key_adaptor.hpp:
+
+/usr/local/include/CGAL/long_long.h:
+
+/usr/local/include/boost/multi_index/detail/bidir_node_iterator.hpp:
+
+/usr/local/include/boost/bimap/detail/generate_relation_binder.hpp:
+
+/usr/local/include/CGAL/Intersections_3/internal/Bbox_3_Tetrahedron_3_do_intersect.h:
+
+/usr/local/include/boost/bimap/detail/concept_tags.hpp:
+
+/usr/local/include/boost/bimap/detail/is_set_type_of.hpp:
+
+/usr/local/include/boost/math/special_functions/detail/polygamma.hpp:
+
+/usr/local/include/boost/bimap/detail/manage_bimap_key.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__hash_table:
+
+/usr/local/include/boost/bimap/relation/support/member_with_tag.hpp:
+
+/usr/local/include/CGAL/Triangulation_2.h:
+
+/usr/local/include/boost/bimap/relation/support/is_tag_of_member_at.hpp:
+
+/usr/local/include/boost/bimap/relation/pair_layout.hpp:
+
+/usr/local/include/boost/bimap/relation/symmetrical_base.hpp:
+
+/usr/local/include/boost/type_traits/remove_bounds.hpp:
+
+/usr/local/include/boost/bimap/relation/structured_pair.hpp:
+
+/usr/local/include/boost/range/sub_range.hpp:
+
+/usr/local/include/boost/bimap/tags/support/value_type_of.hpp:
+
+/usr/local/include/boost/multi_index/detail/index_loader.hpp:
+
+/usr/local/include/boost/bimap/detail/debug/static_error.hpp:
+
+/usr/local/include/boost/bimap/tags/support/tag_of.hpp:
+
+/usr/local/include/boost/type_traits/has_pre_increment.hpp:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/greater_equal.hpp:
+
+/usr/local/include/boost/mpl/greater_equal.hpp:
+
+/usr/local/include/boost/mpl/less_equal.hpp:
+
+/usr/local/include/boost/predef/compiler/tendra.h:
+
+/usr/local/include/boost/mpl/not_equal_to.hpp:
+
+/usr/local/include/boost/serialization/split_member.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avxvnniintrin.h:
+
+/usr/local/include/boost/multi_index/detail/archive_constructed.hpp:
+
+/usr/local/include/boost/multi_index/detail/safe_mode.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/search.h:
+
+/usr/local/include/boost/multi_index/detail/invalidate_iterators.hpp:
+
+/usr/local/include/boost/mpl/list/list20.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Geometry/Homogeneous.h:
+
+/usr/local/include/boost/multi_index/detail/has_tag.hpp:
+
+/usr/local/include/CGAL/Surface_mesher/Surface_mesher_edges_level_visitor.h:
+
+/usr/local/include/boost/multi_index/detail/converter.hpp:
+
+/usr/local/include/CGAL/Intersections_3/Line_3_Sphere_3.h:
+
+/usr/local/include/boost/archive/detail/decl.hpp:
+
+/usr/local/include/CGAL/Intersections_3/internal/Iso_cuboid_3_Line_3_intersection.h:
+
+/usr/local/include/boost/multi_index/detail/index_node_base.hpp:
+
+/usr/local/include/boost/multiprecision/traits/explicit_conversion.hpp:
+
+/usr/local/include/boost/multi_index/detail/header_holder.hpp:
+
+/usr/local/include/boost/predef/hardware/simd/x86.h:
+
+/usr/local/include/boost/mpl/reverse_iter_fold.hpp:
+
+/usr/local/include/boost/multi_index/detail/restore_wstrict_aliasing.hpp:
+
+/usr/local/include/boost/multi_index/detail/ignore_wstrict_aliasing.hpp:
+
+/usr/local/include/boost/random/discard_block.hpp:
+
+/usr/local/include/boost/multi_index/detail/define_if_constexpr_macro.hpp:
+
+/usr/local/include/boost/smart_ptr/detail/sp_thread_pause.hpp:
+
+/usr/local/include/boost/multi_index/detail/node_handle.hpp:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/less.hpp:
+
+/usr/local/include/boost/multi_index/detail/copy_map.hpp:
+
+/usr/local/include/boost/preprocessor/facilities/limits/intercept_256.hpp:
+
+/usr/local/include/boost/mpl/set/aux_/begin_end_impl.hpp:
+
+/usr/local/include/eigen3/Eigen/SparseCore:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp:
+
+/usr/local/include/boost/mpl/key_type_fwd.hpp:
+
+/usr/local/include/boost/call_traits.hpp:
+
+/usr/local/include/boost/mpl/set/aux_/key_type_impl.hpp:
+
+/usr/local/include/boost/mpl/set/aux_/erase_key_impl.hpp:
+
+/usr/local/include/boost/fusion/support/detail/segmented_fold_until_impl.hpp:
+
+/usr/local/include/boost/mpl/set/aux_/erase_impl.hpp:
+
+/usr/local/include/boost/mpl/set/aux_/insert_range_impl.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/operators.hpp:
+
+/usr/local/include/boost/mpl/aux_/overload_names.hpp:
+
+/usr/local/include/CGAL/Distance_2/Triangle_2_Triangle_2.h:
+
+/usr/local/include/boost/mpl/set/aux_/at_impl.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/bind.h:
+
+/usr/local/include/boost/mpl/set/set0.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/hash.h:
+
+/usr/local/include/boost/multi_index/detail/no_duplicate_tags.hpp:
+
+/usr/local/include/CGAL/Intersections_3/internal/Plane_3_Plane_3_Plane_3_intersection.h:
+
+/usr/local/include/boost/multi_index/tag.hpp:
+
+/usr/local/include/boost/multi_index/detail/ord_index_args.hpp:
+
+/usr/local/include/boost/multi_index_container_fwd.hpp:
+
+/usr/local/include/boost/range/detail/common.hpp:
+
+/usr/local/include/boost/mpl/find.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/find_end.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/Reverse.h:
+
+/usr/local/include/boost/mpl/contains_fwd.hpp:
+
+/usr/local/include/boost/multi_index_container.hpp:
+
+/usr/local/include/boost/bimap/detail/bimap_core.hpp:
+
+/usr/local/include/boost/foreach_fwd.hpp:
+
+/usr/local/include/boost/serialization/base_object.hpp:
+
+/usr/local/include/boost/serialization/access.hpp:
+
+/usr/local/include/boost/fusion/adapted/mpl/detail/empty_impl.hpp:
+
+/usr/local/include/boost/serialization/split_free.hpp:
+
+/usr/local/include/CGAL/Meshes/Simple_map_container.h:
+
+/usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Collinear_3.h:
+
+/usr/local/include/boost/serialization/traits.hpp:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/greater.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/unordered_map:
+
+/usr/local/include/boost/serialization/level_enum.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/valarray:
+
+/usr/local/include/boost/bimap.hpp:
+
+/usr/local/include/CGAL/Meshes/Triangulation_mesher_level_traits_3.h:
+
+/usr/local/include/CGAL/Mesher_level_default_implementations.h:
+
+/usr/local/include/CGAL/Intersections_3/internal/Ray_3_Sphere_3_do_intersect.h:
+
+/usr/local/include/CGAL/Surface_mesher/Surface_mesher.h:
+
+/usr/local/include/CGAL/Surface_mesh_cell_base_3.h:
+
+/usr/local/include/CGAL/Complex_2_in_triangulation_vertex_base_3.h:
+
+/usr/local/include/CGAL/Surface_mesh_vertex_base_3.h:
+
+/usr/local/include/CGAL/Triangulation_hierarchy_vertex_base_3.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/declval.h:
 
 /usr/local/include/boost/unordered_map.hpp:
 
+/usr/local/include/boost/bimap/detail/modifier_adaptor.hpp:
+
 /usr/local/include/boost/property_map/function_property_map.hpp:
 
-/usr/local/include/CGAL/Spatial_lock_grid_3.h:
+/usr/local/include/boost/mp11/integral.hpp:
 
-/usr/local/include/CGAL/Iterator_project.h:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avx512bwintrin.h:
+
+/usr/local/include/CGAL/Spatial_lock_grid_3.h:
 
 /usr/local/include/CGAL/Triangulation_segment_traverser_3.h:
 
@@ -12249,35 +14484,213 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Triangulation_ds_vertex_base_3.h:
 
-/usr/local/include/CGAL/TDS_3/internal/Dummy_tds_3.h:
+/usr/local/include/CGAL/Uncertain.h:
 
 /usr/local/include/CGAL/STL_Extension/internal/Has_member_visited.h:
 
+/usr/local/include/CGAL/Triangulation_cell_base_with_info_3.h:
+
 /usr/local/include/boost/unordered/detail/fwd.hpp:
 
+/usr/local/include/boost/bimap/views/unconstrained_map_view.hpp:
+
 /usr/local/include/boost/preprocessor/seq/for_each.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:
 
 /usr/local/include/boost/unordered/detail/fca.hpp:
 
 /usr/local/include/boost/swap.hpp:
 
+/usr/local/include/boost/detail/select_type.hpp:
+
+/usr/local/include/CGAL/Intersections_2/Circle_2_Line_2.h:
+
 /usr/local/include/boost/core/pointer_traits.hpp:
 
+/usr/local/include/CGAL/number_utils.h:
+
+/usr/local/include/boost/type_traits/is_base_of.hpp:
+
 /usr/local/include/boost/core/allocator_access.hpp:
+
+/usr/local/include/boost/move/algo/detail/set_difference.hpp:
 
 /usr/local/include/boost/unordered/detail/set.hpp:
 
 /usr/local/include/boost/move/move.hpp:
 
+/usr/local/include/CGAL/TDS_3/internal/Dummy_tds_3.h:
+
+/usr/local/include/CGAL/Cartesian/Segment_3.h:
+
 /usr/local/include/CGAL/license/Triangulation_3.h:
+
+/usr/local/include/CGAL/Filtered_kernel/Cartesian_coordinate_iterator_3.h:
+
+/usr/local/include/CGAL/Homogeneous/LineH2.h:
+
+/usr/local/include/CGAL/Filtered_kernel/Cartesian_coordinate_iterator_2.h:
+
+/usr/local/include/CGAL/Epic_converter.h:
+
+/usr/local/include/CGAL/Static_filtered_predicate.h:
+
+/usr/local/include/CGAL/Exact_predicates_exact_constructions_kernel.h:
+
+/usr/local/include/CGAL/STL_Extension/internal/Has_nested_type_Bare_point.h:
+
+/usr/local/include/CGAL/poisson_surface_reconstruction.h:
+
+/usr/local/include/boost/math/special_functions/next.hpp:
+
+/usr/local/include/CGAL/IO/VRML/VRML_1_ostream.h:
+
+/usr/local/include/CGAL/IO/VRML/VRML_2_ostream.h:
+
+/usr/local/include/CGAL/IO/OI/File_writer_inventor.h:
+
+/usr/local/include/boost/random/variate_generator.hpp:
+
+/usr/local/include/CGAL/IO/OI.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/binary_search.h:
+
+/usr/local/include/CGAL/IO/Polyhedron_VRML_1_ostream.h:
+
+/usr/local/include/boost/container/small_vector.hpp:
+
+/usr/local/include/boost/container/vector.hpp:
+
+/usr/local/include/CGAL/boost/graph/Euler_operations.h:
+
+/usr/local/include/CGAL/boost/graph/IO/Generic_facegraph_builder.h:
+
+/usr/local/include/boost/multi_index/detail/base_type.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string_view:
+
+/usr/local/include/boost/move/algo/detail/heap_sort.hpp:
+
+/usr/local/include/boost/mpl/inherit_linearly.hpp:
+
+/usr/local/include/boost/multi_index/detail/is_index_list.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/swap.h:
+
+/usr/local/include/boost/container/detail/container_or_allocator_rebind.hpp:
+
+/usr/local/include/CGAL/boost/graph/internal/initialized_index_maps_helpers.h:
+
+/usr/local/include/boost/mpl/set/aux_/item.hpp:
+
+/usr/local/include/CGAL/Container_helper.h:
+
+/usr/local/include/CGAL/IO/OFF/File_header_OFF_impl.h:
+
+/usr/local/include/boost/preprocessor/repetition/enum.hpp:
+
+/usr/local/include/boost/fusion/view/iterator_range/detail/at_impl.hpp:
+
+/usr/local/include/CGAL/IO/OFF/File_header_OFF.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/chrono:
+
+/usr/local/include/CGAL/IO/OFF/File_scanner_OFF.h:
+
+/usr/local/include/CGAL/IO/OFF/Scanner_OFF.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_uid_t.h:
+
+/usr/local/include/boost/serialization/void_cast_fwd.hpp:
+
+/usr/local/include/CGAL/Intersections_3/Iso_cuboid_3_Tetrahedron_3.h:
+
+/usr/local/include/CGAL/IO/OFF.h:
+
+/usr/local/include/CGAL/IO/print_OFF.h:
+
+/usr/local/include/boost/multi_index/detail/raw_ptr.hpp:
+
+/usr/local/include/CGAL/IO/Polyhedron_iostream.h:
+
+/usr/local/include/CGAL/Homogeneous/distance_predicatesH3.h:
+
+/usr/local/include/CGAL/Robust_circumcenter_traits_3.h:
+
+/usr/local/include/CGAL/boost/graph/properties_Polyhedron_3_features.h:
+
+/usr/local/include/boost/preprocessor/control/while.hpp:
+
+/usr/local/include/boost/lexical_cast/detail/converter_lexical.hpp:
+
+/usr/local/include/CGAL/boost/graph/internal/Has_member_id.h:
+
+/usr/local/include/CGAL/boost/graph/backward_compatibility_functions.h:
+
+/usr/local/include/CGAL/NT_converter.h:
+
+/usr/local/include/CGAL/Polyhedron_traits_3.h:
+
+/usr/local/include/boost/optional/optional_fwd.hpp:
+
+/usr/local/include/CGAL/IO/Verbose_ostream.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__ranges/enable_borrowed_range.h:
+
+/usr/local/include/CGAL/boost/graph/properties.h:
+
+/usr/local/include/boost/multi_index/detail/access_specifier.hpp:
+
+/usr/local/include/CGAL/boost/graph/iterator.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_intptr_t.h:
+
+/usr/local/include/boost/fusion/algorithm/iteration/for_each.hpp:
+
+/usr/local/include/boost/graph/property_maps/null_property_map.hpp:
+
+/usr/local/include/boost/graph/property_maps/constant_property_map.hpp:
+
+/usr/local/include/boost/graph/properties.hpp:
+
+/usr/local/include/boost/pending/detail/property.hpp:
 
 /usr/local/include/boost/pending/property.hpp:
 
-/Users/asdfasd/Downloads/hw03/src/geomtools.cpp:
+/usr/local/include/CGAL/STL_Extension/internal/parameters_interface.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/clocale:
+/usr/local/include/CGAL/Named_function_parameters.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/valarray:
+/usr/local/include/CGAL/boost/graph/graph_traits_HalfedgeDS.h:
+
+/usr/local/include/boost/mpl/set/aux_/has_key_impl.hpp:
+
+/usr/local/include/boost/bimap/views/set_view.hpp:
+
+/usr/local/include/boost/mp11/detail/mp_front.hpp:
+
+/usr/local/include/CGAL/HalfedgeDS_default.h:
+
+/usr/local/include/boost/mpl/arg_fwd.hpp:
+
+/usr/local/include/boost/container/detail/is_contiguous_container.hpp:
+
+/usr/local/include/CGAL/Iterator_project.h:
+
+/usr/local/include/CGAL/HalfedgeDS_iterator.h:
+
+/usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h:
+
+/usr/local/include/CGAL/license/Polyhedron.h:
+
+/usr/local/include/boost/multi_index/detail/allocator_traits.hpp:
+
+/usr/local/include/CGAL/Polyhedron_3.h:
+
+/usr/local/include/boost/type_traits/detail/has_postfix_operator.hpp:
+
+/usr/local/include/CGAL/property_map.h:
 
 /usr/local/include/CGAL/Triangulation_face_base_with_info_2.h:
 
@@ -12291,29 +14704,51 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Default_diagonalize_traits.h:
 
+/usr/local/include/CGAL/Double_map.h:
+
 /usr/local/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
+
+/usr/local/include/boost/pointee.hpp:
+
+/usr/local/include/CGAL/boost/graph/properties_Polyhedron_3_time_stamp.h:
 
 /usr/local/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h:
 
+/usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:
+
 /usr/local/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__mbstate_t.h:
 
 /usr/local/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h:
 
+/usr/local/include/CGAL/Optimal_bounding_box/internal/helper.h:
+
+/usr/local/include/boost/mpl/aux_/config/integral.hpp:
+
+/usr/local/include/boost/fusion/container/list/detail/at_impl.hpp:
+
 /usr/local/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h:
+
+/usr/local/include/boost/preprocessor/facilities/identity.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h:
 
-/usr/local/include/CGAL/IO/Tee_for_output_iterator.h:
-
 /usr/local/include/eigen3/Eigen/src/Geometry/AlignedBox.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/random:
 
 /usr/local/include/eigen3/Eigen/src/Geometry/AngleAxis.h:
 
 /usr/local/include/eigen3/Eigen/src/Geometry/Quaternion.h:
 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avx512vlbitalgintrin.h:
+
+/usr/local/include/boost/fusion/algorithm/query/detail/segmented_find.hpp:
+
+/usr/local/include/boost/multi_index/detail/vartempl_support.hpp:
+
 /usr/local/include/eigen3/Eigen/src/Geometry/Rotation2D.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/xlocale/_time.h:
 
 /usr/local/include/eigen3/Eigen/src/Geometry/EulerAngles.h:
 
@@ -12327,23 +14762,29 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/eigen3/Eigen/src/QR/HouseholderQR.h:
 
+/usr/local/include/CGAL/Intersections_3/internal/Iso_cuboid_3_Sphere_3_do_intersect.h:
+
 /usr/local/include/eigen3/Eigen/src/Householder/HouseholderSequence.h:
 
 /usr/local/include/eigen3/Eigen/src/Jacobi/Jacobi.h:
 
 /usr/local/include/eigen3/Eigen/Cholesky:
 
-/usr/local/include/CGAL/ch_selected_extreme_points_2.h:
+/usr/local/include/boost/random/uniform_smallint.hpp:
 
 /usr/local/include/eigen3/Eigen/src/LU/arch/InverseSize4.h:
-
-/usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h:
 
 /usr/local/include/eigen3/Eigen/Dense:
 
 /usr/local/include/CGAL/PCA_util_Eigen.h:
 
+/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_Memory.h:
+
+/usr/local/include/boost/mpl/aux_/arg_typedef.hpp:
+
 /usr/local/include/CGAL/Kernel_d/Vector__.h:
+
+/usr/local/include/boost/fusion/view/single_view/detail/value_of_impl.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h:
 
@@ -12351,37 +14792,39 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/centroid.h:
 
+/usr/local/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:
+
 /usr/local/include/CGAL/linear_least_squares_fitting_points_3.h:
 
 /usr/local/include/boost/intrusive/detail/minimal_less_equal_header.hpp:
 
 /usr/local/include/boost/move/algo/adaptive_sort.hpp:
 
+/usr/local/include/eigen3/Eigen/src/Core/Select.h:
+
 /usr/local/include/eigen3/Eigen/LU:
 
 /usr/local/include/boost/move/default_delete.hpp:
-
-/usr/local/include/CGAL/min_quadrilateral_2.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_pruneL.h:
 
 /usr/local/include/boost/move/unique_ptr.hpp:
 
 /usr/local/include/boost/move/make_unique.hpp:
 
-/usr/local/include/boost/container/detail/is_contiguous_container.hpp:
-
-/usr/local/include/boost/move/algo/detail/set_difference.hpp:
-
-/usr/local/include/boost/move/algo/detail/heap_sort.hpp:
-
 /usr/local/include/boost/unordered/detail/type_traits.hpp:
 
 /usr/local/include/boost/move/algo/detail/merge_sort.hpp:
 
+/usr/local/include/CGAL/Intersections_3/internal/Line_3_Triangle_3_do_intersect.h:
+
 /usr/local/include/boost/move/algo/detail/insertion_sort.hpp:
 
+/usr/local/include/boost/type.hpp:
+
 /usr/local/include/boost/move/algo/detail/search.hpp:
+
+/usr/local/include/CGAL/Robust_construction.h:
+
+/usr/local/include/eigen3/Eigen/src/plugins/BlockMethods.h:
 
 /usr/local/include/boost/move/algo/predicate.hpp:
 
@@ -12399,69 +14842,107 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/container/detail/destroyers.hpp:
 
+/usr/local/include/boost/mpl/aux_/has_tag.hpp:
+
 /usr/local/include/boost/move/detail/reverse_iterator.hpp:
 
 /usr/local/include/boost/container/detail/iterators.hpp:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__node_handle:
+
 /usr/local/include/boost/move/detail/to_raw_pointer.hpp:
 
-/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h:
+/usr/local/include/boost/predef/detail/_cassert.h:
 
 /usr/local/include/boost/move/detail/iterator_to_raw_pointer.hpp:
+
+/usr/local/include/boost/fusion/support/detail/is_native_fusion_sequence.hpp:
 
 /usr/local/include/boost/container/detail/iterator.hpp:
 
 /usr/local/include/boost/container/detail/advanced_insert_int.hpp:
 
+/usr/local/include/CGAL/Iso_rectangle_2.h:
+
 /usr/local/include/boost/container/detail/flat_tree.hpp:
 
 /usr/local/include/boost/container/throw_exception.hpp:
 
+/usr/local/include/CGAL/boost/graph/graph_traits_Surface_mesh.h:
+
 /usr/local/include/boost/container/new_allocator.hpp:
+
+/usr/local/include/boost/predef/library/std/stlport.h:
 
 /usr/local/include/boost/intrusive/detail/has_member_function_callable_with.hpp:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/search_n.h:
+
 /usr/local/include/boost/intrusive/detail/workaround.hpp:
+
+/usr/local/include/boost/type_traits/integral_constant.hpp:
 
 /usr/local/include/boost/intrusive/pointer_traits.hpp:
 
 /usr/local/include/boost/intrusive/detail/mpl.hpp:
 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/__wmmintrin_pclmul.h:
+
 /usr/local/include/boost/container/detail/mpl.hpp:
 
+/usr/local/include/boost/mpl/less.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/remove_copy.h:
+
 /usr/local/include/boost/container/detail/workaround.hpp:
+
+/usr/local/include/CGAL/Homogeneous/DirectionH2.h:
 
 /usr/local/include/CGAL/Constrained_triangulation_face_base_2.h:
 
 /usr/local/include/CGAL/STL_Extension/internal/info_check.h:
 
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparseRedux.h:
-
 /usr/local/include/boost/fusion/sequence/intrinsic/at_c.hpp:
 
+/usr/local/include/CGAL/tuple.h:
+
 /usr/local/include/boost/fusion/container/vector/detail/advance_impl.hpp:
+
+/usr/local/include/CGAL/GMP/Gmpzf_type.h:
 
 /usr/local/include/boost/fusion/container/vector/detail/equal_to_impl.hpp:
 
 /usr/local/include/boost/fusion/container/vector/detail/prior_impl.hpp:
 
+/usr/local/include/CGAL/mpq_class.h:
+
+/usr/local/include/CGAL/Intersections_3/internal/Point_3_Tetrahedron_3_intersection.h:
+
 /usr/local/include/boost/fusion/container/vector/detail/next_impl.hpp:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/cmp.h:
+
 /usr/local/include/boost/fusion/container/vector/detail/deref_impl.hpp:
+
+/usr/local/include/boost/preprocessor/punctuation/comma.hpp:
 
 /usr/local/include/boost/fusion/container/vector/vector.hpp:
 
 /usr/local/include/boost/fusion/algorithm/iteration/fold_fwd.hpp:
 
-/usr/local/include/CGAL/Convex_hull_2/ch_akl_toussaint_impl.h:
-
 /usr/local/include/boost/fusion/mpl/push_front.hpp:
+
+/usr/local/include/CGAL/Handle.h:
 
 /usr/local/include/boost/container/detail/is_pair.hpp:
 
 /usr/local/include/boost/fusion/mpl/push_back.hpp:
 
 /usr/local/include/boost/move/algo/adaptive_merge.hpp:
+
+/usr/local/include/boost/mpl/contains.hpp:
+
+/usr/local/include/boost/numeric/conversion/converter.hpp:
 
 /usr/local/include/boost/mpl/aux_/pop_front_impl.hpp:
 
@@ -12471,15 +14952,29 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/fusion/mpl/pop_back.hpp:
 
+/usr/local/include/CGAL/Intersections_3/internal/Bbox_3_Triangle_3_do_intersect.h:
+
 /usr/local/include/CGAL/Triangulation_3/internal/Triangulation_segment_traverser_3_impl.h:
 
 /usr/local/include/boost/fusion/algorithm/transformation/insert.hpp:
+
+/usr/local/include/CGAL/Aff_transformation_3.h:
 
 /usr/local/include/boost/container/detail/config_begin.hpp:
 
 /usr/local/include/boost/fusion/sequence/intrinsic/has_key.hpp:
 
+/usr/local/include/boost/predef/library/c/zos.h:
+
 /usr/local/include/boost/fusion/algorithm/query/detail/find_if.hpp:
+
+/usr/local/include/boost/mpl/next_prior.hpp:
+
+/usr/local/include/boost/mpl/aux_/reverse_iter_fold_impl.hpp:
+
+/usr/local/include/boost/integer/common_factor_ct.hpp:
+
+/usr/local/include/CGAL/Homogeneous/Homogeneous_base.h:
 
 /usr/local/include/boost/mpl/aux_/erase_key_impl.hpp:
 
@@ -12487,9 +14982,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/unordered/unordered_map_fwd.hpp:
 
+/usr/local/include/boost/fusion/view/transform_view/detail/end_impl.hpp:
+
 /usr/local/include/boost/fusion/container/deque/deque_fwd.hpp:
 
 /usr/local/include/boost/fusion/container/set/set_fwd.hpp:
+
+/usr/local/include/boost/bimap/support/map_type_by.hpp:
+
+/usr/local/include/CGAL/Triangulation_cell_base_3.h:
 
 /usr/local/include/boost/fusion/support/as_const.hpp:
 
@@ -12497,9 +14998,19 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/fusion/mpl/detail/clear.hpp:
 
+/usr/local/include/boost/math/tools/rational.hpp:
+
+/usr/local/include/boost/multiprecision/cpp_int/serialize.hpp:
+
 /usr/local/include/boost/fusion/mpl/back.hpp:
 
+/usr/local/include/CGAL/Homogeneous/RayH3.h:
+
 /usr/local/include/boost/mpl/has_key_fwd.hpp:
+
+/usr/local/include/boost/mpl/vector/aux_/item.hpp:
+
+/usr/local/include/boost/fusion/view/iterator_range/detail/is_segmented_impl.hpp:
 
 /usr/local/include/boost/move/iterator.hpp:
 
@@ -12513,17 +15024,11 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/fusion/adapted/mpl.hpp:
 
-/usr/local/include/CGAL/Triangulation_cell_base_3.h:
-
 /usr/local/include/boost/fusion/iterator/mpl.hpp:
 
 /usr/local/include/boost/fusion/view/transform_view/detail/value_at_impl.hpp:
 
-/usr/local/include/CGAL/boost/graph/copy_face_graph.h:
-
 /usr/local/include/boost/fusion/view/transform_view/detail/at_impl.hpp:
-
-/usr/local/include/boost/fusion/view/transform_view/detail/end_impl.hpp:
 
 /usr/local/include/boost/fusion/view/transform_view/detail/equal_to_impl.hpp:
 
@@ -12535,17 +15040,31 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/fusion/view/transform_view/transform_view.hpp:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/count_if.h:
+
 /usr/local/include/CGAL/Random_impl.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/xlocale/__wctype.h:
+
+/usr/local/include/boost/predef/library/c/uc.h:
 
 /usr/local/include/boost/fusion/support/segmented_fold_until.hpp:
 
+/usr/local/include/boost/move/algorithm.hpp:
+
 /usr/local/include/boost/fusion/algorithm/iteration/for_each_fwd.hpp:
 
+/usr/local/include/CGAL/utility.h:
+
 /usr/local/include/boost/fusion/algorithm/iteration/detail/segmented_for_each.hpp:
+
+/usr/local/include/boost/fusion/support/is_segmented.hpp:
 
 /usr/local/include/boost/fusion/mpl/size.hpp:
 
 /usr/local/include/boost/fusion/adapted/boost_tuple/mpl/clear.hpp:
+
+/usr/local/include/boost/fusion/container/vector/detail/config.hpp:
 
 /usr/local/include/boost/fusion/sequence/intrinsic/empty.hpp:
 
@@ -12553,21 +15072,23 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/fusion/iterator/detail/segment_sequence.hpp:
 
-/usr/local/include/CGAL/Polygon_mesh_processing/polygon_soup_to_polygon_mesh.h:
+/usr/local/include/eigen3/Eigen/src/Core/SolveTriangular.h:
 
 /usr/local/include/boost/fusion/container/list/detail/reverse_cons.hpp:
 
 /usr/local/include/boost/fusion/algorithm/transformation/push_front.hpp:
 
+/usr/local/include/boost/type_traits/has_divides_assign.hpp:
+
 /usr/local/include/boost/fusion/sequence/intrinsic/value_at.hpp:
 
 /usr/local/include/boost/fusion/view/single_view/detail/end_impl.hpp:
 
-/usr/local/include/boost/fusion/view/single_view/detail/value_of_impl.hpp:
-
 /usr/local/include/boost/fusion/view/single_view/detail/distance_impl.hpp:
 
 /usr/local/include/boost/fusion/view/single_view/detail/advance_impl.hpp:
+
+/usr/local/include/boost/predef/os/windows.h:
 
 /usr/local/include/boost/fusion/view/single_view/single_view_iterator.hpp:
 
@@ -12577,13 +15098,17 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/fusion/view/joint_view/detail/end_impl.hpp:
 
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h:
-
 /usr/local/include/CGAL/Random.h:
 
 /usr/local/include/boost/fusion/iterator/detail/adapt_value_traits.hpp:
 
+/usr/local/include/boost/random/uniform_int_distribution.hpp:
+
 /usr/local/include/boost/intrusive/detail/iterator.hpp:
+
+/usr/local/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h:
+
+/usr/local/include/CGAL/Distance_2/Ray_2_Ray_2.h:
 
 /usr/local/include/boost/fusion/view/joint_view/detail/value_of_impl.hpp:
 
@@ -12591,11 +15116,19 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/fusion/adapted/mpl/detail/end_impl.hpp:
 
+/usr/local/include/eigen3/Eigen/src/Core/Swap.h:
+
 /usr/local/include/boost/fusion/support/detail/mpl_iterator_category.hpp:
+
+/usr/local/include/CGAL/license/Poisson_surface_reconstruction_3.h:
 
 /usr/local/include/boost/fusion/mpl/begin.hpp:
 
+/usr/local/include/boost/fusion/container/vector/detail/value_at_impl.hpp:
+
 /usr/local/include/boost/fusion/view/joint_view/joint_view_fwd.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/cetintrin.h:
 
 /usr/local/include/boost/fusion/algorithm/transformation/push_back.hpp:
 
@@ -12603,21 +15136,21 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/fusion/view/iterator_range/detail/segments_impl.hpp:
 
-/usr/local/include/boost/fusion/view/iterator_range/detail/is_segmented_impl.hpp:
+/usr/local/include/boost/utility/declval.hpp:
 
 /usr/local/include/boost/fusion/iterator/advance.hpp:
-
-/usr/local/include/boost/fusion/view/iterator_range/detail/at_impl.hpp:
 
 /usr/local/include/boost/fusion/view/iterator_range/detail/end_impl.hpp:
 
 /usr/local/include/boost/fusion/view/iterator_range/detail/begin_impl.hpp:
 
+/usr/local/include/CGAL/Distance_3/Plane_3_Plane_3.h:
+
 /usr/local/include/boost/fusion/iterator/mpl/convert_iterator.hpp:
 
-/usr/local/include/CGAL/ch_akl_toussaint.h:
-
 /usr/local/include/boost/fusion/support/detail/index_sequence.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_t.h:
 
 /usr/local/include/boost/fusion/iterator/distance.hpp:
 
@@ -12631,29 +15164,45 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/fusion/container/list/detail/value_at_impl.hpp:
 
-/usr/local/include/boost/fusion/container/list/detail/at_impl.hpp:
+/usr/local/include/boost/type_traits/has_dereference.hpp:
 
 /usr/local/include/boost/fusion/container/list/detail/end_impl.hpp:
 
 /usr/local/include/boost/fusion/container/list/detail/equal_to_impl.hpp:
 
+/usr/local/include/boost/predef/compiler/gcc_xml.h:
+
 /usr/local/include/boost/fusion/container/list/cons_iterator.hpp:
+
+/usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Compare_weighted_squared_radius_3.h:
 
 /usr/local/include/boost/fusion/container/list/nil.hpp:
 
-/Users/asdfasd/Downloads/hw03/src/geomtools.h:
-
 /usr/local/include/boost/fusion/sequence/intrinsic/detail/segmented_end.hpp:
+
+/usr/local/include/boost/predef/hardware/simd/x86_amd/versions.h:
+
+/usr/local/include/CGAL/Quotient_fwd.h:
 
 /usr/local/include/boost/fusion/sequence/intrinsic/end.hpp:
 
+/usr/local/include/boost/serialization/version.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/Meta.h:
+
+/usr/local/include/boost/container/detail/version_type.hpp:
+
+/usr/local/include/boost/multiprecision/detail/et_ops.hpp:
+
 /usr/local/include/boost/fusion/support/detail/enabler.hpp:
 
-/usr/local/include/boost/range/iterator_range_io.hpp:
+/usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Orientation_2.h:
 
 /usr/local/include/boost/fusion/container/list/cons.hpp:
 
 /usr/local/include/boost/fusion/iterator/detail/segmented_next_impl.hpp:
+
+/usr/local/include/boost/mpl/set/aux_/iterator.hpp:
 
 /usr/local/include/boost/fusion/iterator/detail/segmented_equal_to.hpp:
 
@@ -12661,13 +15210,17 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/fusion/sequence/intrinsic/size.hpp:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h:
+
+/usr/local/include/boost/unordered/detail/map.hpp:
+
 /usr/local/include/boost/fusion/support/void.hpp:
+
+/usr/local/include/boost/bimap/relation/detail/mutant.hpp:
 
 /usr/local/include/boost/fusion/container/vector/detail/begin_impl.hpp:
 
-/usr/local/include/boost/fusion/support/detail/segmented_fold_until_impl.hpp:
-
-/usr/local/include/CGAL/IO/3MF.h:
+/usr/local/include/boost/concept/detail/backward_compatibility.hpp:
 
 /usr/local/include/boost/fusion/sequence/intrinsic/detail/segmented_end_impl.hpp:
 
@@ -12679,8 +15232,6 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/fusion/view/transform_view/detail/begin_impl.hpp:
 
-/usr/local/include/boost/fusion/support/is_segmented.hpp:
-
 /usr/local/include/boost/fusion/support/is_sequence.hpp:
 
 /usr/local/include/boost/fusion/sequence/intrinsic_fwd.hpp:
@@ -12691,21 +15242,33 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/empty_base.hpp:
 
-/usr/local/include/boost/fusion/iterator/deref.hpp:
-
 /usr/local/include/boost/fusion/adapted/boost_tuple/detail/convert_impl.hpp:
 
 /usr/local/include/boost/fusion/adapted/boost_tuple/detail/at_impl.hpp:
 
+/usr/local/include/boost/random/uniform_01.hpp:
+
 /usr/local/include/boost/fusion/adapted/boost_tuple/detail/size_impl.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/mismatch.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h:
 
 /usr/local/include/boost/fusion/iterator/detail/distance.hpp:
 
+/usr/local/include/boost/preprocessor/facilities/intercept.hpp:
+
+/usr/local/include/CGAL/Triangle_2.h:
+
+/usr/local/include/CGAL/intersection_3.h:
+
 /usr/local/include/boost/fusion/support/sequence_base.hpp:
 
-/usr/local/include/boost/fusion/support/detail/is_native_fusion_sequence.hpp:
+/usr/local/include/CGAL/IO/3MF/read_3mf.h:
 
 /usr/local/include/boost/fusion/support/detail/is_mpl_sequence.hpp:
+
+/usr/local/include/CGAL/license/Convex_hull_2.h:
 
 /usr/local/include/boost/fusion/iterator/detail/advance.hpp:
 
@@ -12719,15 +15282,17 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/container/allocator_traits.hpp:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/syslimits.h:
+
 /usr/local/include/boost/fusion/adapted/boost_tuple.hpp:
 
 /usr/local/include/boost/iterator/zip_iterator.hpp:
 
+/usr/local/include/boost/multiprecision/traits/transcendental_reduction_type.hpp:
+
 /usr/local/include/CGAL/Triangulation_2/insert_constraints.h:
 
 /usr/local/include/boost/detail/numeric_traits.hpp:
-
-/usr/local/include/CGAL/Timer_impl.h:
 
 /usr/local/include/boost/iterator/counting_iterator.hpp:
 
@@ -12735,7 +15300,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/smart_ptr/detail/local_sp_deleter.hpp:
 
+/usr/local/include/CGAL/Surface_mesher/Standard_criteria.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__threading_support:
+
 /usr/local/include/boost/config/pragma_message.hpp:
+
+/usr/local/include/boost/core/use_default.hpp:
+
+/usr/local/include/CGAL/min_max_n.h:
 
 /usr/local/include/boost/fusion/algorithm/transformation/erase_key.hpp:
 
@@ -12745,6 +15318,10 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/smart_ptr/detail/spinlock_pool.hpp:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/bitset:
+
+/usr/local/include/boost/type_traits/type_identity.hpp:
+
 /usr/local/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp:
 
 /usr/local/include/boost/smart_ptr/detail/sp_noexcept.hpp:
@@ -12753,23 +15330,45 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/smart_ptr/detail/sp_counted_base_gcc_atomic.hpp:
 
+/usr/local/include/boost/random/chi_squared_distribution.hpp:
+
 /usr/local/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp:
+
+/usr/local/include/CGAL/Convex_hull_3/internal/Indexed_triangle_set.h:
+
+/usr/local/include/boost/move/detail/config_begin.hpp:
 
 /usr/local/include/boost/container/options.hpp:
 
+/usr/local/include/boost/random/detail/uniform_int_float.hpp:
+
+/usr/local/include/CGAL/Vector_2.h:
+
+/usr/local/include/CGAL/Cartesian/Iso_cuboid_3.h:
+
 /usr/local/include/boost/smart_ptr/detail/sp_has_gcc_intrinsics.hpp:
+
+/usr/local/include/boost/preprocessor/logical/not.hpp:
+
+/usr/local/include/boost/iterator/minimum_category.hpp:
 
 /usr/local/include/boost/smart_ptr/bad_weak_ptr.hpp:
 
-/usr/local/include/boost/smart_ptr/detail/shared_count.hpp:
+/usr/local/include/boost/random/hyperexponential_distribution.hpp:
 
-/usr/local/include/CGAL/property_map.h:
+/usr/local/include/boost/smart_ptr/detail/shared_count.hpp:
 
 /usr/local/include/CGAL/Hilbert_sort_median_d.h:
 
+/usr/local/include/CGAL/Cartesian/Rotation_rep_2.h:
+
 /usr/local/include/CGAL/Hilbert_sort_middle_3.h:
 
+/usr/local/include/boost/fusion/container/map/map_fwd.hpp:
+
 /usr/local/include/boost/fusion/container/vector/vector_iterator.hpp:
+
+/usr/local/include/CGAL/convex_hull_traits_2.h:
 
 /usr/local/include/CGAL/Hilbert_sort_3.h:
 
@@ -12781,41 +15380,57 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Triangulation_vertex_base_2.h:
 
+/usr/local/include/CGAL/Complex_2_in_triangulation_cell_base_3.h:
+
 /usr/local/include/CGAL/Triangulation_ds_iterators_2.h:
+
+/usr/local/include/CGAL/Mesher_level_visitors.h:
 
 /usr/local/include/CGAL/Triangulation_ds_vertex_base_2.h:
 
 /usr/local/include/CGAL/CC_safe_handle.h:
 
+/usr/local/include/CGAL/Triangulation_structural_filtering_traits.h:
+
 /usr/local/include/CGAL/Compact_container.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/Stride.h:
 
 /usr/local/include/CGAL/Handle_hash_function.h:
 
 /usr/local/include/CGAL/Triangulation_utils_2.h:
 
+/usr/local/include/boost/multiprecision/detail/constexpr.hpp:
+
 /usr/local/include/CGAL/iterator.h:
+
+/usr/local/include/boost/fusion/view/joint_view/detail/key_of_impl.hpp:
+
+/usr/local/include/boost/multi_index/identity.hpp:
 
 /usr/local/include/CGAL/Constrained_triangulation_2.h:
 
 /usr/local/include/CGAL/Constrained_Delaunay_triangulation_2.h:
 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/xsaveintrin.h:
+
 /usr/local/include/CGAL/Polygon_2/Polygon_2_vertex_circulator.h:
 
 /usr/local/include/CGAL/Polygon_2/polygon_assertions.h:
 
-/usr/local/include/boost/foreach_fwd.hpp:
-
 /usr/local/include/boost/noncopyable.hpp:
 
 /usr/local/include/eigen3/Eigen/src/LU/Determinant.h:
-
-/usr/local/include/CGAL/tuple.h:
 
 /usr/local/include/CGAL/circulator_bases.h:
 
 /usr/local/include/boost/type_traits/promote.hpp:
 
 /usr/local/include/boost/type_traits/remove_all_extents.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/mem_fun_ref.h:
+
+/usr/local/include/boost/fusion/sequence/comparison/equal_to.hpp:
 
 /usr/local/include/boost/type_traits/make_signed.hpp:
 
@@ -12825,8 +15440,6 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/type_traits/is_trivially_copyable.hpp:
 
-/Users/asdfasd/downloads/hw03/src/definitions.h:
-
 /usr/local/include/boost/type_traits/is_scoped_enum.hpp:
 
 /usr/local/include/boost/type_traits/is_object.hpp:
@@ -12835,29 +15448,45 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/type_traits/is_noncopyable.hpp:
 
-/usr/local/include/CGAL/license/Surface_mesh.h:
+/usr/local/include/boost/format/internals_fwd.hpp:
+
+/usr/local/include/CGAL/Intersections_3/Iso_cuboid_3_Ray_3.h:
 
 /usr/local/include/boost/type_traits/is_compound.hpp:
 
-/usr/local/include/boost/type_traits/is_complex.hpp:
+/usr/local/include/CGAL/Eigen_vector.h:
 
-/usr/local/include/eigen3/Eigen/src/Geometry/Homogeneous.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/lower_bound.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/insert_iterator.h:
+
+/usr/local/include/boost/type_traits/is_complex.hpp:
 
 /usr/local/include/boost/type_traits/has_unary_minus.hpp:
 
 /usr/local/include/boost/type_traits/has_trivial_assign.hpp:
 
-/usr/local/include/boost/type_traits/detail/has_postfix_operator.hpp:
-
 /usr/local/include/boost/type_traits/has_nothrow_destructor.hpp:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp:
 
 /usr/local/include/boost/type_traits/has_not_equal_to.hpp:
 
 /usr/local/include/boost/type_traits/has_negate.hpp:
 
+/usr/local/include/boost/multi_index/detail/ord_index_impl.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/includes.h:
+
 /usr/local/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h:
 
 /usr/local/include/boost/type_traits/rank.hpp:
+
+/usr/local/include/boost/predef/library/c/_prefix.h:
+
+/usr/local/include/boost/multi_index/detail/undef_if_constexpr_macro.hpp:
+
+/usr/local/include/boost/multi_index/detail/do_not_copy_elements_tag.hpp:
 
 /usr/local/include/boost/type_traits/has_multiplies.hpp:
 
@@ -12869,13 +15498,25 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/type_traits/has_less.hpp:
 
+/usr/local/include/eigen3/Eigen/src/Core/DiagonalProduct.h:
+
 /usr/local/include/boost/type_traits/has_left_shift_assign.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_nlink_t.h:
 
 /usr/local/include/boost/type_traits/has_greater_equal.hpp:
 
 /usr/local/include/boost/type_traits/has_divides.hpp:
 
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/or.hpp:
+
+/usr/local/include/boost/multi_index/detail/serialization_version.hpp:
+
+/usr/local/include/boost/math/special_functions/pow.hpp:
+
 /usr/local/include/boost/type_traits/has_bit_or.hpp:
+
+/usr/local/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_common.hpp:
 
 /usr/local/include/eigen3/Eigen/src/misc/Image.h:
 
@@ -12883,17 +15524,21 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/type_traits/has_bit_and.hpp:
 
+/usr/local/include/boost/config/helper_macros.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/binder1st.h:
+
+/usr/local/include/boost/predef/library/std/sgi.h:
+
+/usr/local/include/boost/unordered/detail/implementation.hpp:
+
 /usr/local/include/boost/type_traits/floating_point_promotion.hpp:
-
-/usr/local/include/CGAL/boost/graph/graph_traits_Triangulation_data_structure_2.h:
-
-/usr/local/include/CGAL/IO/3MF/write_3mf.h:
 
 /usr/local/include/boost/type_traits/extent.hpp:
 
 /usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Power_side_of_oriented_power_sphere_3.h:
 
-/usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Compare_weighted_squared_radius_3.h:
+/usr/local/include/boost/fusion/view/single_view/detail/prior_impl.hpp:
 
 /usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Side_of_oriented_circle_2.h:
 
@@ -12903,11 +15548,17 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Angle_3.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_posix_vdisable.h:
+
+/usr/local/include/CGAL/Intersections_2/Bbox_2_Circle_2.h:
+
 /usr/local/include/CGAL/value_type_traits.h:
 
 /usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Compare_y_2.h:
 
 /usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Compare_x_2.h:
+
+/usr/local/include/CGAL/Intersections_2/internal/Triangle_2_Triangle_2_intersection_impl.h:
 
 /usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Equal_3.h:
 
@@ -12915,7 +15566,13 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/tools.h:
 
+/usr/local/include/boost/multiprecision/traits/max_digits10.hpp:
+
+/usr/local/include/boost/utility/addressof.hpp:
+
 /usr/local/include/CGAL/Mpzf.h:
+
+/usr/local/include/boost/mpl/aux_/msvc_never_true.hpp:
 
 /usr/local/include/CGAL/Gmpzf.h:
 
@@ -12925,15 +15582,19 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/ipower.h:
 
+/usr/local/include/CGAL/Intersections_3/internal/Plane_3_Segment_3_intersection.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/locale.h:
+
 /usr/local/include/CGAL/GMP/Gmpfr_type.h:
 
-/usr/local/include/CGAL/GMP/Gmpzf_type.h:
+/usr/local/include/boost/bimap/views/multiset_view.hpp:
+
+/usr/local/include/CGAL/Intersections_3/Bbox_3_Tetrahedron_3.h:
 
 /usr/local/include/boost/fusion/view/transform_view/detail/value_of_impl.hpp:
 
 /usr/local/include/CGAL/Gmp_coercion_traits.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_Memory.h:
 
 /usr/local/include/CGAL/BOOST_MP_arithmetic_kernel.h:
 
@@ -12941,27 +15602,43 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/math/special_functions/trigamma.hpp:
 
+/usr/local/include/boost/type_traits/is_polymorphic.hpp:
+
 /usr/local/include/boost/math/special_functions/sin_pi.hpp:
 
-/usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Orientation_2.h:
-
-/usr/local/include/boost/math/special_functions/detail/polygamma.hpp:
+/usr/local/include/boost/type_traits/has_modulus_assign.hpp:
 
 /usr/local/include/boost/math/tools/atomic.hpp:
 
+/usr/local/include/CGAL/Triangulation_face_base_2.h:
+
+/usr/local/include/boost/type_traits/is_complete.hpp:
+
 /usr/local/include/boost/math/special_functions/detail/unchecked_bernoulli.hpp:
+
+/usr/local/include/boost/intrusive/pack_options.hpp:
 
 /usr/local/include/boost/math/special_functions/detail/igamma_large.hpp:
 
+/usr/local/include/CGAL/Has_member.h:
+
 /usr/local/include/boost/math/special_functions/detail/lanczos_sse2.hpp:
 
+/usr/local/include/boost/type_traits/has_nothrow_constructor.hpp:
+
 /usr/local/include/boost/math/special_functions/lanczos.hpp:
+
+/usr/local/include/CGAL/Polygon_2_algorithms.h:
 
 /usr/local/include/boost/math/tools/fraction.hpp:
 
 /usr/local/include/boost/math/special_functions/gamma.hpp:
 
+/usr/local/include/boost/predef/architecture/pyramid.h:
+
 /usr/local/include/boost/math/special_functions/atanh.hpp:
+
+/usr/local/include/boost/type_traits/remove_reference.hpp:
 
 /usr/local/include/boost/math/constants/calculate_constants.hpp:
 
@@ -12973,17 +15650,13 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/math/special_functions/log1p.hpp:
 
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/plus.hpp:
+
 /usr/local/include/boost/fusion/support/tag_of_fwd.hpp:
 
 /usr/local/include/boost/math/special_functions/sqrt1pm1.hpp:
 
-/usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h:
-
 /usr/local/include/boost/multiprecision/debug_adaptor.hpp:
-
-/usr/local/include/CGAL/Surface_mesh/Surface_mesh_fwd.h:
-
-/usr/local/include/boost/multiprecision/cpp_int/serialize.hpp:
 
 /usr/local/include/boost/multiprecision/cpp_int/literals.hpp:
 
@@ -12991,21 +15664,37 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/tsxldtrkintrin.h:
 
+/usr/local/include/boost/serialization/force_include.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avx512vp2intersectintrin.h:
 
 /usr/local/include/boost/fusion/iterator/prior.hpp:
 
+/usr/local/include/CGAL/Search_traits_2.h:
+
+/usr/local/include/boost/range/iterator.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/ptwriteintrin.h:
 
+/usr/local/include/boost/predef/language/cuda.h:
+
+/usr/local/include/CGAL/Intersections_3/Bbox_3_Plane_3.h:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/sgxintrin.h:
+
+/usr/local/include/boost/dynamic_bitset/detail/dynamic_bitset.hpp:
 
 /usr/local/include/boost/fusion/view/single_view/detail/size_impl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/pconfigintrin.h:
 
+/usr/local/include/CGAL/generators.h:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/waitpkgintrin.h:
 
-/usr/local/include/eigen3/Eigen/Sparse:
+/usr/local/include/boost/predef/library/std/modena.h:
+
+/usr/local/include/CGAL/HalfedgeDS_const_decorator.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/cldemoteintrin.h:
 
@@ -13015,13 +15704,21 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/xsavecintrin.h:
 
+/usr/local/include/boost/mpl/vector/aux_/size.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/xsaveoptintrin.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/fxsrintrin.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/shaintrin.h:
 
+/usr/local/include/CGAL/boost/graph/properties_Polyhedron_3.h:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/xtestintrin.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/transform.h:
+
+/usr/local/include/boost/preprocessor/repetition/repeat_from_to.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/vaesintrin.h:
 
@@ -13030,6 +15727,10 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 /usr/local/include/boost/mpl/back.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avx512bf16intrin.h:
+
+/usr/local/include/boost/preprocessor/debug/error.hpp:
+
+/usr/local/include/boost/type_traits/detail/has_prefix_operator.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avx512pfintrin.h:
 
@@ -13043,6 +15744,8 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avx512vbmiintrin.h:
 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avx512dqintrin.h:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avx512erintrin.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avx512vlcdintrin.h:
@@ -13053,29 +15756,37 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avx512vpopcntdqvlintrin.h:
 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avx512cdintrin.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avx512bwintrin.h:
-
 /usr/local/include/CGAL/GMP/Gmpz_type.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/bmi2intrin.h:
 
+/usr/local/include/CGAL/Intersections_3/internal/Line_3_Tetrahedron_3_do_intersect.h:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avx2intrin.h:
+
+/usr/local/include/boost/mpl/aux_/arity_spec.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avxintrin.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/fmaintrin.h:
 
+/usr/local/include/boost/blank_fwd.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/clflushoptintrin.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCore/MappedSparseMatrix.h:
+
+/usr/local/include/boost/mpl/has_xxx.hpp:
 
 /usr/local/include/boost/multiprecision/integer.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/__wmmintrin_pclmul.h:
-
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/__wmmintrin_aes.h:
 
+/usr/local/include/boost/preprocessor/seq/enum.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/uintrintrin.h:
+
+/usr/local/include/CGAL/Kernel/global_functions_3.h:
 
 /usr/local/include/CGAL/spatial_sort.h:
 
@@ -13083,21 +15794,43 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/hresetintrin.h:
 
+/usr/local/include/CGAL/Surface_mesher/Surface_mesher_edges_level.h:
+
+/usr/local/include/boost/mpl/O1_size.hpp:
+
 /usr/local/include/boost/mpl/aux_/has_key_impl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/x86gprintrin.h:
 
+/usr/local/include/CGAL/Timer_impl.h:
+
+/usr/local/include/boost/predef/hardware/simd/x86_amd.h:
+
 /usr/local/include/boost/multiprecision/cpp_int/intel_intrinsics.hpp:
+
+/usr/local/include/boost/bimap/detail/user_interface_config.hpp:
+
+/usr/local/include/boost/fusion/container/list/detail/next_impl.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Geometry/Hyperplane.h:
 
 /usr/local/include/boost/multiprecision/cpp_int/add_unsigned.hpp:
 
+/usr/local/include/boost/preprocessor/arithmetic/dec.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/push_heap.h:
+
 /usr/local/include/CGAL/IO/helpers.h:
 
 /usr/local/include/boost/multiprecision/cpp_int/comparison.hpp:
 
+/usr/local/include/CGAL/boost/graph/graph_traits_HalfedgeDS_default.h:
+
 /usr/local/include/boost/multiprecision/cpp_int/limits.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/exchange.h:
+
+/usr/local/include/boost/type_traits/is_virtual_base_of.hpp:
 
 /usr/local/include/boost/multiprecision/detail/empty_value.hpp:
 
@@ -13105,19 +15838,23 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/multiprecision/cpp_int/checked.hpp:
 
+/usr/local/include/eigen3/Eigen/src/Core/Dot.h:
+
 /usr/local/include/boost/multiprecision/traits/is_byte_container.hpp:
+
+/usr/local/include/boost/math/tools/toms748_solve.hpp:
 
 /usr/local/include/boost/multiprecision/cpp_int/cpp_int_config.hpp:
 
-/usr/local/include/CGAL/Profile_timer.h:
+/usr/local/include/boost/fusion/sequence/convert.hpp:
 
 /usr/local/include/boost/multiprecision/detail/rebind.hpp:
-
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparseUtil.h:
 
 /usr/local/include/boost/multiprecision/detail/endian.hpp:
 
 /usr/local/include/boost/multiprecision/cpp_int.hpp:
+
+/usr/local/include/boost/bimap/container_adaptor/detail/non_unique_container_helper.hpp:
 
 /usr/local/include/boost/type_traits/detail/mp_defer.hpp:
 
@@ -13139,17 +15876,19 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/multiprecision/detail/number_compare.hpp:
 
-/usr/local/include/boost/multiprecision/detail/functions/trunc.hpp:
+/usr/local/include/boost/bimap/tags/tagged.hpp:
 
-/usr/local/include/boost/multiprecision/detail/et_ops.hpp:
+/usr/local/include/boost/multiprecision/detail/functions/trunc.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Householder/BlockHouseholder.h:
 
 /usr/local/include/boost/fusion/mpl/pop_front.hpp:
 
+/usr/local/include/CGAL/IO/OFF/File_header_extended_OFF_impl.h:
+
 /usr/local/include/boost/multiprecision/detail/no_et_ops.hpp:
 
-/usr/local/include/boost/container/detail/version_type.hpp:
+/usr/local/include/boost/range/size.hpp:
 
 /usr/local/include/boost/multiprecision/detail/functions/pow.hpp:
 
@@ -13157,13 +15896,19 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/math/cstdfloat/cstdfloat_complex.hpp:
 
+/usr/local/include/CGAL/TDS_3/internal/Triangulation_ds_circulators_3.h:
+
 /usr/local/include/boost/math/cstdfloat/cstdfloat_iostream.hpp:
+
+/usr/local/include/boost/mpl/list/aux_/preprocessed/plain/list20.hpp:
 
 /usr/local/include/boost/math/cstdfloat/cstdfloat_limits.hpp:
 
 /usr/local/include/boost/cstdfloat.hpp:
 
 /usr/local/include/boost/multiprecision/detail/default_ops.hpp:
+
+/usr/local/include/boost/predef/os/unix.h:
 
 /usr/local/include/boost/multiprecision/detail/generic_interconvert.hpp:
 
@@ -13172,6 +15917,8 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 /usr/local/include/boost/multiprecision/detail/check_cpp11_config.hpp:
 
 /usr/local/include/boost/math/tools/complex.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/mem_fn.h:
 
 /usr/local/include/CGAL/IO/OFF/generic_copy_OFF.h:
 
@@ -13185,11 +15932,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Default.h:
 
+/usr/local/include/boost/bind/detail/result_traits.hpp:
+
 /usr/local/include/boost/fusion/mpl/insert_range.hpp:
 
-/usr/local/include/CGAL/min_max_n.h:
+/usr/local/include/CGAL/Lightweight_vector_3.h:
 
 /usr/local/include/boost/move/detail/placement_new.hpp:
+
+/usr/local/include/CGAL/Distance_3/Point_3_Triangle_3.h:
 
 /usr/local/include/CGAL/Lazy.h:
 
@@ -13199,43 +15950,65 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Sqrt_extension/Eigen_NumTraits.h:
 
+/usr/local/include/CGAL/array.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/shared_ptr.h:
+
+/usr/local/include/boost/predef/architecture/blackfin.h:
+
+/usr/local/include/boost/multi_index/indexed_by.hpp:
+
+/usr/local/include/boost/preprocessor/seq/cat.hpp:
+
 /usr/local/include/CGAL/Sqrt_extension/Get_arithmetic_kernel.h:
 
 /usr/local/include/CGAL/Sqrt_extension/io.h:
 
 /usr/local/include/CGAL/extended_euclidean_algorithm.h:
 
+/usr/local/include/boost/core/explicit_operator_bool.hpp:
+
+/usr/local/include/boost/bimap/views/multimap_view.hpp:
+
 /usr/local/include/CGAL/Chinese_remainder_traits.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/empty.h:
+
 /usr/local/include/CGAL/Sqrt_extension/Fraction_traits.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/mutex:
+
+/usr/local/include/CGAL/Cartesian/Line_3.h:
 
 /usr/local/include/boost/fusion/algorithm/iteration/fold.hpp:
 
 /usr/local/include/CGAL/Sqrt_extension/Real_embeddable_traits.h:
 
-/usr/local/include/CGAL/Sqrt_extension/Scalar_factor_traits.h:
+/usr/local/include/boost/mpl/aux_/full_lambda.hpp:
 
 /usr/local/include/CGAL/Sqrt_extension_fwd.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/machine/_types.h:
+
 /usr/local/include/CGAL/Sqrt_extension/Sqrt_extension_type.h:
+
+/usr/local/include/CGAL/Small_unordered_map.h:
 
 /usr/local/include/CGAL/MP_Float.h:
 
 /usr/local/include/CGAL/Homogeneous/function_objects.h:
 
-/usr/local/include/CGAL/Homogeneous/distance_predicatesH3.h:
-
-/usr/local/include/CGAL/Surface_mesh/IO/3MF.h:
-
-/usr/local/include/boost/fusion/view/single_view/detail/prior_impl.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
 
 /usr/local/include/CGAL/Homogeneous/basic_constructionsH3.h:
-
-/usr/local/include/CGAL/Triangulation_vertex_base_with_info_2.h:
 
 /usr/local/include/CGAL/Homogeneous/PointH3.h:
 
 /usr/local/include/CGAL/Homogeneous/PlaneH3.h:
+
+/usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h:
+
+/usr/local/include/boost/is_placeholder.hpp:
 
 /usr/local/include/CGAL/Homogeneous/DirectionH3.h:
 
@@ -13243,23 +16016,27 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Homogeneous/Aff_transformationH3.h:
 
-/usr/local/include/CGAL/Homogeneous/LineH2.h:
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h:
 
 /usr/local/include/CGAL/Homogeneous/predicates_on_pointsH2.h:
 
 /usr/local/include/CGAL/Homogeneous/VectorH2.h:
 
+/usr/local/include/boost/format/format_implementation.hpp:
+
+/usr/local/include/boost/mpl/aux_/na_spec.hpp:
+
 /usr/local/include/boost/multiprecision/traits/is_backend.hpp:
 
 /usr/local/include/CGAL/Homogeneous/predicates_on_directionsH2.h:
 
-/usr/local/include/CGAL/Homogeneous/DirectionH2.h:
-
-/usr/local/include/CGAL/Homogeneous/Homogeneous_base.h:
+/usr/local/include/boost/type_traits/copy_cv_ref.hpp:
 
 /usr/local/include/CGAL/Simple_homogeneous.h:
 
 /usr/local/include/boost/mpl/aux_/preprocessed/gcc/vector.hpp:
+
+/usr/local/include/boost/mpl/list/aux_/size.hpp:
 
 /usr/local/include/boost/mpl/vector/aux_/preprocessed/typeof_based/vector10.hpp:
 
@@ -13267,11 +16044,19 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/vector/aux_/include_preprocessed.hpp:
 
-/usr/local/include/boost/mpl/vector/aux_/size.hpp:
+/usr/local/include/boost/predef/os/qnxnto.h:
 
 /usr/local/include/boost/mpl/aux_/preprocessed/gcc/minus.hpp:
 
+/usr/local/include/boost/mpl/and.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/CommaInitializer.h:
+
 /usr/local/include/boost/mpl/vector/aux_/iterator.hpp:
+
+/usr/local/include/CGAL/Surface_mesher_generator.h:
+
+/usr/local/include/boost/predef/architecture/sys370.h:
 
 /usr/local/include/CGAL/Polyhedron_3_fwd.h:
 
@@ -13279,17 +16064,19 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/back_fwd.hpp:
 
+/usr/local/include/boost/multiprecision/detail/bitscan.hpp:
+
 /usr/local/include/boost/mpl/vector/aux_/pop_back.hpp:
 
-/usr/local/include/boost/mpl/vector/aux_/push_back.hpp:
+/usr/local/include/boost/multi_index/detail/unbounded.hpp:
 
 /usr/local/include/boost/mpl/vector/aux_/pop_front.hpp:
+
+/usr/local/include/boost/predef/compiler/visualc.h:
 
 /usr/local/include/boost/mpl/vector/aux_/front.hpp:
 
 /usr/local/include/boost/mpl/aux_/config/typeof.hpp:
-
-/usr/local/include/CGAL/Polygon_mesh_processing/refine.h:
 
 /usr/local/include/boost/mpl/vector/aux_/tag.hpp:
 
@@ -13297,7 +16084,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/container/detail/alloc_helpers.hpp:
 
+/usr/local/include/boost/math/special_functions/factorials.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h:
+
+/usr/local/include/boost/bimap/relation/support/get.hpp:
+
 /usr/local/include/CGAL/circulator.h:
+
+/usr/local/include/CGAL/Homogeneous/predicates_on_pointsH3.h:
 
 /usr/local/include/boost/mpl/vector/aux_/at.hpp:
 
@@ -13305,11 +16100,11 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/limits/vector.hpp:
 
-/usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Collinear_3.h:
-
 /usr/local/include/CGAL/Homogeneous/ConicHPA2.h:
 
 /usr/local/include/boost/mpl/vector.hpp:
+
+/usr/local/include/boost/bimap/relation/mutant_relation.hpp:
 
 /usr/local/include/boost/mpl/remove_if.hpp:
 
@@ -13317,9 +16112,13 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Unique_hash_map.h:
 
-/usr/local/include/CGAL/NT_converter.h:
-
 /usr/local/include/CGAL/Cartesian_converter_fwd.h:
+
+/usr/local/include/boost/move/detail/iterator_traits.hpp:
+
+/usr/local/include/boost/archive/detail/abi_prefix.hpp:
+
+/usr/local/include/CGAL/Intersections_3/Line_3_Segment_3.h:
 
 /usr/local/include/CGAL/Filtered_kernel_fwd.h:
 
@@ -13327,25 +16126,39 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/math/special_functions/detail/bernoulli_details.hpp:
 
+/usr/local/include/boost/format/parsing.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/immintrin.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Triangle_3_Triangle_3_intersection.h:
 
 /usr/local/include/CGAL/transforming_iterator.h:
 
+/usr/local/include/boost/mpl/quote.hpp:
+
+/usr/local/include/boost/math/special_functions/detail/gamma_inva.hpp:
+
 /usr/local/include/CGAL/Homogeneous/PointH2.h:
+
+/usr/local/include/boost/preprocessor/control/iif.hpp:
 
 /usr/local/include/CGAL/Intersections_3/Triangle_3_Triangle_3.h:
 
-/usr/local/include/boost/move/detail/iterator_traits.hpp:
+/usr/local/include/CGAL/Cartesian/solve_3.h:
 
 /usr/local/include/CGAL/Intersections_3/Sphere_3_Tetrahedron_3.h:
+
+/usr/local/include/boost/preprocessor/logical/bitor.hpp:
 
 /usr/local/include/CGAL/Intersections_3/internal/Sphere_3_Sphere_3_do_intersect.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Segment_3_Triangle_3_intersection.h:
 
+/usr/local/include/boost/bimap/views/unconstrained_set_view.hpp:
+
 /usr/local/include/CGAL/Intersections_3/internal/Segment_3_Tetrahedron_3_intersection.h:
+
+/usr/local/include/boost/random/fisher_f_distribution.hpp:
 
 /usr/local/include/boost/mpl/aux_/pop_back_impl.hpp:
 
@@ -13361,6 +16174,8 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Intersections_3/Segment_3_Sphere_3.h:
 
+/usr/local/include/boost/fusion/view/single_view/detail/at_impl.hpp:
+
 /usr/local/include/CGAL/Intersections_3/internal/Segment_3_Segment_3_intersection.h:
 
 /usr/local/include/CGAL/Intersections_3/Ray_3_Triangle_3.h:
@@ -13369,37 +16184,55 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Intersections_3/Ray_3_Tetrahedron_3.h:
 
-/usr/local/include/CGAL/Intersections_3/internal/Ray_3_Sphere_3_do_intersect.h:
-
 /usr/local/include/CGAL/Intersections_3/Ray_3_Sphere_3.h:
+
+/usr/local/include/CGAL/IO/Polyhedron_scan_OFF.h:
+
+/usr/local/include/CGAL/Convex_hull_2/ch_graham_andrew_impl.h:
 
 /usr/local/include/boost/graph/graph_traits.hpp:
 
-/usr/local/include/CGAL/Intersections_3/internal/Ray_3_Segment_3_intersection.h:
+/usr/local/include/boost/range/detail/misc_concept.hpp:
 
-/usr/local/include/boost/math/special_functions/detail/gamma_inva.hpp:
+/usr/local/include/CGAL/Intersections_3/internal/Ray_3_Segment_3_intersection.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Ray_3_Segment_3_do_intersect.h:
 
 /usr/local/include/CGAL/IO/OI/Inventor_ostream.h:
 
+/usr/local/include/boost/mpl/greater.hpp:
+
 /usr/local/include/CGAL/Intersections_3/Ray_3_Segment_3.h:
+
+/usr/local/include/CGAL/Mesh_2/Output_stream.h:
+
+/usr/local/include/boost/preprocessor/list/reverse.hpp:
 
 /usr/local/include/CGAL/Intersections_3/internal/Ray_3_Ray_3_do_intersect.h:
 
+/usr/local/include/boost/type_traits/has_logical_and.hpp:
+
 /usr/local/include/CGAL/Intersections_3/internal/Point_3_Triangle_3_do_intersect.h:
 
+/usr/local/include/boost/bind/bind_cc.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/GenericPacketMath.h:
+
 /usr/local/include/CGAL/Intersections_3/internal/Point_3_Tetrahedron_3_do_intersect.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/popcntintrin.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Point_3_Sphere_3_intersection.h:
 
 /usr/local/include/CGAL/Intersections_3/Point_3_Segment_3.h:
 
-/usr/local/include/CGAL/boost_mp.h:
+/usr/local/include/boost/preprocessor/variadic/elem.hpp:
 
 /usr/local/include/CGAL/Intersections_3/internal/Point_3_Ray_3_intersection.h:
 
 /usr/local/include/CGAL/Intersections_3/Plane_3_Triangle_3.h:
+
+/usr/local/include/boost/preprocessor/seq/limits/size_256.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/set:
 
@@ -13417,6 +16250,8 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Intersections_3/internal/Plane_3_Segment_3_do_intersect.h:
 
+/usr/local/include/boost/bind/mem_fn.hpp:
+
 /usr/local/include/CGAL/Intersections_3/internal/Plane_3_Point_3_do_intersect.h:
 
 /usr/local/include/boost/multiprecision/cpp_int/bitwise.hpp:
@@ -13424,6 +16259,8 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 /usr/local/include/CGAL/Intersections_3/Plane_3_Point_3.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/lzcntintrin.h:
+
+/usr/local/include/CGAL/Cartesian/Direction_3.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Plane_3_Plane_3_intersection.h:
 
@@ -13437,23 +16274,19 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/move/algo/detail/adaptive_sort_merge.hpp:
 
-/usr/local/include/CGAL/Intersections_3/internal/Line_3_Tetrahedron_3_do_intersect.h:
-
-/usr/local/include/CGAL/Kernel_23/internal/Projection_traits_base_3.h:
-
 /usr/local/include/CGAL/Intersections_3/Line_3_Tetrahedron_3.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Line_3_Segment_3_intersection.h:
 
-/usr/local/include/CGAL/Intersections_3/internal/Line_3_Segment_3_do_intersect.h:
+/usr/local/include/boost/multi_index/detail/auto_space.hpp:
 
-/usr/local/include/CGAL/Intersections_3/Line_3_Segment_3.h:
+/usr/local/include/CGAL/Intersections_3/internal/Line_3_Segment_3_do_intersect.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Line_3_Ray_3_intersection.h:
 
-/usr/local/include/CGAL/Intersections_3/internal/Point_3_Ray_3_do_intersect.h:
+/usr/local/include/CGAL/Surface_mesh/IO/PLY.h:
 
-/usr/local/include/CGAL/license/Polygon_mesh_processing/repair.h:
+/usr/local/include/CGAL/Intersections_3/internal/Point_3_Ray_3_do_intersect.h:
 
 /usr/local/include/CGAL/Intersections_3/Line_3_Ray_3.h:
 
@@ -13461,7 +16294,13 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Intersections_3/Line_3_Plane_3.h:
 
+/usr/local/include/boost/serialization/type_info_implementation.hpp:
+
+/usr/local/include/CGAL/Surface_mesher/Profile_counter.h:
+
 /usr/local/include/CGAL/Intersections_3/internal/Line_3_Line_3_intersection.h:
+
+/usr/local/include/boost/mpl/comparison.hpp:
 
 /usr/local/include/boost/move/detail/unique_ptr_meta_utils.hpp:
 
@@ -13469,19 +16308,27 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/f16cintrin.h:
 
+/usr/local/include/boost/fusion/support/tag_of.hpp:
+
 /usr/local/include/CGAL/Intersections_3/Iso_cuboid_3_Triangle_3.h:
 
 /usr/local/include/CGAL/Homogeneous_converter.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Tetrahedron_3_Triangle_3_do_intersect.h:
 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/cetintrin.h:
+/usr/local/include/CGAL/Intersections_3/Segment_3_Segment_3.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Sphere_3_Triangle_3_do_intersect.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Ray_3_Triangle_3_do_intersect.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/appleapiopts.h:
+
 /usr/local/include/CGAL/Intersections_3/internal/Iso_cuboid_3_Triangle_3_do_intersect.h:
+
+/usr/local/include/CGAL/MP_Float_arithmetic_kernel.h:
+
+/usr/local/include/boost/concept/usage.hpp:
 
 /usr/local/include/boost/multiprecision/detail/atomic.hpp:
 
@@ -13497,45 +16344,51 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Intersections_3/internal/Iso_cuboid_3_Tetrahedron_3_do_intersect.h:
 
-/usr/local/include/CGAL/Intersections_3/Iso_cuboid_3_Ray_3.h:
-
-/usr/local/include/CGAL/Intersections_3/internal/Iso_cuboid_3_Line_3_intersection.h:
+/usr/local/include/CGAL/Intersections_3/internal/Line_3_Ray_3_do_intersect.h:
 
 /usr/local/include/CGAL/Intersections_3/Iso_cuboid_3_Line_3.h:
 
-/usr/local/include/boost/type_traits/has_dereference.hpp:
+/usr/local/include/CGAL/Line_3.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Iso_cuboid_3_Iso_cuboid_3_do_intersect.h:
 
-/usr/local/include/CGAL/Intersections_3/Iso_cuboid_3_Iso_cuboid_3.h:
+/usr/local/include/boost/mpl/vector/aux_/clear.hpp:
 
 /usr/local/include/CGAL/Intersections_3/Bbox_3_Triangle_3.h:
 
 /usr/local/include/CGAL/Triangulation_3.h:
 
-/usr/local/include/CGAL/Intersections_3/internal/Bbox_3_Triangle_3_do_intersect.h:
-
-/usr/local/include/boost/multiprecision/detail/bitscan.hpp:
-
-/usr/local/include/CGAL/Intersections_3/Bbox_3_Tetrahedron_3.h:
-
-/usr/local/include/CGAL/Intersections_3/internal/Iso_cuboid_3_Sphere_3_do_intersect.h:
-
 /usr/local/include/CGAL/Intersections_3/internal/Bbox_3_Sphere_3_do_intersect.h:
 
-/usr/local/include/boost/type_traits/is_virtual_base_of.hpp:
+/usr/local/include/boost/range/detail/msvc_has_iterator_workaround.hpp:
 
 /usr/local/include/CGAL/Intersections_3/Bbox_3_Sphere_3.h:
 
+/usr/local/include/boost/predef/version_number.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
+
 /usr/local/include/CGAL/Intersections_3/Bbox_3_Segment_3.h:
+
+/usr/local/include/CGAL/license/lgpl.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Bbox_3_Ray_3_intersection.h:
 
+/usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Static_filter_error.h:
+
 /usr/local/include/CGAL/Intersections_3/internal/Bbox_3_Segment_3_do_intersect.h:
+
+/usr/local/include/boost/mpl/set/aux_/set0.hpp:
+
+/usr/local/include/CGAL/Cartesian/basic_constructions_3.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Iso_cuboid_3_Point_3_do_intersect.h:
 
 /usr/local/include/CGAL/Intersections_3/Iso_cuboid_3_Point_3.h:
+
+/usr/local/include/boost/type_traits/detail/has_binary_operator.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/concepts.h:
 
 /usr/local/include/CGAL/Intersections_3/Bbox_3_Point_3.h:
 
@@ -13545,31 +16398,35 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Intersections_3/internal/Iso_cuboid_3_Plane_3_do_intersect.h:
 
+/usr/local/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/clwbintrin.h:
+
+/usr/local/include/boost/fusion/container/list/detail/deref_impl.hpp:
 
 /usr/local/include/CGAL/Intersections_3/internal/Bbox_3_Line_3_intersection.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Bbox_3_Line_3_do_intersect.h:
 
+/usr/local/include/boost/type_traits/has_nothrow_assign.hpp:
+
 /usr/local/include/CGAL/Hash_map/internal/chained_map.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Bbox_3_Iso_cuboid_3_do_intersect.h:
 
-/usr/local/include/CGAL/Intersections_3/Iso_cuboid_3_Tetrahedron_3.h:
+/usr/local/include/boost/multi_index/member.hpp:
 
 /usr/local/include/CGAL/Intersection_traits_3.h:
 
-/usr/local/include/boost/container/vector.hpp:
-
-/usr/local/include/CGAL/intersection_3.h:
-
-/usr/local/include/CGAL/Intersections_2/internal/Triangle_2_Triangle_2_intersection_impl.h:
-
 /usr/local/include/CGAL/Intersections_2/Triangle_2_Triangle_2.h:
+
+/usr/local/include/boost/concept/detail/general.hpp:
 
 /usr/local/include/boost/fusion/algorithm/query/find_fwd.hpp:
 
 /usr/local/include/CGAL/Intersections_2/Segment_2_Triangle_2.h:
+
+/usr/local/include/CGAL/Cartesian/Weighted_point_3.h:
 
 /usr/local/include/CGAL/Intersections_2/Ray_2_Triangle_2.h:
 
@@ -13581,9 +16438,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Intersections_2/Point_2_Ray_2.h:
 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avx512vldqintrin.h:
+
 /usr/local/include/CGAL/Intersections_2/Point_2_Point_2.h:
 
 /usr/local/include/CGAL/Intersections_2/internal/Straight_2.h:
+
+/usr/local/include/CGAL/Delaunay_triangulation_cell_base_with_circumcenter_3.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/front_insert_iterator.h:
 
 /usr/local/include/CGAL/Intersections_2/Line_2_Triangle_2.h:
 
@@ -13593,13 +16456,29 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Intersections_3/internal/Ray_3_Triangle_3_intersection.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/wctype.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/list:
+
+/usr/local/include/CGAL/Weights/cotangent_weights.h:
+
+/usr/local/include/boost/bimap/support/data_type_by.hpp:
 
 /usr/local/include/CGAL/Intersections_3/Bbox_3_Ray_3.h:
 
 /usr/local/include/CGAL/Intersections_2/Line_2_Line_2.h:
 
+/usr/local/include/boost/mpl/void_fwd.hpp:
+
+/usr/local/include/boost/bind/arg.hpp:
+
+/usr/local/include/boost/multiprecision/rational_adaptor.hpp:
+
+/usr/local/include/boost/type_traits/has_trivial_move_assign.hpp:
+
 /usr/local/include/CGAL/Has_timestamp.h:
+
+/usr/local/include/boost/predef/compiler/ibm.h:
 
 /usr/local/include/CGAL/predicates_on_points_2.h:
 
@@ -13609,39 +16488,53 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Intersections_2/Iso_rectangle_2_Iso_rectangle_2.h:
 
-/usr/local/include/CGAL/Intersections_3/internal/Point_3_Tetrahedron_3_intersection.h:
-
 /usr/local/include/CGAL/Intersections_2/Circle_2_Triangle_2.h:
 
-/usr/local/include/CGAL/bounding_box.h:
+/usr/local/include/boost/mpl/set/aux_/value_type_impl.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Cholesky/LLT.h:
 
 /usr/local/include/CGAL/Intersections_2/Circle_2_Segment_2.h:
 
 /usr/local/include/boost/fusion/view/transform_view/detail/next_impl.hpp:
 
-/usr/local/include/CGAL/Intersections_2/Circle_2_Line_2.h:
-
 /usr/local/include/CGAL/Intersections_2/Circle_2_Circle_2.h:
+
+/usr/local/include/boost/mpl/aux_/O1_size_impl.hpp:
 
 /usr/local/include/CGAL/Intersections_2/Iso_rectangle_2_Point_2.h:
 
 /usr/local/include/CGAL/Intersections_2/Iso_rectangle_2_Line_2.h:
 
+/usr/local/include/boost/math/special_functions/zeta.hpp:
+
+/usr/local/include/boost/bimap/multiset_of.hpp:
+
+/usr/local/include/boost/type_traits/is_pod.hpp:
+
 /usr/local/include/CGAL/linear_least_squares_fitting_3.h:
+
+/usr/local/include/CGAL/Intersections_3/internal/Plane_3_Tetrahedron_3_intersection.h:
 
 /usr/local/include/boost/fusion/algorithm/query/find_if_fwd.hpp:
 
+/usr/local/include/boost/predef/library.h:
+
 /usr/local/include/CGAL/Intersections_2/Bbox_2_Line_2.h:
+
+/usr/local/include/boost/utility/identity_type.hpp:
 
 /usr/local/include/CGAL/Intersection_traits.h:
 
-/usr/local/include/CGAL/intersection_2.h:
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparseMap.h:
 
-/usr/local/include/CGAL/Distance_3/Plane_3_Plane_3.h:
+/usr/local/include/boost/bimap/relation/member_at.hpp:
+
+/usr/local/include/CGAL/intersection_2.h:
 
 /usr/local/include/CGAL/Distance_3/Triangle_3_Triangle_3.h:
 
-/usr/local/include/CGAL/Convex_hull_3/internal/Indexed_triangle_set.h:
+/usr/local/include/boost/serialization/wrapper.hpp:
 
 /usr/local/include/CGAL/Distance_3/Line_3_Plane_3.h:
 
@@ -13651,11 +16544,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Distance_3/Point_3_Plane_3.h:
 
+/usr/local/include/boost/type_traits/is_rvalue_reference.hpp:
+
 /usr/local/include/boost/type_traits/has_bit_xor_assign.hpp:
 
-/usr/local/include/CGAL/Distance_3/Point_3_Triangle_3.h:
+/usr/local/include/boost/core/addressof.hpp:
 
 /usr/local/include/CGAL/Distance_3/Point_3_Line_3.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_short.h:
 
 /usr/local/include/CGAL/Distance_3/Point_3_Ray_3.h:
 
@@ -13677,13 +16574,19 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Distance_2/Ray_2_Triangle_2.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types.h:
+
+/usr/local/include/CGAL/Distance_2/Segment_2_Segment_2.h:
+
 /usr/local/include/CGAL/Distance_2/Ray_2_Line_2.h:
 
-/usr/local/include/CGAL/Distance_2/Ray_2_Ray_2.h:
+/usr/local/include/boost/variant/apply_visitor.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/ArithmeticSequence.h:
 
 /usr/local/include/CGAL/Distance_2/Segment_2_Triangle_2.h:
 
-/usr/local/include/CGAL/Distance_2/Segment_2_Segment_2.h:
+/usr/local/include/boost/bimap/detail/generate_index_binder.hpp:
 
 /usr/local/include/boost/mpl/vector/aux_/push_front.hpp:
 
@@ -13691,11 +16594,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Distance_2/Point_2_Ray_2.h:
 
+/usr/local/include/boost/mpl/erase_key.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/movdirintrin.h:
 
 /usr/local/include/CGAL/Kernel/Wutils.h:
 
 /usr/local/include/CGAL/wmult.h:
+
+/usr/local/include/CGAL/Cartesian/predicates_on_planes_3.h:
 
 /usr/local/include/boost/fusion/container/list/detail/begin_impl.hpp:
 
@@ -13707,47 +16614,51 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/squared_distance_2.h:
 
-/usr/local/include/eigen3/Eigen/SparseQR:
+/usr/local/include/boost/serialization/level.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avx512fintrin.h:
 
+/usr/local/include/boost/property_map/vector_property_map.hpp:
+
 /usr/local/include/CGAL/rank.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
 
 /usr/local/include/CGAL/Cartesian/function_objects.h:
 
 /usr/local/include/CGAL/Intersections_2/Iso_rectangle_2_Ray_2.h:
 
+/usr/local/include/CGAL/Direction_2.h:
+
 /usr/local/include/CGAL/Cartesian/ft_constructions_3.h:
 
-/usr/local/include/CGAL/Cartesian/basic_constructions_3.h:
-
-/usr/local/include/eigen3/Eigen/SparseLU:
-
-/usr/local/include/CGAL/Cartesian/predicates_on_planes_3.h:
+/usr/local/include/CGAL/Polygon_2/Polygon_2_edge_circulator.h:
 
 /usr/local/include/boost/mpl/aux_/at_impl.hpp:
+
+/usr/local/include/boost/type_index.hpp:
 
 /usr/local/include/CGAL/Cartesian/Scaling_rep_3.h:
 
 /usr/local/include/CGAL/Cartesian/Aff_transformation_3.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/identity.h:
+
 /usr/local/include/CGAL/Cartesian/predicates_on_points_3.h:
-
-/usr/local/include/CGAL/Cartesian/Iso_cuboid_3.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_kernel_bmod.h:
 
 /usr/local/include/CGAL/Cartesian/Tetrahedron_3.h:
 
 /usr/local/include/CGAL/Cartesian/Triangle_3.h:
 
+/usr/local/include/boost/serialization/serialization.hpp:
+
+/usr/local/include/boost/mpl/aux_/include_preprocessed.hpp:
+
 /usr/local/include/CGAL/Cartesian/Ray_3.h:
 
+/usr/local/include/boost/format/detail/unset_macros.hpp:
+
 /usr/local/include/CGAL/Cartesian/plane_constructions_3.h:
-
-/usr/local/include/CGAL/Cartesian/solve_3.h:
-
-/usr/local/include/CGAL/Cartesian/Line_3.h:
 
 /usr/local/include/CGAL/predicates/kernel_ftC3.h:
 
@@ -13755,9 +16666,11 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Cartesian/Vector_3.h:
 
-/usr/local/include/CGAL/Cartesian/Weighted_point_3.h:
-
 /usr/local/include/CGAL/Intersections_3/Ray_3_Ray_3.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/back_insert_iterator.h:
+
+/usr/local/include/CGAL/rational_rotation.h:
 
 /usr/local/include/CGAL/Cartesian/basic_constructions_2.h:
 
@@ -13765,11 +16678,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/fusion/algorithm/iteration/detail/segmented_fold.hpp:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/move_iterator.h:
+
 /usr/local/include/CGAL/Cartesian/Scaling_rep_2.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/PermutationMatrix.h:
 
 /usr/local/include/CGAL/Cartesian/ft_constructions_2.h:
 
-/usr/local/include/CGAL/Cartesian/Rotation_rep_2.h:
+/usr/local/include/CGAL/number_type_basic.h:
 
 /usr/local/include/CGAL/Cartesian/Translation_rep_2.h:
 
@@ -13779,11 +16696,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Cartesian/Circle_2.h:
 
+/usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h:
+
 /usr/local/include/boost/fusion/algorithm/iteration/detail/for_each.hpp:
 
 /usr/local/include/boost/math/special_functions/asinh.hpp:
 
 /usr/local/include/CGAL/Cartesian/Triangle_2.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_int32_t.h:
 
 /usr/local/include/boost/mpl/vector/aux_/back.hpp:
 
@@ -13797,43 +16718,53 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Cartesian/Reflection_rep_2.h:
 
-/usr/local/include/CGAL/determinant.h:
+/usr/local/include/boost/predef/platform/windows_system.h:
 
-/usr/local/include/boost/random/uniform_smallint.hpp:
+/usr/local/include/CGAL/determinant.h:
 
 /usr/local/include/boost/random/uniform_on_sphere.hpp:
 
 /usr/local/include/boost/fusion/view/transform_view/detail/deref_impl.hpp:
 
+/usr/local/include/CGAL/convex_hull_2.h:
+
 /usr/local/include/boost/random/triangle_distribution.hpp:
+
+/usr/local/include/boost/numeric/conversion/udt_builtin_mixture_enum.hpp:
 
 /usr/local/include/boost/random/piecewise_linear_distribution.hpp:
 
 /usr/local/include/boost/random/uniform_real.hpp:
 
+/usr/local/include/CGAL/Cartesian/Translation_rep_3.h:
+
 /usr/local/include/boost/container/flat_map.hpp:
 
+/usr/local/include/boost/predef/architecture/ia64.h:
+
 /usr/local/include/boost/random/piecewise_constant_distribution.hpp:
+
+/usr/local/include/boost/random/detail/signed_unsigned_tools.hpp:
 
 /usr/local/include/boost/random/uniform_real_distribution.hpp:
 
 /usr/local/include/boost/random/non_central_chi_squared_distribution.hpp:
 
+/usr/local/include/boost/random/detail/disable_warnings.hpp:
+
+/usr/local/include/boost/mp11/detail/mp_fold.hpp:
+
 /usr/local/include/boost/random/poisson_distribution.hpp:
 
 /usr/local/include/boost/random/negative_binomial_distribution.hpp:
 
-/usr/local/include/CGAL/Kernel_23/internal/Filtered_projection_traits_3.h:
-
 /usr/local/include/CGAL/Triangulation_ds_cell_base_3.h:
+
+/usr/local/include/CGAL/algorithm.h:
 
 /usr/local/include/eigen3/Eigen/src/Geometry/Umeyama.h:
 
 /usr/local/include/boost/random/laplace_distribution.hpp:
-
-/usr/local/include/boost/type_traits/detail/has_prefix_operator.hpp:
-
-/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_column_dfs.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Point_3_Point_3_intersection.h:
 
@@ -13841,61 +16772,71 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/fusion/mpl.hpp:
 
-/usr/local/include/boost/random/fisher_f_distribution.hpp:
-
 /usr/local/include/boost/io_fwd.hpp:
+
+/usr/local/include/CGAL/Polygon_mesh_processing/repair_polygon_soup.h:
 
 /usr/local/include/boost/io/ios_state.hpp:
 
+/usr/local/include/boost/bimap/support/key_type_by.hpp:
+
 /usr/local/include/CGAL/Intersections_2/Circle_2_Ray_2.h:
+
+/usr/local/include/CGAL/Concurrent_compact_container.h:
 
 /usr/local/include/boost/random/discrete_distribution.hpp:
 
-/usr/local/include/boost/random/chi_squared_distribution.hpp:
-
 /usr/local/include/boost/random/cauchy_distribution.hpp:
-
-/usr/local/include/CGAL/Cartesian/Direction_3.h:
 
 /usr/local/include/boost/random/binomial_distribution.hpp:
 
 /usr/local/include/boost/random/exponential_distribution.hpp:
 
-/usr/local/include/boost/random/hyperexponential_distribution.hpp:
-
 /usr/local/include/boost/random/bernoulli_distribution.hpp:
 
 /usr/local/include/boost/random/seed_seq.hpp:
 
+/usr/local/include/boost/optional/detail/optional_aligned_storage.hpp:
+
+/usr/local/include/boost/lexical_cast/detail/converter_lexical_streams.hpp:
+
 /usr/local/include/boost/random/generate_canonical.hpp:
+
+/usr/local/include/boost/mpl/next.hpp:
 
 /usr/local/include/boost/random/xor_combine.hpp:
 
 /usr/local/include/boost/random/shuffle_output.hpp:
 
-/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_dfs.h:
-
 /usr/local/include/boost/random/shuffle_order.hpp:
 
-/usr/local/include/boost/range/iterator_range.hpp:
-
 /usr/local/include/boost/random/ranlux.hpp:
-
-/usr/local/include/boost/random/uniform_01.hpp:
 
 /usr/local/include/CGAL/Intersections_3/internal/Bbox_3_Iso_cuboid_3_intersection.h:
 
 /usr/local/include/boost/random/lagged_fibonacci.hpp:
 
-/usr/local/include/boost/random/discard_block.hpp:
+/usr/local/include/boost/iterator/advance.hpp:
+
+/usr/local/include/boost/multi_index/detail/promotes_arg.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sched.h:
 
+/usr/local/include/boost/limits.hpp:
+
+/usr/local/include/boost/numeric/conversion/detail/conversion_traits.hpp:
+
 /usr/local/include/boost/integer/integer_log2.hpp:
+
+/usr/local/include/CGAL/HalfedgeDS_face_base.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h:
 
 /usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Side_of_oriented_sphere_3.h:
 
 /usr/local/include/boost/random/detail/large_arithmetic.hpp:
+
+/usr/local/include/CGAL/Surface_mesh/Surface_mesh.h:
 
 /usr/local/include/boost/random/linear_congruential.hpp:
 
@@ -13909,19 +16850,21 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/multiprecision/cpp_int/misc.hpp:
 
+/usr/local/include/boost/fusion/sequence/intrinsic/detail/segmented_size.hpp:
+
 /usr/local/include/boost/random/detail/const_mod.hpp:
-
-/usr/local/include/boost/random/detail/signed_unsigned_tools.hpp:
-
-/usr/local/include/CGAL/IO/OFF/File_header_extended_OFF_impl.h:
-
-/usr/local/include/boost/unordered/detail/map.hpp:
 
 /usr/local/include/boost/type_traits/is_void.hpp:
 
+/usr/local/include/CGAL/config.h:
+
 /usr/local/include/boost/random/detail/operators.hpp:
 
-/usr/local/include/boost/random/uniform_int_distribution.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__string:
+
+/usr/local/include/boost/bimap/detail/set_view_base.hpp:
+
+/usr/local/include/CGAL/Optimal_bounding_box/oriented_bounding_box.h:
 
 /usr/local/include/boost/type_traits/is_list_constructible.hpp:
 
@@ -13937,17 +16880,11 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/fusion/view/joint_view/detail/next_impl.hpp:
 
-/usr/local/include/boost/math/special_functions/zeta.hpp:
-
 /usr/local/include/boost/utility/swap.hpp:
-
-/usr/local/include/CGAL/Polygon_mesh_processing/compute_normal.h:
 
 /usr/local/include/boost/type_traits/add_cv.hpp:
 
 /usr/local/include/CGAL/license/TDS_3.h:
-
-/usr/local/include/boost/preprocessor/punctuation/comma.hpp:
 
 /usr/local/include/boost/ref.hpp:
 
@@ -13955,25 +16892,19 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Handle_for.h:
 
+/usr/local/include/boost/mpl/aux_/iter_push_front.hpp:
+
 /usr/local/include/CGAL/Cartesian/Point_2.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_int64_t.h:
 
 /usr/local/include/boost/variant/detail/enable_recursive_fwd.hpp:
 
-/usr/local/include/CGAL/Aff_transformation_3.h:
-
-/usr/local/include/boost/move/detail/config_begin.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/unordered_map:
-
 /usr/local/include/CGAL/Sphere_3.h:
 
 /usr/local/include/CGAL/Iso_cuboid_3.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/invpcidintrin.h:
-
-/usr/local/include/CGAL/Line_3.h:
 
 /usr/local/include/CGAL/Vector_3.h:
 
@@ -13989,23 +16920,27 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/math/special_functions/cbrt.hpp:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/remove_copy_if.h:
+
 /usr/local/include/CGAL/Circle_2.h:
 
 /usr/local/include/boost/mpl/list/aux_/include_preprocessed.hpp:
 
-/usr/local/include/CGAL/Vector_2.h:
-
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/xsavesintrin.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
 
 /usr/local/include/CGAL/Kernel/global_functions.h:
 
-/usr/local/include/boost/mpl/pop_back_fwd.hpp:
+/usr/local/include/CGAL/IO/VTK.h:
 
-/usr/local/include/boost/predef/library/c/zos.h:
+/usr/local/include/boost/mpl/pop_back_fwd.hpp:
 
 /usr/local/include/boost/math/special_functions/sign.hpp:
 
-/usr/local/include/boost/predef/platform/windows_system.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/perfect_forward.h:
+
+/usr/local/include/boost/multi_index/detail/duplicates_iterator.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:
 
@@ -14013,7 +16948,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/math/special_functions/fpclassify.hpp:
 
+/usr/local/include/CGAL/Timer.h:
+
+/usr/local/include/CGAL/Polyhedron_incremental_builder_3.h:
+
+/usr/local/include/boost/predef/detail/_exception.h:
+
 /usr/local/include/boost/math/tools/assert.hpp:
+
+/usr/local/include/boost/predef/os.h:
 
 /usr/local/include/boost/math/tools/precision.hpp:
 
@@ -14027,11 +16970,13 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/math/tools/user.hpp:
 
-/usr/local/include/boost/type_traits/has_logical_and.hpp:
+/usr/local/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h:
 
 /usr/local/include/boost/math/tools/tuple.hpp:
 
 /usr/local/include/boost/math/tools/is_standalone.hpp:
+
+/usr/local/include/boost/preprocessor/iteration/iterate.hpp:
 
 /usr/local/include/boost/predef/compiler/gcc.h:
 
@@ -14049,23 +16994,35 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/eigen3/Eigen/src/Core/GlobalFunctions.h:
 
+/usr/local/include/boost/iterator/function_output_iterator.hpp:
+
+/usr/local/include/boost/move/detail/meta_utils.hpp:
+
 /usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Static_filters.h:
 
 /usr/local/include/CGAL/mpz_class.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/Reverse.h:
-
-/usr/local/include/boost/type_traits/type_identity.hpp:
 
 /usr/local/include/CGAL/memory.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/Random.h:
 
+/usr/local/include/boost/multi_index/detail/index_access_sequence.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iomanip:
+
 /usr/local/include/boost/mpl/integral_c_tag.hpp:
+
+/usr/local/include/boost/fusion/container/vector/detail/at_impl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/xlocale/_stdio.h:
 
+/usr/local/include/boost/type_traits/is_stateless.hpp:
+
 /usr/local/include/boost/mpl/list/list10.hpp:
+
+/usr/local/include/boost/container_hash/is_unordered_range.hpp:
+
+/usr/local/include/boost/type_traits/type_with_alignment.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/CoreIterators.h:
 
@@ -14075,23 +17032,11 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/core/ref.hpp:
 
-/usr/local/include/boost/predef/library/std/modena.h:
-
 /usr/local/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h:
-
-/usr/local/include/CGAL/Intersections_3/Bbox_3_Plane_3.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/SolveTriangular.h:
-
-/usr/local/include/CGAL/rational_rotation.h:
-
 /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h:
-
-/usr/local/include/CGAL/Convex_hull_traits_3.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h:
 
@@ -14101,19 +17046,21 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h:
 
+/usr/local/include/CGAL/HalfedgeDS_items_2.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/equal_range.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/TriangularMatrix.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/PermutationMatrix.h:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/serializeintrin.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/SolverBase.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/Swap.h:
-
 /usr/local/include/CGAL/Intersections_3/Segment_3_Triangle_3.h:
 
-/usr/local/include/CGAL/Intersections_3/Line_3_Sphere_3.h:
+/usr/local/include/CGAL/basic.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/shift_left.h:
 
 /usr/local/include/boost/mpl/aux_/largest_int.hpp:
 
@@ -14121,21 +17068,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/eigen3/Eigen/src/Core/CwiseUnaryView.h:
 
-/usr/local/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h:
-
 /usr/local/include/boost/fusion/adapted/mpl/detail/is_view_impl.hpp:
 
 /usr/local/include/CGAL/predicates/sign_of_determinant.h:
 
-/usr/local/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
-
 /usr/local/include/CGAL/Homogeneous/VectorH3.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:
-
 /usr/local/include/CGAL/boost/graph/internal/Has_member_clear.h:
+
+/usr/local/include/boost/predef/compiler/dignus.h:
 
 /usr/local/include/boost/type_traits/is_nothrow_swappable.hpp:
 
@@ -14153,13 +17094,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/stdarg.h:
 
-/usr/local/include/CGAL/Kernel/global_functions_3.h:
-
 /usr/local/include/eigen3/Eigen/src/Core/Assign.h:
 
 /usr/local/include/boost/core/bit.hpp:
 
+/usr/local/include/CGAL/function_objects.h:
+
 /usr/local/include/boost/utility/enable_if.hpp:
+
+/usr/local/include/CGAL/Cartesian/point_constructions_3.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/AssignEvaluator.h:
 
@@ -14167,51 +17110,57 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/eigen3/Eigen/src/Core/CoreEvaluators.h:
 
-/usr/local/include/boost/fusion/container/vector/detail/at_impl.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_xlocale.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/Product.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:
+/usr/local/include/CGAL/Mesher_level.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/EigenBase.h:
 
 /usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Equal_2.h:
 
+/usr/local/include/boost/numeric/conversion/numeric_cast_traits.hpp:
+
 /usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h:
+
+/usr/local/include/boost/preprocessor/facilities/check_empty.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/MatrixBase.h:
 
-/usr/local/include/eigen3/Eigen/src/plugins/BlockMethods.h:
-
-/usr/local/include/CGAL/boost/graph/property_maps.h:
+/usr/local/include/CGAL/IO/STL/STL_reader.h:
 
 /usr/local/include/boost/fusion/view/joint_view/detail/begin_impl.hpp:
 
+/usr/local/include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp:
+
+/usr/local/include/boost/bimap/relation/detail/access_builder.hpp:
+
 /usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/forward_list:
+/usr/local/include/boost/serialization/tracking_enum.hpp:
 
 /usr/local/include/CGAL/Distance_3/Segment_3_Ray_3.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h:
 
+/usr/local/include/boost/mpl/list/aux_/iterator.hpp:
+
 /usr/local/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
+
+/usr/local/include/boost/fusion/sequence/comparison/enable_comparison.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/swap_ranges.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Half.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/xlocale/_time.h:
+/usr/local/include/boost/predef/compiler/comeau.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h:
+
+/usr/local/include/boost/bind/mem_fn_cc.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/Inverse.h:
 
@@ -14223,8 +17172,6 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/eigen3/Eigen/src/Core/NumTraits.h:
 
-/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLUImpl.h:
-
 /usr/local/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/util/MKL_support.h:
@@ -14232,6 +17179,8 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 /usr/local/include/CGAL/Intersections_3/Point_3_Point_3.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
 
 /usr/local/include/eigen3/Eigen/Core:
 
@@ -14241,11 +17190,13 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Bbox_2.h:
 
-/usr/local/include/CGAL/IO/PLY/PLY_reader.h:
+/Users/asdfasd/Downloads/hw03/src/geomtools.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Plane_3_Point_3_intersection.h:
 
 /usr/local/include/CGAL/Kernel_traits.h:
+
+/usr/local/include/boost/mpl/aux_/joint_iter.hpp:
 
 /usr/local/include/boost/optional/detail/optional_swap.hpp:
 
@@ -14253,55 +17204,63 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/numeric/conversion/detail/is_subranged.hpp:
 
+/usr/local/include/boost/dynamic_bitset.hpp:
+
 /usr/local/include/boost/optional/detail/optional_hash.hpp:
 
-/usr/local/include/boost/optional/optional_fwd.hpp:
+/usr/local/include/CGAL/HalfedgeDS_vertex_base.h:
+
+/usr/local/include/CGAL/IO/OFF/File_writer_OFF.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:
+
+/usr/local/include/boost/predef/os/linux.h:
+
+/usr/local/include/boost/container/detail/placement_new.hpp:
 
 /usr/local/include/boost/random/taus88.hpp:
 
 /usr/local/include/boost/utility/compare_pointees.hpp:
 
+/usr/local/include/CGAL/ch_akl_toussaint.h:
+
 /usr/local/include/boost/type_traits/remove_extent.hpp:
-
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparseProduct.h:
-
-/usr/local/include/boost/random/independent_bits.hpp:
-
-/usr/local/include/boost/preprocessor/inc.hpp:
-
-/usr/local/include/boost/type_traits/remove_bounds.hpp:
-
-/usr/local/include/boost/type_traits/decay.hpp:
-
-/usr/local/include/boost/math/special_functions/detail/unchecked_factorial.hpp:
-
-/usr/local/include/boost/preprocessor/iteration/iterate.hpp:
-
-/usr/local/include/boost/core/explicit_operator_bool.hpp:
-
-/usr/local/include/CGAL/Min_quadrilateral_traits_2.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h:
 
 /usr/local/include/boost/random/inversive_congruential.hpp:
 
+/usr/local/include/boost/random/independent_bits.hpp:
+
+/usr/local/include/boost/concept/detail/concept_def.hpp:
+
+/usr/local/include/CGAL/Dummy_tds_2.h:
+
+/usr/local/include/boost/multi_index/detail/scope_guard.hpp:
+
+/usr/local/include/boost/preprocessor/inc.hpp:
+
+/usr/local/include/boost/mpl/empty_fwd.hpp:
+
+/usr/local/include/boost/type_traits/decay.hpp:
+
+/usr/local/include/CGAL/boost/iterator/counting_iterator.hpp:
+
+/usr/local/include/boost/mpl/assert.hpp:
+
+/usr/local/include/boost/math/special_functions/detail/unchecked_factorial.hpp:
+
 /usr/local/include/boost/optional/optional.hpp:
 
-/usr/local/include/eigen3/Eigen/src/Core/ArithmeticSequence.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h:
-
 /usr/local/include/boost/variant/bad_visit.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/emmintrin.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avx512vlvp2intersectintrin.h:
 
 /usr/local/include/boost/multiprecision/detail/standalone_config.hpp:
 
-/usr/local/include/boost/mpl/aux_/msvc_eti_base.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/pthread/pthread_impl.h:
 
-/usr/local/include/boost/utility/addressof.hpp:
+/usr/local/include/boost/mpl/aux_/msvc_eti_base.hpp:
 
 /usr/local/include/boost/core/nvp.hpp:
 
@@ -14317,33 +17276,37 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/variant/detail/enable_recursive.hpp:
 
-/usr/local/include/boost/variant/recursive_variant.hpp:
+/usr/local/include/CGAL/Poisson_mesh_cell_criteria_3.h:
 
-/usr/local/include/boost/fusion/support/tag_of.hpp:
+/usr/local/include/boost/variant/recursive_variant.hpp:
 
 /usr/local/include/boost/preprocessor/comma_if.hpp:
 
 /usr/local/include/boost/variant/detail/variant_io.hpp:
 
+/usr/local/include/CGAL/IO/Generic_writer.h:
+
 /usr/local/include/CGAL/Cache.h:
+
+/usr/local/include/boost/optional/bad_optional_access.hpp:
 
 /usr/local/include/boost/mpl/push_back.hpp:
 
 /usr/local/include/boost/mpl/iterator_category.hpp:
 
-/usr/local/include/CGAL/IO/polygon_soup_io.h:
-
 /usr/local/include/boost/mpl/pair_view.hpp:
 
 /usr/local/include/mpfr.h:
+
+/usr/local/include/boost/move/traits.hpp:
 
 /usr/local/include/boost/assert.hpp:
 
 /usr/local/include/boost/mpl/size_t.hpp:
 
-/usr/local/include/boost/random/detail/vector_io.hpp:
+/usr/local/include/boost/preprocessor/control/expr_if.hpp:
 
-/usr/local/include/boost/predef/os/qnxnto.h:
+/usr/local/include/boost/random/detail/vector_io.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/errno.h:
 
@@ -14351,13 +17314,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/same_as.hpp:
 
-/usr/local/include/CGAL/Eigen_matrix.h:
-
 /usr/local/include/boost/type_traits/has_greater.hpp:
 
 /usr/local/include/boost/mpl/max_element.hpp:
 
 /usr/local/include/boost/type_traits/same_traits.hpp:
+
+/usr/local/include/boost/multi_index/ordered_index_fwd.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/runetype.h:
 
 /usr/local/include/CGAL/boost/graph/IO/Generic_facegraph_printer.h:
 
@@ -14365,17 +17330,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/aux_/clear_impl.hpp:
 
-/usr/local/include/CGAL/license/Convex_hull_2.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/search_n.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/DiagonalProduct.h:
+/usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h:
 
 /usr/local/include/CGAL/Intersections_2/Line_2_Point_2.h:
 
 /usr/local/include/boost/mpl/clear.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/fold_impl.hpp:
 
 /usr/local/include/CGAL/IO/io.h:
 
@@ -14385,9 +17348,21 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/math/special_functions/trunc.hpp:
 
+/usr/local/include/eigen3/Eigen/src/Core/IO.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h:
 
 /usr/local/include/boost/mpl/aux_/insert_range_impl.hpp:
+
+/usr/local/include/boost/multi_index/detail/index_saver.hpp:
+
+/usr/local/include/boost/detail/is_incrementable.hpp:
+
+/usr/local/include/CGAL/Intersection_traits_2.h:
+
+/usr/local/include/boost/container/detail/pair.hpp:
+
+/usr/local/include/CGAL/convert_to_bfi.h:
 
 /usr/local/include/boost/mpl/insert_range.hpp:
 
@@ -14399,31 +17374,29 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/fold.hpp:
 
-/usr/local/include/boost/optional/bad_optional_access.hpp:
-
 /usr/local/include/boost/random/detail/seed_impl.hpp:
 
 /usr/local/include/CGAL/Number_types/internal/Exact_type_selector.h:
-
-/usr/local/include/CGAL/Iso_rectangle_2.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparseVector.h:
 
 /usr/local/include/boost/mpl/logical.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h:
 
-/usr/local/include/boost/type_traits/remove_reference.hpp:
-
 /usr/local/include/boost/mpl/aux_/iter_apply.hpp:
 
+/usr/local/include/boost/predef/architecture.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/nth_element.h:
+
+/usr/local/include/boost/mpl/front_inserter.hpp:
+
 /usr/local/include/boost/mpl/find_if.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/random:
 
 /usr/local/include/boost/core/no_exceptions_support.hpp:
 
 /usr/local/include/CGAL/boost/iterator/transform_iterator.hpp:
-
-/usr/local/include/boost/type_traits/has_trivial_move_assign.hpp:
 
 /usr/local/include/boost/preprocessor/tuple/eat.hpp:
 
@@ -14431,21 +17404,25 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h:
 
-/usr/local/include/boost/mpl/front_inserter.hpp:
+/usr/local/include/CGAL/auto_link/auto_link.h:
 
 /usr/local/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h:
 
-/usr/local/include/boost/type_traits/has_nothrow_constructor.hpp:
+/usr/local/include/CGAL/gmpxx_coercion_traits.h:
 
 /usr/local/include/eigen3/Eigen/Householder:
 
 /usr/local/include/boost/describe/detail/cx_streq.hpp:
 
-/usr/local/include/boost/type_traits/type_with_alignment.hpp:
+/usr/local/include/boost/bimap/tags/support/default_tagged.hpp:
+
+/usr/local/include/CGAL/Intersections_3/internal/Point_3_Sphere_3_do_intersect.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/deque:
 
 /usr/local/include/boost/type_traits/alignment_of.hpp:
+
+/usr/local/include/eigen3/Eigen/src/SVD/JacobiSVD.h:
 
 /usr/local/include/boost/math/special_functions/digamma.hpp:
 
@@ -14457,15 +17434,19 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/eigen3/Eigen/src/Core/SelfAdjointView.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/size.h:
+
+/usr/local/include/CGAL/IO/Polyhedron_inventor_ostream.h:
+
 /usr/local/include/boost/fusion/mpl/insert.hpp:
 
 /usr/local/include/boost/mpl/identity.hpp:
 
 /usr/local/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:
 
-/usr/local/include/boost/fusion/iterator/iterator_adapter.hpp:
+/usr/local/include/boost/utility/binary.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/bind.h:
+/usr/local/include/boost/fusion/iterator/iterator_adapter.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/clamp.h:
 
@@ -14473,11 +17454,17 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/eigen3/Eigen/src/Core/ArrayBase.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_timeval.h:
+
 /usr/local/include/boost/type_traits/has_trivial_constructor.hpp:
 
 /usr/local/include/boost/move/algo/detail/is_sorted.hpp:
 
+/usr/local/include/boost/range/rbegin.hpp:
+
 /usr/local/include/boost/blank.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/iterator_traits.h:
 
 /usr/local/include/boost/variant/detail/std_hash.hpp:
 
@@ -14489,8 +17476,6 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/type_traits/copy_reference.hpp:
 
-/usr/local/include/boost/dynamic_bitset/detail/dynamic_bitset.hpp:
-
 /usr/local/include/boost/type_traits/copy_cv.hpp:
 
 /usr/local/include/CGAL/Intersections_3/internal/Line_3_Point_3_do_intersect.h:
@@ -14501,11 +17486,23 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/aux_/advance_backward.hpp:
 
+/usr/local/include/CGAL/Intersections_3/internal/Plane_3_Plane_3_do_intersect.h:
+
+/usr/local/include/boost/predef/hardware/simd.h:
+
+/usr/local/include/boost/mpl/set/aux_/clear_impl.hpp:
+
 /usr/local/include/boost/mpl/aux_/inserter_algorithm.hpp:
 
 /usr/local/include/boost/mpl/aux_/preprocessed/gcc/advance_forward.hpp:
 
+/usr/local/include/boost/type_traits/integral_promotion.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/xmmintrin.h:
+
 /usr/local/include/boost/mpl/negate.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_clock_t.h:
 
 /usr/local/include/boost/fusion/algorithm/query/find.hpp:
 
@@ -14515,19 +17512,21 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/distance.hpp:
 
+/usr/local/include/CGAL/Intersections_3/internal/Iso_cuboid_3_Iso_cuboid_3_intersection.h:
+
 /usr/local/include/boost/smart_ptr/detail/spinlock.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/wmmintrin.h:
+
+/usr/local/include/boost/mpl/value_type_fwd.hpp:
 
 /usr/local/include/CGAL/Cartesian/ConicCPA2.h:
 
 /usr/local/include/boost/move/detail/type_traits.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/declval.h:
-
 /usr/local/include/CGAL/Cartesian/Weighted_point_2.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/Select.h:
+/usr/local/include/boost/mp11/utility.hpp:
 
 /usr/local/include/boost/move/utility.hpp:
 
@@ -14537,11 +17536,9 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/variant/detail/apply_visitor_unary.hpp:
 
-/usr/local/include/boost/fusion/algorithm/iteration/for_each.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/serializeintrin.h:
-
 /usr/local/include/CGAL/Intersections_3/Plane_3_Plane_3.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/for_each_n.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/Array.h:
 
@@ -14549,11 +17546,13 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/aux_/na.hpp:
 
+/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_Structs.h:
+
 /usr/local/include/boost/utility/base_from_member.hpp:
 
-/usr/local/include/boost/mpl/list/aux_/preprocessed/plain/list20.hpp:
-
 /usr/local/include/CGAL/Cartesian/Segment_2.h:
+
+/usr/local/include/CGAL/Homogeneous/Data_accessorH2.h:
 
 /usr/local/include/boost/core/checked_delete.hpp:
 
@@ -14569,21 +17568,21 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/eigen3/Eigen/src/Core/Redux.h:
 
+/usr/local/include/boost/preprocessor/logical/compl.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/access.h:
+
 /usr/local/include/boost/type_traits/aligned_storage.hpp:
 
 /usr/local/include/boost/mpl/pop_front_fwd.hpp:
 
-/usr/local/include/boost/mpl/list/aux_/size.hpp:
+/usr/local/include/boost/range/has_range_iterator.hpp:
 
 /usr/local/include/boost/type_traits/has_plus.hpp:
 
+/usr/local/include/CGAL/Modifier_base.h:
+
 /usr/local/include/boost/mpl/list/aux_/O1_size.hpp:
-
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h:
-
-/usr/local/include/boost/variant/apply_visitor.hpp:
-
-/usr/local/include/boost/preprocessor/seq/enum.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/functors/StlFunctors.h:
 
@@ -14597,13 +17596,21 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Multiscale_sort.h:
 
+/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_bmod.h:
+
 /usr/local/include/boost/mpl/list/aux_/pop_front.hpp:
 
+/usr/local/include/boost/multi_index/ordered_index.hpp:
+
 /usr/local/include/boost/mpl/deref.hpp:
+
+/usr/local/include/boost/array.hpp:
 
 /usr/local/include/boost/mpl/list/aux_/tag.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/PlainObjectBase.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_off_t.h:
 
 /usr/local/include/CGAL/Distance_2/Segment_2_Line_2.h:
 
@@ -14613,11 +17620,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/list/aux_/item.hpp:
 
+/usr/local/include/CGAL/Sqrt_extension/Coercion_traits.h:
+
 /usr/local/include/boost/preprocessor/seq/fold_left.hpp:
 
 /usr/local/include/boost/mpl/pair.hpp:
 
 /usr/local/include/boost/mpl/aux_/msvc_type.hpp:
+
+/usr/local/include/boost/describe/modifiers.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/enqcmdintrin.h:
 
@@ -14625,11 +17636,17 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/preprocessor/comparison/limits/not_equal_256.hpp:
 
+/usr/local/include/eigen3/Eigen/SparseLU:
+
 /usr/local/include/boost/none.hpp:
 
 /usr/local/include/boost/mpl/aux_/preprocessed/gcc/iter_fold_impl.hpp:
 
+/usr/local/include/boost/mpl/aux_/ptr_to_ref.hpp:
+
 /usr/local/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h:
+
+/Users/asdfasd/Downloads/hw03/src/definitions.cpp:
 
 /usr/local/include/boost/math/tools/detail/rational_horner3_20.hpp:
 
@@ -14637,13 +17654,19 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/long_fwd.hpp:
 
+/usr/local/include/boost/preprocessor/iterate.hpp:
+
+/usr/local/include/boost/random/beta_distribution.hpp:
+
 /usr/local/include/boost/mpl/long.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/resource.h:
 
 /usr/local/include/boost/fusion/view/iterator_range/detail/size_impl.hpp:
 
-/usr/local/include/boost/mpl/O1_size_fwd.hpp:
+/usr/local/include/CGAL/Distance_3/Ray_3_Plane_3.h:
 
-/usr/local/include/boost/mpl/O1_size.hpp:
+/usr/local/include/boost/mpl/O1_size_fwd.hpp:
 
 /usr/local/include/CGAL/Homogeneous/Weighted_point_3.h:
 
@@ -14651,7 +17674,13 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/aux_/begin_end_impl.hpp:
 
+/usr/local/include/boost/random/detail/int_float_pair.hpp:
+
 /usr/local/include/boost/variant/detail/visitation_impl.hpp:
+
+/usr/local/include/CGAL/Polygon_2/Polygon_2_simplicity.h:
+
+/usr/local/include/CGAL/Triangle_3.h:
 
 /usr/local/include/boost/mpl/bind.hpp:
 
@@ -14661,6 +17690,8 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/move/adl_move_swap.hpp:
 
+/usr/local/include/boost/predef/os/solaris.h:
+
 /usr/local/include/CGAL/Intersections_3/internal/Plane_3_Plane_3_Plane_3_do_intersect.h:
 
 /usr/local/include/boost/move/detail/config_end.hpp:
@@ -14668,6 +17699,10 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 /usr/local/include/boost/move/detail/addressof.hpp:
 
 /usr/local/include/CGAL/boost/graph/named_params_helper.h:
+
+/usr/local/include/CGAL/N_step_adaptor_derived.h:
+
+/usr/local/include/boost/type_traits/has_left_shift.hpp:
 
 /usr/local/include/boost/move/core.hpp:
 
@@ -14677,9 +17712,7 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/type_traits/is_nothrow_move_constructible.hpp:
 
-/usr/local/include/boost/predef/hardware/simd.h:
-
-/usr/local/include/boost/move/detail/meta_utils.hpp:
+/usr/local/include/boost/mp11/bind.hpp:
 
 /usr/local/include/boost/variant/recursive_wrapper_fwd.hpp:
 
@@ -14687,27 +17720,31 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/type_traits/is_destructible.hpp:
 
+/usr/local/include/boost/mpl/aux_/common_name_wknd.hpp:
+
+/usr/local/include/boost/bimap/relation/support/value_type_of.hpp:
+
 /usr/local/include/boost/mpl/push_front.hpp:
 
-/usr/local/include/boost/type_traits/is_copy_constructible.hpp:
+/usr/local/include/boost/bimap/support/value_type_by.hpp:
 
-/usr/local/include/CGAL/Intersections_3/internal/Plane_3_Tetrahedron_3_intersection.h:
+/usr/local/include/CGAL/Kernel_traits_fwd.h:
+
+/usr/local/include/boost/type_traits/is_copy_constructible.hpp:
 
 /usr/local/include/boost/detail/call_traits.hpp:
 
 /usr/local/include/boost/integer/common_factor_rt.hpp:
 
-/usr/local/include/boost/call_traits.hpp:
-
 /usr/local/include/boost/fusion/sequence/intrinsic/begin.hpp:
+
+/usr/local/include/boost/multiprecision/cpp_int/add.hpp:
 
 /usr/local/include/boost/preprocessor/enum_shifted_params.hpp:
 
 /usr/local/include/boost/tuple/detail/tuple_basic.hpp:
 
 /usr/local/include/boost/preprocessor/enum_params.hpp:
-
-/usr/local/include/boost/preprocessor/repetition/enum.hpp:
 
 /usr/local/include/boost/fusion/view/transform_view/detail/advance_impl.hpp:
 
@@ -14719,23 +17756,31 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/math/policies/policy.hpp:
 
+/usr/local/include/boost/mpl/aux_/config/has_xxx.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/complex:
 
 /usr/local/include/boost/mpl/erase.hpp:
 
 /usr/local/include/boost/math/constants/constants.hpp:
 
-/usr/local/include/boost/predef/compiler/comeau.h:
-
 /usr/local/include/boost/type_traits/conjunction.hpp:
+
+/usr/local/include/boost/bimap/container_adaptor/detail/functor_bag.hpp:
+
+/usr/local/include/boost/preprocessor/arithmetic/mod.hpp:
 
 /usr/local/include/boost/container_hash/detail/hash_mix.hpp:
 
 /usr/local/include/boost/mpl/sizeof.hpp:
 
+/usr/local/include/boost/preprocessor/variadic/limits/elem_64.hpp:
+
 /usr/local/include/eigen3/Eigen/src/Core/StlIterators.h:
 
 /usr/local/include/boost/predef/library/std/vacpp.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__availability:
 
 /usr/local/include/boost/container_hash/detail/hash_tuple.hpp:
 
@@ -14753,27 +17798,41 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/reverse_fold.hpp:
 
+/usr/local/include/boost/type_traits/has_post_decrement.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h:
+
+/usr/local/include/boost/lexical_cast/detail/widest_char.hpp:
+
 /Users/asdfasd/Downloads/hw03/src/definitions.h:
 
 /usr/local/include/boost/mp11/detail/mp_copy_if.hpp:
 
 /usr/local/include/boost/mpl/apply_wrap.hpp:
 
+/usr/local/include/CGAL/IO/Polyhedron_VRML_2_ostream.h:
+
 /usr/local/include/boost/mp11/detail/mp_min_element.hpp:
 
 /usr/local/include/boost/type_traits/cv_traits.hpp:
 
+/usr/local/include/boost/mpl/erase_key_fwd.hpp:
+
 /usr/local/include/CGAL/is_convertible.h:
 
+/usr/local/include/boost/type_traits/has_plus_assign.hpp:
+
 /usr/local/include/boost/mp11/detail/mp_plus.hpp:
+
+/usr/local/include/boost/fusion/adapted/mpl/detail/size_impl.hpp:
 
 /usr/local/include/boost/mp11/set.hpp:
 
 /usr/local/include/boost/mp11/detail/config.hpp:
 
-/usr/local/include/boost/mpl/aux_/preprocessor/params.hpp:
+/usr/local/include/boost/mpl/aux_/integral_wrapper.hpp:
 
-/usr/local/include/boost/mp11/detail/mp_fold.hpp:
+/usr/local/include/boost/mpl/aux_/preprocessor/params.hpp:
 
 /usr/local/include/CGAL/Intersections_3/internal/Iso_cuboid_3_Line_3_do_intersect.h:
 
@@ -14781,19 +17840,19 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mp11/detail/mp_is_list.hpp:
 
+/usr/local/include/CGAL/Intersections_3/internal/Ray_3_Ray_3_intersection.h:
+
 /usr/local/include/boost/mp11/version.hpp:
 
 /usr/local/include/CGAL/Intersections_3/Plane_3_Plane_3_Plane_3.h:
-
-/usr/local/include/boost/mp11/integral.hpp:
 
 /usr/local/include/boost/mp11/algorithm.hpp:
 
 /usr/local/include/boost/describe/detail/void_t.hpp:
 
-/usr/local/include/boost/describe/modifiers.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_uint16_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/stdlib.h:
 
 /usr/local/include/boost/mpl/list/aux_/empty.hpp:
 
@@ -14801,7 +17860,9 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/type_traits/has_multiplies_assign.hpp:
 
-/usr/local/include/boost/container_hash/is_unordered_range.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/limits.h:
+
+/usr/local/include/boost/config/abi_suffix.hpp:
 
 /usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Compare_distance_3.h:
 
@@ -14813,6 +17874,8 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/type_index/stl_type_index.hpp:
 
+/usr/local/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/move.h:
 
 /usr/local/include/boost/variant/variant.hpp:
@@ -14821,17 +17884,23 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Object.h:
 
+/usr/local/include/CGAL/IO/VTK/VTK_reader.h:
+
+/usr/local/include/CGAL/Time_stamper.h:
+
 /usr/local/include/boost/move/algo/unique.hpp:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/shuffle.h:
+
 /usr/local/include/boost/preprocessor/comparison/less_equal.hpp:
+
+/usr/local/include/CGAL/Conic_2.h:
 
 /usr/local/include/CGAL/aff_transformation_tags.h:
 
 /usr/local/include/boost/fusion/container/list/list_fwd.hpp:
 
 /usr/local/include/boost/mpl/list/aux_/preprocessed/plain/list10.hpp:
-
-/usr/local/include/boost/iterator/minimum_category.hpp:
 
 /usr/local/include/CGAL/kernel_assertions.h:
 
@@ -14843,9 +17912,9 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Get_arithmetic_kernel.h:
 
-/usr/local/include/CGAL/Arithmetic_kernel/Arithmetic_kernel_base.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fd_isset.h:
 
-/usr/local/include/CGAL/mpq_class.h:
+/usr/local/include/CGAL/Arithmetic_kernel/Arithmetic_kernel_base.h:
 
 /usr/local/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h:
 
@@ -14853,21 +17922,19 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Quotient.h:
 
-/usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Static_filter_error.h:
-
 /usr/local/include/boost/variant/recursive_wrapper.hpp:
 
 /usr/local/include/CGAL/Residue.h:
 
 /usr/local/include/eigen3/Eigen/src/misc/Kernel.h:
 
-/usr/local/include/CGAL/gmpxx_coercion_traits.h:
-
 /usr/local/include/CGAL/gmpxx.h:
 
-/usr/local/include/CGAL/long_long.h:
-
 /usr/local/include/CGAL/basic_classes.h:
+
+/usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Do_intersect_2.h:
+
+/usr/local/include/CGAL/Algebraic_structure_traits.h:
 
 /usr/local/include/CGAL/tss.h:
 
@@ -14879,9 +17946,11 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stdio.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/CommaInitializer.h:
+/usr/local/include/boost/bimap/bimap.hpp:
 
 /usr/local/include/CGAL/long_double.h:
+
+/usr/local/include/boost/predef/platform/windows_server.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/algorithm:
 
@@ -14889,11 +17958,9 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/float.h:
 
+/usr/local/include/CGAL/Gmpq.h:
+
 /usr/local/include/CGAL/aff_transformation_tags_impl.h:
-
-/usr/local/include/CGAL/Kernel_traits_fwd.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/popcntintrin.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/unique_ptr.h:
 
@@ -14905,15 +17972,11 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/pmmintrin.h:
 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/emmintrin.h:
-
 /usr/local/include/eigen3/Eigen/src/LU/InverseImpl.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/mmintrin.h:
 
 /usr/local/include/boost/type_traits/is_empty.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/xmmintrin.h:
 
 /usr/local/include/boost/math/special_functions/detail/round_fwd.hpp:
 
@@ -14923,15 +17986,25 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/fenv.h:
 
-/usr/local/include/boost/preprocessor/facilities/identity.hpp:
-
 /usr/local/include/CGAL/Needs_parens_as_product.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/move.h:
 
+/usr/local/include/CGAL/Convex_hull_2/ch_selected_extreme_points_2_impl.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__tuple:
+
+/usr/local/include/boost/mpl/list.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/prev.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/numeric:
+
+/usr/local/include/boost/predef/language/objc.h:
+
+/usr/local/include/boost/fusion/view/single_view/detail/equal_to_impl.hpp:
+
+/usr/local/include/boost/fusion/algorithm/transformation/insert_range.hpp:
 
 /usr/local/include/CGAL/Scalar_factor_traits.h:
 
@@ -14941,13 +18014,11 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/back_inserter.hpp:
 
-/usr/local/include/boost/mpl/void_fwd.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/select.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/float.h:
 
 /usr/local/include/CGAL/Algebraic_extension_traits.h:
-
-/usr/local/include/CGAL/Handle.h:
 
 /usr/local/include/boost/predef/os/haiku.h:
 
@@ -14955,13 +18026,13 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/config/detail/cxx_composite.hpp:
 
+/usr/local/include/boost/preprocessor/arithmetic/limits/dec_256.hpp:
+
 /usr/local/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h:
 
 /usr/local/include/CGAL/type_traits.h:
 
 /usr/local/include/boost/mpl/joint_view.hpp:
-
-/usr/local/include/boost/mpl/aux_/arity_spec.hpp:
 
 /usr/local/include/boost/variant/detail/substitute_fwd.hpp:
 
@@ -14971,9 +18042,11 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/iterator/reverse_iterator.hpp:
 
-/usr/local/include/CGAL/Algebraic_structure_traits.h:
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/list.hpp:
 
 /usr/local/include/boost/random/detail/integer_log2.hpp:
+
+/usr/local/include/CGAL/boost/bimap.hpp:
 
 /usr/local/include/CGAL/Intersections_3/internal/Bbox_3_Segment_3_intersection.h:
 
@@ -14983,15 +18056,19 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Coercion_traits.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cerrno:
+
 /usr/local/include/eigen3/Eigen/src/Geometry/RotationBase.h:
 
+/usr/local/include/boost/random/detail/ptr_helper.hpp:
+
 /usr/local/include/CGAL/Kernel/mpl.h:
+
+/usr/local/include/boost/preprocessor/repetition/limits/repeat_256.hpp:
 
 /usr/local/include/boost/smart_ptr/detail/sp_counted_base.hpp:
 
 /usr/local/include/boost/optional/detail/optional_trivially_copyable_base.hpp:
-
-/usr/local/include/CGAL/Quotient_fwd.h:
 
 /usr/local/include/CGAL/number_type_config.h:
 
@@ -15001,11 +18078,17 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/detail/basic_pointerbuf.hpp:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/sort.h:
+
 /usr/local/include/boost/integer_fwd.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_ino_t.h:
 
+/usr/local/include/boost/variant/detail/has_result_type.hpp:
+
 /usr/local/include/boost/core/cmath.hpp:
+
+/usr/local/include/boost/numeric/conversion/detail/numeric_cast_traits.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/version:
 
@@ -15013,7 +18096,7 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/lexical_cast/detail/inf_nan.hpp:
 
-/usr/local/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h:
+/usr/local/include/boost/mpl/aux_/config/pp_counter.hpp:
 
 /usr/local/include/boost/preprocessor/enum.hpp:
 
@@ -15021,55 +18104,53 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/cstdint.hpp:
 
+/usr/local/include/boost/mpl/begin_end.hpp:
+
 /usr/local/include/boost/lexical_cast/detail/lcast_unsigned_converters.hpp:
 
 /usr/local/include/boost/mpl/iterator_range.hpp:
 
 /usr/local/include/boost/lexical_cast/detail/lcast_char_constants.hpp:
 
-/usr/local/include/CGAL/Polygon_mesh_processing/internal/named_params_helper.h:
-
-/usr/local/include/boost/lexical_cast/detail/converter_lexical_streams.hpp:
-
 /usr/local/include/boost/type_traits/has_trivial_move_constructor.hpp:
 
+/usr/local/include/boost/predef/compiler/llvm.h:
+
 /usr/local/include/boost/container/container_fwd.hpp:
+
+/usr/local/include/CGAL/Projection_traits_xz_3.h:
 
 /usr/local/include/boost/core/swap.hpp:
 
 /usr/local/include/boost/integer_traits.hpp:
 
+/usr/local/include/boost/dynamic_bitset/dynamic_bitset.hpp:
+
 /usr/local/include/boost/detail/lcast_precision.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/initializer_list:
 
 /usr/local/include/boost/type_traits/has_right_shift.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/swap.h:
-
-/usr/local/include/boost/type_traits/has_left_shift.hpp:
-
-/usr/local/include/boost/lexical_cast/detail/converter_lexical.hpp:
-
-/usr/local/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_common.hpp:
+/usr/local/include/boost/bimap/set_of.hpp:
 
 /usr/local/include/boost/multiprecision/detail/min_max.hpp:
 
-/usr/local/include/boost/numeric/conversion/numeric_cast_traits.hpp:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avx512vlintrin.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/pthread/qos.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__ranges/access.h:
 
 /usr/local/include/boost/numeric/conversion/detail/converter.hpp:
 
-/usr/local/include/eigen3/Eigen/src/Core/Dot.h:
-
 /usr/local/include/boost/numeric/conversion/converter_policies.hpp:
 
 /usr/local/include/boost/fusion/adapted/boost_tuple/detail/value_at_impl.hpp:
 
-/usr/local/include/boost/mpl/aux_/preprocessed/gcc/less.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/minmax.h:
 
 /usr/local/include/boost/mpl/aux_/preprocessed/gcc/times.hpp:
-
-/usr/local/include/CGAL/Small_unordered_map.h:
 
 /usr/local/include/boost/mpl/integral_c.hpp:
 
@@ -15087,9 +18168,13 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/numeric/conversion/detail/sign_mixture.hpp:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/piecewise_construct.h:
+
 /usr/local/include/CGAL/Intersections_3/internal/Segment_3_Segment_3_do_intersect.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_mach_port_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/forward.h:
 
 /usr/local/include/boost/mpl/aux_/find_if_pred.hpp:
 
@@ -15099,9 +18184,11 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/atomic:
 
+/usr/local/include/CGAL/Point_set_processing_3/internal/Neighbor_query.h:
+
 /usr/local/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h:
 
-/Users/asdfasd/Downloads/hw03/include/json.hpp:
+/usr/local/include/boost/multi_index/detail/adl_swap.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h:
 
@@ -15109,17 +18196,17 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/eigen3/Eigen/src/Core/ReturnByValue.h:
 
+/usr/local/include/CGAL/Intersections_3/internal/Segment_3_Tetrahedron_3_do_intersect.h:
+
 /usr/local/include/boost/mpl/aux_/is_msvc_eti_arg.hpp:
 
 /usr/local/include/boost/mpl/aux_/has_size.hpp:
 
-/usr/local/include/boost/multiprecision/traits/max_digits10.hpp:
-
 /usr/local/include/boost/mpl/aux_/numeric_cast_utils.hpp:
 
-/usr/local/include/boost/mpl/aux_/has_tag.hpp:
-
 /usr/local/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h:
 
 /usr/local/include/boost/predef/architecture/arm.h:
 
@@ -15127,33 +18214,35 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/tag.hpp:
 
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h:
+
 /usr/local/include/boost/mpl/aux_/numeric_op.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/ostream:
 
 /usr/local/include/boost/mpl/aux_/comparison_op.hpp:
 
-/usr/local/include/boost/range/reference.hpp:
+/usr/local/include/boost/predef/library/std/_prefix.h:
 
 /usr/local/include/boost/mpl/equal_to.hpp:
 
 /usr/local/include/CGAL/Intersections_3/Tetrahedron_3_Triangle_3.h:
 
-/usr/local/include/boost/numeric/conversion/detail/conversion_traits.hpp:
-
 /usr/local/include/CGAL/IO/Color.h:
+
+/usr/local/include/boost/range/reverse_iterator.hpp:
 
 /usr/local/include/boost/numeric/conversion/conversion_traits.hpp:
 
-/usr/local/include/boost/fusion/container/map/map_fwd.hpp:
+/usr/local/include/CGAL/Kd_tree.h:
 
-/usr/local/include/boost/numeric/conversion/converter.hpp:
+/usr/local/include/boost/functional/hash_fwd.hpp:
 
 /usr/local/include/boost/fusion/mpl/front.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_locale.h:
 
-/usr/local/include/boost/type.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_wctype_t.h:
 
 /usr/local/include/boost/mpl/aux_/config/workaround.hpp:
 
@@ -15162,8 +18251,6 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 /usr/local/include/boost/mpl/is_sequence.hpp:
 
 /usr/local/include/boost/functional/hash/hash.hpp:
-
-/usr/local/include/CGAL/Has_member.h:
 
 /usr/local/include/boost/type_traits/is_float.hpp:
 
@@ -15175,29 +18262,19 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Intersections_3/Tetrahedron_3_Tetrahedron_3.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_mbstate_t.h:
+/usr/local/include/boost/type_traits/is_const.hpp:
 
-/usr/local/include/boost/random/detail/uniform_int_float.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_mbstate_t.h:
 
 /usr/local/include/boost/fusion/view/transform_view/transform_view_fwd.hpp:
 
 /usr/local/include/boost/lexical_cast/try_lexical_convert.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/appleapiopts.h:
-
 /usr/local/include/CGAL/Segment_3.h:
 
-/usr/local/include/boost/assert/source_location.hpp:
-
-/usr/local/include/CGAL/Projection_traits_xy_3.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/xsaveintrin.h:
-
 /usr/local/include/eigen3/Eigen/src/Core/util/IntegralConstant.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/rtmintrin.h:
 
 /usr/local/include/CGAL/Modular_traits.h:
 
@@ -15209,15 +18286,13 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/replace_copy.h:
 
-/usr/local/include/boost/type_traits/has_plus_assign.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/shift_left.h:
-
 /usr/local/include/boost/mpl/aux_/empty_impl.hpp:
 
 /usr/local/include/boost/range/detail/safe_bool.hpp:
 
 /usr/local/include/boost/range/rend.hpp:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/reverse_iter_fold_impl.hpp:
 
 /usr/local/include/boost/mpl/bool.hpp:
 
@@ -15226,8 +18301,6 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 /usr/local/include/CGAL/Distance_3/Point_3_Point_3.h:
 
 /usr/local/include/boost/any.hpp:
-
-/usr/local/include/boost/range/reverse_iterator.hpp:
 
 /usr/local/include/boost/core/noncopyable.hpp:
 
@@ -15241,23 +18314,17 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/preprocessor/arithmetic/detail/is_1_number.hpp:
 
-/usr/local/include/CGAL/boost/graph/IO/VTK.h:
-
-/usr/local/include/boost/preprocessor/arithmetic/mod.hpp:
-
 /usr/local/include/boost/preprocessor/seq/transform.hpp:
 
 /usr/local/include/boost/fusion/view/transform_view/detail/key_of_impl.hpp:
 
 /usr/local/include/boost/mpl/empty.hpp:
 
+/usr/local/include/CGAL/Exact_kernel_selector.h:
+
 /usr/local/include/CGAL/Real_embeddable_traits.h:
 
 /usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Do_intersect_3.h:
-
-/usr/local/include/boost/preprocessor/repetition/repeat_from_to.hpp:
-
-/usr/local/include/boost/mp11/utility.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h:
 
@@ -15271,23 +18338,17 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/type_traits/is_signed.hpp:
 
-/usr/local/include/CGAL/boost/graph/properties_Surface_mesh_features.h:
-
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/vpclmulqdqintrin.h:
+
+/usr/local/include/boost/mpl/times.hpp:
 
 /usr/local/include/boost/mpl/transform.hpp:
 
 /usr/local/include/boost/type_traits/make_unsigned.hpp:
 
-/usr/local/include/boost/range/detail/misc_concept.hpp:
-
 /usr/local/include/CGAL/PCA_util.h:
 
-/usr/local/include/CGAL/Triangle_3.h:
-
 /usr/local/include/boost/container/detail/type_traits.hpp:
-
-/usr/local/include/boost/fusion/container/list/detail/deref_impl.hpp:
 
 /usr/local/include/boost/concept/detail/concept_undef.hpp:
 
@@ -15301,6 +18362,8 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/typeinfo:
 
+/usr/local/include/boost/predef/library/c/vms.h:
+
 /usr/local/include/boost/preprocessor/control/if.hpp:
 
 /usr/local/include/boost/preprocessor/arithmetic/add.hpp:
@@ -15311,21 +18374,29 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/type_traits/conversion_traits.hpp:
 
-/usr/local/include/boost/concept/detail/backward_compatibility.hpp:
+/usr/local/include/eigen3/Eigen/QR:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/allocator_arg_t.h:
+
+/usr/local/include/boost/numeric/conversion/detail/meta.hpp:
 
 /usr/local/include/boost/concept/assert.hpp:
 
 /usr/local/include/boost/concept_check.hpp:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/climits:
+
 /usr/local/include/boost/range/concepts.hpp:
 
-/usr/local/include/boost/unordered/detail/implementation.hpp:
+/usr/local/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h:
+
+/usr/local/include/boost/mpl/aux_/contains_impl.hpp:
+
+/usr/local/include/CGAL/Distance_2/Point_2_Triangle_2.h:
 
 /usr/local/include/boost/type_traits/conditional.hpp:
 
-/usr/local/include/eigen3/Eigen/src/Core/GenericPacketMath.h:
+/usr/local/include/boost/mpl/aux_/config/overload_resolution.hpp:
 
 /usr/local/include/boost/mpl/aux_/config/nttp.hpp:
 
@@ -15335,23 +18406,23 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/range/difference_type.hpp:
 
-/usr/local/include/boost/math/tools/rational.hpp:
-
 /usr/local/include/boost/predef/platform/mingw64.h:
 
-/usr/local/include/boost/mpl/times.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/stable_sort.h:
 
 /usr/local/include/CGAL/Sqrt_extension/Algebraic_structure_traits.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/filesystem:
+
+/usr/local/include/boost/type_traits/is_member_function_pointer.hpp:
+
 /usr/local/include/boost/range/size_type.hpp:
-
-/usr/local/include/CGAL/convex_hull_traits_2.h:
-
-/usr/local/include/boost/range/size.hpp:
 
 /usr/local/include/boost/integer/integer_mask.hpp:
 
 /usr/local/include/CGAL/Intersections_3/Iso_cuboid_3_Segment_3.h:
+
+/usr/local/include/boost/mpl/protect.hpp:
 
 /usr/local/include/boost/range/detail/implementation_help.hpp:
 
@@ -15363,23 +18434,35 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/range/const_iterator.hpp:
 
+/usr/local/include/boost/predef/os/beos.h:
+
 /usr/local/include/boost/mpl/advance.hpp:
 
-/usr/local/include/boost/range/detail/msvc_has_iterator_workaround.hpp:
+/usr/local/include/boost/core/is_same.hpp:
+
+/usr/local/include/boost/fusion/adapted/mpl/mpl_iterator.hpp:
+
+/usr/local/include/boost/serialization/tracking.hpp:
 
 /usr/local/include/boost/range/mutable_iterator.hpp:
 
 /usr/local/include/boost/mpl/aux_/config/bcc.hpp:
 
+/usr/local/include/boost/mpl/limits/list.hpp:
+
 /usr/local/include/boost/range/begin.hpp:
 
-/usr/local/include/boost/range/functions.hpp:
+/usr/local/include/boost/archive/archive_exception.hpp:
 
-/usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:
+/usr/local/include/boost/format/group.hpp:
+
+/usr/local/include/boost/range/functions.hpp:
 
 /usr/local/include/boost/iterator/detail/enable_if.hpp:
 
 /usr/local/include/boost/type_traits/is_base_and_derived.hpp:
+
+/usr/local/include/boost/bimap/relation/detail/metadata_access_builder.hpp:
 
 /usr/local/include/eigen3/Eigen/src/LU/FullPivLU.h:
 
@@ -15387,15 +18470,13 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/mm_malloc.h:
 
-/usr/local/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h:
-
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/bmiintrin.h:
+
+/usr/local/include/CGAL/Triangulation_data_structure_2.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/pair.h:
 
 /usr/local/include/boost/type_traits/is_abstract.hpp:
-
-/usr/local/include/boost/numeric/conversion/udt_builtin_mixture_enum.hpp:
 
 /usr/local/include/boost/multiprecision/detail/no_exceptions_support.hpp:
 
@@ -15403,89 +18484,65 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Intersections_3/internal/Segment_3_Triangle_3_do_intersect.h:
 
-/usr/local/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp:
-
 /usr/local/include/CGAL/Iterator_range.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/util/Meta.h:
 
 /usr/local/include/boost/multiprecision/cpp_int/import_export.hpp:
 
 /usr/local/include/CGAL/Cartesian/Aff_transformation_rep_3.h:
 
-/usr/local/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp:
-
 /usr/local/include/boost/mpl/bool_fwd.hpp:
 
 /usr/local/include/boost/move/detail/std_ns_begin.hpp:
-
-/usr/local/include/CGAL/boost/graph/internal/graph_traits_2D_TDS_helper.h:
 
 /usr/local/include/CGAL/Rational_traits.h:
 
 /usr/local/include/boost/random.hpp:
 
-/usr/local/include/boost/range/detail/common.hpp:
-
 /usr/local/include/boost/mpl/aux_/has_type.hpp:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/mach/machine/_structs.h:
+
+/usr/local/include/CGAL/HalfedgeDS_items_decorator.h:
+
 /usr/local/include/boost/math/special_functions/bernoulli.hpp:
-
-/usr/local/include/boost/mpl/quote.hpp:
-
-/usr/local/include/boost/mpl/aux_/full_lambda.hpp:
-
-/usr/local/include/CGAL/IO/3MF/read_3mf.h:
-
-/usr/local/include/CGAL/Distance_2/Point_2_Triangle_2.h:
 
 /usr/local/include/boost/numeric/conversion/bounds.hpp:
 
 /usr/local/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp:
 
-/usr/local/include/boost/type_traits/copy_cv_ref.hpp:
-
-/usr/local/include/CGAL/license/Polygon_mesh_processing/meshing_hole_filling.h:
-
 /usr/local/include/CGAL/Kernel/interface_macros.h:
 
 /usr/local/include/boost/predef/compiler/microtec.h:
 
-/usr/local/include/boost/mpl/protect.hpp:
-
-/usr/local/include/boost/mpl/aux_/iter_push_front.hpp:
-
-/usr/local/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_relax_snode.h:
-
 /usr/local/include/boost/optional/detail/optional_relops.hpp:
+
+/usr/local/include/CGAL/Filtered_predicate.h:
 
 /usr/local/include/CGAL/Cartesian/Aff_transformation_rep_2.h:
 
+/usr/local/include/CGAL/Intersections_3/internal/Plane_3_Triangle_3_intersection.h:
+
 /usr/local/include/boost/mpl/prior.hpp:
 
-/usr/local/include/boost/mpl/aux_/common_name_wknd.hpp:
-
-/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_bmod.h:
-
 /usr/local/include/boost/preprocessor/repetition/enum_binary_params.hpp:
-
-/usr/local/include/boost/mpl/next.hpp:
-
-/usr/local/include/CGAL/Surface_mesh/Surface_mesh.h:
 
 /usr/local/include/boost/mpl/lambda.hpp:
 
 /usr/local/include/CGAL/Distance_3/Line_3_Line_3.h:
 
+/usr/local/include/boost/variant/detail/make_variant_list.hpp:
+
 /usr/local/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
 
 /usr/local/include/boost/multiprecision/detail/functions/constants.hpp:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_mode_t.h:
+
 /usr/local/include/boost/current_function.hpp:
 
 /usr/local/include/CGAL/Cartesian/Cartesian_base.h:
+
+/usr/local/include/boost/preprocessor/logical/bool.hpp:
 
 /usr/local/include/boost/preprocessor/repetition/enum_params.hpp:
 
@@ -15495,31 +18552,31 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/preprocessor/array/elem.hpp:
 
+/usr/local/include/boost/predef/architecture/parisc.h:
+
 /usr/local/include/CGAL/Ray_3.h:
 
 /usr/local/include/boost/mpl/aux_/config/msvc_typename.hpp:
 
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cerrno:
-
 /usr/local/include/boost/type_traits/is_assignable.hpp:
+
+/usr/local/include/boost/type_traits/is_member_pointer.hpp:
 
 /usr/local/include/CGAL/Distance_2/Segment_2_Ray_2.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/access.h:
-
-/usr/local/include/boost/mpl/aux_/config/has_xxx.hpp:
-
 /usr/local/include/boost/mpl/aux_/has_apply.hpp:
 
-/usr/local/include/CGAL/Optimal_bounding_box/internal/fitness_function.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/sample.h:
 
 /usr/local/include/boost/iterator/iterator_concepts.hpp:
+
+/usr/local/include/eigen3/Eigen/src/Core/util/StaticAssert.h:
 
 /usr/local/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp:
 
 /usr/local/include/boost/predef/other.h:
+
+/usr/local/include/boost/container/detail/construct_in_place.hpp:
 
 /usr/local/include/boost/mpl/apply.hpp:
 
@@ -15539,15 +18596,11 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:
 
-/usr/local/include/boost/random/beta_distribution.hpp:
-
 /usr/local/include/boost/type_traits/is_scalar.hpp:
 
 /usr/local/include/boost/variant/detail/hash_variant.hpp:
 
 /usr/local/include/CGAL/GMP_arithmetic_kernel.h:
-
-/usr/local/include/CGAL/Intersections_3/internal/Plane_3_Plane_3_Plane_3_intersection.h:
 
 /usr/local/include/boost/type_traits/remove_const.hpp:
 
@@ -15559,23 +18612,19 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/optional/detail/optional_config.hpp:
 
+/Users/asdfasd/Downloads/hw03/src/geomtools.cpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/shared_mutex:
+
+/usr/local/include/boost/preprocessor/list/detail/limits/fold_left_256.hpp:
 
 /usr/local/include/boost/type_traits/add_const.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/search.h:
-
 /usr/local/include/boost/type_traits/remove_pointer.hpp:
-
-/usr/local/include/eigen3/Eigen/IterativeLinearSolvers:
-
-/usr/local/include/CGAL/Intersections_2/Bbox_2_Circle_2.h:
 
 /usr/local/include/CGAL/assertions_impl.h:
 
-/usr/local/include/boost/mpl/vector/aux_/item.hpp:
-
-/usr/local/include/boost/limits.hpp:
+/usr/local/include/CGAL/license/Polygon_mesh_processing/Compute_normal.h:
 
 /usr/local/include/boost/type_traits/is_volatile.hpp:
 
@@ -15583,15 +18632,11 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/libkern/_OSByteOrder.h:
 
-/usr/local/include/boost/type_traits/is_const.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_uuid_t.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_char.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_wctype.h:
-
-/usr/local/include/CGAL/distance_predicates_2.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/bitset:
 
 /usr/local/include/boost/iterator/detail/facade_iterator_category.hpp:
 
@@ -15603,47 +18648,39 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp:
 
+/usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h:
+
 /usr/local/include/boost/lexical_cast/bad_lexical_cast.hpp:
 
 /usr/local/include/CGAL/utils.h:
 
-/usr/local/include/boost/mpl/aux_/arg_typedef.hpp:
-
 /usr/local/include/boost/fusion/support/is_view.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/sample.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/min.h:
+
+/usr/local/include/boost/preprocessor/list/detail/fold_right.hpp:
 
 /usr/local/include/boost/smart_ptr/detail/operator_bool.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_in_port_t.h:
 
-/usr/local/include/boost/mpl/aux_/config/pp_counter.hpp:
-
-/usr/local/include/boost/math/special_functions/next.hpp:
-
 /usr/local/include/boost/mpl/aux_/advance_forward.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/rotate.h:
 
+/usr/local/include/boost/predef/library/c.h:
+
 /usr/local/include/boost/mpl/aux_/na_assert.hpp:
-
-/usr/local/include/CGAL/Polygon_mesh_processing/internal/Hole_filling/Triangulate_hole_polyline.h:
-
-/usr/local/include/CGAL/license/Optimal_bounding_box.h:
 
 /usr/local/include/boost/range/detail/sfinae.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:
 
-/usr/local/include/boost/mpl/aux_/config/integral.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/errno.h:
 
-/usr/local/include/boost/mpl/erase_key_fwd.hpp:
+/usr/local/include/boost/predef/library/std/roguewave.h:
 
 /usr/local/include/boost/smart_ptr/detail/sp_nullptr_t.hpp:
 
@@ -15651,11 +18688,11 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/aux_/lambda_spec.hpp:
 
+/usr/local/include/boost/none_t.hpp:
+
 /usr/local/include/boost/type_traits.hpp:
 
 /usr/local/include/boost/type_traits/detail/is_function_cxx_11.hpp:
-
-/usr/local/include/CGAL/Intersections_3/internal/Ray_3_Ray_3_intersection.h:
 
 /usr/local/include/boost/preprocessor/control/expr_iif.hpp:
 
@@ -15665,6 +18702,8 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/random/lognormal_distribution.hpp:
 
+/usr/local/include/boost/iterator/interoperable.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string.h:
 
 /usr/local/include/boost/type_traits/is_reference.hpp:
@@ -15673,19 +18712,13 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/type_traits/add_rvalue_reference.hpp:
 
-/usr/local/include/CGAL/Filtered_predicate.h:
-
 /usr/local/include/boost/preprocessor/control/limits/while_256.hpp:
-
-/usr/local/include/boost/type_traits/is_rvalue_reference.hpp:
-
-/usr/local/include/CGAL/Homogeneous/Data_accessorH2.h:
-
-/usr/local/include/boost/type_traits/is_complete.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iosfwd:
 
 /usr/local/include/boost/type_traits/detail/config.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/min_element.h:
 
 /usr/local/include/boost/preprocessor/stringize.hpp:
 
@@ -15693,23 +18726,21 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Compare_y_at_x_2.h:
 
+/usr/local/include/boost/predef/platform/windows_runtime.h:
+
 /usr/local/include/boost/any/bad_any_cast.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/machine/types.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/limits:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/cmp.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/machine/types.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Line_3_Sphere_3_do_intersect.h:
 
 /usr/local/include/boost/mpl/aux_/config/compiler.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/mutex:
+/usr/local/include/boost/multi_index/detail/node_type.hpp:
 
 /usr/local/include/boost/mpl/aux_/config/eti.hpp:
-
-/usr/local/include/boost/range/category.hpp:
-
-/usr/local/include/boost/preprocessor/logical/not.hpp:
 
 /usr/local/include/CGAL/Linear_algebraCd.h:
 
@@ -15717,27 +18748,31 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/eigen3/Eigen/src/Core/Solve.h:
 
+/usr/local/include/boost/fusion/iterator/detail/segmented_iterator.hpp:
+
 /usr/local/include/boost/fusion/view/joint_view/joint_view_iterator.hpp:
 
 /usr/local/include/CGAL/Interval_arithmetic.h:
 
 /usr/local/include/boost/preprocessor/arithmetic/detail/is_maximum_number.hpp:
 
-/usr/local/include/eigen3/Eigen/src/Cholesky/LLT.h:
-
-/usr/local/include/CGAL/Intersections_3/internal/Line_3_Ray_3_do_intersect.h:
-
-/usr/local/include/boost/preprocessor/variadic/elem.hpp:
-
 /usr/local/include/eigen3/Eigen/src/Core/VectorBlock.h:
-
-/usr/local/include/CGAL/Optimal_bounding_box/internal/optimize_2.h:
 
 /usr/local/include/boost/preprocessor/tuple/rem.hpp:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/to_underlying.h:
+
 /usr/local/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/errno.h:
+
+/usr/local/include/boost/bind/std_placeholders.hpp:
+
 /usr/local/include/boost/preprocessor/list/adt.hpp:
+
+/usr/local/include/boost/bimap/container_adaptor/associative_container_adaptor.hpp:
+
+/usr/local/include/boost/bimap/detail/generate_view_binder.hpp:
 
 /usr/local/include/boost/fusion/sequence/intrinsic/segments.hpp:
 
@@ -15747,21 +18782,21 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/predef/other/workaround.h:
 
+/usr/local/include/CGAL/Intersections_3/Iso_cuboid_3_Plane_3.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstddef:
 
 /usr/local/include/boost/preprocessor/variadic/limits/size_64.hpp:
 
 /usr/local/include/boost/math/policies/error_handling.hpp:
 
+/usr/local/include/boost/iterator/indirect_iterator.hpp:
+
+/usr/local/include/boost/type_traits/has_bit_or_assign.hpp:
+
+/usr/local/include/boost/fusion/adapted/mpl/detail/is_sequence_impl.hpp:
+
 /usr/local/include/boost/preprocessor/facilities/overload.hpp:
-
-/usr/local/include/boost/predef/hardware/simd/x86_amd/versions.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avxvnniintrin.h:
-
-/usr/local/include/boost/mpl/aux_/config/overload_resolution.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/runetype.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/gethostuuid.h:
 
@@ -15769,41 +18804,35 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/preprocessor/control/detail/while.hpp:
 
-/usr/local/include/CGAL/Convex_hull_2/ch_graham_andrew_impl.h:
-
 /usr/local/include/CGAL/Triangulation_ds_circulators_2.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Sphere_3_Sphere_3_intersection.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/DiagonalMatrix.h:
 
+/usr/local/include/boost/mpl/aux_/config/forwarding.hpp:
+
 /usr/local/include/boost/predef/compiler/kai.h:
 
-/usr/local/include/boost/preprocessor/list/reverse.hpp:
+/usr/local/include/boost/multiprecision/detail/digits.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/binder2nd.h:
-
-/usr/local/include/boost/preprocessor/list/detail/limits/fold_left_256.hpp:
 
 /usr/local/include/boost/mpl/aux_/template_arity_fwd.hpp:
 
 /usr/local/include/boost/fusion/support/category_of.hpp:
 
-/usr/local/include/boost/preprocessor/logical/compl.hpp:
-
 /usr/local/include/boost/intrusive/detail/std_fwd.hpp:
 
+/usr/local/include/CGAL/Spatial_searching/internal/K_neighbor_search.h:
+
 /usr/local/include/boost/preprocessor/detail/is_binary.hpp:
-
-/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_Utils.h:
-
-/usr/local/include/boost/fusion/algorithm/transformation/insert_range.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/sstream:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/i386/signal.h:
 
-/usr/local/include/boost/fusion/sequence/comparison/equal_to.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/utility:
 
 /usr/local/include/boost/preprocessor/list/detail/fold_left.hpp:
 
@@ -15811,11 +18840,11 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/variant/detail/element_index.hpp:
 
-/usr/local/include/boost/preprocessor/arithmetic/limits/dec_256.hpp:
-
-/usr/local/include/boost/fusion/view/joint_view/detail/key_of_impl.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stdint.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/xlocale/_ctype.h:
+
+/usr/local/include/CGAL/Point_with_normal_3.h:
 
 /usr/local/include/boost/type_traits/function_traits.hpp:
 
@@ -15825,6 +18854,8 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/describe/members.hpp:
 
+/usr/local/include/boost/fusion/container/vector/detail/value_of_impl.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/fenv.h:
 
 /usr/local/include/boost/preprocessor/arithmetic/limits/inc_256.hpp:
@@ -15833,7 +18864,7 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/aux_/config/bind.hpp:
 
-/usr/local/include/boost/type_traits/has_divides_assign.hpp:
+/usr/local/include/boost/predef/version.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fd_def.h:
 
@@ -15841,85 +18872,87 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/string.h:
 
+/usr/local/include/boost/type_traits/has_unary_plus.hpp:
+
 /usr/local/include/boost/preprocessor/arithmetic/inc.hpp:
 
 /usr/local/include/boost/type_traits/is_class.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/back_insert_iterator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/fill.h:
 
 /usr/local/include/boost/preprocessor/detail/auto_rec.hpp:
 
-/usr/local/include/boost/container/detail/placement_new.hpp:
-
 /usr/local/include/boost/preprocessor/facilities/empty.hpp:
+
+/usr/local/include/boost/fusion/view/transform_view/detail/deref_data_impl.hpp:
 
 /usr/local/include/boost/preprocessor/config/limits.hpp:
 
-/usr/local/include/boost/type_traits/has_pre_increment.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/rel_ops.h:
 
 /usr/local/include/boost/predef/architecture/alpha.h:
 
-/usr/local/include/CGAL/boost/graph/IO/PLY.h:
+/usr/local/include/boost/predef/hardware/simd/arm.h:
+
+/usr/local/include/CGAL/HalfedgeDS_halfedge_base.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/temporary_buffer.h:
 
 /usr/local/include/boost/multiprecision/detail/fpclassify.hpp:
 
-/usr/local/include/boost/preprocessor/variadic/limits/elem_64.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string_view:
-
 /usr/local/include/boost/type_traits/is_array.hpp:
 
 /usr/local/include/boost/unordered/unordered_set_fwd.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/remove_copy.h:
-
-/usr/local/include/CGAL/Direction_2.h:
-
 /usr/local/include/eigen3/Eigen/src/Core/util/XprHelper.h:
+
+/usr/local/include/boost/bind/bind_mf2_cc.hpp:
+
+/usr/local/include/CGAL/Intersections_3/internal/Plane_3_Tetrahedron_3_do_intersect.h:
+
+/usr/local/include/boost/predef/platform/windows_phone.h:
 
 /usr/local/include/CGAL/double.h:
 
 /usr/local/include/boost/mp11/detail/mp_void.hpp:
 
-/usr/local/include/boost/preprocessor/logical/bool.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/uses_allocator.h:
 
-/usr/local/include/boost/preprocessor/control/iif.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/partial_sort.h:
 
 /usr/local/include/boost/preprocessor/punctuation/comma_if.hpp:
 
+/usr/local/include/CGAL/HalfedgeDS_decorator.h:
+
 /usr/local/include/boost/mpl/aux_/config/preprocessor.hpp:
-
-/usr/local/include/CGAL/IO/PLY.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/min_element.h:
-
-/usr/local/include/boost/mpl/aux_/msvc_never_true.hpp:
 
 /usr/local/include/boost/container/detail/value_init.hpp:
 
 /usr/local/include/boost/mpl/aux_/value_wknd.hpp:
 
+/usr/local/include/boost/math/special_functions/detail/igamma_inverse.hpp:
+
+/usr/local/include/boost/mpl/list/aux_/clear.hpp:
+
 /usr/local/include/boost/mpl/aux_/config/dtp.hpp:
 
 /usr/local/include/CGAL/Intersections_3/Plane_3_Ray_3.h:
 
+/usr/local/include/boost/container_hash/is_described_class.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/xlocale/_stdlib.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/i386/_limits.h:
 
 /usr/local/include/boost/preprocessor/control/deduce_d.hpp:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/copy.h:
+
 /usr/local/include/boost/mpl/aux_/config/has_apply.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/pthread/qos.h:
+/usr/local/include/CGAL/Optimal_bounding_box/Oriented_bounding_box_traits_3.h:
 
 /usr/local/include/boost/core/empty_value.hpp:
-
-/usr/local/include/eigen3/Eigen/QR:
 
 /usr/local/include/boost/preprocessor/config/config.hpp:
 
@@ -15929,27 +18962,11 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/unistd.h:
 
-/usr/local/include/CGAL/IO/OFF/File_writer_OFF.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/binary_negate.h:
 
 /usr/local/include/boost/mpl/aux_/static_cast.hpp:
 
-/Users/asdfasd/downloads/hw03/src/parse_obj.h:
-
 /usr/local/include/boost/mpl/aux_/push_front_impl.hpp:
-
-/usr/local/include/boost/fusion/view/single_view/detail/at_impl.hpp:
-
-/usr/local/include/boost/math/tools/toms748_solve.hpp:
-
-/usr/local/include/boost/mpl/aux_/integral_wrapper.hpp:
-
-/usr/local/include/CGAL/Homogeneous/predicates_on_pointsH3.h:
-
-/usr/local/include/boost/mp11/detail/mp_front.hpp:
-
-/usr/local/include/boost/type_traits/is_stateless.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/types.h:
 
@@ -15961,11 +18978,7 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/AvailabilityVersions.h:
 
-/usr/local/include/boost/mpl/aux_/na_spec.hpp:
-
-/usr/local/include/CGAL/Triangulation_2.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h:
+/usr/local/include/boost/bimap/relation/support/pair_by.hpp:
 
 /usr/local/include/boost/move/detail/std_ns_end.hpp:
 
@@ -15977,29 +18990,41 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/not.hpp:
 
+/usr/local/include/boost/indirect_reference.hpp:
+
 /usr/local/include/CGAL/Intersections_3/internal/Line_3_Plane_3_intersection.h:
 
 /usr/local/include/boost/mpl/or.hpp:
+
+/usr/local/include/CGAL/boost/graph/halfedge_graph_traits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/pthread.h:
 
 /usr/local/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h:
 
+/usr/local/include/CGAL/Weighted_point_2.h:
+
 /usr/local/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h:
 
-/usr/local/include/CGAL/TDS_3/internal/Triangulation_ds_circulators_3.h:
+/usr/local/include/boost/predef/platform/windows_store.h:
+
+/usr/local/include/boost/bind/mem_fn_template.hpp:
 
 /usr/local/include/boost/predef/architecture/sparc.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__availability:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/any_of.h:
 
-/usr/local/include/boost/mpl/list/aux_/clear.hpp:
+/usr/local/include/CGAL/Convex_hull_traits_3.h:
+
+/usr/local/include/boost/mpl/pop_back.hpp:
 
 /usr/local/include/CGAL/Cartesian/predicates_on_directions_2.h:
 
+/usr/local/include/boost/move/algo/detail/pdqsort.hpp:
+
 /usr/local/include/boost/container/detail/std_fwd.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/thread:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/limits.h:
 
@@ -16007,33 +19032,41 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/type_traits/is_convertible.hpp:
 
+/usr/local/include/eigen3/Eigen/src/SparseQR/SparseQR.h:
+
 /usr/local/include/boost/mpl/aux_/config/msvc.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/stddef.h:
 
 /usr/local/include/boost/preprocessor/comparison/equal.hpp:
 
 /usr/local/include/boost/smart_ptr/detail/sp_convertible.hpp:
 
-/usr/local/include/boost/mpl/aux_/adl_barrier.hpp:
-
 /usr/local/include/boost/range/iterator_range_core.hpp:
+
+/usr/local/include/boost/fusion/adapted/boost_tuple/detail/category_of_impl.hpp:
 
 /usr/local/include/boost/lexical_cast.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_posix_vdisable.h:
-
 /usr/local/include/boost/optional/detail/optional_factory_support.hpp:
 
+/usr/local/include/CGAL/convex_hull_3.h:
+
 /usr/local/include/CGAL/exceptions.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/invoke.h:
 
 /usr/local/include/CGAL/Kernel/solve.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/ostreambuf_iterator.h:
 
+/usr/local/include/boost/predef/os/vms.h:
+
 /usr/local/include/CGAL/Homogeneous/SphereH3.h:
 
 /usr/local/include/CGAL/Profile_counter.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/to_underlying.h:
+/usr/local/include/CGAL/ch_graham_andrew.h:
 
 /usr/local/include/boost/predef/os/bsd/dragonfly.h:
 
@@ -16045,45 +19078,43 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/type_traits/has_bit_xor.hpp:
 
-/usr/local/include/eigen3/Eigen/src/plugins/ReshapedMethods.h:
+/usr/local/include/boost/mpl/aux_/erase_impl.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iomanip:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/fill_n.h:
+
+/usr/local/include/eigen3/Eigen/src/plugins/ReshapedMethods.h:
 
 /usr/local/include/CGAL/Intersections_3/Bbox_3_Iso_cuboid_3.h:
 
 /usr/local/include/boost/type_index/type_index_facade.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
-
 /usr/local/include/boost/predef/language/stdc.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_nlink_t.h:
+/usr/local/include/CGAL/license/Optimal_bounding_box.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_wctrans_t.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/fstream:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_blksize_t.h:
 
-/usr/local/include/boost/mpl/aux_/preprocessed/gcc/or.hpp:
+/usr/local/include/boost/math/special_functions/acosh.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/iterator_traits.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/common_iterator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_caddr_t.h:
 
 /usr/local/include/CGAL/Polygon_2.h:
 
-/usr/local/include/CGAL/Homogeneous/RayH3.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/binary_search.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/streambuf:
 
 /usr/local/include/CGAL/IO/io_tags.h:
 
+/usr/local/include/boost/predef/os/os400.h:
+
 /usr/local/include/boost/preprocessor/tuple/detail/is_single_return.hpp:
 
 /usr/local/include/boost/math/tools/throw_exception.hpp:
-
-/usr/local/include/boost/integer/common_factor_ct.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/machine/_mcontext.h:
 
@@ -16091,25 +19122,23 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Kernel/global_functions_2.h:
 
-/usr/local/include/CGAL/function_objects.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/istream:
 
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparseAssign.h:
-
-/usr/local/include/boost/predef/detail/_cassert.h:
+/usr/local/include/boost/predef/library/std/cxx.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/xlocale/_wctype.h:
 
 /usr/local/include/boost/core/allocator_traits.hpp:
 
-/usr/local/include/boost/lexical_cast/detail/widest_char.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/xlocale/_string.h:
 
 /usr/local/include/boost/mpl/sequence_tag.hpp:
 
+/usr/local/include/boost/mpl/aux_/lambda_support.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fd_zero.h:
+
+/usr/local/include/boost/serialization/is_bitwise_serializable.hpp:
 
 /usr/local/include/CGAL/Plane_3.h:
 
@@ -16123,9 +19152,9 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cctype:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cwctype:
+/usr/local/include/boost/mpl/min_max.hpp:
 
-/usr/local/include/boost/type_traits/is_member_function_pointer.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cwctype:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/prev_permutation.h:
 
@@ -16135,31 +19164,27 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/find.h:
 
+/usr/local/include/boost/container/detail/is_container.hpp:
+
 /usr/local/include/boost/variant/visitor_ptr.hpp:
 
-/usr/local/include/CGAL/Intersections_3/internal/Point_3_Sphere_3_do_intersect.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/typeindex:
-
-/usr/local/include/boost/mpl/aux_/include_preprocessed.hpp:
 
 /usr/local/include/boost/preprocessor/detail/limits/auto_rec_256.hpp:
 
 /usr/local/include/CGAL/Sqrt_extension/Chinese_remainder_traits.h:
 
-/usr/local/include/boost/numeric/conversion/detail/meta.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__string:
-
 /usr/local/include/CGAL/Hilbert_sort_d.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stack:
 
-/usr/local/include/CGAL/convert_to_bfi.h:
-
 /usr/local/include/CGAL/Homogeneous/basic_constructionsH2.h:
 
-/usr/local/include/CGAL/basic.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fd_setsize.h:
+
+/usr/local/include/boost/predef/architecture/x86/64.h:
+
+/usr/local/include/boost/mpl/set/aux_/insert_impl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstdio:
 
@@ -16167,17 +19192,25 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/keylockerintrin.h:
 
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h:
+
+/usr/local/include/CGAL/Surface_mesher/Types_generators.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string:
 
 /usr/local/include/CGAL/Triangulation_vertex_base_with_id_2.h:
 
+/usr/local/include/boost/predef/os/irix.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__errc:
 
-/usr/local/include/boost/mpl/aux_/O1_size_impl.hpp:
+/usr/local/include/boost/mpl/set/aux_/empty_impl.hpp:
 
-/usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h:
+/usr/local/include/boost/mp11/detail/mp_append.hpp:
 
 /usr/local/include/boost/preprocessor/arithmetic/detail/maximum_number.hpp:
+
+/usr/local/include/CGAL/Intersections_3/internal/Tetrahedron_3_Bounded_3_do_intersect.h:
 
 /usr/local/include/boost/mpl/aux_/config/gcc.hpp:
 
@@ -16187,7 +19220,7 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cmath:
 
-/usr/local/include/boost/intrusive/pack_options.hpp:
+/usr/local/include/CGAL/license/Surface_mesher.h:
 
 /usr/local/include/boost/math/tools/convert_from_string.hpp:
 
@@ -16197,12 +19230,6 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_ct_rune_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/shuffle.h:
-
-/usr/local/include/eigen3/Eigen/OrderingMethods:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/fill_n.h:
-
 /usr/local/include/CGAL/Intersections_3/Point_3_Tetrahedron_3.h:
 
 /usr/local/include/boost/preprocessor/logical/limits/bool_256.hpp:
@@ -16211,33 +19238,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Kernel/Return_base_tag.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/transform.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/set_union.h:
 
 /usr/local/include/boost/mpl/bind_fwd.hpp:
 
-/usr/local/include/boost/predef/os.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_intptr_t.h:
-
-/usr/local/include/boost/type_traits/is_polymorphic.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/set_difference.h:
-
-/usr/local/include/boost/functional/hash_fwd.hpp:
-
-/usr/local/include/boost/range/rbegin.hpp:
 
 /usr/local/include/CGAL/Intersections_3/Bbox_3_Line_3.h:
 
 /usr/local/include/boost/static_assert.hpp:
-
-/usr/local/include/boost/predef/hardware/simd/arm.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/fstream:
-
-/usr/local/include/CGAL/Intersections_3/internal/Tetrahedron_3_Bounded_3_do_intersect.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stdexcept:
 
@@ -16247,23 +19256,17 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/reverse_copy.h:
 
-/usr/local/include/CGAL/Convex_hull_2/ch_assertions.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/partition.h:
 
 /usr/local/include/CGAL/Dynamic_property_map.h:
-
-/usr/local/include/boost/predef/architecture/x86/64.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/replace_if.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/stdlib.h:
-
 /usr/local/include/boost/mpl/aux_/type_wrapper.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/filesystem:
+/usr/local/include/CGAL/Surface_mesher/Sphere_oracle_3.h:
 
 /usr/local/include/boost/type_traits/has_bit_and_assign.hpp:
 
@@ -16271,19 +19274,33 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h:
 
+/usr/local/include/boost/bimap/relation/detail/static_access_builder.hpp:
+
+/usr/local/include/CGAL/Lazy_kernel.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/replace_copy_if.h:
+
+/usr/local/include/boost/predef/architecture/superh.h:
+
+/usr/local/include/boost/detail/templated_streams.hpp:
 
 /usr/local/include/CGAL/boost/graph/generators.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/function.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_ctype.h:
+
+/usr/local/include/boost/mpl/remove.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/remove_if.h:
 
 /usr/local/include/boost/range/range_fwd.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/partition_point.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/remove_copy_if.h:
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/less_equal.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare.h:
 
 /usr/local/include/boost/type_traits/is_member_object_pointer.hpp:
 
@@ -16293,33 +19310,31 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/move/detail/meta_utils_core.hpp:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
+
 /usr/local/include/boost/fusion/view/iterator_range/detail/value_at_impl.hpp:
 
 /usr/local/include/CGAL/Triangulation_ds_face_base_2.h:
 
-/usr/local/include/CGAL/Triangulation_data_structure_2.h:
-
-/usr/local/include/CGAL/Intersections_3/internal/Iso_cuboid_3_Iso_cuboid_3_intersection.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/invoke.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/remove.h:
-
-/usr/local/include/CGAL/IO/VTK/VTK_writer.h:
 
 /usr/local/include/boost/predef/hardware/simd/x86/versions.h:
 
-/usr/local/include/boost/numeric/conversion/detail/int_float_mixture.hpp:
+/usr/local/include/boost/format/detail/workarounds_stlport.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/push_heap.h:
+/usr/local/include/boost/numeric/conversion/detail/int_float_mixture.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/unary_function.h:
 
 /usr/local/include/boost/fusion/iterator/next.hpp:
 
+/usr/local/include/CGAL/Optimisation/assertions.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_pruneL.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/partition_copy.h:
 
-/usr/local/include/CGAL/algorithm.h:
+/usr/local/include/boost/multi_index/identity_fwd.hpp:
 
 /usr/local/include/CGAL/Hilbert_sort_middle_2.h:
 
@@ -16327,21 +19342,9 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/sort_heap.h:
 
-/usr/local/include/boost/predef/compiler/llvm.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/make_heap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstdlib:
-
-/usr/local/include/CGAL/Triangulation_structural_filtering_traits.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/partial_sort.h:
-
-/usr/local/include/CGAL/license/Polygon_mesh_processing/Compute_normal.h:
-
-/usr/local/include/CGAL/Dummy_tds_2.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/nth_element.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/Matrix.h:
 
@@ -16353,27 +19356,27 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/preprocessor/list/fold_right.hpp:
 
-/usr/local/include/boost/concept/detail/concept_def.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/mem_fun_ref.h:
-
 /usr/local/include/boost/iterator/detail/config_def.hpp:
+
+/usr/local/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/none_of.h:
 
 /usr/local/include/boost/fusion/container/vector/detail/distance_impl.hpp:
 
-/usr/local/include/boost/preprocessor/repetition/limits/repeat_256.hpp:
-
-/usr/local/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h:
-
 /usr/local/include/boost/mpl/aux_/config/adl.hpp:
+
+/usr/local/include/boost/bimap/container_adaptor/support/iterator_facade_converters.hpp:
+
+/usr/local/include/CGAL/Surface_mesher/Surface_mesher_regular_edges.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/reverse.h:
 
+/usr/local/include/boost/predef/compiler/palm.h:
+
 /usr/local/include/boost/variant.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/mismatch.h:
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparseVector.h:
 
 /usr/local/include/boost/mpl/eval_if.hpp:
 
@@ -16383,17 +19386,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Hilbert_sort_median_3.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_uint32_t.h:
+
+/usr/local/include/boost/type_traits/intrinsics.hpp:
+
 /usr/local/include/boost/math/tools/cxx03_warn.hpp:
 
-/usr/local/include/boost/mpl/aux_/config/forwarding.hpp:
-
-/usr/local/include/boost/preprocessor/debug/error.hpp:
+/usr/local/include/CGAL/Min_quadrilateral_traits_2.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/sift_down.h:
-
-/usr/local/include/boost/range/has_range_iterator.hpp:
-
-/usr/local/include/boost/fusion/view/single_view/detail/equal_to_impl.hpp:
 
 /usr/local/include/boost/preprocessor/control/detail/limits/while_256.hpp:
 
@@ -16401,37 +19402,31 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/eigen3/Eigen/src/Core/Ref.h:
 
-/usr/local/include/boost/random/variate_generator.hpp:
-
-/usr/local/include/boost/detail/templated_streams.hpp:
-
 /usr/local/include/boost/move/algo/move.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/iter_swap.h:
 
-/usr/local/include/CGAL/Optimisation/assertions.h:
-
 /usr/local/include/boost/container/detail/is_sorted.hpp:
-
-/usr/local/include/boost/preprocessor/iterate.hpp:
 
 /usr/local/include/boost/preprocessor/list/detail/limits/fold_right_256.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__ranges/enable_borrowed_range.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
+/usr/local/include/CGAL/Convex_hull_2/ch_assertions.h:
 
 /usr/local/include/CGAL/Triangulation_utils_3.h:
 
 /usr/local/include/boost/preprocessor/detail/check.hpp:
 
-/usr/local/include/CGAL/Exact_predicates_inexact_constructions_kernel.h:
+/usr/local/include/CGAL/Has_conversion.h:
 
-/usr/local/include/boost/mpl/aux_/preprocessed/gcc/list.hpp:
+/usr/local/include/CGAL/Exact_predicates_inexact_constructions_kernel.h:
 
 /usr/local/include/boost/mpl/aux_/preprocessor/enum.hpp:
 
+/usr/local/include/boost/preprocessor/tuple/elem.hpp:
+
 /usr/local/include/boost/mpl/integral_c_fwd.hpp:
+
+/usr/local/include/CGAL/IO/polygon_soup_io.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/bind_front.h:
 
@@ -16441,67 +19436,51 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/math.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/for_each_n.h:
-
 /usr/local/include/CGAL/Filtered_kernel.h:
-
-/usr/local/include/boost/utility/declval.hpp:
-
-/usr/local/include/boost/detail/select_type.hpp:
 
 /usr/local/include/CGAL/Homogeneous/Iso_rectangleH2.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/sort.h:
+/usr/local/include/CGAL/Random_access_adaptor.h:
+
+/usr/local/include/boost/predef/compiler/greenhills.h:
 
 /usr/local/include/boost/multiprecision/detail/functions/trig.hpp:
-
-/usr/local/include/boost/predef/compiler/gcc_xml.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/for_each.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/find_if_not.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/minmax.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/util/StaticAssert.h:
+/usr/local/include/CGAL/Polyhedron_items_3.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/find_if.h:
 
 /usr/local/include/boost/integer/static_log2.hpp:
 
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h:
-
 /usr/local/include/boost/math/special_functions/cos_pi.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/util/Memory.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/rel_ops.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/find_end.h:
-
-/usr/local/include/boost/preprocessor/tuple/elem.hpp:
-
-/usr/local/include/boost/predef/compiler/palm.h:
+/usr/local/include/boost/bimap/container_adaptor/multimap_adaptor.hpp:
 
 /usr/local/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/set_symmetric_difference.h:
+
+/usr/local/include/CGAL/In_place_list.h:
+
 /usr/local/include/CGAL/Kernel/Same_uncertainty.h:
-
-/usr/local/include/CGAL/license/Polygon_mesh_processing/orientation.h:
-
-/usr/local/include/CGAL/Distance_2/Triangle_2_Triangle_2.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_posix_availability.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/system_error:
 
+/usr/local/include/CGAL/license/Bounding_volumes.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/upper_bound.h:
 
-/usr/local/include/boost/mpl/arg_fwd.hpp:
+/usr/local/include/boost/iterator/distance.hpp:
 
 /usr/local/include/boost/predef/compiler/intel.h:
-
-/usr/local/include/boost/mpl/list/aux_/iterator.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/unwrap_iter.h:
 
@@ -16511,21 +19490,21 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/eigen3/Eigen/Jacobi:
 
+/usr/local/include/CGAL/Complexity_tags.h:
+
 /usr/local/include/boost/config/workaround.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/IndexedView.h:
 
 /usr/local/include/boost/multiprecision/cpp_int/divide.hpp:
 
-/usr/local/include/boost/move/traits.hpp:
-
-/usr/local/include/boost/iterator/advance.hpp:
-
 /usr/local/include/boost/concept/detail/has_constraints.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/all_of.h:
+/usr/local/include/boost/serialization/collection_size_type.hpp:
 
-/usr/local/include/boost/fusion/algorithm/query/detail/segmented_find.hpp:
+/usr/local/include/CGAL/boost/graph/graph_traits_Polyhedron_3.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/all_of.h:
 
 /usr/local/include/boost/fusion/algorithm/transformation/erase.hpp:
 
@@ -16533,25 +19512,21 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/fusion/iterator/equal_to.hpp:
 
-/usr/local/include/boost/blank_fwd.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/unary_negate.h:
 
 /usr/local/include/boost/mp11/list.hpp:
 
 /usr/local/include/boost/range/value_type.hpp:
 
-/usr/local/include/boost/container_hash/is_described_class.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
 
 /usr/local/include/boost/fusion/algorithm/transformation/pop_front.hpp:
 
-/usr/local/include/boost/mpl/pop_back.hpp:
-
 /usr/local/include/boost/type_traits/has_complement.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h:
+
+/usr/local/include/boost/multi_index/detail/value_compare.hpp:
 
 /usr/local/include/boost/random/student_t_distribution.hpp:
 
@@ -16563,33 +19538,23 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Distance_3/Point_3_Tetrahedron_3.h:
 
-/usr/local/include/boost/predef/os/unix.h:
-
 /usr/local/include/boost/intrusive/pointer_rebind.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h:
 
-/usr/local/include/boost/iterator_adaptors.hpp:
+/usr/local/include/CGAL/Polygon_mesh_processing/polygon_soup_to_polygon_mesh.h:
 
 /usr/local/include/CGAL/Intersections_3/Line_3_Point_3.h:
 
 /usr/local/include/CGAL/constructions/kernel_ftC3.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/locale.h:
-
 /usr/local/include/boost/predef/compiler/hp_acc.h:
+
+/usr/local/include/CGAL/boost/graph/copy_face_graph.h:
 
 /usr/local/include/boost/container/detail/min_max.hpp:
 
-/usr/local/include/CGAL/Intersections_3/internal/Bbox_3_Tetrahedron_3_do_intersect.h:
-
 /usr/local/include/boost/random/gamma_distribution.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/machine/_types.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/identity.h:
-
-/usr/local/include/boost/predef/library/std/sgi.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/reverse_access.h:
 
@@ -16597,15 +19562,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/type_traits/remove_cv.hpp:
 
+/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_gemm_kernel.h:
+
+/usr/local/include/CGAL/hilbert_sort.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/next.h:
 
 /usr/local/include/boost/mp11/detail/mp_map_find.hpp:
 
-/usr/local/include/CGAL/IO/Generic_writer.h:
-
 /usr/local/include/CGAL/disable_warnings.h:
-
-/usr/local/include/boost/mpl/list.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/count.h:
 
@@ -16615,27 +19580,17 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_uintmax_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/insert_iterator.h:
-
-/usr/local/include/boost/mpl/aux_/preprocessed/gcc/fold_impl.hpp:
-
 /usr/local/include/eigen3/Eigen/src/Core/util/Macros.h:
 
 /usr/local/include/boost/preprocessor/seq/limits/enum_256.hpp:
 
 /usr/local/include/boost/preprocessor/facilities/expand.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/front_insert_iterator.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/empty.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/data.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/default_sentinel.h:
 
-/usr/local/include/boost/preprocessor/arithmetic/dec.hpp:
-
-/usr/local/include/boost/predef/architecture/pyramid.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_int32_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/exception:
 
@@ -16643,15 +19598,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Intersections_3/Sphere_3_Sphere_3.h:
 
+/usr/local/include/CGAL/Convex_hull_2/convexity_check_2_impl.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/variant:
-
-/usr/local/include/CGAL/Filtered_predicate_with_state.h:
-
-/usr/local/include/CGAL/Intersections_3/Iso_cuboid_3_Plane_3.h:
 
 /usr/local/include/boost/predef/os/ios.h:
 
 /usr/local/include/boost/mpl/equal.hpp:
+
+/usr/local/include/CGAL/Optimal_bounding_box/internal/evolution.h:
 
 /usr/local/include/boost/math/tools/roots.hpp:
 
@@ -16659,15 +19614,11 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/math/special_functions/detail/lgamma_small.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/concepts.h:
-
-/usr/local/include/boost/mp11/bind.hpp:
-
-/usr/local/include/boost/preprocessor/list/detail/fold_right.hpp:
-
 /usr/local/include/boost/multiprecision/detail/number_base.hpp:
 
 /usr/local/include/CGAL/Distance_3/Weighted_point_3_Weighted_point_3.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/BandMatrix.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/Fuzzy.h:
 
@@ -16681,33 +19632,25 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/preprocessor/variadic/size.hpp:
 
-/usr/local/include/boost/mpl/erase_key.hpp:
-
-/usr/local/include/CGAL/Exact_kernel_selector.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_int64_t.h:
 
 /usr/local/include/boost/integer.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iterator:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/stdint.h:
 
-/usr/local/include/boost/predef/library/c/_prefix.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iterator:
 
 /usr/local/include/boost/mpl/arg.hpp:
 
-/usr/local/include/boost/fusion/container/vector/detail/config.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/is_sorted.h:
 
 /usr/local/include/boost/preprocessor/array/size.hpp:
 
 /usr/local/include/CGAL/Delaunay_triangulation_cell_base_3.h:
 
-/usr/local/include/boost/mpl/assert.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/raw_storage_iterator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/erase_if_container.h:
-
-/usr/local/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h:
 
 /usr/local/include/boost/random/normal_distribution.hpp:
 
@@ -16721,37 +19664,41 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/aux_/arithmetic_op.hpp:
 
-/usr/local/include/CGAL/Polygon_mesh_processing/measure.h:
-
 /usr/local/include/boost/preprocessor/variadic/has_opt.hpp:
 
 /usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Is_degenerate_3.h:
 
 /usr/local/include/CGAL/license.h:
 
+/usr/local/include/boost/core/demangle.hpp:
+
 /usr/local/include/CGAL/utils_classes.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config:
+
+/usr/local/include/boost/bimap/container_adaptor/set_adaptor.hpp:
+
+/usr/local/include/boost/multi_index/detail/index_base.hpp:
 
 /usr/local/include/boost/type_traits/has_nothrow_copy.hpp:
 
 /usr/local/include/boost/mp11/integer_sequence.hpp:
 
-/usr/local/include/boost/type_traits/has_unary_plus.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
-
 /usr/local/include/boost/config/no_tr1/cmath.hpp:
 
+/usr/local/include/boost/predef/platform/android.h:
+
 /usr/local/include/boost/fusion/view/transform_view/detail/value_of_data_impl.hpp:
-
-/usr/local/include/boost/type_traits/intrinsics.hpp:
-
-/usr/local/include/boost/predef/os/windows.h:
 
 /usr/local/include/boost/fusion/iterator/mpl/fusion_iterator.hpp:
 
 /usr/local/include/boost/predef/os/bsd/net.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparseView.h:
+
+/usr/local/include/CGAL/IO/Polyhedron_OFF_iostream.h:
 
 /usr/local/include/boost/fusion/support/is_iterator.hpp:
 
@@ -16761,69 +19708,53 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/lexical_cast/detail/converter_numeric.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__hash_table:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
+
+/usr/local/include/boost/mpl/set/aux_/size_impl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_wchar_t.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Point_3_Triangle_3_intersection.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/pthread/pthread_impl.h:
-
 /usr/local/include/boost/predef/detail/comp_detected.h:
+
+/usr/local/include/boost/mpl/aux_/front_impl.hpp:
 
 /usr/local/include/boost/range/config.hpp:
 
 /usr/local/include/CGAL/Fraction_traits.h:
 
-/Users/asdfasd/downloads/hw03/src/main.cpp:
-
 /usr/local/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/Block.h:
 
+/usr/local/include/boost/mpl/base.hpp:
+
+/usr/local/include/CGAL/license/Convex_hull_3.h:
+
 /usr/local/include/boost/variant/static_visitor.hpp:
 
-/usr/local/include/boost/preprocessor/seq/cat.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/copy.h:
-
-/usr/local/include/boost/type_traits/integral_promotion.hpp:
-
 /usr/local/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/move_iterator.h:
 
 /usr/local/include/CGAL/test_FPU_rounding_mode_impl.h:
 
 /usr/local/include/boost/fusion/view/single_view/detail/deref_impl.hpp:
 
-/usr/local/include/CGAL/number_type_basic.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/binder1st.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/xlocale.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__threading_support:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/syslimits.h:
-
-/Users/asdfasd/Downloads/hw03/src/parse_obj.cpp:
-
-/usr/local/include/boost/math/special_functions/detail/igamma_inverse.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/stdio.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/i386/limits.h:
 
 /usr/local/include/CGAL/Distance_3/Point_3_Weighted_point_3.h:
 
+/usr/local/include/boost/predef/compiler/nvcc.h:
+
 /usr/local/include/boost/random/detail/mixmax_skip_N17.ipp:
 
 /usr/local/include/boost/random/linear_feedback_shift.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/climits:
-
-/usr/local/include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/set_intersection.h:
 
@@ -16835,13 +19766,7 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/iter_move.h:
 
-/usr/local/include/CGAL/Polygon_2/Polygon_2_simplicity.h:
-
-/usr/local/include/boost/variant/detail/has_result_type.hpp:
-
-/usr/local/include/boost/math/special_functions/factorials.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avx512vldqintrin.h:
+/usr/local/include/CGAL/surface_reconstruction_points_assertions.h:
 
 /usr/local/include/boost/mpl/vector/aux_/vector0.hpp:
 
@@ -16849,9 +19774,9 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/range/distance.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/readable_traits.h:
+/usr/local/include/CGAL/Origin_impl.h:
 
-/usr/local/include/boost/mpl/less.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/readable_traits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/ctime:
 
@@ -16859,21 +19784,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/advance_fwd.hpp:
 
+/usr/local/include/boost/mpl/if.hpp:
+
 /usr/local/include/boost/intrusive/detail/reverse_iterator.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avx512ifmaintrin.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avx512vpopcntdqintrin.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__node_handle:
-
 /usr/local/include/boost/utility/detail/result_of_variadic.hpp:
-
-/usr/local/include/CGAL/Intersections_3/internal/Plane_3_Plane_3_do_intersect.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/hash.h:
-
-/usr/local/include/boost/predef/architecture.h:
 
 /usr/local/include/CGAL/user_classes.h:
 
@@ -16883,9 +19802,9 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/allocator.h:
 
-/usr/local/include/boost/mp11/detail/mp_append.hpp:
-
 /usr/local/include/CGAL/Intersections_3/Line_3_Line_3.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/wchar.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/pointer_traits.h:
 
@@ -16893,25 +19812,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/allocator_traits.h:
 
-/usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Do_intersect_2.h:
-
-/usr/local/include/CGAL/Intersections_3/internal/Plane_3_Triangle_3_intersection.h:
-
 /usr/local/include/boost/predef/platform/windows_uwp.h:
-
-/usr/local/include/CGAL/Timer.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/function.h:
-
-/usr/local/include/CGAL/hilbert_sort.h:
 
 /usr/local/include/boost/type_traits/is_constructible.hpp:
 
 /usr/local/include/eigen3/Eigen/Geometry:
 
-/usr/local/include/boost/predef/compiler/mpw.h:
+/usr/local/include/CGAL/Polygon_mesh_processing/orient_polygon_soup.h:
 
-/usr/local/include/CGAL/Cartesian/Translation_rep_3.h:
+/usr/local/include/boost/predef/compiler/mpw.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/smmintrin.h:
 
@@ -16923,9 +19832,9 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Sqrt_extension.h:
 
-/usr/local/include/boost/random/traits.hpp:
+/usr/local/include/boost/config/compiler/clang_version.hpp:
 
-/usr/local/include/eigen3/Eigen/src/OrderingMethods/Amd.h:
+/usr/local/include/boost/random/traits.hpp:
 
 /usr/local/include/boost/math/special_functions/powm1.hpp:
 
@@ -16933,17 +19842,17 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/aux_/preprocessed/gcc/iter_fold_if_impl.hpp:
 
-/usr/local/include/boost/preprocessor/facilities/check_empty.hpp:
-
-/usr/local/include/CGAL/Polygon_mesh_processing/internal/Hole_filling/Triangulate_hole_polygon_mesh.h:
-
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/rdseedintrin.h:
+
+/usr/local/include/boost/range/iterator_range_io.hpp:
+
+/usr/local/include/boost/predef/architecture/mips.h:
 
 /usr/local/include/boost/predef/compiler/borland.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/tuple:
+/usr/local/include/boost/format/alt_sstream.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/partition_point.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/tuple:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/pointer_safety.h:
 
@@ -16951,11 +19860,7 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/fusion/iterator/deref_data.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/perfect_forward.h:
-
 /usr/local/include/CGAL/Kernel/Type_mapper.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/initializer_list:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/binary_function.h:
 
@@ -16965,47 +19870,33 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Intersections_3/internal/Line_3_Triangle_3_intersection.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/wctype.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/piecewise_construct.h:
-
 /usr/local/include/boost/predef/compiler/compaq.h:
 
 /usr/local/include/boost/type_traits/is_fundamental.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/exchange.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/as_const.h:
 
 /usr/local/include/CGAL/Interval_traits.h:
 
-/usr/local/include/CGAL/Uncertain.h:
-
-/usr/local/include/CGAL/Concurrent_compact_container.h:
-
 /usr/local/include/CGAL/Kernel/function_objects.h:
-
-/usr/local/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
 
 /usr/local/include/boost/math/special_functions/polygamma.hpp:
 
+/usr/local/include/CGAL/boost/graph/IO/GOCAD.h:
+
 /usr/local/include/CGAL/FPU.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fd_isset.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/utility:
 
 /usr/local/include/boost/predef/library/std/libcomo.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_intmax_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__tuple:
-
-/usr/local/include/CGAL/boost/graph/graph_traits_Surface_mesh.h:
+/usr/local/include/boost/serialization/strong_typedef.hpp:
 
 /usr/local/include/boost/preprocessor/seq/seq.hpp:
 
 /usr/local/include/boost/mpl/aux_/iter_fold_if_impl.hpp:
+
+/usr/local/include/boost/serialization/nvp.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/assert.h:
 
@@ -17025,15 +19916,13 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/type_traits/is_integral.hpp:
 
-/usr/local/include/CGAL/Origin_impl.h:
+/usr/local/include/boost/multi_index/detail/ord_index_impl_fwd.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/ostream_iterator.h:
 
+/usr/local/include/boost/fusion/container/vector/vector10.hpp:
+
 /usr/local/include/boost/fusion/adapted/mpl/detail/category_of_impl.hpp:
-
-/usr/local/include/CGAL/Triangulation_face_base_2.h:
-
-/usr/local/include/boost/random/detail/disable_warnings.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/reference_wrapper.h:
 
@@ -17041,25 +19930,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/type_traits/add_lvalue_reference.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h:
-
-/usr/local/include/boost/fusion/iterator/detail/segmented_iterator.hpp:
 
 /usr/local/include/boost/config/detail/posix_features.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/is_heap_until.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
-
 /usr/local/include/boost/math/cstdfloat/cstdfloat_types.hpp:
 
-/usr/local/include/boost/mpl/aux_/lambda_support.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/comp.h:
-
-/usr/local/include/CGAL/Optimal_bounding_box/internal/population.h:
 
 /usr/local/include/CGAL/Intersections_3/Point_3_Triangle_3.h:
 
@@ -17071,6 +19950,8 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Intersections_3/internal/Iso_cuboid_3_Plane_3_intersection.h:
 
+/usr/local/include/CGAL/version_macros.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/in_place.h:
 
 /usr/local/include/boost/unordered/unordered_map.hpp:
@@ -17079,57 +19960,45 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/type_traits/has_post_increment.hpp:
 
-/usr/local/include/boost/core/demangle.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/next_permutation.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Ray_3_Tetrahedron_3_do_intersect.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/__wctype.h:
 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avx512dqintrin.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/move_backward.h:
-
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__cxxabi_config.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/includes.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/inplace_merge.h:
 
-/usr/local/include/CGAL/Triangulation_vertex_base_with_info_3.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_int8_t.h:
 
 /usr/local/include/boost/variant/detail/forced_return.hpp:
-
-/usr/local/include/CGAL/Projection_traits_3.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/stdio.h:
 
 /usr/local/include/boost/variant/detail/initializer.hpp:
 
 /usr/local/include/boost/mpl/size.hpp:
 
-/usr/local/include/CGAL/Eigen_sparse_matrix.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/merge.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_stdio.h:
 
-/usr/local/include/CGAL/Polygon_mesh_processing/triangulate_faces.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_int.h:
+
+/usr/local/include/CGAL/Surface_mesh_default_triangulation_3.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h:
 
 /usr/local/include/boost/fusion/algorithm/iteration/detail/preprocessed/fold.hpp:
 
-/usr/local/include/CGAL/boost/iterator/counting_iterator.hpp:
-
 /usr/local/include/CGAL/Intersections_3/Plane_3_Segment_3.h:
 
 /usr/local/include/boost/type_traits/enable_if.hpp:
 
-/usr/local/include/boost/config/compiler/clang_version.hpp:
+/usr/local/include/boost/mpl/insert_range_fwd.hpp:
+
+/usr/local/include/boost/archive/detail/abi_suffix.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/wchar.h:
 
@@ -17137,9 +20006,9 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/minus.hpp:
 
-/usr/local/include/boost/preprocessor/list/limits/fold_left_256.hpp:
+/usr/local/include/eigen3/Eigen/src/Geometry/Translation.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fd_setsize.h:
+/usr/local/include/boost/preprocessor/list/limits/fold_left_256.hpp:
 
 /usr/local/include/boost/fusion/view/joint_view/detail/deref_data_impl.hpp:
 
@@ -17147,7 +20016,7 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_time_t.h:
 
-/usr/local/include/CGAL/Weights/cotangent_weights.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/construct_at.h:
 
 /usr/local/include/boost/predef/platform.h:
 
@@ -17155,27 +20024,11 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/predef/os/cygwin.h:
 
-/usr/local/include/boost/random/detail/int_float_pair.hpp:
-
 /usr/local/include/boost/type_traits/remove_volatile.hpp:
-
-/usr/local/include/boost/smart_ptr/detail/sp_thread_pause.hpp:
 
 /usr/local/include/boost/predef/compiler/ekopath.h:
 
-/usr/local/include/CGAL/IO/GOCAD.h:
-
 /usr/local/include/CGAL/Intersections_3/internal/Point_3_Segment_3_intersection.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__mbstate_t.h:
-
-/usr/local/include/boost/type_traits/is_base_of.hpp:
-
-/usr/local/include/boost/predef/version.h:
-
-/usr/local/include/boost/optional/detail/optional_aligned_storage.hpp:
-
-/usr/local/include/boost/mpl/aux_/erase_impl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__ranges/enable_view.h:
 
@@ -17183,7 +20036,7 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/predef/hardware.h:
 
-/usr/local/include/CGAL/Convex_hull_2/ch_bykat_impl.h:
+/usr/local/include/CGAL/Point_container.h:
 
 /usr/local/include/CGAL/Intersections_2/Bbox_2_Ray_2.h:
 
@@ -17191,39 +20044,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/iter_swap.h:
 
-/usr/local/include/CGAL/Conic_2.h:
-
-/usr/local/include/boost/container/detail/pair.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/limits:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/set_symmetric_difference.h:
-
-/usr/local/include/boost/predef/detail/_exception.h:
-
-/usr/local/include/boost/predef/platform/windows_runtime.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_char.h:
-
-/usr/local/include/boost/predef/platform/windows_server.h:
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/not_equal_to.hpp:
 
 /usr/local/include/boost/predef/hardware/simd/arm/versions.h:
 
 /usr/local/include/boost/mp11/detail/mp_count.hpp:
 
-/usr/local/include/boost/fusion/container/vector/detail/value_of_impl.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__nullptr:
 
-/usr/local/include/CGAL/Polygon_mesh_processing/orient_polygon_soup.h:
-
-/usr/local/include/boost/mp11/detail/mp_rename.hpp:
-
-/usr/local/include/boost/iterator/interoperable.hpp:
-
 /usr/local/include/boost/fusion/support/config.hpp:
-
-/usr/local/include/boost/predef/platform/windows_phone.h:
 
 /usr/local/include/CGAL/Direction_3.h:
 
@@ -17233,17 +20062,13 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/predef/platform/windows_desktop.h:
 
-/usr/local/include/boost/predef/architecture/sys370.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_uint8_t.h:
 
 /usr/local/include/boost/type_traits/has_logical_not.hpp:
 
-/usr/local/include/boost/utility/binary.hpp:
-
 /usr/local/include/boost/predef/platform/mingw32.h:
 
-/usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h:
+/usr/local/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
 
 /usr/local/include/boost/core/ignore_unused.hpp:
 
@@ -17255,25 +20080,11 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/fusion/sequence/comparison/detail/equal_to.hpp:
 
-/usr/local/include/boost/mpl/aux_/joint_iter.hpp:
-
 /usr/local/include/boost/fusion/mpl/end.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_size_t.h:
 
-/usr/local/include/boost/multiprecision/traits/explicit_conversion.hpp:
-
-/usr/local/include/eigen3/Eigen/src/Core/IO.h:
-
 /usr/local/include/CGAL/license/Triangulation_2.h:
-
-/usr/local/include/boost/none_t.hpp:
-
-/usr/local/include/CGAL/Surface_mesh.h:
-
-/usr/local/include/boost/type_traits/has_nothrow_assign.hpp:
-
-/usr/local/include/boost/predef/os/vms.h:
 
 /usr/local/include/boost/mpl/sequence_tag_fwd.hpp:
 
@@ -17281,21 +20092,11 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Distance_3/Segment_3_Line_3.h:
 
-/usr/local/include/boost/predef/os/solaris.h:
-
-/usr/local/include/boost/predef/os/linux.h:
-
-/usr/local/include/boost/fusion/adapted/mpl/detail/is_sequence_impl.hpp:
-
-/usr/local/include/boost/type_traits/has_modulus_assign.hpp:
-
 /usr/local/include/eigen3/Eigen/src/Core/util/BlasUtil.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/i386/endian.h:
 
 /usr/local/include/boost/predef/os/hpux.h:
-
-/usr/local/include/boost/multiprecision/detail/digits.hpp:
 
 /usr/local/include/boost/mpl/aux_/config/gpu.hpp:
 
@@ -17305,7 +20106,11 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/limits/arity.hpp:
 
+/usr/local/include/boost/predef/compiler/sgi_mipspro.h:
+
 /usr/local/include/boost/predef/os/bsd/open.h:
+
+/usr/local/include/CGAL/HalfedgeDS_list.h:
 
 /usr/local/include/boost/fusion/view/joint_view/joint_view.hpp:
 
@@ -17317,47 +20122,29 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/predef/make.h:
 
-/usr/local/include/boost/variant/detail/make_variant_list.hpp:
-
-/usr/local/include/boost/predef/hardware/simd/x86.h:
-
 /usr/local/include/eigen3/Eigen/src/Core/Reshaped.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_t.h:
+/usr/local/include/boost/config/detail/select_compiler_config.hpp:
 
 /usr/local/include/boost/predef/os/bsd/bsdi.h:
 
-/usr/local/include/CGAL/license/Polygon_mesh_processing.h:
-
-/usr/local/include/boost/multiprecision/detail/constexpr.hpp:
-
 /usr/local/include/CGAL/Intersections_3/internal/Plane_3_Triangle_3_do_intersect.h:
-
-/usr/local/include/boost/preprocessor/control/while.hpp:
 
 /usr/local/include/CGAL/GMP/Gmpq_type.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/shift_right.h:
 
+/Users/asdfasd/Downloads/hw03/src/main.cpp:
+
 /usr/local/include/boost/mpl/aux_/yes_no.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/istream_iterator.h:
 
-/usr/local/include/boost/numeric/conversion/detail/numeric_cast_traits.hpp:
-
 /usr/local/include/CGAL/license/Principal_component_analysis.h:
 
-/usr/local/include/boost/mpl/list/list20.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_uint32_t.h:
-
-/usr/local/include/CGAL/convex_hull_2.h:
-
-/usr/local/include/boost/fusion/sequence/intrinsic/detail/segmented_size.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_key_t.h:
 
 /usr/local/include/boost/predef/os/bsd.h:
-
-/usr/local/include/CGAL/Weighted_point_2.h:
 
 /usr/local/include/CGAL/Kernel/Conic_misc.h:
 
@@ -17365,15 +20152,11 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/random/extreme_value_distribution.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/size.h:
+/usr/local/include/boost/mpl/aux_/config/ctps.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Geometry/Transform.h:
 
 /usr/local/include/boost/algorithm/clamp.hpp:
-
-/usr/local/include/boost/predef/os/beos.h:
-
-/usr/local/include/boost/mpl/remove.hpp:
 
 /usr/local/include/boost/predef/os/aix.h:
 
@@ -17381,49 +20164,29 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/multiprecision/traits/std_integer_traits.hpp:
 
-/usr/local/include/boost/predef/library.h:
+/usr/local/include/boost/bimap/container_adaptor/detail/comparison_adaptor.hpp:
 
-/usr/local/include/CGAL/Polygon_2/Polygon_2_edge_circulator.h:
-
-/usr/local/include/boost/mpl/aux_/config/ctps.hpp:
+/usr/local/include/boost/multiprecision/detail/precision.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/reverse_iterator.h:
 
 /usr/local/include/boost/mpl/aux_/preprocessed/gcc/reverse_fold_impl.hpp:
 
-/usr/local/include/boost/predef/library/std/roguewave.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/wait.h:
-
-/usr/local/include/boost/predef/library/std/stlport.h:
-
-/usr/local/include/CGAL/Distance_3/Ray_3_Plane_3.h:
 
 /usr/local/include/boost/predef/library/std/stdcpp3.h:
 
 /usr/local/include/CGAL/GMPXX_arithmetic_kernel.h:
 
-/usr/local/include/CGAL/Complexity_tags.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/strings.h:
 
 /usr/local/include/boost/optional/detail/optional_reference_spec.hpp:
-
-/usr/local/include/boost/math/special_functions/pow.hpp:
-
-/usr/local/include/CGAL/number_utils.h:
 
 /usr/local/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp:
 
 /usr/local/include/CGAL/predicates/kernel_ftC2.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/errno.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/mach/machine/_structs.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_errno_t.h:
-
-/usr/local/include/boost/fusion/adapted/boost_tuple/detail/category_of_impl.hpp:
 
 /usr/local/include/boost/config.hpp:
 
@@ -17435,15 +20198,9 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/predef/architecture/z.h:
 
-/usr/local/include/CGAL/Cartesian/point_constructions_3.h:
-
 /usr/local/include/boost/predef/language/stdcpp.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/common_iterator.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__undef_macros:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/xlocale.h:
 
 /usr/local/include/boost/mpl/aux_/config/use_preprocessed.hpp:
 
@@ -17451,13 +20208,7 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/int.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/stable_sort.h:
-
-/usr/local/include/boost/range/pointer.hpp:
-
 /usr/local/include/boost/fusion/mpl/has_key.hpp:
-
-/usr/local/include/boost/type_traits/detail/has_binary_operator.hpp:
 
 /usr/local/include/boost/smart_ptr/detail/sp_typeinfo_.hpp:
 
@@ -17467,25 +20218,13 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_symbol_aliasing.h:
 
-/usr/local/include/CGAL/IO/OBJ.h:
-
-/usr/local/include/boost/predef/library/c/vms.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/Stride.h:
-
 /usr/local/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h:
 
 /usr/local/include/boost/random/uniform_int.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/integer_sequence.h:
 
-/usr/local/include/CGAL/boost/graph/properties_Triangulation_data_structure_2.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stddef.h:
-
-/usr/local/include/CGAL/Intersections_3/internal/Plane_3_Tetrahedron_3_do_intersect.h:
-
-/usr/local/include/boost/config/helper_macros.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_timespec.h:
 
@@ -17503,13 +20242,9 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_rune_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/forward.h:
-
 /usr/local/include/eigen3/Eigen/src/Cholesky/LDLT.h:
 
 /usr/local/include/boost/predef/compiler/diab.h:
-
-/usr/local/include/CGAL/Sqrt_extension/Coercion_traits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/libkern/i386/_OSByteOrder.h:
 
@@ -17519,25 +20254,21 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Kernel/hash_functions.h:
 
-/usr/local/include/boost/predef/library/std/_prefix.h:
-
 /usr/local/include/CGAL/Interval_nt.h:
 
 /usr/local/include/boost/fusion/support/detail/as_fusion_element.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/is_transparent.h:
 
-/usr/local/include/CGAL/Convex_hull_vertex_base_2.h:
-
 /usr/local/include/boost/type_traits/is_copy_assignable.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/select.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_int16_t.h:
 
 /usr/local/include/boost/type_traits/disjunction.hpp:
 
 /usr/local/include/boost/preprocessor/comparison/not_equal.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/mem_fn.h:
+/usr/local/include/boost/bimap/detail/map_view_iterator.hpp:
 
 /usr/local/include/boost/predef.h:
 
@@ -17549,39 +20280,33 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Lazy_exact_nt.h:
 
-/usr/local/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
+/usr/local/include/CGAL/Polygon_mesh_processing/internal/Hole_filling/Triangulate_hole_polyline.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_sigaltstack.h:
 
 /usr/local/include/boost/multiprecision/detail/float128_functions.hpp:
 
-/usr/local/include/boost/predef/architecture/mips.h:
-
 /usr/local/include/boost/mpl/aux_/insert_impl.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/type_traits:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/unistd.h:
 
 /usr/local/include/boost/container/flat_set.hpp:
 
-/usr/local/include/CGAL/Intersection_traits_2.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_ino64_t.h:
 
-/usr/local/include/CGAL/Convex_hull_2/ch_selected_extreme_points_2_impl.h:
-
 /usr/local/include/CGAL/Cartesian/Circle_3.h:
-
-/usr/local/include/boost/core/use_default.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/is_permutation.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstring:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_int8_t.h:
-
 /usr/local/include/boost/math/cstdfloat/cstdfloat_cmath.hpp:
 
 /usr/local/include/CGAL/export/CGAL.h:
+
+/usr/local/include/eigen3/Eigen/OrderingMethods:
 
 /usr/local/include/boost/container_hash/detail/hash_range.hpp:
 
@@ -17589,43 +20314,25 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/enable_warnings.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/chrono:
-
 /usr/local/include/boost/fusion/container/list/cons_fwd.hpp:
+
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparseProduct.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_int16_t.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Line_3_Plane_3_do_intersect.h:
 
-/usr/local/include/boost/mpl/if.hpp:
-
 /usr/local/include/boost/random/weibull_distribution.hpp:
-
-/usr/local/include/boost/mpl/empty_fwd.hpp:
-
-/usr/local/include/boost/mpl/vector/aux_/clear.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/resource.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/signal.h:
 
 /usr/local/include/boost/move/detail/workaround.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avx512vlbitalgintrin.h:
-
-/usr/local/include/boost/core/addressof.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/thread:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_timeval.h:
-
-/usr/local/include/boost/property_map/vector_property_map.hpp:
-
 /usr/local/include/boost/mpl/insert_fwd.hpp:
 
-/usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h:
-
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/gfniintrin.h:
+
+/usr/local/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h:
 
 /usr/local/include/CGAL/Cartesian/Plane_3.h:
 
@@ -17643,19 +20350,19 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/pop_heap.h:
+/usr/local/include/boost/mpl/vector/vector10.hpp:
 
-/usr/local/include/boost/mpl/insert_range_fwd.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/pop_heap.h:
 
 /usr/local/include/boost/variant/detail/backup_holder.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/type_traits:
-
 /usr/local/include/CGAL/version.h:
 
-/usr/local/include/CGAL/Surface_mesh/Properties.h:
+/usr/local/include/boost/multi_index/detail/index_matcher.hpp:
 
 /usr/local/include/CGAL/Sqrt_extension/Wang_traits.h:
+
+/usr/local/include/boost/math/special_functions/detail/erf_inv.hpp:
 
 /usr/local/include/CGAL/export/helpers.h:
 
@@ -17679,15 +20386,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Simple_cartesian.h:
 
-/usr/local/include/boost/type_index.hpp:
+/usr/local/include/CGAL/make_surface_mesh.h:
 
 /usr/local/include/boost/range/algorithm/equal.hpp:
 
 /usr/local/include/boost/predef/compiler.h:
 
-/usr/local/include/boost/fusion/adapted/mpl/detail/empty_impl.hpp:
-
 /usr/local/include/boost/predef/compiler/watcom.h:
+
+/usr/local/include/boost/bimap/relation/support/data_extractor.hpp:
 
 /usr/local/include/boost/config/compiler/clang.hpp:
 
@@ -17701,41 +20408,21 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/auto_link/CGAL.h:
 
-/usr/local/include/boost/predef/compiler/visualc.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avx512vlintrin.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bits:
 
 /usr/local/include/boost/predef/compiler/iar.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/weak_result_type.h:
 
-/usr/local/include/boost/fusion/container/vector/detail/value_at_impl.hpp:
-
-/usr/local/include/boost/predef/library/c.h:
-
-/usr/local/include/boost/predef/compiler/dignus.h:
-
 /usr/local/include/boost/predef/library/c/cloudabi.h:
 
-/usr/local/include/CGAL/Intersections_3/internal/Plane_3_Segment_3_intersection.h:
-
-/usr/local/include/boost/predef/compiler/nvcc.h:
-
-/usr/local/include/CGAL/boost/graph/IO/INP.h:
+/usr/local/include/CGAL/Kernel_23/internal/Projection_traits_base_3.h:
 
 /usr/local/include/CGAL/kernel_config.h:
-
-/usr/local/include/boost/fusion/adapted/mpl/detail/size_impl.hpp:
-
-/usr/local/include/boost/array.hpp:
 
 /usr/local/include/boost/predef/compiler/digitalmars.h:
 
 /usr/local/include/boost/iterator/iterator_traits.hpp:
-
-/usr/local/include/boost/fusion/sequence/convert.hpp:
 
 /usr/local/include/boost/mpl/aux_/traits_lambda_spec.hpp:
 
@@ -17745,27 +20432,21 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/numeric/conversion/int_float_mixture_enum.hpp:
 
-/usr/local/include/boost/predef/library/std/msl.h:
+/usr/local/include/CGAL/boost/graph/IO/VTK.h:
 
-/usr/local/include/boost/fusion/sequence/comparison/enable_comparison.hpp:
+/usr/local/include/boost/predef/library/std/msl.h:
 
 /usr/local/include/gmpxx.h:
 
 /usr/local/include/boost/mpl/vector/aux_/preprocessed/typeof_based/vector20.hpp:
 
-/usr/local/include/boost/predef/library/c/uc.h:
-
 /usr/local/include/boost/predef/compiler/clang.h:
 
-/usr/local/include/boost/mpl/begin_end.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_mode_t.h:
+/usr/local/include/boost/predef/hardware/simd/ppc/versions.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/distance.h:
 
 /usr/local/include/boost/mpl/int_fwd.hpp:
-
-/usr/local/include/boost/concept/detail/general.hpp:
 
 /usr/local/include/boost/predef/architecture/ptx.h:
 
@@ -17773,15 +20454,9 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/numeric/conversion/detail/udt_builtin_mixture.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/wchar.h:
-
 /usr/local/include/boost/math/tools/is_detected.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/stable_partition.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/limits.h:
-
-/usr/local/include/boost/math/special_functions/acosh.hpp:
 
 /usr/local/include/boost/preprocessor/repetition/enum_shifted_params.hpp:
 
@@ -17789,63 +20464,31 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/predef/architecture/x86.h:
 
-/usr/local/include/boost/predef/compiler/sgi_mipspro.h:
-
 /usr/local/include/boost/detail/reference_content.hpp:
 
 /usr/local/include/CGAL/Hilbert_sort_middle_d.h:
 
-/usr/local/include/boost/predef/compiler/tendra.h:
-
-/usr/local/include/boost/predef/architecture/superh.h:
-
-/usr/local/include/CGAL/Triangle_2.h:
-
-/usr/local/include/boost/range/iterator.hpp:
-
 /usr/local/include/boost/mpl/numeric_cast.hpp:
 
-/usr/local/include/boost/container/detail/construct_in_place.hpp:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/find_first_of.h:
 
 /usr/local/include/boost/mpl/vector/aux_/O1_size.hpp:
 
 /usr/local/include/CGAL/Ray_2.h:
 
-/usr/local/include/CGAL/Polygon_2_algorithms.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stdint.h:
+/usr/local/include/boost/mpl/erase_fwd.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/DenseStorage.h:
 
-/usr/local/include/boost/predef/hardware/simd/x86_amd.h:
-
 /usr/local/include/CGAL/functional.h:
 
-/usr/local/include/boost/predef/architecture/parisc.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/stdint.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_int32_t.h:
-
-/usr/local/include/boost/predef/architecture/ia64.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_int32_t.h:
-
 /usr/local/include/CGAL/Gmpz.h:
-
-/usr/local/include/CGAL/Intersections_3/Segment_3_Segment_3.h:
-
-/usr/local/include/boost/predef/platform/windows_store.h:
 
 /usr/local/include/CGAL/Tetrahedron_3.h:
 
 /usr/local/include/boost/predef/architecture/e2k.h:
 
 /usr/local/include/boost/random/detail/generator_bits.hpp:
-
-/usr/local/include/boost/mpl/aux_/template_arity.hpp:
 
 /usr/local/include/boost/predef/detail/os_detected.h:
 
@@ -17857,41 +20500,29 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/predef/library/std/dinkumware.h:
 
-/usr/local/include/CGAL/Time_stamper.h:
-
-/usr/local/include/boost/preprocessor/seq/limits/size_256.hpp:
-
 /usr/local/include/boost/preprocessor/identity.hpp:
+
+/usr/local/include/CGAL/IO/scan_OFF.h:
 
 /usr/local/include/boost/math/tools/traits.hpp:
 
-/usr/local/include/eigen3/Eigen/src/SparseCore/SparseDot.h:
-
-/usr/local/include/boost/predef/architecture/blackfin.h:
-
 /usr/local/include/CGAL/gmp.h:
 
-/usr/local/include/boost/multiprecision/cpp_int/add.hpp:
-
 /usr/local/include/boost/mpl/aux_/size_impl.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_int16_t.h:
 
 /usr/local/include/boost/type_traits/remove_cv_ref.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
 
+/usr/local/include/CGAL/Surface_mesh_complex_2_in_triangulation_3.h:
+
+/usr/local/include/boost/config/abi_prefix.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/uninitialized_algorithms.h:
 
 /usr/local/include/boost/mpl/aux_/arity.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/lower_bound.h:
-
-/usr/local/include/boost/predef/language/cuda.h:
-
-/usr/local/include/boost/mpl/limits/list.hpp:
-
-/usr/local/include/CGAL/Intersections_3/internal/Segment_3_Tetrahedron_3_do_intersect.h:
+/usr/local/include/boost/bind/bind.hpp:
 
 /usr/local/include/boost/preprocessor/repeat.hpp:
 
@@ -17901,15 +20532,9 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_sigset_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_key_t.h:
-
-/Users/asdfasd/Downloads/hw03/src/main.cpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_seek_set.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/util/Constants.h:
-
-/usr/local/include/boost/type_traits/has_post_decrement.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional_base:
 
@@ -17921,17 +20546,7 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/CGAL/Cartesian/Vector_2.h:
 
-/usr/local/include/boost/predef/language/objc.h:
-
-/usr/local/include/CGAL/utility.h:
-
-/usr/local/include/boost/iterator/distance.hpp:
-
 /usr/local/include/boost/multiprecision/traits/extract_exponent_type.hpp:
-
-/usr/local/include/boost/random/detail/ptr_helper.hpp:
-
-/usr/local/include/boost/concept/usage.hpp:
 
 /usr/local/include/boost/mpl/iter_fold_if.hpp:
 
@@ -17941,19 +20556,13 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mpl/aux_/config/intel.hpp:
 
-/usr/local/include/boost/fusion/view/transform_view/detail/deref_data_impl.hpp:
-
 /usr/local/include/boost/predef/language.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_rsize_t.h:
 
-/usr/local/include/boost/predef/library/std/cxx.h:
-
 /usr/local/include/CGAL/Hilbert_sort_middle_base.h:
 
 /usr/local/include/CGAL/Point_3.h:
-
-/usr/local/include/boost/container/detail/is_container.hpp:
 
 /usr/local/include/boost/move/detail/force_ptr.hpp:
 
@@ -17965,31 +20574,19 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/functional/hash.hpp:
 
-/usr/local/include/boost/utility/identity_type.hpp:
-
 /usr/local/include/CGAL/linear_least_squares_fitting_segments_3.h:
-
-/usr/local/include/boost/predef/version_number.h:
 
 /usr/local/include/CGAL/boost/graph/IO/OFF.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Sphere_3_Tetrahedron_3_do_intersect.h:
 
+/usr/local/include/boost/container/deque.hpp:
+
 /usr/local/include/boost/predef/os/macos.h:
-
-/usr/local/include/boost/range.hpp:
-
-/usr/local/include/boost/preprocessor/logical/bitor.hpp:
 
 /usr/local/include/boost/unordered/detail/prime_fmod.hpp:
 
 /usr/local/include/boost/mpl/aux_/config/static_constant.hpp:
-
-/usr/local/include/boost/mpl/erase_fwd.hpp:
-
-/usr/local/include/boost/mpl/vector/vector10.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/next_permutation.h:
 
 /usr/local/include/CGAL/Kernel_23/internal/Has_boolean_tags.h:
 
@@ -17997,21 +20594,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/eigen3/Eigen/src/SVD/SVDBase.h:
 
+/usr/local/include/boost/type_traits/is_same.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/limits.h:
 
 /usr/local/include/boost/range/detail/extract_optional_type.hpp:
 
 /usr/local/include/CGAL/Exact_rational.h:
 
-/usr/local/include/boost/multiprecision/detail/precision.hpp:
-
 /usr/local/include/boost/mpl/lambda_fwd.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/i386/_limits.h:
-
-/usr/local/include/boost/type_traits/is_member_pointer.hpp:
-
-/usr/local/include/boost/move/algorithm.hpp:
 
 /usr/local/include/boost/mpl/aux_/na_fwd.hpp:
 
@@ -18023,8 +20614,6 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/predef/library/c/gnu.h:
 
-/usr/local/include/eigen3/Eigen/src/Geometry/Translation.h:
-
 /usr/local/include/eigen3/Eigen/src/Core/Map.h:
 
 /usr/local/include/boost/predef/architecture/loongarch.h:
@@ -18033,17 +20622,7 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/eigen3/Eigen/src/Core/GeneralProduct.h:
 
-/usr/local/include/boost/math/special_functions/detail/erf_inv.hpp:
-
-/usr/local/include/boost/mpl/has_xxx.hpp:
-
-/usr/local/include/boost/type_traits/integral_constant.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/stddef.h:
-
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/avx512bitalgintrin.h:
-
-/usr/local/include/boost/predef/hardware/simd/ppc/versions.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/i386/types.h:
 
@@ -18053,35 +20632,31 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/version.hpp:
 
+/usr/local/include/CGAL/boost/graph/io.h:
+
+/usr/local/include/CGAL/Reconstruction_triangulation_3.h:
+
 /usr/local/include/boost/intrusive/detail/algorithm.hpp:
 
 /usr/local/include/boost/config/user.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h:
 
-/usr/local/include/CGAL/Intersections_3/internal/Line_3_Triangle_3_do_intersect.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fd_clr.h:
+
+/usr/local/include/boost/mpl/set/aux_/tag.hpp:
 
 /usr/local/include/boost/preprocessor/repetition/detail/for.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_blkcnt_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_wctype_t.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__debug:
 
-/usr/local/include/boost/fusion/adapted/mpl/mpl_iterator.hpp:
-
 /usr/local/include/boost/random/detail/generator_seed_seq.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/count_if.h:
 
 /usr/local/include/CGAL/Eigen_diagonalize_traits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_gid_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/find_first_of.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/projected.h:
 
@@ -18093,35 +20668,25 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/mp11/function.hpp:
 
-/usr/local/include/boost/predef/os/irix.h:
-
-/usr/local/include/boost/type_traits/is_same.hpp:
-
-/usr/local/include/boost/predef/compiler/ibm.h:
-
-/usr/local/include/boost/mpl/aux_/front_impl.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_clock_t.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/ratio:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/is_sorted_until.h:
 
-/usr/local/include/CGAL/IO/PLY/PLY_writer.h:
-
 /usr/local/include/boost/fusion/view/joint_view/detail/deref_impl.hpp:
-
-/usr/local/include/CGAL/Cartesian/Segment_3.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/float.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/shared_ptr.h:
+/usr/local/include/CGAL/Triangulation_vertex_base_with_info_2.h:
 
-/usr/local/include/boost/predef/compiler/greenhills.h:
+/usr/local/include/boost/bimap/support/map_by.hpp:
 
 /usr/local/include/CGAL/IO/VRML.h:
 
+/usr/local/include/CGAL/boost/graph/IO/PLY.h:
+
 /usr/local/include/CGAL/Intersections_2/Circle_2_Iso_rectangle_2.h:
+
+/usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h:
 
 /usr/local/include/boost/mpl/plus.hpp:
 
@@ -18133,79 +20698,47 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_pid_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_off_t.h:
-
 /usr/local/include/boost/fusion/container/vector/detail/end_impl.hpp:
 
-/usr/local/include/eigen3/Eigen/src/Core/BandMatrix.h:
-
-/usr/local/include/CGAL/MP_Float_arithmetic_kernel.h:
-
 /usr/local/include/boost/describe/detail/config.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_uid_t.h:
-
-/usr/local/include/CGAL/array.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_uint64_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/locale:
 
+/usr/local/include/CGAL/IO/binary_file_io.h:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/pkuintrin.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/xlocale/__wctype.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_int16_t.h:
-
-/usr/local/include/CGAL/version_macros.h:
 
 /usr/local/include/boost/random/mixmax.hpp:
 
 /usr/local/include/CGAL/Kernel/global_functions_internal_2.h:
 
-/usr/local/include/boost/multiprecision/traits/transcendental_reduction_type.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_useconds_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_int8_t.h:
-
-/usr/local/include/CGAL/IO/binary_file_io.h:
-
-/usr/local/include/boost/config/detail/select_compiler_config.hpp:
-
-/usr/local/include/boost/predef/os/os400.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h:
 
 /usr/local/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h:
 
-/usr/local/include/boost/mpl/aux_/preprocessed/gcc/plus.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_ssize_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_short.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stdlib.h:
 
-/usr/local/include/eigen3/Eigen/src/SVD/JacobiSVD.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/rotate_copy.h:
-
-/usr/local/include/CGAL/config.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstdint:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__tree:
 
-/usr/local/include/boost/type_traits/has_bit_or_assign.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/xlocale/_wchar.h:
-
-/usr/local/include/boost/predef/platform/android.h:
 
 /usr/local/include/boost/predef/hardware/simd/ppc.h:
 
 /usr/local/include/CGAL/Distance_3/Ray_3_Line_3.h:
+
+/usr/local/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types.h:
 
@@ -18213,13 +20746,9 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config_site:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
+/usr/local/include/boost/unordered/unordered_set.hpp:
 
 /usr/local/include/boost/fusion/mpl/at.hpp:
-
-/usr/local/include/CGAL/Gmpq.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/is_sorted.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/copy_backward.h:
 
@@ -18231,11 +20760,7 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/range/empty.hpp:
 
-/usr/local/include/boost/dynamic_bitset.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/machine/endian.h:
-
-/usr/local/include/boost/multiprecision/rational_adaptor.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/functional:
 
@@ -18245,21 +20770,21 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/config/platform/macos.hpp:
 
-/usr/local/include/boost/mpl/front_fwd.hpp:
+/usr/local/include/boost/predef/platform/cloudabi.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/construct_at.h:
+/usr/local/include/boost/mpl/front_fwd.hpp:
 
 /usr/local/include/CGAL/Intersections_3/internal/Iso_cuboid_3_Triangle_3_intersection.h:
 
-/usr/local/include/boost/mpl/min_max.hpp:
+/usr/local/include/eigen3/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h:
 
 /usr/local/include/boost/config/stdlib/libcpp.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_dev_t.h:
 
-/usr/local/include/boost/fusion/container/list/detail/next_impl.hpp:
-
 /usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h:
+
+/usr/local/include/CGAL/Eigen_sparse_matrix.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iostream:
 
@@ -18271,33 +20796,15 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/i386/_types.h:
 
-/usr/local/include/boost/move/algo/detail/pdqsort.hpp:
-
-/usr/local/include/boost/mpl/and.hpp:
-
 /usr/local/include/CGAL/Segment_2.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/rtmintrin.h:
-
-/usr/local/include/CGAL/auto_link/auto_link.h:
-
-/usr/local/include/boost/type_traits/is_pod.hpp:
 
 /usr/local/include/boost/preprocessor/arithmetic/sub.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/alloca.h:
 
-/usr/local/include/boost/mpl/next_prior.hpp:
-
-/Users/asdfasd/Downloads/hw03/src/definitions.cpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__split_buffer:
 
 /usr/local/include/eigen3/Eigen/src/Geometry/Scaling.h:
-
-/usr/local/include/boost/predef/platform/cloudabi.h:
-
-/usr/local/include/boost/unordered/unordered_set.hpp:
 
 /usr/local/include/eigen3/Eigen/src/Core/MapBase.h:
 
@@ -18307,10 +20814,6 @@ CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o: /Users/asdfasd/Downloads/hw03/src
 
 /usr/local/include/boost/preprocessor/repetition/detail/limits/for_256.hpp:
 
-/usr/local/include/boost/fusion/container/vector/vector10.hpp:
-
 /usr/local/include/boost/type_traits/add_pointer.hpp:
 
 /usr/local/include/CGAL/Intersections_3/internal/Plane_3_Ray_3_do_intersect.h:
-
-/usr/local/include/CGAL/license/lgpl.h:
