@@ -22,8 +22,6 @@
 #include <CGAL/Polygon_mesh_processing/IO/polygon_mesh_io.h>
 //#include <CGAL/point_generators_3.h>
 #include <CGAL/Simple_cartesian.h>
-#include <CGAL/Polyhedron_3.h>
-#include <CGAL/poisson_surface_reconstruction.h>
 
 
 
@@ -31,18 +29,17 @@
 //-- used to read and write (City)JSON
 
 //typedef CGAL::Exact_predicates_inexact_constructions_kernel K;
-
 typedef CGAL::Triangulation_3<K> Tetrahedron;
 namespace PMP = CGAL::Polygon_mesh_processing;
 typedef CGAL::Surface_mesh<Point3> Surface_mesh;
-typedef CGAL::Simple_cartesian<double> cartesian;
+typedef CGAL::Simple_cartesian<double>                           cartesian;
+std::vector<Point3> get_coordinates(const json& j, bool translate = true);
+void                save2obj(std::string filename, const json& j);
+void                enrich_and_save(std::string filename, json& j);
 
-std::vector<std::vector<Point3>> return_neighbor_voxel_faces(Voxel voxel,
-VoxelGrid voxelgrid, std::vector<std::vector<int>> neighbors,const int& wall,const int& exterior,
-int voxelx, int voxely, int voxelz);
+
 using namespace std;
-void output_voxels_seperately(const std::string& cityobject_id,
-const std::vector<int>& labells,const std::map<int,std::vector<std::vector<Point3>>> &mesh_points,const int& exterior_label);
+
 std::vector<int> label_voxels(VoxelGrid& voxelgrid,const int& label_initial = 0,
 const int& wall_face_label=1,const bool& check_width = true,const int& minimum_width = 2){
     // we start from the first voxel, which must be the original point of voxel grid and is on the exterior of the voxelised building
@@ -123,7 +120,7 @@ const int& wall_face_label=1,const bool& check_width = true,const int& minimum_w
                     current_label_width ={99999,99999,99999,0,0,0};
                 }
                 else{
-                    //std::cout<<"the"<<current_label<<"label is too small"<<std::endl;
+                    std::cout<<"the"<<current_label<<"label is too small"<<std::endl;
                     current_label_width ={99999,99999,99999,0,0,0};
                     current_label+=1;
                     if (current_label == wall_face_label) {current_label+=1;}
@@ -220,39 +217,53 @@ void output_exterior_surface_to_obj(const std::string &output_filename, const st
         vertex_index+=8;}
         out.close();
         }
-std::map<int,std::vector<std::vector<Point3>>> extract_envelope_voxel(VoxelGrid& voxels,
-const int& wall_index,const int& exterior_index){
+void extract_envelope_voxel(VoxelGrid& voxels,const int& wall_index,const int& exterior_index, bool labell_wall = true){
     int voxel_length = int(voxels.voxels.size());
     bool* output_labell =  new bool[voxel_length];
-    std::map<int,std::vector<std::vector<Point3>>> mesh_faces; // we use marching cubes, since it is exterior surface, we only need to extract the exterior surfaces of exterior voxels
     for(int x = 0; x < voxels.max_x; x++){
         for(int y = 0; y < voxels.max_y; y++){
             for(int z = 0; z < voxels.max_z; z++){
                 Voxel voxel = voxels(x,y,z);
                 std::vector<std::vector<int>> neighbours = voxels.get_neighbours(x,y,z);
-                
-                std::vector<vector<Point3>> isofaces = return_neighbor_voxel_faces(voxel,
-                voxels,neighbours,wall_index,exterior_index
-                ,x,y,z);
-
-                if(isofaces.size() != 0) 
-
-                    {mesh_faces[voxel.label].insert(mesh_faces[voxel.label].end(),isofaces.begin(),isofaces.end());
-                    //std::cout<<voxel.label<<" asdfasdf "<<isofaces.size()<<std::endl;
+                if (labell_wall and voxel.label == wall_index){
+                    for(auto& neighbor: neighbours){
+                        int x_neighbour = neighbor[0];
+                        int y_neighbour = neighbor[1];
+                        int z_neighbour = neighbor[2];
+                        Voxel neighbour_voxel = voxels(x_neighbour,y_neighbour,z_neighbour);
+                        if(neighbour_voxel.label == exterior_index){
+                            output_labell[z + y*voxels.max_z + x*voxels.max_z*voxels.max_y] = true;
+                            break;
+                        }
+                        else{
+                            output_labell[z + y*voxels.max_z + x*voxels.max_z*voxels.max_y] = false;
+                        }
+                    }
+                }
+                else{
+                    for(auto& neighbor: neighbours){
+                        int x_neighbour = neighbor[0];
+                        int y_neighbour = neighbor[1];
+                        int z_neighbour = neighbor[2];
+                        Voxel neighbour_voxel = voxels(x_neighbour,y_neighbour,z_neighbour);
+                        if(neighbour_voxel.label == voxel.label){
+                            output_labell[z + y*voxels.max_z + x*voxels.max_z*voxels.max_y] = false;
+                        }
+                        else{
+                            output_labell[z + y*voxels.max_z + x*voxels.max_z*voxels.max_y] = true;
+                            break;
+                        } 
                     }
                 }
             }
         }
+    }
     for(int i = 0; i < voxel_length; i++){
         bool judge = output_labell[i];
         if(!judge){
             voxels.voxels[i].label = unlabelled;
-            // rmove the unlabelled voxels from the mesh_points
         }
     }
-    
-
-    return mesh_faces;
 }
 
                                      
@@ -288,39 +299,34 @@ int main(int argc, const char * argv[]) {
             std::string material_name = shell.use_material;
             shells_count++;
             total_faces += shell_faces.size();
-            //std::cout<<shell.use_material<<" "<<shells_count<<" "<<shell_faces.size()<<std::endl; // print the material name, which u can used as attribute in cityjson output
+            std::cout<<shell.use_material<<" "<<shells_count<<" "<<shell_faces.size()<<std::endl; // print the material name, which u can used as attribute in cityjson output
             
             voxels.push_voxel(shell_faces,vertices,wall_face_label);// push the faces into the voxel grid
         }}
     std::cout<<"total faces: "<<total_faces<<" true faces"<<faces.size()<<std::endl;
     std::vector<int> labells;
     int exterior_label = 0;
-    int unit_width = 1/unit;  
-    labells = label_voxels(voxels,exterior_label,wall_face_label,1,unit_width);
+    labells = label_voxels(voxels,exterior_label,wall_face_label);
     // extract the exterior surface
-    std::map<int,std::vector<std::vector<Point3>>> mesh_points = extract_envelope_voxel(voxels,wall_face_label,exterior_label);
-   for(auto& mesh: mesh_points){
-         std::cout<<mesh.first<<" "<<mesh.second.size()<<std::endl;
-         }
-    std::vector<std::vector<int>> exterior_surface_index;
-    //exterior_surface_index = extract_exterior_surface_voxel_index(0,voxels);
-    //std::cout<<"exterior surface index size: "<<exterior_surface_index.size()<<std::endl;
-  
-    //output_exterior_surface_to_obj("exterior_surface.obj",exterior_surface_index,voxels);
-    if (output_intermediate_components){
-    //voxels.out_put_all_voxel_to_obj("output_voxels.obj",output_label);
-    //voxels.out_put_voxels_seperately("label_voxels",labells);
-    std::cout<<"mesh points size: "<<mesh_points.size()<<std::endl;
+    extract_envelope_voxel(voxels,wall_face_label,exterior_label);
     
-    output_voxels_seperately("label_voxels",labells,mesh_points,exterior_label);
+   
+    std::vector<std::vector<int>> exterior_surface_index;
+    exterior_surface_index = extract_exterior_surface_voxel_index(0,voxels);
+    std::cout<<"exterior surface index size: "<<exterior_surface_index.size()<<std::endl;
+  
+    output_exterior_surface_to_obj("exterior_surface.obj",exterior_surface_index,voxels);
+    if (output_intermediate_components){
+    voxels.out_put_all_voxel_to_obj("output_voxels.obj",output_label);
+    voxels.out_put_voxels_seperately("label_voxels",labells);
     }
 
     // tell the cityjson to output the room, wall, with exception of exterior
     
-    //json j = voxels.initialized_voxels_grid_tojson("building_test",labells, exterior_label);
-    //std::ofstream o("building_test.json");
-    //o << std::setw(4) << j << std::endl;
-    //o.close();
+    json j = voxels.initialized_voxels_grid_tojson("building_test",labells, exterior_label);
+    std::ofstream o("building_test.json");
+    o << std::setw(4) << j << std::endl;
+    o.close();
 
     
     //for (const auto& point : oobb) {
@@ -355,175 +361,6 @@ int main(int argc, const char * argv[]) {
 
     return 0;
 }
-// can be used for marching cube algorithm
-// use cgal Possion reconstruction to reconstruct the mesh and output the mesh to cityjson
-void output_voxels_seperately(const std::string& cityobject_id,const std::vector<int>& labells,const std::map<int,std::vector<std::vector<Point3>>> &mesh_points,const int& exterior_label){
-    json j;
-    std::vector<Pwn> points;
-    j["type"] = "CityJSON";
-    j["version"] = "1.1";
-    j["transform"] = json::object();
-    j["transform"]["scale"] = json::array();
-    j["transform"]["translate"] = json::array();
-    j["transform"]["scale"].push_back(1);j["transform"]["scale"].push_back(1);j["transform"]["scale"].push_back(1);
-    j["transform"]["translate"].push_back(0);j["transform"]["translate"].push_back(0);j["transform"]["translate"].push_back(0);
-    j["CityObjects"] = json::object();
-    j["vertices"] = json::array();
-    j["CityObjects"][cityobject_id] = json::object();
-    j["CityObjects"][cityobject_id]["type"] = "Building";
-    j["CityObjects"][cityobject_id]["children"] = json::array();
-    j["vertices"] = json::array();
-    int indices = 0;
-    for(auto& label: labells){
-       // std::cout<<"label: "<<label<<std::endl;
-        int indice_obj = 1;
 
-        if(label == exterior_label) continue;
-        std::string obj_id = cityobject_id+"_part_"+std::to_string(label);
-        j["CityObjects"][obj_id] = json::object();
-        j["CityObjects"][obj_id]["type"] = "BuildingRoom";
-        j["CityObjects"][cityobject_id]["children"].push_back(obj_id);
-        j["CityObjects"][obj_id]["geometry"] = json::array();
-        j["CityObjects"][obj_id]["attributes"] = json::object();
-        j["CityObjects"][obj_id]["attributes"]["label"] = "room label:"+std::to_string(label);
-        j["CityObjects"][obj_id]["parents"] = json::array();
-        j["CityObjects"][obj_id]["parents"].push_back(cityobject_id);
-        json geometry = json::object(); 
-        geometry["type"] = "MultiSurface";
-        geometry["lod"] = "1";
-        geometry["boundaries"] = json::array();
-        std::vector<std::vector<Point3>> faces = mesh_points.at(label);
-        //std::cout<<"faces size: "<<faces.size()<<std::endl;
-        //std::cout<<"label: "<<label<<" faces size: "<<faces.size()<<std::endl;
-        // output to obj of faces
 
-        std::ofstream output(obj_id+".obj");
-        output<<"# OBJ file"<<std::endl;
-        // output the vertices
-        for(auto& face: faces){
-            if (face.size()== 0) continue;
-            
-            std::array<int,4> ring;
-            std::array<std::array<int,4>,1> surface;
-            
-                        
-            json solid = json::array(); 
-            for(Point3& pt: face){
-                json vertices = json::array();
-                vertices.push_back(pt.x());
-                vertices.push_back(pt.y());
-                vertices.push_back(pt.z());
-                j["vertices"].push_back(vertices);
-                ring[indices%4] = indices;
-                indices +=1;
 
-                output<<"v "<<pt.x()<<" "<<pt.y()<<" "<<pt.z()<<" "<<std::endl;
-                //std::cout<<"pt: "<<pt.x()<<" "<<pt.y()<<" "<<pt.z()<<std::endl;
-            }
-            surface[0] = ring;
-            geometry["boundaries"].push_back(surface);
-            
-
-            output<<"f "<<indice_obj<<" "<<indice_obj+1<<" "<<indice_obj+2<<" "<<indice_obj+3<<" "<<std::endl;
-            indice_obj += 4;   
-        }
-        j["CityObjects"][obj_id]["geometry"].push_back(geometry);
-
-        output.close();
-        
-        
-    }
-    //output seperately
-
-    if(1){
-            for(auto& label:labells){
-                if(label == exterior_label) continue;
-                std::string obj_id = cityobject_id+"_part_"+std::to_string(label);
-                // seperately output each child in building
-                std::string output_file =  obj_id + ".json";
-                std::ofstream out(output_file);
-                json j_out = json::object();
-                j_out["type"] = "CityJSON";
-                j_out["version"] = "2.0";        
-                j_out["CityObjects"] = json::object();
-                j_out["CityObjects"][obj_id] = json::object();
-                j_out["CityObjects"][obj_id]["type"] = "BuildingRoom";
-                j_out["CityObjects"][obj_id]["geometry"] = j["CityObjects"][obj_id]["geometry"];
-                j_out["CityObjects"][obj_id]["attributes"] = json::object();
-                j_out["CityObjects"][obj_id]["attributes"]["label"] = label;
-
-                j_out["vertices"] = j["vertices"];
-                out << std::setw(4) << j_out << std::endl;
-                out.close();}
-        }
-    std::ofstream o("building_test.json");
-    o << std::setw(4) << j << std::endl;
-    o.close();
-        
-
-}
-std::vector<std::vector<Point3>> return_neighbor_voxel_faces(Voxel voxel, 
-VoxelGrid voxelgrid, std::vector<vector<int>> neighbors,const int& wall,const int& exterior, int voxelx, int voxely, int voxelz){
-    std::vector<std::vector<Point3>> neighbor_faces;
-    for(auto& neightbor:neighbors){
-        std::vector<Point3> neighbor_face;
-        int x = neightbor[0];
-        int y = neightbor[1];
-        int z = neightbor[2];
-
-        Voxel neightbor_voxel = voxelgrid(x,y,z);
-        if(neightbor_voxel.label == voxel.label) continue;
-        if(voxel.label == wall and neightbor_voxel.label == exterior){
-            Point3 p0 = voxel.corner;
-            Point3 p1=  voxel.corner+voxelgrid.vx;
-            Point3 p2=  voxel.corner+voxelgrid.vx+voxelgrid.vy;
-            Point3 p3=  voxel.corner+voxelgrid.vy;
-            Point3 p5=  voxel.corner+voxelgrid.vz;
-            Point3 p6=  voxel.corner+voxelgrid.vx+voxelgrid.vz;
-            Point3 p7= voxel.corner+voxelgrid.vx+voxelgrid.vy+voxelgrid.vz;
-            Point3 p4= voxel.corner+voxelgrid.vy+voxelgrid.vz;
-            int xshift = x-voxelx;
-            int yshift = y-voxely;
-            int zshift = z-voxelz;
-            if(xshift == 1) neighbor_face = {p1,p2,p7,p6};
-            else if(yshift ==1 ) neighbor_face = {p4,p7,p2,p3};
-            else if(zshift==1) neighbor_face = {p4,p5,p6,p7};
-            else if(xshift==-1) neighbor_face = {p0,p5,p4,p3,};
-            else if(yshift==-1) neighbor_face = {p0,p1,p6,p5};
-            else if(zshift==-1) neighbor_face = {p3,p2,p1,p0};
-            else{
-                std::cout<<"error: no neighbor voxel found"<<std::endl;
-                exit(0);
-            }
-        }
-        else if(voxel.label != wall and neightbor_voxel.label != voxel.label){
-            Point3 p0 = voxel.corner;
-            Point3 p1=  voxel.corner+voxelgrid.vx;
-            Point3 p2=  voxel.corner+voxelgrid.vx+voxelgrid.vy;
-            Point3 p3=  voxel.corner+voxelgrid.vy;
-            Point3 p5=  voxel.corner+voxelgrid.vz;
-            Point3 p6=  voxel.corner+voxelgrid.vx+voxelgrid.vz;
-            Point3 p7= voxel.corner+voxelgrid.vx+voxelgrid.vy+voxelgrid.vz;
-            Point3 p4= voxel.corner+voxelgrid.vy+voxelgrid.vz;
-            int xshift = x-voxelx;
-            int yshift = y-voxely;
-            int zshift = z-voxelz;
-            if(xshift == 1) neighbor_face = {p1,p2,p7,p6};
-            else if(yshift ==1 ) neighbor_face = {p4,p7,p2,p3};
-            else if(zshift==1) neighbor_face = {p4,p5,p6,p7};
-            else if(xshift==-1) neighbor_face = {p0,p5,p4,p3,};
-            else if(yshift==-1) neighbor_face = {p0,p1,p6,p5};
-            else if(zshift==-1) neighbor_face = {p3,p2,p1,p0};
-            else{
-                std::cout<<"error: no neighbor voxel found"<<std::endl;
-                std::cout<<"xshift: "<<xshift<<" yshift: "<<yshift<<" zshift: "<<zshift<<std::endl;
-    
-                exit(0);
-            }
-        }
-        if(neighbor_face.size() != 0) 
-            neighbor_faces.push_back(neighbor_face);
-
-    }
-    return neighbor_faces;
-}

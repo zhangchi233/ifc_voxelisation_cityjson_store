@@ -212,10 +212,7 @@ struct VoxelGrid {
 
             if (min_z_values <0) min_z_values=0;
             if (max_z_values >max_z) max_z_values = max_z;
-           
-            
-            
-            
+
            for(int x = min_x_values;x<=max_x_values;++x){
                 for(int y = min_y_values;y<=max_y_values;++y){
                     for(int z = min_z_values;z<=max_z_values;++z){
@@ -322,6 +319,7 @@ struct VoxelGrid {
         
 
     };
+
     // this function is used to ouput voxels to cityjson 1.1, after we labelled it
     json initialized_voxels_grid_tojson(const std::string& cityobject_id,
     const std::vector<int>& labels,const int& exterior_label, bool output_seperately = true){
