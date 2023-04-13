@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.25.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/asdfasd/Downloads/hw03
+CMAKE_SOURCE_DIR = /Users/asdfasd/downloads/hw03
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/asdfasd/Downloads/hw03/build
+CMAKE_BINARY_DIR = /Users/asdfasd/downloads/hw03/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asdfasd/Downloads/hw03/build/CMakeFiles /Users/asdfasd/Downloads/hw03/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asdfasd/downloads/hw03/build/CMakeFiles /Users/asdfasd/downloads/hw03/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asdfasd/Downloads/hw03/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asdfasd/downloads/hw03/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -201,6 +201,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw03.dir/build.make CMakeFiles/hw03.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/marching_cubes.o: src/marching_cubes.cpp.o
+.PHONY : src/marching_cubes.o
+
+# target to build an object file
+src/marching_cubes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw03.dir/build.make CMakeFiles/hw03.dir/src/marching_cubes.cpp.o
+.PHONY : src/marching_cubes.cpp.o
+
+src/marching_cubes.i: src/marching_cubes.cpp.i
+.PHONY : src/marching_cubes.i
+
+# target to preprocess a source file
+src/marching_cubes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw03.dir/build.make CMakeFiles/hw03.dir/src/marching_cubes.cpp.i
+.PHONY : src/marching_cubes.cpp.i
+
+src/marching_cubes.s: src/marching_cubes.cpp.s
+.PHONY : src/marching_cubes.s
+
+# target to generate assembly for a file
+src/marching_cubes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw03.dir/build.make CMakeFiles/hw03.dir/src/marching_cubes.cpp.s
+.PHONY : src/marching_cubes.cpp.s
+
 src/parse_obj.o: src/parse_obj.cpp.o
 .PHONY : src/parse_obj.o
 
@@ -267,6 +291,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/marching_cubes.o"
+	@echo "... src/marching_cubes.i"
+	@echo "... src/marching_cubes.s"
 	@echo "... src/parse_obj.o"
 	@echo "... src/parse_obj.i"
 	@echo "... src/parse_obj.s"

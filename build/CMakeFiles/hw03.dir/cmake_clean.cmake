@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/hw03.dir/src/geomtools.cpp.o.d"
   "CMakeFiles/hw03.dir/src/main.cpp.o"
   "CMakeFiles/hw03.dir/src/main.cpp.o.d"
+  "CMakeFiles/hw03.dir/src/marching_cubes.cpp.o"
+  "CMakeFiles/hw03.dir/src/marching_cubes.cpp.o.d"
   "CMakeFiles/hw03.dir/src/parse_obj.cpp.o"
   "CMakeFiles/hw03.dir/src/parse_obj.cpp.o.d"
   "CMakeFiles/hw03.dir/src/voxelProcessing.cpp.o"

@@ -61,6 +61,8 @@ typedef CGAL::Polyhedron_3<K> Polyhedron;
 using Facet_handle = Polyhedron::Facet_handle;
 using Halfedge_handle = Polyhedron::Halfedge_handle;
 using Facet_indices = std::vector<std::size_t>;
+typedef std::pair<Point3, Vector3> Pwn;
+typedef CGAL::Polyhedron_3<K> Polyhedron;
 Point3 operator+(const Point3& p1, const Point3& p2);
 Point3 operator/(const Point3& p1, const double& scale);
 //Point3 operator-(const Point3& p1, const Point3& p2);

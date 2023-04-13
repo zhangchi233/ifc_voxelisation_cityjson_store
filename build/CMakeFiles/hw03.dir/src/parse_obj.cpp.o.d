@@ -1,7 +1,7 @@
 CMakeFiles/hw03.dir/src/parse_obj.cpp.o: \
-  /Users/asdfasd/Downloads/hw03/src/parse_obj.cpp \
-  /Users/asdfasd/Downloads/hw03/src/parse_obj.h \
-  /Users/asdfasd/Downloads/hw03/src/definitions.h \
+  /Users/asdfasd/downloads/hw03/src/parse_obj.cpp \
+  /Users/asdfasd/downloads/hw03/src/parse_obj.h \
+  /Users/asdfasd/downloads/hw03/src/definitions.h \
   /usr/local/include/CGAL/Exact_predicates_inexact_constructions_kernel.h \
   /usr/local/include/CGAL/Simple_cartesian.h \
   /usr/local/include/CGAL/Cartesian/Cartesian_base.h \
@@ -3345,11 +3345,11 @@ CMakeFiles/hw03.dir/src/parse_obj.cpp.o: \
   /usr/local/include/boost/detail/is_incrementable.hpp \
   /usr/local/include/boost/type_traits/detail/bool_trait_undef.hpp \
   /usr/local/include/boost/indirect_reference.hpp \
-  /Users/asdfasd/Downloads/hw03/include/json.hpp \
+  /Users/asdfasd/downloads/hw03/include/json.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/forward_list \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/valarray \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/clocale \
-  /Users/asdfasd/Downloads/hw03/src/geomtools.h \
+  /Users/asdfasd/downloads/hw03/src/geomtools.h \
   /usr/local/include/CGAL/Surface_mesh.h \
   /usr/local/include/CGAL/license/Surface_mesh.h \
   /usr/local/include/CGAL/Surface_mesh/Surface_mesh_fwd.h \

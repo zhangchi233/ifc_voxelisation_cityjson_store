@@ -59,7 +59,12 @@ std::pair<std::vector<Face>,std::map<std::string, Object>> parse_obj(const std::
 			Face new_face;
 			int v1,v2,v3;
             char c;
-            iss>>v1>>c>>c>>v1>>v2>>c>>c>>v2>>v3>>c>>c>>v3;
+			try{
+            iss>>v1>>c>>c>>v1>>v2>>c>>c>>v2>>v3>>c>>c>>v3;}
+			catch(const std::exception& ex){
+				
+				iss>>v1>>v2>>v3;
+				}
 			new_face.indices.push_back(v1-1);
 			new_face.indices.push_back(v2-1);
 			new_face.indices.push_back(v3-1);

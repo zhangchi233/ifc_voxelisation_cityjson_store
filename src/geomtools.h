@@ -459,7 +459,7 @@ struct VoxelGrid {
     for (unsigned int i = 0; i < total_voxels; ++i) voxels.push_back(0);
   }*/
 
-  std::vector<std::vector<int>> get_neighbours(int x, int y, int z){
+  std::vector<std::vector<int>> get_neighbours(int x, int y, int z, const int connectivity=6){
         // we only return 6 neighbors of a voxel
         std::vector<std::vector<int>> neighbours;
         if (x-1>=0) neighbours.push_back({x-1,y,z});
@@ -468,8 +468,31 @@ struct VoxelGrid {
         if (y+1<this->max_y) neighbours.push_back({x,y+1,z});
         if (z-1>=0) neighbours.push_back({x,y,z-1});
         if (z+1<this->max_z) neighbours.push_back({x,y,z+1});
-        //if (x-1>=0 && y-1>=0) neighbours.push_back({x-1,y-1,z});
-        //if (x-1>=0 && y+1<this->max_y) neighbours.push_back({x-1,y+1,z});
+        // another 12 edge neighbored voxels
+        if (connectivity==18){
+        if (x-1>=0 && y-1>=0) neighbours.push_back({x-1,y-1,z});
+        if (x-1>=0 && y+1<this->max_y) neighbours.push_back({x-1,y+1,z});
+        if (x+1<this->max_x && y-1>=0) neighbours.push_back({x+1,y-1,z});
+        if (x+1<this->max_x && y+1<this->max_y) neighbours.push_back({x+1,y+1,z});
+        if (x-1>=0 && z-1>=0) neighbours.push_back({x-1,y,z-1});
+        if (x-1>=0 && z+1<this->max_z) neighbours.push_back({x-1,y,z+1});
+        if (x+1<this->max_x && z-1>=0) neighbours.push_back({x+1,y,z-1});
+        if (x+1<this->max_x && z+1<this->max_z) neighbours.push_back({x+1,y,z+1});
+        if (y-1>=0 && z-1>=0) neighbours.push_back({x,y-1,z-1});
+        if (y-1>=0 && z+1<this->max_z) neighbours.push_back({x,y-1,z+1});
+        if (y+1<this->max_y && z-1>=0) neighbours.push_back({x,y+1,z-1});
+        if (y+1<this->max_y && z+1<this->max_z) neighbours.push_back({x,y+1,z+1});}
+        // another 8 corner neighbored voxels
+        if (connectivity==26){
+            if (x-1>=0 && y-1>=0 && z-1>=0) neighbours.push_back({x-1,y-1,z-1});
+            if (x-1>=0 && y-1>=0 && z+1<this->max_z) neighbours.push_back({x-1,y-1,z+1});
+            if (x-1>=0 && y+1<this->max_y && z-1>=0) neighbours.push_back({x-1,y+1,z-1});
+            if (x-1>=0 && y+1<this->max_y && z+1<this->max_z) neighbours.push_back({x-1,y+1,z+1});
+            if (x+1<this->max_x && y-1>=0 && z-1>=0) neighbours.push_back({x+1,y-1,z-1});    
+            if (x+1<this->max_x && y-1>=0 && z+1<this->max_z) neighbours.push_back({x+1,y-1,z+1});
+            if (x+1<this->max_x && y+1<this->max_y && z-1>=0) neighbours.push_back({x+1,y+1,z-1});
+            if (x+1<this->max_x && y+1<this->max_y && z+1<this->max_z) neighbours.push_back({x+1,y+1,z+1});
+            }
         return neighbours;
 
   };
