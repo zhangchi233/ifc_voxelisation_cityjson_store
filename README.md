@@ -26,6 +26,7 @@ cityjson file:
 <img width="1209" alt="image" src="https://user-images.githubusercontent.com/60132725/232030497-6023d2b1-2b5e-4a74-9140-253ce0276af9.png">
 generated file list:
 <img width="1358" alt="image" src="https://user-images.githubusercontent.com/60132725/232030626-7a03f244-d7f1-47e1-a46c-29a1ef30caf2.png">
+
 # meaning of different output
 voxels_labelled: the intermediate voxel of labelled room and wall envelope(voxels_labelled.obj. the obj file of voxels labelled as different building part, 1 is wall, 0 is exterior, bigger than 1 is different rooms, -1 is unlabelled meaning wall in the interior of building or small room that is too small to reach x,y,z threhold in threhold, the -1 labelled is not oupt and remained as vaccum, different labels is outputted differently)
 voxel_label_part: result of marching cube(label_voxel_part_label.obj, the isosurface of marching suce)
